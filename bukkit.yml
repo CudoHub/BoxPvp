@@ -1,0 +1,50 @@
+# This is the main configuration file for Bukkit.
+# As you can see, there's actually not that much to configure without any plugins.
+# For a reference for any variable inside this file, check out the Bukkit Wiki at
+# https://www.spigotmc.org/go/bukkit-yml
+# 
+# If you need help on this file, feel free to join us on irc or leave a message
+# on the forums asking for advice.
+# 
+# IRC: #spigot @ irc.spi.gt
+#    (If this means nothing to you, just go to https://www.spigotmc.org/go/irc )
+# Forums: https://www.spigotmc.org/
+# Bug tracker: https://www.spigotmc.org/go/bugs
+
+
+settings:
+  allow-end: false
+  warn-on-overload: true
+  permissions-file: permissions.yml
+  update-folder: update
+  plugin-profiling: false
+  connection-throttle: 4000
+  query-plugins: true
+  deprecated-verbose: default
+  shutdown-message: |-
+    §r
+    §x§f§f§0§0§0§0§l§nC§x§f§7§0§0§0§0§l§nO§x§e§f§0§0§0§0§l§nN§x§e§7§0§0§0§0§l§nN§x§d§f§0§0§0§0§l§nE§x§d§7§0§0§0§0§l§nC§x§c§f§0§0§0§0§l§nT§x§c§7§0§0§0§0§l§nI§x§b§e§0§0§0§0§l§nO§x§b§6§0§0§0§0§l§nN §x§a§e§0§0§0§0§l§nL§x§a§6§0§0§0§0§l§nO§x§9§e§0§0§0§0§l§nS§x§9§6§0§0§0§0§l§nT§x§8§e§0§0§0§0§l§n!
+    §r
+    §fThe server is currently restarting.
+    §fPlease try again later.
+    §f
+    §8▸ §x§f§f§7§5§2§7d§x§f§f§7§a§2§ai§x§f§f§7§f§2§ds§x§f§f§8§5§3§0c§x§f§f§8§a§3§3o§x§f§f§8§f§3§6r§x§f§f§9§4§3§9d§x§f§f§9§9§3§c.§x§f§f§9§f§3§fr§x§f§f§a§4§4§2e§x§f§f§a§9§4§6q§x§f§f§a§e§4§9u§x§f§f§b§3§4§cl§x§f§f§b§9§4§fo§x§f§f§b§e§5§2g§x§f§f§c§3§5§5i§x§f§f§c§8§5§8a§x§f§f§c§d§5§b.§x§f§f§d§3§5§ec§x§f§f§d§8§6§1o§x§f§f§d§d§6§4m §8◂
+    §8▸ §x§f§f§7§5§2§7r§x§f§f§7§e§2§ce§x§f§f§8§6§3§1q§x§f§f§8§f§3§6u§x§f§f§9§8§3§bl§x§f§f§a§0§4§0o§x§f§f§a§9§4§6g§x§f§f§b§2§4§bi§x§f§f§b§a§5§0a§x§f§f§c§3§5§5.§x§f§f§c§c§5§ac§x§f§f§d§4§5§fo§x§f§f§d§d§6§4m §8◂
+  minimum-api: none
+spawn-limits:
+  monsters: 40
+  animals: 10
+  water-animals: 10
+  water-ambient: 20
+  ambient: 15
+chunk-gc:
+  period-in-ticks: 400
+  enabled: true
+ticks-per:
+  animal-spawns: 400
+  monster-spawns: 4
+  water-spawns: 1
+  water-ambient-spawns: 1
+  ambient-spawns: 1
+  autosave: 0
+aliases: now-in-commands.yml

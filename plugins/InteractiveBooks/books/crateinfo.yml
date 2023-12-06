@@ -1,0 +1,14 @@
+name: Crate Info
+title: Crate Info
+author: RequaizeN
+generation: ORIGINAL
+lore:
+- Requlogia
+open_command: 'crateinfo'
+pages:
+  '1':
+  - '<click:run_command:/help>&4&l     ← &8&l[&4&lGo back&8&l]<reset>'
+  - ''
+  - '&9&lCRATES INFORMATION'
+  - '<reset>'
+  - '&0Every day you can earn amazing items by voting, doing quests or buying keys on the site and opening crates.'

@@ -1,0 +1,32 @@
+location: Requlogia:16.500:17.000:-665.500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 1
+facing: 90.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#d0bcbc&lN&#c8b1b1&lE&#c0a6a6&lT&#b99b9b&lH&#b19090&lE&#a98585&lR&#a17b7b&lI&#997070&lT&#916565&lE &#8a5a5a&lM&#824f4f&lI&#7a4444&lN&#723939&lE'
+  - content: ''
+  - content: '&#fb8989R&#fb9583e&#fba17ds&#fcad78e&#fcb972t &#fcc66cD&#fcd266e&#fdde61l&#fdea5ba&#fdf655y &8▸ &f15 Minutes'
+  - content: '&#eefb5eT&#eff65ai&#f1f057m&#f2eb53e &#f4e54fR&#f5e04be&#f7da48m&#f8d544a&#f9cf40i&#fbca3cn&#fcc439i&#febf35n&#ffb931g &8▸ &f%catamines_countdown_netheritemine%'
+  - content: ''
+  - content: '&#e27cfbL&#e079fbu&#dd76fcc&#db73fck&#d870fcy &#d66dfcB&#d36afdl&#d167fdo&#cf64fdc&#cc60fdk &#ca5dfeC&#c75afeo&#c557fen&#c254fet&#c051ffe&#bd4effn&#bb4bfft &8▸'
+  - content: ''
+  - content: '&8 ▪ &#FFCACA64x Coin I &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA3x Coin II &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA10x Item Coin &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA10x Food Coin &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA3x Vault Coin &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA3x Luck Coin &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f%1-5 Chance'
+  - content: ''
+  - content: '&aClick and trade!'
+  - content: ''
+  - content: '#ENTITY: STRIDER'
+  actions:
+    LEFT:
+    - CONSOLE:shopkeepers remote 2a98e3d6-02e3-49c8-bf5e-fa2520025103 {player}
+    RIGHT:
+    - CONSOLE:shopkeepers remote 2a98e3d6-02e3-49c8-bf5e-fa2520025103 {player}

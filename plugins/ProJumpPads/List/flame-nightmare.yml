@@ -1,0 +1,13 @@
+fly-location:
+  world: Requlogia
+  x: -5.5
+  y: 150.0
+  z: -942.5
+name: flame-nightmare
+pos1X: -6.0
+pos1Z: -687.0
+pos2X: -2.0
+pos2Z: -686.0
+relative-position: 12.0
+permission-1: jump.flame-nightmare
+permission-message: §6 Portal §8▸ §cYou are not permission to teleport to this area!

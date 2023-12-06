@@ -1,0 +1,13 @@
+location: Requlogia:-19,500:55,000:89,500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 1200
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: NETHERITE_INGOT'
+  - content: '&#ff0000First Player'
+  - content: '&#ff0000%ajlb_lb_statistic_player_kills_1_alltime_name% &8▸ &#ff0000%ajlb_lb_statistic_player_kills_1_alltime_value%'
+  actions: {}

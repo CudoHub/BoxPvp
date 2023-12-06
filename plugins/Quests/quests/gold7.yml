@@ -1,0 +1,30 @@
+tasks:
+  staygame:
+    type: "playtime"
+    minutes: 30
+display:
+  name: "&f𮯯 &eQuests &8▸ &7#7"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Stay in the game for 30 Minutes."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{staygame:progress}/30 Minutes"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &72x Heal Ticket"
+    - "&5 ▪ &76x Feed Ticket"
+  type: "CLOCK"
+rewards:
+  - "cti ticket_heal {player} 2"
+  - "cti ticket_feed {player} 6"
+options:
+  category: "goldquests"
+  requires:
+    - "gold6"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 16

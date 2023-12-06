@@ -1,0 +1,28 @@
+tasks:
+  player:
+    type: "playerkilling"
+    amount: 64
+display:
+  name: "&f𮯬 &7Quests &8▸ &7#7"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Kill 64x Player."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{player:progress}/64x Player"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &71x Obsidian Lucky Block"
+  type: "NETHERITE_SWORD"
+rewards:
+  - "cti luckyblock_obsidian {player} 1"
+options:
+  category: "netheritequests"
+  requires:
+    - "netherite6"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 43

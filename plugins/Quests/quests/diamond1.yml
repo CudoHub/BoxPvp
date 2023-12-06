@@ -1,0 +1,29 @@
+tasks:
+  cobweb:
+    type: "blockplace"
+    amount: 32
+    block: COBWEB
+display:
+  name: "&f𮯮 &bQuests &8▸ &7#1"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Place 32x Cobweb."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{cobweb:progress}/32x Cobweb"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &732x Food Coin"
+  type: "COBWEB"
+rewards:
+  - "cti coin_food {player} 32"
+options:
+  category: "diamondquests"
+  requires:
+    - "gold9"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 19

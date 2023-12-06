@@ -1,0 +1,28 @@
+tasks:
+  staygame:
+    type: "playtime"
+    minutes: 60
+display:
+  name: "&f𮯬 &7Quests &8▸ &7#3"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Stay in the game for 60 Minutes."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{staygame:progress}/60 Minutes"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &78x Luck Coin"
+  type: "CLOCK"
+rewards:
+  - "cti coin_luck {player} 8"
+options:
+  category: "netheritequests"
+  requires:
+    - "netherite2"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 39

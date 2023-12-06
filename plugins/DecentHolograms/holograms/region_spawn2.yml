@@ -1,0 +1,19 @@
+location: Requlogia:0.500:54.000:-28.500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 0
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#fb5454&lS&#fb5d54&lP&#fb6554&lA&#fb6e54&lW&#fc7653&lN &#fc7f53&lP&#fc8753&lV&#fc9053&lP &#fc9853&lR&#fca153&lE&#fda952&lG&#fdb252&lI&#fdba52&lO&#fdc352&lN'
+  - content: ''
+  - content: '&cPvP &fis on below, but your items don''t go away when you die.'
+  - content: '&fAlso, when you start the game, you are given'
+  - content: '&fprotection from combat for &e30 minutes&f. During'
+  - content: '&fthis time, other players cannot attack you below.'
+  - content: '' 
+  - content: '&fCheck Protection Duration &8▸ &#A7FBE7/protectionduration'
+  - content: '&fRevoke Protection &8▸ &#FB8989/protectionoff'
+  actions: {}

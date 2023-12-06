@@ -1,0 +1,13 @@
+location: Requlogia:-30,500:54,500:76,500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 1200
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: DIAMOND'
+  - content: '&#fe7c00Third Player'
+  - content: '&#fe7c00%ajlb_lb_statistic_mine_block_3_alltime_name% &8▸ &#fe7c00%ajlb_lb_statistic_mine_block_3_alltime_value%'
+  actions: {}

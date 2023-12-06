@@ -1,0 +1,579 @@
+Crate:
+  CrateType: CSGO
+  CrateName: '&fCosmetic Crate'
+  Preview-Name: '&fCosmetic Crate'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 13
+  OpeningBroadCast: false
+  BroadCast: ''
+  Item: 'PLAYER_HEAD'
+  Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBkY2Y1ODgyN2NkOWRkMTY3NjRjMWU0MjcxYzQyMDM2OTBhZjZhNGU2M2U1ODZlYjliMDVjYzZiM2NmOGZkZiJ9fX0='
+  Glowing: false
+  Name: '&x&7&9&f&b&a&6C&x&7&5&f&8&a&do&x&7&0&f&6&b&5s&x&6&c&f&3&b&cm&x&6&7&f&0&c&3e&x&6&3&e&e&c&at&x&5&e&e&b&d&2i&x&5&a&e&8&d&9c &x&5&5&e&6&e&0C&x&5&1&e&3&e&7r&x&4&c&e&0&e&fa&x&4&8&d&e&f&6t&x&4&3&d&b&f&de'
+  Lore:
+  - ''
+  - '&x&7&9&f&b&a&6Right-Click &8▸ &7View Crate'
+  - '&x&7&9&f&b&a&6Left-Click &8▸ &7Open Crate'
+  Preview:
+    Toggle: true
+    ChestLines: 6
+    Glass:
+      Toggle: true
+      Item: GRAY_STAINED_GLASS_PANE
+  PhysicalKey:
+    Name: '&x&7&9&f&b&a&6C&x&7&5&f&9&a&co&x&7&2&f&7&b&2s&x&6&e&f&5&b&7m&x&6&b&f&2&b&de&x&6&7&f&0&c&3t&x&6&3&e&e&c&9i&x&6&0&e&c&c&fc &x&5&c&e&a&d&4C&x&5&9&e&8&d&ar&x&5&5&e&6&e&0a&x&5&1&e&4&e&6t&x&4&e&e&1&e&ce &x&4&a&d&f&f&1K&x&4&7&d&d&f&7e&x&4&3&d&b&f&dy'
+    Lore:
+    - ''
+    - '&7You can use this key in'
+    - '&7the crates in the spawn.'
+    Item: 'TRIPWIRE_HOOK#6050'
+    Glowing: true
+  Hologram:
+    Toggle: false
+    Height: 1.5
+    Message:
+    - ''
+  Prizes:
+    '0':
+      DisplayName: '&8[&71x&8] &cOne Aura Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5000
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti cosmetic_aura-one %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x One Aura Cosmetic&a!'
+    '1':
+      DisplayName: '&8[&71x&8] &cDouble Aura Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5001
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti cosmetic_aura-double %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Double Aura Cosmetic&a!'
+    '2':
+      DisplayName: '&8[&71x&8] &6Red Hat Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5008
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰷'
+      MaxRange: 100
+      Chance: 2
+      Commands:
+      - 'cti cosmetic_hat_red %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Red Hat Cosmetic&a!'
+    '3':
+      DisplayName: '&8[&71x&8] &6Blue Hat Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5002
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰷'
+      MaxRange: 100
+      Chance: 2
+      Commands:
+      - 'cti cosmetic_hat_blue %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Blue Hat Cosmetic&a!'
+    '4':
+      DisplayName: '&8[&71x&8] &9Blue Leaf Wing Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5025
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 2
+      Commands:
+      - 'cti cosmetic_wing-blueleaf %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Blue Leaf Wing Cosmetic&a!'
+    '5':
+      DisplayName: '&8[&71x&8] &9Green Leaf Wing Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5011
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 2
+      Commands:
+      - 'cti cosmetic_wing-greenleaf %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Green Leaf Wing Cosmetic&a!'
+    '6':
+      DisplayName: '&8[&71x&8] &9Rainbow Wing Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5024
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 2
+      Commands:
+      - 'cti cosmetic_wing-rainbow %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Rainbow Wing Cosmetic&a!'
+    '7':
+      DisplayName: '&8[&71x&8] &9Ice Wing Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5009
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 2
+      Commands:
+      - 'cti cosmetic_wing-ice %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Ice Wing Cosmetic&a!'
+    '8':
+      DisplayName: '&8[&71x&8] &9Basit Ice Wing Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5019
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 2
+      Commands:
+      - 'cti cosmetic_wing-basicice %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Basit Ice Wing Cosmetic&a!'
+
+    '9':
+      DisplayName: '&8[&71x&8] &9Nightmare Wing Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5017
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 2
+      Commands:
+      - 'cti cosmetic_wing-nightmare %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Nightmare Wing Cosmetic&a!'
+    '10':
+      DisplayName: '&8[&71x&8] &9Basic Nightmare Wing Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5016
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 2
+      Commands:
+      - 'cti cosmetic_wing-basicnightmare %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Basic Nightmare Wing Cosmetic&a!'
+    '11':
+      DisplayName: '&8[&71x&8] &9Angel Wing Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5010
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 2
+      Commands:
+      - 'cti cosmetic_wing-angel %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Angel Wing Cosmetic&a!'
+    '12':
+      DisplayName: '&8[&71x&8] &9Basic Angel Wing Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5032
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_wing-basicangel %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Basic Angel Wing Cosmetic&a!'
+    '13':
+      DisplayName: '&8[&71x&8] &9Bone Wing Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5014
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_wing-bone %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Bone Wing Cosmetic&a!'
+    '14':
+      DisplayName: '&8[&71x&8] &9Emerald Wing Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5033
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_wing-emerald %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Emerald Wing Cosmetic&a!'
+    '15':
+      DisplayName: '&8[&71x&8] &9Lilac Wing Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5020
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_wing-lilac %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Lilac Wing Cosmetic&a!'
+    '16':
+      DisplayName: '&8[&71x&8] &9Slime Wing Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5029
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_wing-slime %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Slime Wing Cosmetic&a!'
+    '17':
+      DisplayName: '&8[&71x&8] &9Phantom Wing Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5023
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_wing-phantom %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Phantom Wing Cosmetic&a!'
+    '18':
+      DisplayName: '&8[&71x&8] &aAllay Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5034
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_pet-allay %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Allay Pet Cosmetic&a!'
+
+    '19':
+      DisplayName: '&8[&71x&8] &aDolphin Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5048
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_pet-dolphin %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Dolphin Pet Cosmetic&a!'
+    '20':
+      DisplayName: '&8[&71x&8] &aCamel Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5043
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_pet-camel %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Camel Pet Cosmetic&a!'
+    '21':
+      DisplayName: '&8[&71x&8] &aCopper Golem Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5046
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_pet-coppergolem %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Copper Golem Pet Cosmetic&a!'
+    '22':
+      DisplayName: '&8[&71x&8] &aMonkey Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5068
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_pet-monkey %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Monkey Pet Cosmetic&a!'
+    '23':
+      DisplayName: '&8[&71x&8] &aRainbow Sheep Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5089
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_pet-rainbowsheep %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Rainbow Sheep Pet Cosmetic&a!'
+    '24':
+      DisplayName: '&8[&71x&8] &aMushroom Cow Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5069
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_pet-mushroomcow %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Mushroom Cow Pet Cosmetic&a!'
+    '25':
+      DisplayName: '&8[&71x&8] &aPufferfish Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5081
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_pet-pufferfish %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Pufferfish Pet Cosmetic&a!'
+    '26':
+      DisplayName: '&8[&71x&8] &aVex Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5100
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_pet-vex %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Vex Pet Cosmetic&a!'
+    '27':
+      DisplayName: '&8[&71x&8] &aParrot Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5073
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_pet-parrot %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Parrot Pet Cosmetic&a!'
+    '28':
+      DisplayName: '&8[&71x&8] &aSpider Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5095
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_pet-spider %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Spider Pet Cosmetic&a!'
+    '29':
+      DisplayName: '&8[&71x&8] &aFlowering Azalea Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5053
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti cosmetic_pet-floweringazalea %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Flowering Azalea Pet Cosmetic&a!'
+    '30':
+      DisplayName: '&8[&71x&8] &aPanda Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5072
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 4
+      Commands:
+      - 'cti cosmetic_pet-panda %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Panda Pet Cosmetic&a!'
+    '31':
+      DisplayName: '&8[&71x&8] &aWither Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5102
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 4
+      Commands:
+      - 'cti cosmetic_pet-wither %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Wither Pet Cosmetic&a!'
+    '32':
+      DisplayName: '&8[&71x&8] &aZombie Pigman Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5105
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 4
+      Commands:
+      - 'cti cosmetic_pet-zombiepigman %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Zombie Pigman Pet Cosmetic&a!'
+    '33':
+      DisplayName: '&8[&71x&8] &aDrowned Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5050
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 4
+      Commands:
+      - 'cti cosmetic_pet-drowned %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Drowned Pet Cosmetic&a!'
+    '34':
+      DisplayName: '&8[&71x&8] &aZombie Villager Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5104
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 4
+      Commands:
+      - 'cti cosmetic_pet-zombivillager %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Zombie Villager Pet Cosmetic&a!'
+    '35':
+      DisplayName: '&8[&71x&8] &aPig Pet Cosmetic'
+      DisplayItem: CARVED_PUMPKIN#5077
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 4
+      Commands:
+      - 'cti cosmetic_pet-pig %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Pig Pet Cosmetic&a!'

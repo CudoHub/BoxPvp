@@ -1,0 +1,26 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+FlameBoss_Sword:
+  Id: NETHERITE_SWORD
+  CustomModelData: 2000
+  Enchantments:
+  - DAMAGE_ALL:3
+  - KNOCKBACK:2
+FlameBoss_Helmet:
+  Id: CARVED_PUMPKIN
+  CustomModelData: 5016
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:4
+IceBoss_Helmet:
+  Id: CARVED_PUMPKIN
+  CustomModelData: 5034
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+IceBoss_Bow:
+  Id: BOW
+  CustomModelData: 1001
+  Enchantments:
+  - ARROW_DAMAGE:20
+  - ARROW_KNOCKBACK:2

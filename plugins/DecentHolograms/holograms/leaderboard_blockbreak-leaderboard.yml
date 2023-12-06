@@ -1,0 +1,71 @@
+location: Requlogia:-30,500:54,500:69,500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 1200
+facing: -90.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ENTITY: PHANTOM'
+  - content: ''
+  - content: <#ANIM:blockbreakleaderboard></#ANIM>
+  - content: '&#DBF8FD(All Time Leaderboard)'
+  - content: ''
+  - content: '&#ff00001. %ajlb_lb_statistic_mine_block_1_alltime_name% &8▸ &#ff0000%ajlb_lb_statistic_mine_block_1_alltime_value%'
+  - content: '&#ff3e002. %ajlb_lb_statistic_mine_block_2_alltime_name% &8▸ &#ff3e00%ajlb_lb_statistic_mine_block_2_alltime_value%'
+  - content: '&#fe7c003. %ajlb_lb_statistic_mine_block_3_alltime_name% &8▸ &#fe7c00%ajlb_lb_statistic_mine_block_3_alltime_value%'
+  - content: '&#feb9004. %ajlb_lb_statistic_mine_block_4_alltime_name% &8▸ &#feb900%ajlb_lb_statistic_mine_block_4_alltime_value%'
+  - content: '&#fdf7005. %ajlb_lb_statistic_mine_block_5_alltime_name% &8▸ &#fdf700%ajlb_lb_statistic_mine_block_5_alltime_value%'
+  - content: ''
+  - content: '&aClick and change sorting type!'
+  - content: '&dAlltime   &7Monthly   &7Weekly'
+  actions:
+    LEFT:
+    - PAGE:3
+    - SOUND:CLICK
+    RIGHT:
+    - NEXT_PAGE
+    - SOUND:CLICK
+- lines:
+  - content: '#ENTITY: PHANTOM'
+  - content: ''
+  - content: <#ANIM:blockbreakleaderboard></#ANIM>
+  - content: '&#DBF8FD(Monthly Leaderboard)'
+  - content: ''
+  - content: '&#ff00001. %ajlb_lb_statistic_mine_block_1_monthly_name% &8▸ &#ff0000%ajlb_lb_statistic_mine_block_1_monthly_value%'
+  - content: '&#ff3e002. %ajlb_lb_statistic_mine_block_2_monthly_name% &8▸ &#ff3e00%ajlb_lb_statistic_mine_block_2_monthly_value%'
+  - content: '&#fe7c003. %ajlb_lb_statistic_mine_block_3_monthly_name% &8▸ &#fe7c00%ajlb_lb_statistic_mine_block_3_monthly_value%'
+  - content: '&#feb9004. %ajlb_lb_statistic_mine_block_4_monthly_name% &8▸ &#feb900%ajlb_lb_statistic_mine_block_4_monthly_value%'
+  - content: '&#fdf7005. %ajlb_lb_statistic_mine_block_5_monthly_name% &8▸ &#fdf700%ajlb_lb_statistic_mine_block_5_monthly_value%'
+  - content: ''
+  - content: '&aClick and change sorting type!'
+  - content: '&7Alltime   &dMonthly   &7Weekly'
+  actions:
+    LEFT:
+    - PREV_PAGE
+    - SOUND:CLICK
+    RIGHT:
+    - NEXT_PAGE
+    - SOUND:CLICK
+- lines:
+  - content: '#ENTITY: PHANTOM'
+  - content: ''
+  - content: <#ANIM:blockbreakleaderboard></#ANIM>
+  - content: '&#DBF8FD(Weekly Leaderboard)'
+  - content: ''
+  - content: '&#ff00001. %ajlb_lb_statistic_mine_block_1_weekly_name% &8▸ &#ff0000%ajlb_lb_statistic_mine_block_1_weekly_value%'
+  - content: '&#ff3e002. %ajlb_lb_statistic_mine_block_2_weekly_name% &8▸ &#ff3e00%ajlb_lb_statistic_mine_block_2_weekly_value%'
+  - content: '&#fe7c003. %ajlb_lb_statistic_mine_block_3_weekly_name% &8▸ &#fe7c00%ajlb_lb_statistic_mine_block_3_weekly_value%'
+  - content: '&#feb9004. %ajlb_lb_statistic_mine_block_4_weekly_name% &8▸ &#feb900%ajlb_lb_statistic_mine_block_4_weekly_value%'
+  - content: '&#fdf7005. %ajlb_lb_statistic_mine_block_5_weekly_name% &8▸ &#fdf700%ajlb_lb_statistic_mine_block_5_weekly_value%'
+  - content: ''
+  - content: '&aClick and change sorting type!'
+  - content: '&7Alltime   &7Monthly   &dWeekly'
+  actions:
+    LEFT:
+    - PREV_PAGE
+    - SOUND:CLICK
+    RIGHT:
+    - PAGE:1
+    - SOUND:CLICK

@@ -1,0 +1,167 @@
+kits:
+  player:
+    delay: 1800
+    items:
+      - /cti item_helmet-player {USERNAME} 1
+      - /cti item_chestplate-player {USERNAME} 1
+      - /cti item_leggings-player {USERNAME} 1
+      - /cti item_boots-player {USERNAME} 1
+      - /cti item_sword-player {USERNAME} 1
+      - /cti item_pickaxe-player {USERNAME} 1
+  food:
+    delay: 1800
+    items:
+      - bread 16
+  iron:
+    delay: 86400
+    items:
+      - firework_rocket 8
+      - cobweb 8
+      - arrow 8
+      - bread 8
+  gold:
+    delay: 86400
+    items:
+      - bread 12
+      - firework_rocket 12
+      - cobweb 16
+      - arrow 16
+  diamond:
+    delay: 86400
+    items:
+      - golden_carrot 8
+      - bread 18
+      - firework_rocket 18
+      - cobweb 32
+      - arrow 32
+  emerald:
+    delay: 86400
+    items:
+      - golden_apple 3
+      - golden_carrot 12
+      - bread 24
+      - firework_rocket 24
+      - cobweb 48
+      - arrow 48
+  netherite:
+    delay: 86400
+    items:
+      - /cti ticket_heal {USERNAME} 1
+      - /cti ticket_feed {USERNAME} 2
+      - totem_of_undying 1
+      - golden_apple 6
+      - golden_carrot 16
+      - bread 32
+      - firework_rocket 32
+      - cobweb 64
+      - arrow 64
+  vip:
+    delay: 259200
+    items:
+      - /cti item_helmet-diamond6 {USERNAME}
+      - /cti item_chestplate-diamond6 {USERNAME}
+      - /cti item_leggings-diamond6 {USERNAME}
+      - /cti item_boots-diamond6 {USERNAME}
+      - /cti item_sword-diamond4 {USERNAME}
+      - /cti item_pickaxe-diamond4 {USERNAME}
+      - /cti ticket_heal {USERNAME} 2
+      - /cti ticket_feed {USERNAME} 8
+      - totem_of_undying 2
+      - golden_apple 2
+      - golden_carrot 6
+      - cooked_beef 12
+      - firework_rocket 64
+      - cobweb 96
+      - arrow 96
+  vip+:
+    delay: 259200
+    items:
+      - /cti item_helmet-diamond8 {USERNAME}
+      - /cti item_chestplate-diamond8 {USERNAME}
+      - /cti item_leggings-diamond8 {USERNAME}
+      - /cti item_boots-diamond8 {USERNAME}
+      - /cti item_sword-diamond6 {USERNAME}
+      - /cti item_pickaxe-diamond6 {USERNAME}
+      - /cti ticket_heal {USERNAME} 4
+      - /cti ticket_feed {USERNAME} 10
+      - totem_of_undying 2
+      - golden_apple 4
+      - golden_carrot 8
+      - cooked_beef 16
+      - firework_rocket 64
+      - cobweb 96
+      - arrow 96
+  mvip:
+    delay: 259200
+    items:
+      - /cti item_helmet-netherite6 {USERNAME}
+      - /cti item_chestplate-netherite6 {USERNAME}
+      - /cti item_leggings-netherite6 {USERNAME}
+      - /cti item_boots-netherite6 {USERNAME}
+      - /cti item_sword-netherite5 {USERNAME}
+      - /cti item_pickaxe-netherite5 {USERNAME}
+      - /cti ticket_heal {USERNAME} 6
+      - /cti ticket_feed {USERNAME} 12
+      - totem_of_undying 3
+      - golden_apple 6
+      - golden_carrot 12
+      - cooked_beef 24
+      - firework_rocket 96
+      - cobweb 128
+      - arrow 128
+  mvip+:
+    delay: 259200
+    items:
+      - /cti item_helmet-netherite8 {USERNAME}
+      - /cti item_chestplate-netherite8 {USERNAME}
+      - /cti item_leggings-netherite8 {USERNAME}
+      - /cti item_boots-netherite8 {USERNAME}
+      - /cti item_sword-netherite6 {USERNAME}
+      - /cti item_pickaxe-netherite6 {USERNAME}
+      - /cti ticket_heal {USERNAME} 8
+      - /cti ticket_feed {USERNAME} 14
+      - totem_of_undying 3
+      - golden_apple 8
+      - golden_carrot 16
+      - cooked_beef 32
+      - firework_rocket 96
+      - cobweb 128
+      - arrow 128
+  rvip:
+    delay: 259200
+    items:
+      - /cti item_helmet-ice {USERNAME}
+      - /cti item_chestplate-ice {USERNAME}
+      - /cti item_leggings-ice {USERNAME}
+      - /cti item_boots-ice {USERNAME}
+      - /cti item_sword-netherite9 {USERNAME}
+      - /cti item_pickaxe-netherite9 {USERNAME}
+      - /cti ticket_heal {USERNAME} 10
+      - /cti ticket_feed {USERNAME} 16
+      - totem_of_undying 4
+      - enchanted_golden_apple 6
+      - golden_apple 12
+      - golden_carrot 24
+      - cooked_beef 48
+      - firework_rocket 128
+      - cobweb 192
+      - arrow 192
+  rvip+:
+    delay: 259200
+    items:
+      - /cti item_helmet-flame {USERNAME}
+      - /cti item_chestplate-flame {USERNAME}
+      - /cti item_leggings-flame {USERNAME}
+      - /cti item_boots-flame {USERNAME}
+      - /cti item_sword-netherite10 {USERNAME}
+      - /cti item_pickaxe-netherite10 {USERNAME}
+      - /cti ticket_heal {USERNAME} 10
+      - /cti ticket_feed {USERNAME} 16
+      - totem_of_undying 5
+      - enchanted_golden_apple 8
+      - golden_apple 16
+      - golden_carrot 32
+      - cooked_beef 64
+      - firework_rocket 192
+      - cobweb 256
+      - arrow 256

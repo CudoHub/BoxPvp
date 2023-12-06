@@ -1,0 +1,125 @@
+Crate:
+  CrateType: CSGO
+  CrateName: '&fEvent Crate'
+  Preview-Name: '&fEvent Crate'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: ''
+  Item: 'PLAYER_HEAD'
+  Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY4ZTg1ZGM5ODc1YTQyMjRlNTEyZWNhMTdiYjYyMjNkNmE5ZDJkYTY4MmQ1NmYzMWQzMmM3M2QyOTM4YmU1ZiJ9fX0='
+  Glowing: false
+  Name: '&x&8&0&0&0&0&0E&x&8&e&0&4&0&4v&x&9&c&0&8&0&8e&x&a&a&0&c&0&cn&x&b&8&1&0&1&0t &x&c&7&1&5&1&5C&x&d&5&1&9&1&9r&x&e&3&1&d&1&da&x&f&1&2&1&2&1t&x&f&f&2&5&2&5e'
+  Lore:
+  - ''
+  - '&x&8&0&0&0&0&0Right-Click &8▸ &7View Crate'
+  - '&x&8&0&0&0&0&0Left-Click &8▸ &7Open Crate'
+  Preview:
+    Toggle: true
+    ChestLines: 6
+    Glass:
+      Toggle: true
+      Item: 'GRAY_STAINED_GLASS_PANE'
+  PhysicalKey:
+    Name: '&x&8&0&0&0&0&0E&x&8&b&0&3&0&3v&x&9&5&0&6&0&6e&x&a&0&0&9&0&9n&x&a&a&0&c&0&ct &x&b&5&0&f&0&fC&x&c&0&1&3&1&3r&x&c&a&1&6&1&6a&x&d&5&1&9&1&9t&x&d&f&1&c&1&ce &x&e&a&1&f&1&fK&x&f&4&2&2&2&2e&x&f&f&2&5&2&5y'
+    Lore:
+    - ''
+    - '&7You can use this key in'
+    - '&7the crates in the spawn.'
+    Item: 'TRIPWIRE_HOOK#6049'
+    Glowing: true
+  Hologram:
+    Toggle: false
+    Height: 1.5
+    Message:
+    - ''
+  Prizes:
+    '0':
+      DisplayName: '&8[&71x&8] &cNightmare Boss Event Ticket'
+      DisplayItem: PAPER#6046
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti ticket_event-nightmareboss %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Nightmare Boss Event Ticket&a!'
+    '1':
+      DisplayName: '&8[&71x&8] &cFlame Boss Event Ticket'
+      DisplayItem: PAPER#6046
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      MaxRange: 100
+      Chance: 2
+      Commands:
+      - 'cti ticket_event-flameboss %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Flame Boss Event Ticket&a!'
+    '2':
+      DisplayName: '&8[&71x&8] &cIce Boss Event Ticket'
+      DisplayItem: PAPER#6046
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      MaxRange: 100
+      Chance: 5
+      Commands:
+      - 'cti ticket_event-iceboss %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Ice Boss Event Ticket&a!'
+    '3':
+      DisplayName: '&8[&71x&8] &6Lucky Block Event Ticket'
+      DisplayItem: PAPER#6046
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰷'
+      MaxRange: 100
+      Chance: 7
+      Commands:
+      - 'cti ticket_event-luckyblock %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Lucky Block Event Ticket&a!'
+    '4':
+      DisplayName: '&8[&71x&8] &9Envoy Event Ticket'
+      DisplayItem: PAPER#6046
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 10
+      Commands:
+      - 'cti ticket_event-envoy %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Envoy Event Ticket&a!'
+    '5':
+      DisplayName: '&8[&7Empty Prize&8]'
+      DisplayItem: BARRIER
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 75
+      Messages:
+      - '&6 Crates &8▸ &cYou didn''t win anything out of the crate!'

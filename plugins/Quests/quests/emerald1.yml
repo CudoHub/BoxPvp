@@ -1,0 +1,30 @@
+tasks:
+  endstone:
+    type: "inventory"
+    item: END_STONE
+    amount: 512
+    remove-items-when-complete: true
+display:
+  name: "&f𮯭 &aQuests &8▸ &7#1"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Collect 512x End Stone."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{endstone:progress}/512x End Stone"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &716x Golden Carrot"
+  type: "END_STONE"
+rewards:
+  - "give {player} golden_carrot 16"
+options:
+  category: "emeraldquests"
+  requires:
+    - "diamond9"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 28

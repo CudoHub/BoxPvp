@@ -1,0 +1,47 @@
+tasks:
+  diamond:
+    type: "blockbreakcertain"
+    amount: 128
+    block: DIAMOND_ORE
+  diamondblock:
+    type: "blockbreakcertain"
+    amount: 128
+    block: DIAMOND_BLOCK
+  emerald:
+    type: "blockbreakcertain"
+    amount: 128
+    block: EMERALD_ORE
+  emeraldblock:
+    type: "blockbreakcertain"
+    amount: 128
+    block: EMERALD_BLOCK
+display:
+  name: "&f𮯯 &eQuests &8▸ &7#9"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Break 128x Diamond Ore,"
+    - "&6 ▪ &7Break 128x Diamond Block,"
+    - "&6 ▪ &7Break 128x Emerald Ore,"
+    - "&6 ▪ &7Break 128x Emerald Block."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{diamond:progress}/128x Diamond Ore"
+    - "&2 ▪ &7{diamondblock:progress}/128x Diamond Block"
+    - "&2 ▪ &7{emerald:progress}/128x Emerald Ore"
+    - "&2 ▪ &7{emeraldblock:progress}/128x Emerald Block"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &7Access to rank &f𮯯"
+  type: "IRON_ORE"
+rewards:
+  - "lp user {player} permission set goldrankquest"
+options:
+  category: "goldquests"
+  requires:
+    - "gold8"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 18

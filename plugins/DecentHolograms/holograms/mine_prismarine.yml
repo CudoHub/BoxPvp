@@ -1,0 +1,32 @@
+location: Requlogia:7.500:38.500:-364.500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 1
+facing: 90.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#27fbc8&lP&#2cfbc4&lR&#30fbbf&lI&#35fbbb&lS&#3afcb6&lM&#3efcb2&lA&#43fcae&lR&#48fca9&lI&#4dfca5&lN&#51fca1&lE &#56fd9c&lM&#5bfd98&lI&#5ffd93&lN&#64fd8f&lE'
+  - content: ''
+  - content: '&#fb8989R&#fb9583e&#fba17ds&#fcad78e&#fcb972t &#fcc66cD&#fcd266e&#fdde61l&#fdea5ba&#fdf655y &8▸ &f6 Minutes'
+  - content: '&#eefb5eT&#eff65ai&#f1f057m&#f2eb53e &#f4e54fR&#f5e04be&#f7da48m&#f8d544a&#f9cf40i&#fbca3cn&#fcc439i&#febf35n&#ffb931g &8▸ &f%catamines_countdown_prismarinemine%'
+  - content: ''
+  - content: '&#e27cfbL&#e079fbu&#dd76fcc&#db73fck&#d870fcy &#d66dfcB&#d36afdl&#d167fdo&#cf64fdc&#cc60fdk &#ca5dfeC&#c75afeo&#c557fen&#c254fet&#c051ffe&#bd4effn&#bb4bfft &8▸'
+  - content: ''
+  - content: '&8 ▪ &#FFCACA32x Coin I &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA5x Item Coin &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA5x Food Coin &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA2x Vault Coin &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA1x Luck Coin &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f%1-5 Chance'
+  - content: ''
+  - content: '&aClick and trade!'
+  - content: ''
+  - content: '#ENTITY: DOLPHIN'
+  actions:
+    LEFT:
+    - CONSOLE:shopkeepers remote 81aa0dc6-49f1-43a2-aa77-fe35ef1b6724 {player}
+    RIGHT:
+    - CONSOLE:shopkeepers remote 81aa0dc6-49f1-43a2-aa77-fe35ef1b6724 {player}
+

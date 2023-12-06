@@ -1,0 +1,44 @@
+lucky-blocks:
+  luckyblock1:
+    type: "event"
+    health: 30
+    name: "&dLucky Block &e#1"
+    animation: true
+    knockback: true
+    player-extender: 2
+    lore:
+      - ""
+      - "&7This Luck Block grants"
+      - "&7random items when it breaks."
+      - ""
+    rewards:
+      - "ITEM;7;MELON_SLICE;16x Melon;16"
+      - "ITEM;7;BREAD;16x Bread;16"
+      - "ITEM;7;COOKED_BEEF;16x Beef;16"
+      - "ITEM;6;ARROW;16x Arrow;16"
+      - "ITEM;6;COBWEB;16x Cobweb;16"
+      - "ITEM;5;FIREWORK_ROCKET;16x Firework Rocket;16"
+      - "COMMAND;4;CONSOLE;cti shard_cobblestone %player% 1"
+      - "COMMAND;4;CONSOLE;cti shard_coal %player% 1"
+      - "COMMAND;4;CONSOLE;cti shard_lapis %player% 1"
+      - "COMMAND;4;CONSOLE;cti shard_redstone %player% 1"
+      - "COMMAND;4;CONSOLE;cti shard_iron %player% 1"
+      - "COMMAND;4;CONSOLE;cti shard_gold %player% 1"
+      - "COMMAND;4;CONSOLE;cti shard_diamond %player% 1"
+      - "COMMAND;4;CONSOLE;cti shard_emerald %player% 1"
+      - "COMMAND;3;CONSOLE;cti coin_coin1 %player% 16"
+      - "COMMAND;3;CONSOLE;cti coin_food %player% 3"
+      - "COMMAND;3;CONSOLE;cti coin_item %player% 3"
+      - "COMMAND;3;CONSOLE;cti coin_vault %player% 3"
+      - "COMMAND;3;CONSOLE;cti coin_luck %player% 3"
+      - "ITEM;2;GOLDEN_APPLE;3x Golden Aplle;3"
+      - "ITEM;2;ENCHANTED_GOLDEN_APPLE;1x Enchanted Golden Apple;1"
+      - "COMMAND;2;CONSOLE;cti ticket_feed %player% 1"
+      - "COMMAND;2;CONSOLE;cti ticket_heal %player% 1"
+      - "COMMAND;1;CONSOLE;cti luckyblock_coal %player% 1"
+      - "COMMAND;1;CONSOLE;cti luckyblock_lapis %player% 1"
+      - "COMMAND;1;CONSOLE;cti luckyblock_redstone %player% 1"
+      - "COMMAND;1;CONSOLE;cti luckyblock_iron %player% 1"
+      - "COMMAND;1;CONSOLE;cti luckyblock_gold %player% 1"
+      - "COMMAND;1;CONSOLE;cti luckyblock_diamond %player% 1"
+      - "COMMAND;1;CONSOLE;cti luckyblock_emerald %player% 1"

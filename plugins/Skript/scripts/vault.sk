@@ -1,0 +1,132 @@
+right click with paper:
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fI&8]":
+    cancel event
+    remove 1 of tool from player's held item
+    execute console command "lp user %player% permission set playervaults.amount.1 true"
+    execute console command "lp user %player% permission set playervaults.size.6 true"
+    send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&d- &8→ &eI&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fII&8]":
+    player has permission "playervaults.amount.1":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.2 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dI &8→ &eII&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fIII&8]":
+    player has permission "playervaults.amount.2":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.3 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dII &8→ &eIII&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fIV&8]":
+    player has permission "playervaults.amount.3":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.4 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dIII &8→ &eIV&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fV&8]":
+    player has permission "playervaults.amount.4":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.5 true"
+    send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dIV &8→ &eV&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fVI&8]":
+    player has permission "playervaults.amount.5":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.6 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dV &8→ &eVI&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fVII&8]":
+    player has permission "playervaults.amount.6":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.7 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dVI &8→ &eVII&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fVIII&8]":
+    player has permission "playervaults.amount.7":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.8 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dVII &8→ &eVIII&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fIX&8]":
+    player has permission "playervaults.amount.8":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.9 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dVIII &8→ &eIX&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fX&8]":
+    player has permission "playervaults.amount.9":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.10 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dIX &8→ &eX&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fXI&8]":
+    player has permission "playervaults.amount.10":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.11 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dX &8→ &eXI&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fXII&8]":
+    player has permission "playervaults.amount.11":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.12 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dXI &8→ &eXII&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fXIII&8]":
+    player has permission "playervaults.amount.12":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.13 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dXII &8→ &eXIII&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fXIV&8]":
+    player has permission "playervaults.amount.13":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.14 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dXIII &8→ &eXIV&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fXV&8]":
+    player has permission "playervaults.amount.14":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.15 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dXIV &8→ &eXV&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fXVI&8]":
+    player has permission "playervaults.amount.15":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.16 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dXV &8→ &eXVI&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fXVII&8]":
+    player has permission "playervaults.amount.16":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.17 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dXVI &8→ &eXVII&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fXVIII&8]":
+    player has permission "playervaults.amount.17":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.18 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dXVII &8→ &eXVIII&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fXIX&8]":
+    player has permission "playervaults.amount.18":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.19 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dXVIII &8→ &eXIX&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fXX&8]":
+    player has permission "playervaults.amount.19":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.20 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dXIX &8→ &eXX&8)" to player
+  name of player's held item is "<##fbd46f>V<##fbce73>a<##fbc976>u<##fcc37a>l<##fcbd7d>t <##fcb881>U<##fcb284>p<##fcad88>g<##fca78b>r<##fda18f>a<##fd9c92>d<##fd9696>e &8[&fXXI&8]":
+    player has permission "playervaults.amount.20":
+      cancel event
+      remove 1 of tool from player's held item
+      execute console command "lp user %player% permission set playervaults.amount.21 true"
+      send "&6 Vault &8▸ &aYour vault level has been successfully upgraded! &8(&dXX &8→ &eXXI&8)" to player
+
+right click with bowl:
+  name of player's held item is "<##fbd46f>V<##fbd674>a<##fcd979>u<##fcdb7e>l<##fcdd83>t &8[<##fce08a>S<##fce290>H<##fce595>O<##fce79b>R<##fdeaa1>T<##fdeca7>C<##fdefac>U<##fdf1b2>T&8]":
+    send "&6 Vault &8▸ &aVault opens..." to player
+    execute player command "vault"

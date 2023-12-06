@@ -1,0 +1,356 @@
+menu_title: '&fVaults'
+open_command:
+- vault
+- vaults
+size: 45
+items:
+  vault1:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 10
+    amount: 1
+    display_name: '&6Vault #1'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 1'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.1
+  vault2:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 11
+    amount: 2
+    display_name: '&6Vault #2'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 2'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.2
+  vault3:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 12
+    amount: 3
+    display_name: '&6Vault #3'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 3'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.3
+  vault4:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 13
+    amount: 4
+    display_name: '&6Vault #4'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 4'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.4
+  vault5:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 14
+    amount: 5
+    display_name: '&6Vault #5'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 5'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.5
+  vault6:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 15
+    amount: 6
+    display_name: '&6Vault #6'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 6'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.6
+  vault7:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 16
+    amount: 7
+    display_name: '&6Vault #7'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 7'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.7
+  vault8:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 19
+    amount: 8
+    display_name: '&6Vault #8'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 8'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.8
+  vault9:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 20
+    amount: 9
+    display_name: '&6Vault #9'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 9'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.9
+  vault10:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 21
+    amount: 10
+    display_name: '&6Vault #10'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 10'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.10
+  vault11:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 22
+    amount: 11
+    display_name: '&6Vault #11'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 11'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.11
+  vault12:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 23
+    amount: 12
+    display_name: '&6Vault #12'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 12'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.12
+  vault13:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 24
+    amount: 13
+    display_name: '&6Vault #13'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 13'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.13
+  vault14:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 25
+    amount: 14
+    display_name: '&6Vault #14'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 14'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.14
+  vault15:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 28
+    amount: 15
+    display_name: '&6Vault #15'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 15'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.15
+  vault16:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 29
+    amount: 16
+    display_name: '&6Vault #16'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 16'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.16
+  vault17:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 30
+    amount: 17
+    display_name: '&6Vault #17'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 17'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.17
+  vault18:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 31
+    amount: 18
+    display_name: '&6Vault #18'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 18'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.18
+  vault19:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 32
+    amount: 19
+    display_name: '&6Vault #19'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 19'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.19
+  vault20:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 33
+    amount: 20
+    display_name: '&6Vault #20'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 20'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.20
+  vault21:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 34
+    amount: 21
+    display_name: '&6Vault #21'
+    lore:
+    - ''
+    - '&aClick and open vault!'
+    click_commands:
+    - '[player] pv 21'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.21
+  frame:
+    display_name: ' '
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 41
+    - 42
+    - 43
+    - 44
+  close:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0='
+    slot: 40
+    display_name: '&cClose Menu'
+    lore:
+    - '&7Click and close menu!'
+    click_commands:
+    - '[close]'

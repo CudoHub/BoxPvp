@@ -1,0 +1,9 @@
+#  This is where the plugin stores all the areas and portals.
+#  Be careful when editing this file, it could cause some areas or portals to fail to load!
+areas:
+  parkur:
+    difficulty: HARD
+    max: 2147483647
+    pos1: Requlogia,27,100,4,46.35199,45.15001
+    pos2: Requlogia,-18,120,47,46.35199,45.15001
+    fallpos: Requlogia,-19,50,26,90.75279,-8.700054

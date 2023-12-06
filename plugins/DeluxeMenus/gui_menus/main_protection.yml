@@ -1,0 +1,62 @@
+menu_title: '&fCombat Protection'
+open_command:
+- protectionduration
+- protection
+- pvpprotection
+size: 27
+items:
+  timeremaining:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxNWI3NzViMjExZTViMTRjOWY0N2NmZGI0ZTY0Y2QzOGIyZTRjODc1NTY5ZjBkMWJjMzQ2OGU3YTIzM2YyMyJ9fX0='
+    slot: 12
+    display_name: '&6Time Remaining'
+    lore:
+    - ''
+    - '&7You can view the duration'
+    - '&7of the combat protection below.'
+    - ''
+    - '&7Time &8▸ &e%luckperms_inherited_expiry_time_pvpprotection%'
+  off:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM0MGRhZjZhYzdmY2YyMzc3M2VkOTI2MzFmOTM2ZTcyNDViZWMzNmNjZWY5Yzk4MTIyY2NhYWRhMDBmOWIxOCJ9fX0='
+    slot: 14
+    display_name: '&cTurn Off Protection'
+    lore:
+    - ''
+    - '&7Here you can turn off'
+    - '&7combat protection.'
+    - ''
+    - '&aClick and off!'
+    click_commands:
+    - '[player] protectionoff'
+    - '[close]'
+    - '[message] &6 Combat Protection &8▸ &aCombat protection has been successfully turned off!'
+  frame:
+    display_name: ' '
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 23
+    - 24
+    - 25
+    - 26
+  close:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0='
+    slot: 22
+    display_name: '&cClose Menu'
+    lore:
+    - '&7Click and close menu!'
+    click_commands:
+    - '[close]'

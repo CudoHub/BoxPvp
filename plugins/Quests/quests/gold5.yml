@@ -1,0 +1,37 @@
+tasks:
+  diamond:
+    type: "inventory"
+    item: DIAMOND
+    amount: 64
+    remove-items-when-complete: true
+  emerald:
+    type: "inventory"
+    item: EMERALD
+    amount: 64
+    remove-items-when-complete: true
+display:
+  name: "&f𮯯 &eQuests &8▸ &7#5"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Collect 64x Diamond,"
+    - "&6 ▪ &7Collect 64x Emerald."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{diamond:progress}/64x Diamond"
+    - "&2 ▪ &7{emerald:progress}/64x Emerald"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &7128x Firework Rocket"
+  type: "DIAMOND"
+rewards:
+  - "give {player} firework_rocket 128"
+options:
+  category: "goldquests"
+  requires:
+    - "gold4"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 14

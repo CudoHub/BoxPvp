@@ -1,0 +1,187 @@
+Settings:
+  Spawn-Chance: 5
+  Use-Chance: true
+  Placed-Block: 'ENCHANTING_TABLE'
+  Bulk-Prizes:
+    Toggle: false
+    Random: true
+    Max-Bulk: 1
+  Hologram-Toggle: true
+  Hologram-Height: 2.4
+  Hologram:
+    - '&f𮰗 𮰴 𮰗'
+    - ''
+    - '&7Your reward is waiting for you!'
+    - '&aClick and open the box!'
+  Firework-Toggle: true
+  Firework-Colors:
+    - 'White'
+    - 'Gray'
+    - 'Red'
+  Signal-Flare:
+    Toggle: true
+    Time: '40s'
+    Colors:
+      - 'White'
+      - 'Gray'
+      - 'Red'
+Prizes:
+  '1':
+    Chance: 1
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e1 Günlük &f𮯧&a!'
+    Commands:
+      - 'lp user %Player% parent addtemp rvip 30h accumulate'
+  '2':
+    Chance: 1
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e1 Günlük &f𮯦&a!'
+    Commands:
+      - 'lp user %Player% parent addtemp rvip+ 30h accumulate'
+  '3':
+    Chance: 3
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e1x #fb8989L#fb9384u#fb9c80c#fca67bk#fcb076y #fcb972B#fcc36dl#fdcd68o#fdd664c#fde05fk &8[#b7b7b7C#a7a7a7o#979797a#878787l]&a!'
+    Commands:
+      - 'cti luckyblock_coal %Player% 1'
+  '4':
+    Chance: 3
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e1x #fb8989L#fb9384u#fb9c80c#fca67bk#fcb076y #fcb972B#fcc36dl#fdcd68o#fdd664c#fde05fk &8[#67ffedL#61f2efA#5be6f1P#55d9f2I#4fccf4S&8]&a!'
+    Commands:
+      - 'cti luckyblock_lapis %Player% 1'
+  '5':
+    Chance: 3
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e1x #fb8989L#fb9384u#fb9c80c#fca67bk#fcb076y #fcb972B#fcc36dl#fdcd68o#fdd664c#fde05fk &8[#ff9d9dR#ff9292e#ff8787d#ff7c7cs#ff7171t#ff6666o#ff5b5bn#ff4f4fe&8]&a!'
+    Commands:
+      - 'cti luckyblock_redstone %Player% 1'
+  '6':
+    Chance: 3
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e1x #fb8989L#fb9384u#fb9c80c#fca67bk#fcb076y #fcb972B#fcc36dl#fdcd68o#fdd664c#fde05fk &8[#ffffffI#f6f6f6r#eeeeeeo#e5e5e5n&8]&a!'
+    Commands:
+      - 'cti luckyblock_iron %Player% 1'
+  '7':
+    Chance: 3
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e1x #fb8989L#fb9384u#fb9c80c#fca67bk#fcb076y #fcb972B#fcc36dl#fdcd68o#fdd664c#fde05fk &8[#ffcf53G#f6c449o#eeba3el#e5af34d&8]&a!'
+    Commands:
+      - 'cti luckyblock_gold %Player% 1'
+  '8':
+    Chance: 3
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e1x #fb8989L#fb9384u#fb9c80c#fca67bk#fcb076y #fcb972B#fcc36dl#fdcd68o#fdd664c#fde05fk &8[#67fff6D#61f0f0i#5ae2eba#54d3e5m#4ec4e0o#48b6dan#41a7d5d&8]&a!'
+    Commands:
+      - 'cti luckyblock_diamond %Player% 1'
+  '9':
+    Chance: 3
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e1x #fb8989L#fb9384u#fb9c80c#fca67bk#fcb076y #fcb972B#fcc36dl#fdcd68o#fdd664c#fde05fk &8[#7aff6fE#77f968m#73f261e#70ec5br#6ce654a#69df4dl#65d946d&8]&a!'
+    Commands:
+      - 'cti luckyblock_emerald %Player% 1'
+  '10':
+    Chance: 6
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e16x #b7b7b7C#a7a7a7o#979797a#878787l #777777S#676767h#575757a#474747r#373737d&a!'
+    Commands:
+      - 'cti shard_coal %Player% 16'
+  '11':
+    Chance: 6
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e16x #92f2ffL#8de1ffa#88d0ffp#84bfffi#7faeffs #7a9effS#758dffh#717cffa#6c6bffr#675affd&a!'
+    Commands:
+      - 'cti shard_lapis %Player% 16'
+  '12':
+    Chance: 5
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e16x #ff9d9dR#ff9292e#ff8787d#ff7c7cs#ff7171t#ff6666o#ff5b5bn#ff4f4fe #ff4444S#ff3939h#ff2e2ea#ff2323r#ff1818d&a!'
+    Commands:
+      - 'cti shard_redstone %Player% 16'
+  '13':
+    Chance: 5
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e16x #ffffffI#f6f6f6r#eeeeeeo#e5e5e5n #dcdcdcS#d3d3d3h#cbcbcba#c2c2c2r#b9b9b9d&a!'
+    Commands:
+      - 'cti shard_iron %Player% 16'
+  '14':
+    Chance: 5
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e16x #ffcf53G#f6c449o#eeba3el#e5af34d #dca52aS#d39a1fh#cb8f15a#c2850ar#b97a00d&a!'
+    Commands:
+      - 'cti shard_gold %Player% 16'
+  '15':
+    Chance: 5
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e16x #67fff6D#61f0f0i#5ae2eba#54d3e5m#4ec4e0o#48b6dan#41a7d5d #3b99cfS#358acah#2f7bc4a#286dbfr#225eb9d&a!'
+    Commands:
+      - 'cti shard_diamond %Player% 16'
+  '16':
+    Chance: 5
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e16x #7aff6fE#77f968m#73f261e#70ec5br#6ce654a#69df4dl#65d946d #62d23fS#5ecc38h#5bc632a#57bf2br#54b924d&a!'
+    Commands:
+      - 'cti shard_emerald %Player% 16'
+  '17':
+    Chance: 5
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e64x #fbfbfbC#e8fce8O#d4fcd6I#c1fdc3N &8[#adfdb0I&8]&a!'
+    Commands:
+      - 'cti coin_coin1 %Player% 16'
+  '18':
+    Chance: 5
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e64x Cobweb&a!'
+    Commands:
+      - 'give %Player% cobweb 64'
+  '19':
+    Chance: 5
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e64x Arrow&a!'
+    Commands:
+      - 'give %Player% arrow 64'
+  '20':
+    Chance: 5
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e32x Beef&a!'
+    Commands:
+      - 'give %Player% cooked_beef 32'
+  '21':
+    Chance: 5
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e32x Bread&a!'
+    Commands:
+      - 'give %Player% bread 32'
+  '22':
+    Chance: 5
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &fCongratulations, &ayou won &fthe &e64x Melon&a!'
+    Commands:
+      - 'give %Player% melon_slice 64'
+  '23':
+    Chance: 10
+    Drop-Items: false
+    Messages:
+      - '&d Box Reward &8▸ &cSorry, you didn''t win any prize from this box!'

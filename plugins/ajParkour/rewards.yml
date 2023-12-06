@@ -1,0 +1,22 @@
+# This is the rewards file.
+# Here is a guide for this: https://wiki.ajg0702.us/ajparkour/configs/Rewards
+intervals:
+  '25':
+    message: '&6 Parkour &8▸ &fYou reached the &c{SCORE} &fscore and earned &e1x Coin
+      I&f!'
+    commands:
+    - cti coin_coin1 {PLAYER} 1
+specials:
+  beat-server-record:
+    message: '&6 Parkour &8▸ &aCongratulations! You beat the servers parkour record
+      and earned &e6x Coin I&a!'
+    commands:
+    - cti coin_coin1 {PLAYER} 6
+  start:
+    message: ''
+  end:
+    message: ''
+exceptions:
+  '1':
+    message: '&6 Parkour &8▸ &aCongratulations! You made your first jump!'
+    first-time-only: true

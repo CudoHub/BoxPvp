@@ -1,0 +1,61 @@
+menu_title: '&fKit Preview &8[&f𮯮 &bKit&8]'
+size: 54
+items:
+  goldencarrot:
+    material: GOLDEN_CARROT
+    slot: 32
+    display_name: '&8[&78x&8] &eGolden Carrot'
+  bread:
+    material: BREAD
+    slot: 30
+    display_name: '&8[&718x&8] &eBread'
+  fireworkrocket:
+    material: FIREWORK_ROCKET
+    slot: 21
+    display_name: '&8[&718x&8] &eFirework Rocket'
+  cobweb:
+    material: COBWEB
+    slot: 22
+    display_name: '&8[&732x&8] &eCobweb'
+  arrow:
+    material: ARROW
+    slot: 23
+    display_name: '&8[&732x&8] &eArrow'
+  frame:
+    display_name: ' '
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 35
+    - 36
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+  close:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0='
+    slot: 49
+    display_name: '&cGo back'
+    lore:
+    - '&7Click and go back!'
+    click_commands:
+    - '[openguimenu] kit_rank'

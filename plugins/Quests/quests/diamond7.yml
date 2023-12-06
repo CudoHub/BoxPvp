@@ -1,0 +1,35 @@
+tasks:
+  prismarine:
+    type: "blockbreakcertain"
+    amount: 256
+    block: PRISMARINE
+  prismarinebrick:
+    type: "blockbreakcertain"
+    amount: 256
+    block: PRISMARINE_BRICKS
+display:
+  name: "&f𮯮 &bQuests &8▸ &7#7"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Break 256x Prismarine,"
+    - "&6 ▪ &7Break 256x Prismarine Brick."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{prismarine:progress}/256x Prismarine"
+    - "&2 ▪ &7{prismarinebrick:progress}/256x Prismarine Brick"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &71x Blackstone Lucky Block"
+  type: "PRISMARINE"
+rewards:
+  - "cti luckyblock_blackstone {player} 1"
+options:
+  category: "diamondquests"
+  requires:
+    - "diamond6"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 25

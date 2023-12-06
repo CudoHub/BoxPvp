@@ -1,0 +1,29 @@
+tasks:
+  cobweb:
+    type: "blockplace"
+    amount: 128
+    block: COBWEB
+display:
+  name: "&f𮯬 &7Quests &8▸ &7#1"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Place 128x Cobweb."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{cobweb:progress}/128x Cobweb"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &716x Vote Crate Key"
+  type: "COBWEB"
+rewards:
+  - "cc give p vote 16 {player}"
+options:
+  category: "netheritequests"
+  requires:
+    - "emerald9"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 37

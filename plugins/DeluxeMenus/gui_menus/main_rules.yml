@@ -1,0 +1,90 @@
+menu_title: '&fRules'
+open_command:
+- rules
+- serverrules
+size: 27
+items:
+  mute:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY0NWE0NGE5YTI4ZGRjNDdkZjZlODQ5ODExMWI2MjdkMGZiZGU5ODUyYjhjN2ZlODQ3MzRmMWQ2ZWVmYzlmYSJ9fX0='
+    slot: 11
+    display_name: '&6Mute Rules'
+    lore:
+      - ''
+      - '&e After the Warning &8▸'
+      - '&8  ▪ &7Provocation &8▸ &c5-30 Minutes &8(&f1-3 Warn&8)'
+      - '&8  ▪ &7Insult &8▸ &c5-30 Minutes &8(&f1-3 Warn&8)'
+      - '&8  ▪ &7Humiliation &8▸ &c10-30 Minutes &8(&f1-3 Warn&8)'
+      - '&8  ▪ &7Chat Pollution &8▸ &c10-30 Minutes &8(&f1-3 Warn&8)'
+      - '&8  ▪ &7Spam/Flood &8▸ &c20-60 Minutes &8(&f1 Warn&8)'
+      - '&8  ▪ &7Slang &8▸ &c5-30 Minutes &8(&f1-3 Warn&8)'
+      - ''
+      - '&e Direct Mute &8▸'
+      - '&8  ▪ &7Sexuality &8▸ &c10-60 Minutes'
+      - '&8  ▪ &7Censored Swear &8▸ &c10-60 Minutes'
+      - '&8  ▪ &7Family Swear &8▸ &c60-360 Minutes'
+      - '&8  ▪ &7Racism/Politics &8▸ &c120-720 Minutes'
+      - '&8  ▪ &7Item Request from Owner &8▸ &c30-60 Minutes'
+      - '&8  ▪ &7Staff Imitation &8▸ &c60-120 Minutes'
+      - '&8  ▪ &7Delaying the Staff &8▸ &c15-60 Minutes'
+      - '&8  ▪ &7Sharing a Link &8▸ &c1-3 Days'
+      - '&8  ▪ &7Insulting Staff &8▸ &c6-12 Hours'
+      - '&8  ▪ &7Insulting Staff &8▸ &c12-24 Hours'
+      - '&8  ▪ &7Server Ads &8▸ &cPermanent'
+      - '&8  ▪ &7Inappropriate Nick &8▸ &cPermanent'
+      - ''
+  ban:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjAwNjRjNDhhZjlmNGVhMjU5Njg5YWIyZTk5ZTQ2ZjVhYjllODk1NDFmZGI4ZjJjMWZkZDYzODhiNzFmYWU3ZCJ9fX0='
+    slot: 15
+    display_name: '&6Ban Rules'
+    lore:
+      - ''
+      - '&e After the Mute &8▸'
+      - '&8  ▪ &7Spam/Flood &8▸ &c1 Days &8(&f3+ Again&8)'
+      - '&8  ▪ &7Family Swear &8▸ &c3 Days &8(&f3+ Again&8)'
+      - ''
+      - '&e Direct Ban &8▸'
+      - '&8  ▪ &7Cheat &8▸ &c3-10 Days'
+      - '&8  ▪ &7Fraud &8▸ &c3-5 Days'
+      - '&8  ▪ &7Discrimination &8▸ &c1-3 Days &8(&f1-3 Warn&8)'
+      - '&8  ▪ &7Insulting The Community &8▸ &c1-3 Days &8(&f1-3 Warn&8)'
+      - '&8  ▪ &7Provoke the Staff &8▸ &c1-10 Days'
+      - '&8  ▪ &7Disrespect to Staff &8▸ &c1-10 Days'
+      - '&8  ▪ &7Inappropriate Nick &8▸ &cPermanent'
+      - '&8  ▪ &7Using Bugs  &8▸ &cPermanent'
+      - '&8  ▪ &7Account Sale &8(&f$&8)&7 &8▸ &cPermanent'
+      - '&8  ▪ &7Illegal Sale &8(&f$&8) &8▸ &cPermanent'
+      - '&8  ▪ &7Server Ads &8▸ &cPermanent'
+      - '&8  ▪ &7Insulting The Server &8▸ &cPermanent'
+      - '&8  ▪ &7Server Wide Swear &8▸ &cPermanent'
+      - ''
+  frame:
+    display_name: ' '
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 23
+    - 24
+    - 25
+    - 26
+  close:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0='
+    slot: 22
+    display_name: '&cClose Menu'
+    lore:
+    - '&7Click and close menu!'
+    click_commands:
+    - '[close]'

@@ -1,0 +1,121 @@
+menu_title: '&fKit Preview &8[&f𮯨 &bKit&8]'
+size: 54
+items:
+  helmet:
+    material: NETHERITE_HELMET
+    slot: 10
+    display_name: '&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9H&#b3b3b3e&#bebebel&#c8c8c8m&#d3d3d3e&#ddddddt &8[&#D38BFFVIII&8]'
+    enchantments:
+    - PROTECTION_ENVIRONMENTAL;8
+    hide_attributes: true
+  chestplate:
+    material: NETHERITE_CHESTPLATE
+    slot: 19
+    display_name: '&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9C&#afafafh&#b5b5b5e&#bababas&#c0c0c0t&#c6c6c6p&#ccccccl&#d1d1d1a&#d7d7d7t&#dddddde &8[&#D38BFFVIII&8]'
+    enchantments:
+    - PROTECTION_ENVIRONMENTAL;8
+    hide_attributes: true
+  leggings:
+    material: NETHERITE_LEGGINGS
+    slot: 28
+    display_name: '&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9L&#b0b0b0e&#b8b8b8g&#bfbfbfg&#c7c7c7i&#cececen&#d6d6d6g&#dddddds &8[&#D38BFFVIII&8]'
+    enchantments:
+    - PROTECTION_ENVIRONMENTAL;8
+    hide_attributes: true
+  boots:
+    material: NETHERITE_BOOTS
+    slot: 37
+    display_name: '&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9B&#b6b6b6o&#c3c3c3o&#d0d0d0t&#dddddds &8[&#D38BFFVIII&8]'
+    enchantments:
+    - PROTECTION_ENVIRONMENTAL;8
+    hide_attributes: true
+  sword:
+    material: NETHERITE_SWORD
+    slot: 21
+    display_name: '&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9S&#b6b6b6w&#c3c3c3o&#d0d0d0r&#ddddddd &8[&#D38BFFVI&8]'
+    enchantments:
+    - DAMAGE_ALL;6
+    hide_attributes: true
+  pickaxe:
+    material: NETHERITE_PICKAXE
+    slot: 30
+    display_name: '&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9P&#b2b2b2i&#bababac&#c3c3c3k&#cccccca&#d4d4d4x&#dddddde &8[&#D38BFFVI&8]'
+    enchantments:
+    - DIG_SPEED;6
+    hide_attributes: true
+  goldenapple:
+    material: GOLDEN_APPLE
+    slot: 25
+    display_name: '&8[&78x&8] &eGolden Apple'
+  goldencarrot:
+    material: GOLDEN_CARROT
+    slot: 24
+    display_name: '&8[&716x&8] &eGolden Carrot'
+  beef:
+    material: COOKED_BEEF
+    slot: 23
+    display_name: '&8[&732x&8] &eBeef'
+  ticketheal:
+    material: PAPER
+    slot: 33
+    display_name: '&8[&78x&8] &#fbaa7cH&#faa476e&#f99f6fa&#f89969l &#f79362T&#f58e5ci&#f48855c&#f3824fk&#f27d48e&#f17742t'
+    model_data: 6045
+  ticketfeed:
+    material: PAPER
+    slot: 32
+    display_name: '&8[&714x&8] &#f9fb81F&#ecfa7ce&#e0f977e&#d3f872d &#c6f76dT&#baf569i&#adf464c&#a0f35fk&#94f25ae&#87f155t'
+    model_data: 6044
+  totemofundying:
+    material: TOTEM_OF_UNDYING
+    slot: 34
+    display_name: '&8[&73x&8] &eTotem of Undying'
+  fireworkrocket:
+    material: FIREWORK_ROCKET
+    slot: 14
+    display_name: '&8[&796x&8] &eFirework Rocket'
+  cobweb:
+    material: COBWEB
+    slot: 15
+    display_name: '&8[&7128x&8] &eCobweb'
+  arrow:
+    material: ARROW
+    slot: 16
+    display_name: '&8[&7128x&8] &eArrow'
+  frame:
+    display_name: ' '
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 35
+    - 36
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+  close:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0='
+    slot: 49
+    display_name: '&cGo back'
+    lore:
+    - '&7Click and go back!'
+    click_commands:
+    - '[openguimenu] kit_vip'

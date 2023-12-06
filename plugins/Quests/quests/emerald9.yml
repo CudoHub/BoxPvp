@@ -1,0 +1,29 @@
+tasks:
+  luckyblock:
+    type: "blockbreakcertain"
+    amount: 128
+    block: NETHER_GOLD_ORE
+display:
+  name: "&f𮯭 &aQuests &8▸ &7#9"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Break 128x Lucky Block."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{luckyblock:progress}/128x Lucky Block"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &7Access to rank &f𮯭"
+  type: "NETHER_GOLD_ORE"
+rewards:
+  - "lp user {player} permission set emeraldrankquest"
+options:
+  category: "emeraldquests"
+  requires:
+    - "emerald8"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 36

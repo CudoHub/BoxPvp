@@ -1,0 +1,30 @@
+tasks:
+  magmablock:
+    type: "inventory"
+    item: MAGMA_BLOCK
+    amount: 256
+    remove-items-when-complete: true
+display:
+  name: "&f𮯬 &7Quests &8▸ &7#2"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Collect 256x Magma Block."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{magmablock:progress}/256x Magma Block"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &76x Event Crate Key"
+  type: "MAGMA_BLOCK"
+rewards:
+  - "cc give p event 6 {player}"
+options:
+  category: "netheritequests"
+  requires:
+    - "netherite1"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 38

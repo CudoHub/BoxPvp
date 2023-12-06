@@ -1,0 +1,64 @@
+command /setfallspawn:
+    permission: op
+    trigger:
+        set {falllocation} to location of player
+        message "&6 Guard &8▸ &aThe fall spawn is set!"
+        stop
+
+command /setluckyblock <text> <text>:
+	permission: op
+	trigger:
+		if arg-1 is "luckyblock":
+			if arg-2 is "coal":
+				set {luckyblock::coal} to location of block below player
+				message "&6 Location &8▸ &eCoal Lucky Block &alocation has been set successfully!"
+			if arg-2 is "lapis":
+				set {luckyblock::lapis} to location of block below player
+				message "&6 Location &8▸ &eLapis Lucky Block &alocation has been set successfully!"
+			if arg-2 is "redstone":
+				set {luckyblock::redstone} to location of block below player
+				message "&6 Location &8▸ &eRedstone Lucky Block &alocation has been set successfully!"
+			if arg-2 is "iron":
+				set {luckyblock::iron} to location of block below player
+				message "&6 Location &8▸ &eIron Lucky Block &alocation has been set successfully!"
+			if arg-2 is "gold":
+				set {luckyblock::gold} to location of block below player
+				message "&6 Location &8▸ &eGold Lucky Block &alocation has been set successfully!"
+			if arg-2 is "diamond":
+				set {luckyblock::diamond} to location of block below player
+				message "&6 Location &8▸ &eDiamond Lucky Block &alocation has been set successfully!"
+			if arg-2 is "emerald":
+				set {luckyblock::emerald} to location of block below player
+				message "&6 Location &8▸ &eEmerald Lucky Block &alocation has been set successfully!"
+			if arg-2 is "endstone":
+				set {luckyblock::endstone} to location of block below player
+				message "&6 Location &8▸ &eEnd Stone Lucky Block &alocation has been set successfully!"
+			if arg-2 is "prismarine":
+				set {luckyblock::prismarine} to location of block below player
+				message "&6 Location &8▸ &ePrismarine Lucky Block &alocation has been set successfully!"
+			if arg-2 is "magma":
+				set {luckyblock::magma} to location of block below player
+				message "&6 Location &8▸ &eMagma Lucky Block &alocation has been set successfully!"
+			if arg-2 is "quartz":
+				set {luckyblock::quartz} to location of block below player
+				message "&6 Location &8▸ &eQuartz Lucky Block &alocation has been set successfully!"
+			if arg-2 is "netherbrick":
+				set {luckyblock::netherbrick} to location of block below player
+				message "&6 Location &8▸ &eNether Brick Lucky Block &alocation has been set successfully!"
+			if arg-2 is "netherite":
+				set {luckyblock::netherite} to location of block below player
+				message "&6 Location &8▸ &eNetherite Lucky Block &alocation has been set successfully!"
+			if arg-2 is "blackstone":
+				set {luckyblock::blackstone} to location of block below player
+				message "&6 Location &8▸ &eBlackstone Lucky Block &alocation has been set successfully!"
+			if arg-2 is "purpur":
+				set {luckyblock::purpur} to location of block below player
+				message "&6 Location &8▸ &ePurpur Lucky Block &alocation has been set successfully!"
+			if arg-2 is "obsidian":
+				set {luckyblock::obsidian} to location of block below player
+				message "&6 Location &8▸ &eObsidian Lucky Block &alocation has been set successfully!"
+	
+command /protectionoff:
+    trigger:
+        execute console command "lp user %player% permission unsettemp pvpprotection"
+        stop

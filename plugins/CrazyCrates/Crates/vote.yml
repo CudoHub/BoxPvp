@@ -1,0 +1,457 @@
+Crate:
+  CrateType: CSGO
+  CrateName: '&fVote Crate'
+  Preview-Name: '&fVote Crate'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 12
+  OpeningBroadCast: false
+  BroadCast: ''
+  Item: 'PLAYER_HEAD'
+  Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZkMzI5MzU5ZWJlYWM3ZGM1OWQzMDA0OTMyOTFmZmI3YTk5NWI4NWE3NzE4M2RjMDM5ZjdhZTgyZjYzNmRiYSJ9fX0='
+  Glowing: false
+  Name: '&x&9&0&0&0&b&fV&x&9&e&0&0&c&7o&x&a&c&0&0&c&et&x&b&a&0&0&d&6e &x&c&8&0&0&d&eC&x&d&5&0&0&e&5r&x&e&3&0&0&e&da&x&f&1&0&0&f&4t&x&f&f&0&0&f&ce'
+  Lore:
+  - ''
+  - '&x&9&0&0&0&b&fRight-Click &8▸ &7View Crate'
+  - '&x&9&0&0&0&b&fLeft-Click &8▸ &7Open Crate'
+  Preview:
+    Toggle: true
+    ChestLines: 6
+    Glass:
+      Toggle: true
+      Item: 'GRAY_STAINED_GLASS_PANE'
+  PhysicalKey:
+    Name: '&x&9&0&0&0&b&fV&x&9&a&0&0&c&5o&x&a&4&0&0&c&at&x&a&e&0&0&d&0e &x&b&8&0&0&d&5C&x&c&2&0&0&d&br&x&c&d&0&0&e&0a&x&d&7&0&0&e&6t&x&e&1&0&0&e&be &x&e&b&0&0&f&1K&x&f&5&0&0&f&6e&x&f&f&0&0&f&cy'
+    Lore:
+    - ''
+    - '&7You can use this key in'
+    - '&7the crates in the spawn.'
+    Item: 'TRIPWIRE_HOOK#6048'
+    Glowing: true
+  Hologram:
+    Toggle: false
+    Height: 1.5
+    Message:
+      - ''
+  Prizes:
+    '0':
+      DisplayName: '&8[&71x&8] &cEmerald Lucky Block'
+      DisplayItem: NETHER_GOLD_ORE
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti luckyblock_emerald %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Emerald Lucky Block&a!'
+    '1':
+      DisplayName: '&8[&71x&8] &cDiamond Lucky Block'
+      DisplayItem: NETHER_GOLD_ORE
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti luckyblock_diamond %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Diamond Lucky Block&a!'
+    '2':
+      DisplayName: '&8[&71x&8] &cGold Lucky Block'
+      DisplayItem: NETHER_GOLD_ORE
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti luckyblock_gold %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Gold Lucky Block&a!'
+    '3':
+      DisplayName: '&8[&71x&8] &cIron Lucky Block'
+      DisplayItem: NETHER_GOLD_ORE
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti luckyblock_iron %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Iron Lucky Block&a!'
+    '4':
+      DisplayName: '&8[&71x&8] &cRedstone Lucky Block'
+      DisplayItem: NETHER_GOLD_ORE
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti luckyblock_redstone %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Redstone Lucky Block&a!'
+    '5':
+      DisplayName: '&8[&71x&8] &cLapis Lucky Block'
+      DisplayItem: NETHER_GOLD_ORE
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti luckyblock_lapis %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Lapis Lucky Block&a!'
+    '6':
+      DisplayName: '&8[&71x&8] &cCoal Lucky Block'
+      DisplayItem: NETHER_GOLD_ORE
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti luckyblock_coal %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Coal Lucky Block&a!'
+    '7':
+      DisplayName: '&8[&71x&8] &6Totem of Undying'
+      DisplayItem: TOTEM_OF_UNDYING
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰷'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'give %player% totem_of_undying 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Totem of Undying&a!'
+    '8':
+      DisplayName: '&8[&71x&8] &6Heal Ticket'
+      DisplayItem: PAPER#6045
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰷'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti ticket_heal %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Heal Ticket&a!'
+    '9':
+      DisplayName: '&8[&71x&8] &6Feed Ticket'
+      DisplayItem: PAPER#6044
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰷'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti ticket_feed %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Feed Ticket&a!'
+    '10':
+      DisplayName: '&8[&71x&8] &6Enchanted Golden Apple'
+      DisplayItem: ENCHANTED_GOLDEN_APPLE
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰷'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'give %player% enchanted_golden_apple 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x Enchanted Golden Apple&a!'
+    '11':
+      DisplayName: '&8[&73x&8] &6Golden Apple'
+      DisplayItem: GOLDEN_APPLE
+      DisplayAmount: 3
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰷'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'give %player% golden_apple 3'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e3x Golden Apple&a!'
+    '12':
+      DisplayName: '&8[&78x&8] &9Emerald Shade'
+      DisplayItem: PAPER#6032
+      DisplayAmount: 8
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti shade_emerald %player% 8'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e8x Emerald Shade&a!'
+    '13':
+      DisplayName: '&8[&78x&8] &9Diamond Shade'
+      DisplayItem: PAPER#6031
+      DisplayAmount: 8
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti shade_diamond %player% 8'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e8x Diamond Shade&a!'
+    '14':
+      DisplayName: '&8[&78x&8] &9Gold Shade'
+      DisplayItem: PAPER#6030
+      DisplayAmount: 8
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti shade_gold %player% 8'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e8x Gold Shade&a!'
+    '15':
+      DisplayName: '&8[&78x&8] &9Iron Shade'
+      DisplayItem: PAPER#6029
+      DisplayAmount: 8
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'cti shade_iron %player% 8'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e8x Iron Shade&a!'
+    '16':
+      DisplayName: '&8[&78x&8] &9Redstone Shade'
+      DisplayItem: PAPER#6027
+      DisplayAmount: 8
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 5
+      Commands:
+      - 'cti shade_redstone %player% 8'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e8x Redstone Shade&a!'
+    '17':
+      DisplayName: '&8[&78x&8] &9Lapis Shade'
+      DisplayItem: PAPER#6028
+      DisplayAmount: 8
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 5
+      Commands:
+      - 'cti shade_lapis %player% 8'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e8x Lapis Shade&a!'
+    '18':
+      DisplayName: '&8[&78x&8] &9Coal Shade'
+      DisplayItem: PAPER#6026
+      DisplayAmount: 8
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 5
+      Commands:
+      - 'cti shade_coal %player% 8'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e8x Coal Shade&a!'
+    '19':
+      DisplayName: '&8[&78x&8] &9Stone Shade'
+      DisplayItem: PAPER#6025
+      DisplayAmount: 8
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 5
+      Commands:
+      - 'cti shade_cobblestone %player% 8'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e8x Stone Shade&a!'
+    '20':
+      DisplayName: '&8[&716x&8] &aCoin II'
+      DisplayItem: PAPER#6004
+      DisplayAmount: 16
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 6
+      Commands:
+      - 'cti coin_coin2 %player% 16'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e16x Coin II&a!'
+    '21':
+      DisplayName: '&8[&732x&8] &aCoin I'
+      DisplayItem: PAPER#6000
+      DisplayAmount: 32
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 7
+      Commands:
+      - 'cti coin_coin1 %player% 32'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e32x Coin I&a!'
+    '22':
+      DisplayName: '&8[&732x&8] &aFirework Rocket'
+      DisplayItem: FIREWORK_ROCKET
+      DisplayAmount: 32
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 7
+      Commands:
+      - 'give %player% firework_rocket 32'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e32x Firework Rocket&a!'
+    '23':
+      DisplayName: '&8[&7128x&8] &aArrow'
+      DisplayItem: ARROW
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 7
+      Commands:
+      - 'give %player% arrow 128'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e128x Arrow&a!'
+    '24':
+      DisplayName: '&8[&7128x&8] &aCobweb'
+      DisplayItem: COBWEB
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 7
+      Commands:
+      - 'give %player% cobweb 128'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e128x Cobweb&a!'
+    '25':
+      DisplayName: '&8[&764x&8] &aMelon'
+      DisplayItem: MELON_SLICE
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 7
+      Commands:
+      - 'give %player% melon_slice 64'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e64x Melon&a!'
+    '26':
+      DisplayName: '&8[&732x&8] &aBread'
+      DisplayItem: BREAD
+      DisplayAmount: 32
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 7
+      Commands:
+      - 'give %player% bread 32'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e32x Bread&a!'
+    '27':
+      DisplayName: '&8[&716x&8] &aBeef'
+      DisplayItem: COOKED_BEEF
+      DisplayAmount: 16
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 7
+      Commands:
+      - 'give %player% cooked_beef 16'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e16x Beef&a!'

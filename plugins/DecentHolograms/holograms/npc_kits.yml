@@ -1,0 +1,13 @@
+location: Requlogia:18.008:54.300:18.008
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 0
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: DIAMOND_SWORD'
+  - content: '&#fbe145&lK&#fcea5f&lI&#fcf278&lT&#fdfb92&lS'
+  - content: '&#DBF8FDClick and view!'
+  actions: {}

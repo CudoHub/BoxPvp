@@ -1,0 +1,14 @@
+fly-location:
+  world: Requlogia
+  x: -4.548106030320955
+  y: 100.0
+  z: -350.3907833595928
+name: spawn-ice
+pos1X: -2.0
+pos1Z: -153.0
+pos2X: 2.0
+pos2Z: -152.0
+relative-position: 27.0
+permission-1: jump.spawn-ice
+permission-message: §6 Geçit Kapısı §8▸ §cYou are not permission to teleport to this
+  area!

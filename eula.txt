@@ -1,0 +1,4 @@
+#Bu eklenti paketi REQULOGIA TEAM tarafından hazırlanmıştır.
+#Eklenti paketinin satın alan kişi dışında kullanılması yasaktır!
+#Paketin başka kullanıcılara paylaşılması durumunda paket sahibinin hakları silinir.
+eula=true

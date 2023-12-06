@@ -1,0 +1,37 @@
+tasks:
+  emerald:
+    type: "inventory"
+    item: EMERALD
+    amount: 64
+    remove-items-when-complete: true
+  emeraldblock:
+    type: "inventory"
+    item: EMERALD_BLOCK
+    amount: 64
+    remove-items-when-complete: true
+display:
+  name: "&f𮯮 &bQuests &8▸ &7#2"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Collect 64x Emerald,"
+    - "&6 ▪ &7Collect 64x Emerald Block."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{emerald:progress}/64x Emerald"
+    - "&2 ▪ &7{emeraldblock:progress}/64x Emerald Block"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &73x Golden Apple"
+  type: "EMERALD"
+rewards:
+  - "give {player} golden_apple 3"
+options:
+  category: "diamondquests"
+  requires:
+    - "diamond1"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 20

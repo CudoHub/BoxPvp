@@ -1,0 +1,28 @@
+tasks:
+  staygame:
+    type: "playtime"
+    minutes: 30
+display:
+  name: "&f𮯮 &bQuests &8▸ &7#4"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Stay in the game for 30 Minutes."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{staygame:progress}/30 Minutes"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &764x Cobweb"
+  type: "CLOCK"
+rewards:
+  - "give {player} cobweb 64"
+options:
+  category: "diamondquests"
+  requires:
+    - "diamond3"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 22

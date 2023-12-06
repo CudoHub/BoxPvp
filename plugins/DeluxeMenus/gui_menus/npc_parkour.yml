@@ -1,0 +1,84 @@
+menu_title: '&fParkour'
+open_command:
+- parkour
+- parkourgame
+size: 27
+update_interval: 1
+items:
+  bilgi:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNjNTY1MmRiYTAwNTk0MzQ2ODlmMDZlNTYzMDkwMjBhNzVjYTA0ZjI0ZmZjOWNjMmFkNTMwMmMzMTlhNTA5MCJ9fX0='
+    slot: 11
+    display_name: '&6Parkour Games'
+    lore:
+      - ''
+      - '&7You can earn points'
+      - '&7by playing the parkour'
+      - '&7game. These scores earn'
+      - '&7you rewards!'
+      - ''
+      - '&dRewards &8▸'
+      - '&8 ▪ &725 Points = 1x Coin I'
+      - '&8 ▪ &7Highest Score = 6x Coin I'
+  parkurabasla:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZmYWFkN2U5OThjNWYzYjgzMzJjYTU1YzkwMTEyMGI5YWUxN2YwMTkzZGQ4ZTAxYTgzY2ZiOTU4MDg0ODMyNSJ9fX0='
+    slot: 13
+    display_name: '&aStart Parkour'
+    lore:
+      - ''
+      - '&7You can join the'
+      - '&7parkour game here!'
+      - ''
+      - ' &aClick and join!'
+    left_click_commands:
+      - '[player] ajp start'
+    right_click_commands:
+      - '[player] ajp start'
+  siralama:
+    update: true
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMxNzhkMDFhYWYxMWU1Y2NmYTM4YjE5MGQ3MDg1ZmYzN2RkMDQ4ZDA5YjY2NGYwMjU3MDc3NmY5Yjk4MTQ2NiJ9fX0='
+    slot: 15
+    display_name: '&6Parkour Leaderboard'
+    lore:
+      - ''
+      - '&7Here you can see the best'
+      - '&7players in the parkour game.'
+      - ''
+      - ' &dTop Parkour Players &8▸'
+      - '&8 ▪ &c%ajpk_stats_top_name_1% &8[&7%ajpk_stats_top_score_1% Points&8]'
+      - '&8 ▪ &6%ajpk_stats_top_name_2% &8[&7%ajpk_stats_top_score_2% Points&8]'
+      - '&8 ▪ &e%ajpk_stats_top_name_3% &8[&7%ajpk_stats_top_score_3% Points&8]'
+      - '&8 ▪ &2%ajpk_stats_top_name_4% &8[&7%ajpk_stats_top_score_4% Points&8]'
+      - '&8 ▪ &a%ajpk_stats_top_name_5% &8[&7%ajpk_stats_top_score_5% Points&8]'
+      - ''
+      - ' &bHighest Score &8▸ &7%ajpk_stats_highscore%'
+  frame:
+    display_name: ' '
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 23
+    - 24
+    - 25
+    - 26
+  close:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0='
+    slot: 22
+    display_name: '&cClose Menu'
+    lore:
+    - '&7Click and close menu!'
+    click_commands:
+    - '[close]'

@@ -1,0 +1,35 @@
+tasks:
+  coal:
+    type: "blockbreakcertain"
+    amount: 64
+    block: COAL_ORE
+  coalblock:
+    type: "blockbreakcertain"
+    amount: 64
+    block: COAL_BLOCK
+display:
+  name: "&f𮯰 Quests &8▸ &7#2"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Break 64x Coal Ore,"
+    - "&6 ▪ &7Break 64x Coal Block."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{coal:progress}/64x Coal Ore"
+    - "&2 ▪ &7{coalblock:progress}/64x Coal Block"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &76x Coal Shard"
+  type: "COAL_ORE"
+rewards:
+  - "cti shard_coal {player} 6"
+options:
+  category: "ironquests"
+  requires:
+    - "iron1"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 2

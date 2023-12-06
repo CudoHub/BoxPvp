@@ -1,0 +1,32 @@
+tasks:
+  prismarine:
+    type: "inventory"
+    item: PRISMARINE
+    amount: 512
+    remove-items-when-complete: true
+display:
+  name: "&f𮯭 &aQuests &8▸ &7#6"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Collect 512x Prismarine."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{prismarine:progress}/512x Prismarine"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &74x Heal Ticket"
+    - "&5 ▪ &712x Feed Ticket"
+  type: "PRISMARINE"
+rewards:
+  - "cti ticket_heal {player} 4"
+  - "cti ticket_feed {player} 12"
+options:
+  category: "emeraldquests"
+  requires:
+    - "emerald5"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 33

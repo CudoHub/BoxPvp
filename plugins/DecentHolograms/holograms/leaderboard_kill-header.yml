@@ -1,0 +1,12 @@
+location: Requlogia:-19,500:56,000:89,500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 0
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <#ANIM:killleaderboard></#ANIM>
+  - content: '&#DBF8FD(Alltime Leaderboard)'
+  actions: {}

@@ -1,0 +1,37 @@
+tasks:
+  quartz:
+    type: "blockbreakcertain"
+    amount: 256
+    block: NETHER_QUARTZ_ORE
+  quartzblock:
+    type: "blockbreakcertain"
+    amount: 256
+    block: SMOOTH_QUARTZ
+display:
+  name: "&f𮯬 &7Quests &8▸ &7#6"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Break 64x Quartz Ore,"
+    - "&6 ▪ &7Break 64x Quartz Block."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{quartz:progress}/64x Quartz Ore"
+    - "&2 ▪ &7{quartzblock:progress}/64x Quartz Block"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &75x Heal Ticket"
+    - "&5 ▪ &715x Feed Ticket"
+  type: "NETHER_QUARTZ_ORE"
+rewards:
+  - "cti ticket_heal {player} 5"
+  - "cti ticket_feed {player} 15"
+options:
+  category: "netheritequests"
+  requires:
+    - "netherite5"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 42

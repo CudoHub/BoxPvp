@@ -1,0 +1,244 @@
+language-name: "en_us"
+decimal-format: "0.00"
+
+prefix: "<gold> Combat <dark_gray>▸"
+
+broadcast:
+  on-load: "<green>Plugin was loaded successfully!"
+  on-enable: "<green>Plugin was enabled successfully."
+  on-disable: "<red>Plugin was disabled successfully."
+
+placeholder:
+  time-left-zero: "0"
+  unknown-enemy: "Unknown"
+  status:
+    fighting: "<red>Fighting"
+    idling: "<green>Idle"
+    in-combat: "<green>Yes"
+    not-in-combat: "<red>No"
+  toggle:
+    enabled: "<green>On"
+    disabled: "<red>Off"
+  pvp-status:
+    enabled: "<green>On"
+    disabled: "<red>Off"
+
+combat-timer:
+  expire: "<green>You are no longer in combat."
+  enemy-death: "<green>You are no longer in combat because your enemy died."
+  self-death: "<green>You are no longer in combat because you died.</green>"
+
+error:
+  player-only: "<red>Only players can execute this command!"
+  invalid-target: "<red>There is no such player!"
+  invalid-integer: "<red>You cannot enter such a value!"
+  no-permission: "<red>You do not have the permissions to do that!"
+  disabled-world: "<red>That command is not available in this dimension!"
+  target-not-in-combat: "<yellow>{target} <red>is not in combat!"
+  self-not-in-combat: "<red>You are not in combat."
+  unknown-expansion: "<yellow>{target} <red>is not an expansion or is not installed."
+  forgive-not-enemy: "<yellow>{target} <red>is not one of your enemies."
+  enemy-not-forgiving: "<red>That enemy is not in the mood to forgive you."
+
+command:
+  combatlogx:
+    help-message-list:
+      - " "
+      - "<gold><bold>COMBATLOG COMMANDS <dark_gray>▸"
+      - "<dark_gray> ▪ <yellow>/combatlogx help <dark_gray>▸ <white>Lists the plugin commands."
+      - "<dark_gray> ▪ <yellow>/combatlogx reload <dark_gray>▸ <white>Reload the plugin."
+      - "<dark_gray> ▪ <yellow>/combatlogx about <expansion> <dark_gray>▸ <white>Check information about an expansion."
+      - "<dark_gray> ▪ <yellow>/combatlogx tag <player> [seconds] <dark_gray>▸ <white>Force a player into combat."
+      - "<dark_gray> ▪ <yellow>/combatlogx toggle bossbar/actionbar/scoreboard <dark_gray>▸ <white>Enable or disable a notification type."
+      - "<dark_gray> ▪ <yellow>/combatlogx untag <player> <dark_gray>▸ <white>Force a player out of combat."
+      - "<dark_gray> ▪ <yellow>/combatlogx version <dark_gray>▸ <white>Check your version of CombatLogX."
+      - " "
+
+    reload-success: "<green>Plugin configuration and language files have been reloaded successfully!"
+
+    reload-failure: "<red>An error occurred while reloading the configuration."
+
+    tag-player: "<red>You forced <yellow>{target} <red>into combat."
+    tag-failure: "<yellow>{target} <red>could not be placed into combat."
+    untag-player: "<red>Successfully forced player <yellow>{target} <red>out of combat."
+
+    toggle-bossbar: "<gray>BossBar <dark_gray>▸ {status}"
+    toggle-actionbar: "<gray>ActionBar <dark_gray>▸ {status}"
+    toggle-scoreboard: "<gray>Scoreboard <dark_gray>▸ {status}"
+    
+    forgive:
+      toggle-disable: "<red>You can no longer receive requests for forgiveness."
+      toggle-enable: "<green>You can now receive forgiveness requests."
+      request-sent: "<white>You sent a forgive request to <yellow>{target}<white>."
+      request-receive: "<yellow>{player} <white>sent a forgive request to you. Use <red>/combatlogx forgive accept/reject <white>command."
+
+  combat-timer:
+    time-left-self: "<yellow>{time_left} <white>seconds remaining."
+    time-left-other: "<gold>{target} <white>has <yellow>{time_left} <white>seconds remaining."
+
+tagged:
+  unknown:
+    player: "<red>You are now in combat with <yellow>{enemy} <red>for an unknown reason. Do not log out!"
+    mob: "<red>You are now in combat with a(n) <yellow>{enemy} <red>for an unknown reason. Do not log out!"
+    mythic_mob: "<red>You are now in combat with a(n) <yellow>{mob_type} <red>for an unknown reason. Do not log out!"
+    damage: "<red>You are now in combat due to taking damage. Do not log out!"
+    unknown: "<red>You were placed into combat without a reason. Do not log out!"
+  attacked:
+    player: "You are being attacked by <yellow>{enemy}<red>. Do not log out!"
+    mob: "You are being attacked by a(n) <yellow>{mob_type} <red>. Do not log out!"
+    mythic_mob: "You are being attacked by a(n) <yellow>{enemy}<red>. Do not log out!"
+    damage: "<red>You are now in combat due to taking damage. Do not log out!"
+    unknown: "<red>You are being attacked by an unknown force. Do not log out!"
+  attacker:
+    player: "You are being attacked by<yellow>{enemy}<red>. Do not log out!"
+    mob: "You are being attacked by a(n)<yellow>{mob_type}<red>. Do not log out!"
+    mythic_mob: "You are being attacked by a(n) <yellow>{enemy}<red>. Do not log out!"
+    damage: "<red>You are now in combat due to taking damage. Do not log out!"
+    unknown: "<red>You are being attacked by an unknown force. Do not log out!"
+
+expansion:
+  action-bar:
+    timer: "{bars}Combat <white>{combatlogx_time_left_decimal} seconds."
+    ended: "<green>Combat is over!"
+
+  angel-chest:
+    prevent-opening: " "
+    prevent-breaking: " "
+    prevent-fast-looting: " "
+
+  boss-bar:
+    timer: "<red>The combat will end in {combatlogx_time_left_decimal} seconds!"
+    ended: "<green>Combat is over!"
+
+  scoreboard:
+    title: " "
+    lines:
+      - " "
+
+  cheat-prevention:
+    command-blocked: "<red>You do not have access to {command} during combat!"
+    no-riptide: "<red>The riptide enchantment is disabled during combat!"
+    no-totem: "<red>You are not allowed to use totems of undying during combat!"
+    no-entity-interaction: "<red>You are not allowed to use that mob during combat!"
+    no-chat: "<red>You are not allowed to send chat messages during combat!"
+
+    game-mode:
+      force-changed: "<white>Your game mode was changed to <yellow>{game_mode}<white>."
+      no-changing: "<red>You are not allowed to switch game modes during combat."
+      force-switch: "<white>Your game mode was changed to <yellow>{game_mode}<white>."
+      no-switch: "You are not allowed to switch game modes during combat."
+
+    flight:
+      force-disabled: "<red>Your ability to fly was removed."
+      no-flying: "<red>You are not allowed to fly during combat."
+
+    elytra:
+      force-disabled: "<red>Your elytra was disabled!"
+      no-gliding: "<red>You are not allowed to use elytra during combat!"
+
+    teleportation:
+      block-portal: "<red>You are not allowed to use a portal during combat!"
+      block-pearl: "<red>You are not allowed to use ender pearls during combat!"
+      block-other: "<red>You are not allowed to teleport during combat!"
+
+    inventory:
+      force-closed: "<red>Your inventory was closed!"
+      no-opening: "<red>You are not allowed to open inventories during combat!"
+
+    blocks:
+      prevent-breaking: "<red>You are not allowed to break blocks during combat!"
+      prevent-placing: "<red>You are not allowed to place blocks during combat!"
+      prevent-interaction: "<red>You are not allowed to use blocks during combat!"
+      prevent-portal-creation: "<red>You are not allowed to create portals during combat!"
+
+    items:
+      no-pickup: "<red>You are not allowed to pick up items during combat!"
+      no-dropping: "<red>You are not allowed to drop items during combat!"
+
+    buckets:
+      no-empty: "<red>You can't empty buckets during combat!"
+      no-fill: "<red>You can't fill up buckets during combat!"
+
+  damage-tagger:
+    unknown-damage: "<red>You took damage! Do not log out!!"
+    damage-type:
+      contact: "<red>You took damage! Do not log out!!"
+      suffocation: "<red>You took damage! Do not log out!!"
+      fall: "<red>You took damage! Do not log out!!"
+      fire: "<red>You took damage! Do not log out!!"
+      fire-tick: "<red>You took damage! Do not log out!!"
+      lava: "<red>You took damage! Do not log out!!"
+      drowning: "<red>You took damage! Do not log out!!"
+      block-explosion: "<red>You took damage! Do not log out!!"
+      lightning: "<red>You took damage! Do not log out!!"
+      starvation: "<red>You took damage! Do not log out!!"
+      poison: "<red>You took damage! Do not log out!!"
+      magic: "<red>You took damage! Do not log out!!"
+      wither: "<red>You took damage! Do not log out!!"
+      falling-block: "<red>You took damage! Do not log out!!"
+      custom: "<red>You took damage! Do not log out!!"
+      fly-into-wall: "<red>You took damage! Do not log out!!"
+      hot-floor: "<red>You took damage! Do not log out!!"
+      cramming: "<red>You took damage! Do not log out!!"
+
+  newbie-helper:
+    togglepvp:
+      self: "<gray>PvP <dark_gray>▸ {status}"
+      admin: "<white>You changed the pvp of <yellow>{target} <white>to <yellow>{status}<white>."
+      cooldown: "<white>You must wait <yellow>{time_left} <white>seconds to use this command again."
+    no-pvp:
+      self: "<red>You are not allowed to hit that player while your PvP is disabled!"
+      other: "<red>That player has PvP disabled!"
+      protected: "<red>That player is protected, you are not allowed to attack them yet!"
+    protection-disabled:
+      attacker: "<red>You attacked someone, your newbie protection is now disabled!"
+      expired: "<red>Your newbie protection has expired!"
+    check-format:
+      - " "
+
+  loot-protection:
+    enemy-died: " "
+    protected: " "
+
+  citizens-compatibility:
+    prevent-join: " "
+
+  disguise-compatibility:
+    remove-disguise: " "
+
+  essentials-compatibility:
+    prevent-teleport-request-self: "<red>You can't create teleport requests during combat."
+    prevent-teleport-request-other: "<red>You can't send a teleport request to a player that is in combat."
+
+  marriagemaster-compatibility:
+    prevent-teleport-self: " "
+    prevent-teleport-partner: " "
+
+  region-protection:
+    factions-no-entry: "<red>You cannot enter this area during battle!"
+    griefdefender-no-entry: "<red>You cannot enter this area during battle!"
+    griefprevention-no-entry: "<red>You cannot enter this area during battle!"
+    kingdomsx-no-entry: "<red>You cannot enter this area during battle!"
+    konquest-no-entry: "<red>You cannot enter this area during battle!"
+    redprotect-no-entry: "<red>You cannot enter this area during battle!"
+    residence-no-entry: "<red>You cannot enter this area during battle!"
+    towny-no-entry: "<red>You cannot enter this area during battle!"
+    husktowns-no-entry: "<red>You cannot enter this area during battle!"
+    ultimateclaims-no-entry: "<red>You cannot enter this area during battle!"
+
+    protectionstones:
+      prevent-area-creation: "<red>You cannot enter this area during battle!"
+      no-entry: "<red>You cannot enter this area during battle!"
+
+    preciousstones:
+      prevent-field-creation: "<red>You cannot enter this area during battle!"
+      no-entry: "<red>You cannot enter this area during battle!"
+
+    worldguard:
+      no-entry-mob-combat: "<red>You are not allowed to enter a non-mob-combat area during combat!"
+      no-entry-player-combat: "<red>You are not allowed to enter a non-player-combat area during combat!"
+      no-entry-unknown-combat: "<red>You are not allowed to enter a non-mob-combat area during combat!"
+
+    lands:
+      no-entry: "<red>You cannot enter this area during battle!"
+      war-disable-newbie-protection: "<red>You cannot enter this area during battle!"

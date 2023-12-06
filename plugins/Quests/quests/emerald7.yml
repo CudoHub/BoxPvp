@@ -1,0 +1,28 @@
+tasks:
+  staygame:
+    type: "playtime"
+    minutes: 45
+display:
+  name: "&f𮯭 &aQuests &8▸ &7#7"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Stay in the game for 45 Minutes."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{staygame:progress}/45 Minutes"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &71x Purpur Lucky Block"
+  type: "CLOCK"
+rewards:
+  - "cti luckyblock_purpur {player} 1"
+options:
+  category: "emeraldquests"
+  requires:
+    - "emerald6"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 34

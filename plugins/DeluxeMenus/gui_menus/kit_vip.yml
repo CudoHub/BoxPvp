@@ -1,0 +1,564 @@
+menu_title: '&fVIP Kits'
+size: 36
+items:
+  vipavaliable:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQzNmViZmU1MTQ2ZWY2YTIzMjVkYjZhNjJlNmI1NmVkM2E4OWE2MzBmYjIxOWQ3NDdjMTUyMzg4ZDdjYzgyOSJ9fX0='
+    slot: 10
+    priority: 3
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_vip%'
+          output: '&a✔'
+    display_name: '&f𮯫 &eKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#5BFB92Avaliable'
+    - ''
+    - '&aLeft-Click and View!'
+    - '&aRight-Click and Get!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_vip'
+    right_click_commands:
+    - '[player] kit vip'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  vipclaimed:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 10
+    priority: 2
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_vip%'
+          output: '&c✖'
+    display_name: '&f𮯫 &cKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#E88772Pending'
+    - '&8 ▪ &7Time Remaining &8▸ &f%essentials_kit_time_until_available_vip%'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_vip'
+    right_click_commands:
+    - '[player] kit vip'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  viplocked:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0='
+    slot: 10
+    priority: 1
+    update: true
+    view_requirement:
+      requirements:
+        permission:
+          type: '!has permission'
+          permission: essentials.kits.vip
+    display_name: '&f𮯫 &4Kits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#650000Locked'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_vip'
+    right_click_commands:
+    - '[player] kit vip'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  vip+avaliable:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQzNmViZmU1MTQ2ZWY2YTIzMjVkYjZhNjJlNmI1NmVkM2E4OWE2MzBmYjIxOWQ3NDdjMTUyMzg4ZDdjYzgyOSJ9fX0='
+    slot: 11
+    priority: 3
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_vip+%'
+          output: '&a✔'
+    display_name: '&f𮯪 &eKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#5BFB92Avaliable'
+    - ''
+    - '&aLeft-Click and View!'
+    - '&aRight-Click and Get!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_vip+'
+    right_click_commands:
+    - '[player] kit vip+'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  vip+claimed:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 11
+    priority: 2
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_vip+%'
+          output: '&c✖'
+    display_name: '&f𮯪 &cKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#E88772Pending'
+    - '&8 ▪ &7Time Remaining &8▸ &f%essentials_kit_time_until_available_vip+%'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_vip+'
+    right_click_commands:
+    - '[player] kit vip+'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  vip+locked:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0='
+    slot: 11
+    priority: 1
+    update: true
+    view_requirement:
+      requirements:
+        permission:
+          type: '!has permission'
+          permission: essentials.kits.vip+
+    display_name: '&f𮯪 &4Kits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#650000Locked'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_vip+'
+    right_click_commands:
+    - '[player] kit vip+'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  mvipavaliable:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZkNmQ0OWNiZWI2NDgyNzVlYjg1YmEyMjcxMTkzZTg1ZDMxY2IyMGQ0NDMzYjliYzNjM2ZjY2JiNDM2OTFlOCJ9fX0='
+    slot: 15
+    priority: 3
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_mvip%'
+          output: '&a✔'
+    display_name: '&f𮯩 &bKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#5BFB92Avaliable'
+    - ''
+    - '&aLeft-Click and View!'
+    - '&aRight-Click and Get!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_mvip'
+    right_click_commands:
+    - '[player] kit mvip'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  mvipclaimed:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 15
+    priority: 2
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_mvip%'
+          output: '&c✖'
+    display_name: '&f𮯩 &cKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#E88772Pending'
+    - '&8 ▪ &7Time Remaining &8▸ &f%essentials_kit_time_until_available_mvip%'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_mvip'
+    right_click_commands:
+    - '[player] kit mvip'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  mviplocked:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0='
+    slot: 15
+    priority: 1
+    update: true
+    view_requirement:
+      requirements:
+        permission:
+          type: '!has permission'
+          permission: essentials.kits.mvip
+    display_name: '&f𮯩 &4Kits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#650000Locked'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_mvip'
+    right_click_commands:
+    - '[player] kit mvip'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  mvip+avaliable:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZkNmQ0OWNiZWI2NDgyNzVlYjg1YmEyMjcxMTkzZTg1ZDMxY2IyMGQ0NDMzYjliYzNjM2ZjY2JiNDM2OTFlOCJ9fX0='
+    slot: 16
+    priority: 3
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_mvip+%'
+          output: '&a✔'
+    display_name: '&f𮯨 &bKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#5BFB92Avaliable'
+    - ''
+    - '&aLeft-Click and View!'
+    - '&aRight-Click and Get!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_mvip+'
+    right_click_commands:
+    - '[player] kit mvip+'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  mvip+claimed:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 16
+    priority: 2
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_mvip+%'
+          output: '&c✖'
+    display_name: '&f𮯨 &cKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#E88772Pending'
+    - '&8 ▪ &7Time Remaining &8▸ &f%essentials_kit_time_until_available_mvip+%'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_mvip+'
+    right_click_commands:
+    - '[player] kit mvip+'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  mvip+locked:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0='
+    slot: 16
+    priority: 1
+    update: true
+    view_requirement:
+      requirements:
+        permission:
+          type: '!has permission'
+          permission: essentials.kits.mvip+
+    display_name: '&f𮯨 &4Kits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#650000Locked'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_mvip+'
+    right_click_commands:
+    - '[player] kit mvip+'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  rvipavaliable:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUxMGIxNmY2ZDNhNzhiNDVjOWEwMDFkMzk3NmUzZTJlMGMwMTI3NjBlYmEzYTkzNDI1MTY0MjkwZWVjNzBlYiJ9fX0='
+    slot: 21
+    priority: 3
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_rvip%'
+          output: '&a✔'
+    display_name: '&f𮯧 &dKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#5BFB92Avaliable'
+    - ''
+    - '&aLeft-Click and View!'
+    - '&aRight-Click and Get!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_rvip'
+    right_click_commands:
+    - '[player] kit rvip'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  rvipclaimed:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 21
+    priority: 2
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_rvip%'
+          output: '&c✖'
+    display_name: '&f𮯧 &cKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#E88772Pending'
+    - '&8 ▪ &7Time Remaining &8▸ &f%essentials_kit_time_until_available_rvip%'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_rvip'
+    right_click_commands:
+    - '[player] kit rvip'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  rviplocked:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0='
+    slot: 21
+    priority: 1
+    update: true
+    view_requirement:
+      requirements:
+        permission:
+          type: '!has permission'
+          permission: essentials.kits.rvip
+    display_name: '&f𮯧 &4Kits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#650000Locked'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_rvip'
+    right_click_commands:
+    - '[player] kit rvip'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  rvip+avaliable:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUxMGIxNmY2ZDNhNzhiNDVjOWEwMDFkMzk3NmUzZTJlMGMwMTI3NjBlYmEzYTkzNDI1MTY0MjkwZWVjNzBlYiJ9fX0='
+    slot: 23
+    priority: 3
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_rvip+%'
+          output: '&a✔'
+    display_name: '&f𮯦 &dKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#5BFB92Avaliable'
+    - ''
+    - '&aLeft-Click and View!'
+    - '&aRight-Click and Get!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_rvip+'
+    right_click_commands:
+    - '[player] kit rvip+'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  rvip+claimed:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 23
+    priority: 2
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_rvip+%'
+          output: '&c✖'
+    display_name: '&f𮯦 &cKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&cKit Detayları &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#E88772Pending'
+    - '&8 ▪ &7Time Remaining &8▸ &f%essentials_kit_time_until_available_rvip+%'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_rvip+'
+    right_click_commands:
+    - '[player] kit rvip+'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  rvip+locked:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0='
+    slot: 23
+    priority: 1
+    update: true
+    view_requirement:
+      requirements:
+        permission:
+          type: '!has permission'
+          permission: essentials.kits.rvip+
+    display_name: '&f𮯦 &4Kits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that vip will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f3 1 time per days'
+    - '&8 ▪ &7Status &8▸ &#650000Locked'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_rvip+'
+    right_click_commands:
+    - '[player] kit rvip+'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  frame:
+    display_name: ' '
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 32
+    - 33
+    - 34
+    - 35
+  close:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0='
+    slot: 31
+    display_name: '&cGo back'
+    lore:
+    - '&7Click and go back!'
+    click_commands:
+    - '[openguimenu] kit_main'

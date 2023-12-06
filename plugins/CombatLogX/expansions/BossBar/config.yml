@@ -1,0 +1,9 @@
+# This option is here to quickly toggle this expansion on a live server that must stay online.
+# We recommend that you remove the Boss Bar expansion jar if you will not use the feature.
+enabled: true
+
+# Color and Style are only available in 1.9.4+
+# You can find a list of colors here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html
+# You can find a list of styles here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarStyle.html
+bar-color: RED
+bar-style: SEGMENTED_20

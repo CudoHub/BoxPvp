@@ -1,0 +1,13 @@
+location: Requlogia:-16.988:54.300:18.002
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 0
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: BOOK'
+  - content: '&#fbe145&lQ&#efe75a&lU&#e2ec6f&lE&#d6f283&lS&#c9f798&lT&#bdfdad&lS'
+  - content: '&#DBF8FDClick and view!'
+  actions: {}

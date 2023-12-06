@@ -1,0 +1,273 @@
+menu_title: '&fWarps'
+open_command:
+- warp
+- warps
+size: 54
+items:
+  spawn:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI4OWQ1YjE3ODYyNmVhMjNkMGIwYzNkMmRmNWMwODVlODM3NTA1NmJmNjg1YjVlZDViYjQ3N2ZlODQ3MmQ5NCJ9fX0='
+    slot: 13
+    display_name: '&6Spawn'
+    lore:
+    - ''
+    - '&7In this warp, you can do many'
+    - '&7things that will help you.'
+    - ''
+    - '&#DBF8FDThis warp can be used by anyone.'
+    - ''
+    - '&aClick and teleport!'
+    click_commands:
+    - '[player] warp spawn'
+  swordtrade:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2YwZTUzYWQxZDU4NzY0YmVmNmU1NWQ5MjhiZjg3N2Y2Yjg3YjNiNjYxNTRkNjYxMjJkMDQ4MzY1OGY4ODA5YyJ9fX0='
+    slot: 19
+    display_name: '&6Sword Villager Trade'
+    lore:
+    - ''
+    - '&7In this warp, you can improve'
+    - '&7by trade with villagers.'
+    - ''
+    - '&#DBF8FDThis warp can be used by anyone.'
+    - ''
+    - '&aClick and teleport!'
+    click_commands:
+    - '[player] warp swordtrade'
+  pickaxetrade:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNlYzMyNzA4YThhYTFjN2Y3YTBmODAxMjZhMWMwNGI4ZDg1YWQ1ZTAzZDVjYjgxZjBjOTc3OTViNDk4NGUifX19'
+    slot: 20
+    display_name: '&6Pickaxe Villager Trade'
+    lore:
+    - ''
+    - '&7In this warp, you can improve'
+    - '&7by trade with villagers.'
+    - ''
+    - '&#DBF8FDThis warp can be used by anyone.'
+    - ''
+    - '&aClick and teleport!'
+    click_commands:
+    - '[player] warp pickaxetrade'
+  armortrade:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNlYmEzZGVhMDhkZmFhMTYyNjc2M2ZkNmRmMThlZmZkOTc4NzZlYThlMjY2ZjgyNTQzNWMzY2Q3ZjRiZGFmMiJ9fX0='
+    slot: 21
+    display_name: '&6Armor Villager Trade'
+    lore:
+    - ''
+    - '&7In this warp, you can improve'
+    - '&7by trade with villagers.'
+    - ''
+    - '&#DBF8FDThis warp can be used by anyone.'
+    - ''
+    - '&aClick and teleport!'
+    click_commands:
+    - '[player] warp armortrade'
+  bowtrade:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAxZDg5OTI2YWJhYThmNjcxMzQxOWUyNWU5Njk1MjAyNWU1NjI2ZDlkZTk4NjMyOGYzMTIyMTE3YTYxMDI3In19fQ=='
+    slot: 22
+    display_name: '&6Bow Villager Trade'
+    lore:
+    - ''
+    - '&7In this warp, you can improve'
+    - '&7by trade with villagers.'
+    - ''
+    - '&#DBF8FDThis warp can be used by anyone.'
+    - ''
+    - '&aClick and teleport!'
+    click_commands:
+    - '[player] warp bowtrade'
+  elytratrade:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U1ZmIyYjE2ZDFhZDA5MGZiYjgxNjVjYTI3NzhiNTJkYmU0MGNiMWZhYmI2OTY1MTBhMDYyNGZiZTM0ZGI2OCJ9fX0='
+    slot: 23
+    display_name: '&6Elytra Villager Trade'
+    lore:
+    - ''
+    - '&7In this warp, you can improve'
+    - '&7by trade with villagers.'
+    - ''
+    - '&#DBF8FDThis warp can be used by anyone.'
+    - ''
+    - '&aClick and teleport!'
+    click_commands:
+    - '[player] warp elytratrade'
+  cointrade:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJlMGRjOTJkNzg2MmYwNDQzY2M3NzU3Mzc3NzRmNDA3YWFlZmJlMDVlOWM0MzIzMmJiNjkzZDM5YzE4ZmI4OSJ9fX0='
+    slot: 24
+    display_name: '&6Coin Villager Trade'
+    lore:
+    - ''
+    - '&7In this warp, you can improve'
+    - '&7by trade with villagers.'
+    - ''
+    - '&#DBF8FDThis warp can be used by anyone.'
+    - ''
+    - '&aClick and teleport!'
+    click_commands:
+    - '[player] warp cointrade'
+  customitemtrade:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ3MTU4Y2Y4MWQ0YTg2YmEyMWRiZTNlMzUwMTg4OWNlYjAwOWIwMmUwYTU1ODhlYzJkZDk1Yjg2YmUxYTM3YiJ9fX0='
+    slot: 25
+    display_name: '&6Custom Item Villager Trade'
+    lore:
+    - ''
+    - '&7In this warp, you can improve'
+    - '&7by trade with villagers.'
+    - ''
+    - '&#DBF8FDThis warp can be used by anyone.'
+    - ''
+    - '&aClick and teleport!'
+    click_commands:
+    - '[player] warp customitemtrade'
+  itemtrade:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2EzMGNmMjVkYjRkNjlhZWFjMjU5NTE2Yzc2NzhjNzgxMzQzMjQyNDNjYzY3NTFmMWIzN2MzZDI5ZDU0YjAwNiJ9fX0='
+    slot: 26
+    display_name: '&6Item Villager Trade'
+    lore:
+    - ''
+    - '&7In this warp, you can improve'
+    - '&7by trade with villagers.'
+    - ''
+    - '&#DBF8FDThis warp can be used by anyone.'
+    - ''
+    - '&aClick and teleport!'
+    click_commands:
+    - '[player] warp itemtrade'
+  vaulttrade:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI1M2Q1YzQxNGY1MDc5Nzk0ZDBiNzY2MWU1ODcyNTU2M2NmZDhhZTQwYmE4ZmI4YmFkMTE1ZjRkNjJjYjhlMCJ9fX0='
+    slot: 27
+    display_name: '&6Vault Villager Trade'
+    lore:
+    - ''
+    - '&7In this warp, you can improve'
+    - '&7by trade with villagers.'
+    - ''
+    - '&#DBF8FDThis warp can be used by anyone.'
+    - ''
+    - '&aClick and teleport!'
+    click_commands:
+    - '[player] warp vaulttrade'
+  crates:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0NDk4YTBmZTI3ODk1NmUzZDA0MTM1ZWY0YjEzNDNkMDU0OGE3ZTIwOGM2MWIxZmI2ZjNiNGRiYzI0MGRhOCJ9fX0='
+    slot: 30
+    display_name: '&6Crates'
+    lore:
+    - ''
+    - '&7In this warp, you can open the'
+    - '&7box keys you have obtained.'
+    - ''
+    - '&#DBF8FDThis warp can be used by'
+    - '&f𮯰 &#DBF8FDrank and above.'
+    - ''
+    - '&aClick and teleport!'
+    click_commands:
+    - '[player] warp crates'
+  spawnmid:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y5YjdiMzkzMDE5ZDRlNTc0NDY2YjJlYjg2ZTQxMGM2NWE0OTMyMmU1M2E4MzUzNDllMDFlYTBhODI2ZTNkNiJ9fX0='
+    slot: 31
+    display_name: '&6Spawn (Mid)'
+    lore:
+    - ''
+    - '&7In this region, you can'
+    - '&7improve by mining.'
+    - ''
+    - '&#DBF8FDThis warp can be used by'
+    - '&f𮯰 &#DBF8FDrank and above.'
+    - ''
+    - '&aClick and spawnmid!'
+    click_commands:
+    - '[player] warp spawnmid'
+  leaderboard:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMxNzhkMDFhYWYxMWU1Y2NmYTM4YjE5MGQ3MDg1ZmYzN2RkMDQ4ZDA5YjY2NGYwMjU3MDc3NmY5Yjk4MTQ2NiJ9fX0='
+    slot: 32
+    display_name: '&6Leaderboard'
+    lore:
+    - ''
+    - '&7In this warp, you can'
+    - '&7view the leaderboards.'
+    - ''
+    - '&#DBF8FDThis warp can be used by'
+    - '&f𮯰 &#DBF8FDrank and above.'
+    - ''
+    - '&aClick and teleport!'
+    click_commands:
+    - '[player] warp leaderboard'
+  iceportal:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzI4ZDBjNzNjZGQ4YzdkNWFhNGEwNTBjNzZmMmM1YjVhODkxMjdiMjBhMjEwZDNhOTBkOGZkNTVhZjVjYzQ5NiJ9fX0='
+    slot: 38
+    display_name: '&6Ice Portal'
+    lore:
+    - ''
+    - '&7In this warp, you can'
+    - '&7teleport to the ice land.'
+    - ''
+    - '&#DBF8FDThis warp can be used by'
+    - '&f𮯰 &#DBF8FDrank and above.'
+    - ''
+    - '&aClick and teleport!'
+    click_commands:
+    - '[player] warp iceportal'
+  flameportal:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYThkYTMxOGVmY2M3NWZlZGEwOTUwMGRmNGZhNjFjYTdjZTAwNjQ2YjcxYmM5NTAwODFhOTU0ZGQ4YzhmMTQ0ZSJ9fX0='
+    slot: 40
+    display_name: '&6Flame Portal'
+    lore:
+    - ''
+    - '&7In this warp, you can'
+    - '&7teleport to the flame land.'
+    - ''
+    - '&#DBF8FDThis warp can be used by'
+    - '&f𮯯 &#DBF8FDrank and above.'
+    - ''
+    - '&aClick and teleport!'
+    click_commands:
+    - '[player] warp flameportal'
+  nightmareportal:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZjOGVmOTE1MGI1OGZlODkzMGY1YmUzYzQ4ZTIwOWE5YjViYjI3ZGM5YmZhZmU2NDVkMjRiNDkxYTU4OGU2YSJ9fX0='
+    slot: 42
+    display_name: '&6Nightmare Portal'
+    lore:
+    - ''
+    - '&7In this warp, you can teleport'
+    - '&7to the nightmare land.'
+    - ''
+    - '&#DBF8FDThis warp can be used by'
+    - '&f𮯭 &#DBF8FDrank and above.'
+    - ''
+    - '&aClick and teleport!'
+    click_commands:
+    - '[player] warp nightmareportal'
+  frame:
+    display_name: ' '
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 35
+    - 36
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 51
+    - 52
+    - 53
+  close:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0='
+    slot: 49
+    display_name: '&cClose Menu'
+    lore:
+    - '&7Click and close menu!'
+    click_commands:
+    - '[close]'

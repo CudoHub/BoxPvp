@@ -1,0 +1,497 @@
+Time:
+  Seconds: seconds
+  Second: second
+  Minutes: minutes
+  Minute: minute
+  Hours: hours
+  Hour: hour
+GUI:
+  Universal:
+    Previous-Page:
+      Name: '&ePrevious Page'
+      Lore:
+      - ''
+      - '&7Click and go to previous page!'
+    Next-Page:
+      Name: '&eNext Page'
+      Lore:
+      - ''
+      - '&7Click and go to next page!'
+    Close:
+      Name: '&cClose!'
+      Lore:
+      - ''
+      - '&fClick and exit the menu!'
+    Back-To-Mine-Menu:
+      Name: '&cBack!'
+      Lore:
+      - ''
+      - '&7Click and go back!'
+    Back-To-Composition-Menu:
+      Name: '&cBack!'
+      Lore:
+      - ''
+      - '&7Click and go back!'
+    Back-To-Block-Menu:
+      Name: '&cBack!'
+      Lore:
+      - ''
+      - '&7Click and go back!'
+    Increase-By: '&aIncrease by %number%'
+    Decrease-By: '&cDecrease by %number%'
+  Mine-List-Menu:
+    Title: '&fMines'
+  Mine-Menu:
+    Title: '&f%mine% Mine'
+    Items:
+      Configure-Composition:
+        Name: '&6Edit Blocks'
+        Lore:
+        - ''
+        - '&fHere you can edit mine blocks.'
+        - ''
+        - '&8 ▪ &7Mine Percentage &8▸ &e%chance%%'
+      Configure-Delay:
+        Name: '&6Edit Reset &8[&7Time&8]'
+        Lore:
+        - ''
+        - '&fWith this option, the mines are'
+        - '&frenewed when the set time expires.'
+        - ''
+        - '&8 ▪ &7Reset Delay &8▸ &e%delay%'
+        - '&8 ▪ &7Reset Percentage &8▸ &e%percentage%'
+        - ''
+        - '&aClick and change option!'
+      Configure-Percentage:
+        Name: '&6Edit Reset &8[&7Percentage&8]'
+        Lore:
+        - ''
+        - '&fWith this option, the mines are'
+        - '&freset when mined at the set persentage.'
+        - ''
+        - '&8 ▪ &7Reset Delay &8▸ &e%delay%'
+        - '&8 ▪ &7Reset Percentage &8▸ &e%percentage%'
+        - ''
+        - '&aClick and change option!'
+      Configure-TimePercentage:
+        Name: '&6Edit Reset &8[&7Delay an ecentageOr&8]'
+        Lore:
+        - ''
+        - '&fWith this option, the mines are'
+        - '&freset according to the set'
+        - '&fpersentage and time.'
+        - ''
+        - '&8 ▪ &7Reset Delay &8▸ &e%delay%'
+        - '&8 ▪ &7Reset Percentage &8▸ &e%percentage%'
+        - ''
+        - '&aClick and change option!'
+      Flag-Menu:
+        Name: '&6Edit Settings'
+        Lore:
+        - ''
+        - '&8 ▪ &7Warns &8▸ &f%warn%'
+        - '&8   ▪ &7Global &8▸ &f%global%'
+        - '&8   ▪ &7Actionbar &8▸ &f%actionbar%'
+        - '&8   ▪ &7Distance &8▸ &f%warndistance%'
+        - '&8 ▪ &7Teleports &8▸ &f%teleports%'
+        - '&8   ▪ &7To resettp &8▸ &f%resettp%'
+        - '&8 ▪ &7Replaces &8▸ &f%replacemode%'
+      Efficiency-Lvl:
+        Name: '&6Edit Efficiency Level'
+        Lore:
+        - ''
+        - '&fWith this option, mining blocks can'
+        - '&fbe broken according to the adjusted'
+        - '&fefficiency level.'
+        - ''
+        - '&fThis setting disables'
+        - '&fcatamines.break permission.'
+        - ''
+        - '&8 ▪ &7Level &8▸ &e%level%'
+      Reset-Mine:
+        Name: '&aReset Mine'
+        Lore:
+        - ''
+        - '&fFrom here you can'
+        - '&freset the mine.'
+        - ''
+        - '&aClick and reset mine!'
+      Teleport:
+        Name: '&6Teleport to Mine'
+        Lore:
+        - ''
+        - '&f&fFrom here you can'
+        - '&fteleport the mine.'
+        - ''
+        - '&aClick and teleport mine!'
+      Delete:
+        Name: '&cDelete Mine'
+        Lore:
+        - ''
+        - '&fou can delete the mine'
+        - '&ffrom here.'
+        - ''
+        - '&cClick and delete mine!'
+      Start-Stop:
+        Active:
+          Name: '&cDeactive the mine!'
+        Inactive:
+          Name: '&aActive the mine!'
+        Lore:
+        - ''
+        - '&fWith this option, automatic'
+        - '&freset of the mine can be set.'
+        - ''
+        - '&aClick and set mine!'
+      Back:
+        Name: '&cBack!'
+        Lore:
+        - ''
+        - '&7Click and go back!'
+      Running:
+        Active:
+          Name: '&6Mine Status &8[&aActive&8]'
+          Lore:
+          - ''
+          - '&fThis option shows the'
+          - '&fcurrent operating status'
+          - '&fof the mine.'
+        Inactive:
+          Name: '&6Mine Status &8[&cDeactive&8]'
+          Reasons:
+            Invalid-Region: '&cIts region is invalid.'
+            Stopped: '&cIt is stopped.'
+            No-Composition: '&cIt has no composition.'
+            Invalid-Delay: '&cThe reset period is invalid. &8[%delay%&8]'
+  Composition-Menu:
+    Title: '&fBlock Chances &8[&7%chance%%&8]'
+    Items:
+      Composition-Block:
+        Name: '%!unchangeable! internal material name%'
+        Lore:
+        - ''
+        - '&8 ▪ &7Reset Chance &8▸ &e%chance%%'
+        - ''
+        - '&aLeft click and edit!'
+      Info:
+        Name: '&6Information'
+        Lore:
+        - ''
+        - '&fYou can add the block to the'
+        - '&freset list by clicking on the'
+        - '&fblock in your inventory.'
+        - ''
+        - '&fYou can right-click to remove'
+        - '&fthe block in the reset list.'
+  Composition-Block-Menu:
+    Title: '&fBlock Chances &8[&7%blockChance%% &8/ &7%compChance%%&8]'
+    Items:
+      Current-Block:
+        Name: '%!unchangeable! internal material name%'
+        Lore:
+        - ''
+        - '&8 ▪ &7Block Chance &8▸ &e%blockChance%%'
+        - '&8 ▪ &7Total Chance &8▸ &c%compChance%%'
+      Change-Table:
+        Name: '&6Change Custom Drops'
+      Configure-Table:
+        Name: '&6Change Drops Chance'
+      Add-Loot-Table:
+        Active:
+          Name: '&6Custom Drops &8[&7Both of them&8]'
+          Lore:
+          - ''
+          - '&fWith this option, the item you'
+          - '&fadd in addition to the default'
+          - '&fblock item will also drop.'
+          - ''
+          - '&aClick and change!'
+        Inactive:
+          Name: '&6Custom Drops &8[&7Just set&8]'
+          Lore:
+          - ''
+          - '&fWith this option, the default block'
+          - '&fitem will not drop, only the item'
+          - '&fyou added will drop.'
+          - ''
+          - '&aClick and change!'
+  Change-Loot-Table-Menu:
+    Title: '&fBlocks to Add'
+    Items:
+      Save-Table:
+        Name: '&aSave Blocks'
+        Message: '&aBlocks saved successfully.'
+  Loot-Table-List-Menu:
+    Title: '&fEdit Blocks Chance'
+    Items:
+      Drop-Item:
+        Name: '!unchangeable! internal material name'
+        Lore:
+        - ''
+        - '&8 ▪ &7Drop Chance &8▸ &e%chance%%'
+  Configure-Item-Drop-Chances-Menu:
+    Title: '&fBlock Chance &8[&7%itemChance%&8/&7100%&8]'
+    Items:
+      Current-Item: '!unchangeable! internal item'
+      Fortune:
+        Active:
+          Name: '&6Fortune &8[&aActive&8]'
+          Lore:
+          - ''
+          - '&fWith this option, the'
+          - '&fmines drop according to'
+          - '&fthe fortune level.'
+          - ''
+          - '&aClick and change!'
+        Inactive:
+          Name: '&6Fortune &8[&cDeactive&8]'
+          Lore:
+          - ''
+          - '&fWith this option, the mines'
+          - '&fnot drop according to the'
+          - '&ffortune level.'
+          - ''
+          - '&aClick and change!'
+  Reset-Delay-Menu:
+    Title: '&fCurrent Delay - %delay% second'
+    Items:
+      Current-Delay:
+        Name: '&6Current Delay &8▸ &e%delay%'
+      Switch:
+        Name: '&6Edit Delay Settings'
+        Lore:
+        - ''
+        - '&fYou can easily change the'
+        - '&fdelay setting you want to'
+        - '&fedit here.'
+        - ''
+        - '&aClick and change!'
+  Reset-Percentage-Menu:
+    Title: '&fCurrent Persentage - %percentage%%'
+    Items:
+      Current-Percentage:
+        Name: '&6Current Persentage &8▸ &e%percentage%'
+      Switch:
+        Name: '&6Edit Delay Settings'
+        Lore:
+        - ''
+        - '&fYou can easily change the'
+        - '&fpercentage setting you want'
+        - '&fto edit here.'
+        - ''
+        - '&aClick and change!'
+  Flags-Menu:
+    Title: '&fMine Settings'
+    Items:
+      Warn:
+        Active:
+          Name: '&6Warns'
+          Lore:
+          - ''
+          - '&fAllows notification to be sent'
+          - '&fwhen the mine is reset.'
+          - ''
+          - '&cClick and deactivate!'
+        Inactive:
+          Name: '&6Warns'
+          Lore:
+          - ''
+          - '&fAllows notification to be sent'
+          - '&fwhen the mine is reset.'
+          - ''
+          - '&aClick and activate!'
+      Warn-Global:
+        Active:
+          Name: '&6Global Warns'
+          Lore:
+          - ''
+          - '&fSends warns globally if'
+          - '&fwarns are active.'
+          - ''
+          - '&cClick and deactivate!'
+        Inactive:
+          Name: '&6Global Warns'
+          Lore:
+          - ''
+          - '&fSends warns globally if'
+          - '&fwarns are active.'
+          - ''
+          - '&aClick and activate!'
+      Warn-Hotbar:
+        Active:
+          Name: '&6Actionbar Messages'
+          Lore:
+          - ''
+          - '&fDisplays mine reset times'
+          - '&fin the actionbar.'
+          - ''
+          - '&cClick and deactivate!'
+        Inactive:
+          Name: '&6Actionbar Messages'
+          Lore:
+          - ''
+          - '&fDisplays mine reset times'
+          - '&fin the actionbar.'
+          - ''
+          - '&aClick and activate!'
+      Teleport-Players:
+        Active:
+          Name: '&6Teleport Players Up'
+          Lore:
+          - ''
+          - '&fTeleports players above the'
+          - '&fmine when mines reset.'
+          - ''
+          - '&cClick and deactivate!'
+        Inactive:
+          Name: '&6Teleport Players Up'
+          Lore:
+          - ''
+          - '&fTeleports players above the'
+          - '&fmine when mines reset.'
+          - ''
+          - '&aClick and activate!'
+      Teleport-Players-To-Reset-Location:
+        Active:
+          Name: '&6Teleport Players to Zone'
+          Lore:
+          - ''
+          - '&fTeleports players to the location'
+          - '&fset with &e/cm setresettp <mine-name>.'
+          - ''
+          - '&cClick and deactivate!'
+        Inactive:
+          Name: '&6Teleport Players to Zone'
+          Lore:
+          - ''
+          - '&fTeleports players to the location'
+          - '&fset with &e/cm setresettp <mine-name>.'
+          - ''
+          - '&aClick and activate!'
+      Replace-Mode:
+        Active:
+          Name: '&6Reset Blocks'
+          Lore:
+          - ''
+          - '&fThis option only resets'
+          - '&fbroken mining blocks.'
+          - ''
+          - '&aClick and change!'
+        Inactive:
+          Name: '&6Reset Blocks'
+          Lore:
+          - ''
+          - '&fThis option only resets'
+          - '&fall mining blocks.'
+          - ''
+          - '&aClick and change!'
+      Warn-Distance:
+        Name: '&6Warn Distance'
+        Lore:
+        - ''
+        - '&fThis option edit the display'
+        - '&fdistance of warns made in'
+        - '&fthe mine.'
+        - ''
+        - '&8 ▪ &7Warn Distance &8▸ &e%distance%'
+        - ''
+        - '&aClick and change!'
+  Efficiency-Menu:
+    Title: '&fEfficiency Level'
+    Items:
+      Current-Level:
+        Name: '&fEfficiency Level'
+        Lore:
+        - ''
+        - '&fWith this option, mining blocks can'
+        - '&fbe broken according to the adjusted'
+        - '&fefficiency level.'
+        - ''
+        - '&fThis setting disables'
+        - '&fcatamines.break permission.'
+        - ''
+        - '&8 ▪ &7Level &8▸ &e%level%'
+  Warn-Distance-Menu:
+    Title: '&fWarn Distance'
+    Items:
+      Current-Distance:
+        Name: '&7Warn Distance &8▸ &e%distance%'
+Commands:
+  Create: '&aMine &e%mine% &ahas been created!'
+  Delete: '&cMine &e%mine% &chas been deleted!'
+  Reset-Mode: '&fSet reset mode of &e%mine% &fto &c%mode%&f.'
+  Delay: '&fSet reset delay to &e%seconds% &fseconds.'
+  Reset-Percentage: '&e%mine% &fnow resets when there is &c%percentage%% &fof blocks
+    left.'
+  Set:
+    Success: '&c%material% &fset for &e%mine%&f. You have &d%remainingChance%% &fleft
+      over.'
+    Error: '&c%chance-over-100%. &fYou have &e%remainingChance%% &fleft over.'
+  Unset:
+    Clear: '&fComposition of &e%mine% &fhas been cleared.'
+    Remove:
+      Success: '&e%material% &cwas removed. You have &e%remainingChance%% &cleft over.'
+      Error: '&e%material% &fwas not in the composition of &e%mine%&f. You have &d%remainingChance%%
+        &fleft over.'
+  Reset: '&aMine has been reset.'
+  Teleport:
+    Self: '&fTeleported to &e%mine%&f.'
+    Other: '&fTeleported &e%player% &fto &c%mine%&f.'
+  Set-Teleport: '&fSet teleport of &e%mine%&f.'
+  Set-Reset-Teleport: '&fSet reset teleport of &e%mine%&f. Also set &cteleportPlayersToResetLocation
+    &fto &atrue&f.'
+  Flag:
+    Move-Region: '&fMoved region of &e%mine%&f.'
+    Rename: '&fRenamed &c%oldmine% &fto &a%newmine%&f.'
+    Replace-Mode: '&fSet replace mode of &e%mine% &fto &c%arg%&f.'
+    Teleport-Players: '&fTeleport players of &e%mine% &fset to &c%arg%&f.'
+    Warn:
+      Warn-Hotbar: '&fWarns of &e%mine% &fset to &c%arg%.'
+      Warn-Enable: '&fWarns of &e%mine% &fset to &c%arg%.'
+      Warn-Global: '&fGlobal warns of &e%mine% &fset to &c%arg%.'
+      Warn-Message: '&aUpdated warn message.'
+      Reset-Message: '&aUpdated reset message.'
+      Warn-Distance: '&fWarn distance of &e%mine% &fset to &c%arg%.'
+      Warn-Seconds: '&aUpdated warn seconds.'
+  Start: '&aStarted &e%mine%&a.'
+  Stop: '&cStopped &e%mine%&c.'
+  Start-Tasks: '&aStarted all mine tasks.'
+  Stop-Tasks: '&cStopped all mine tasks.'
+  Sync: '&fSynced all mines.'
+  Reload:
+    All: '&aPlugin has been reloaded!'
+    Mines: '&aMines have been reloaded!'
+    Config: '&aConfig has been reloaded!'
+    Messages: '&aMessages have been reloaded!'
+    Properties: '&aProperties have been reloaded!'
+Error-Messages:
+  No-Permission: '&cYou do not have the permissions to do that!'
+  Only-Players: '&cOnly players may execute this command!'
+  Unknown-Command: '&cUnknown command.'
+  Unknown-Flag: '&cUnknown flag.'
+  Player-Not-Found: '&cPlayer &e%player% &cnot found!'
+  Mine:
+    Incomplete-Region: '&cYou must select a region!'
+    Not-Exist: '&cMine does not exist!'
+    Exist: '&cMine already exists!'
+    Cant-Reset: '&cCan''t reset mine!'
+    Material-Not-Found: '&cMaterial not found!'
+    Not-Number: '&cYour chance must be a number!'
+    Not-Percentage: '&cYour chance must be a percentage!'
+    Invalid-Chance: '&cYour chance must be between &e0 and 100%&c!'
+    Invalid-Range: '&cYour input must be between %start%-%end%!'
+    Material-Not-Solid: '&cMaterial must be a solid block!'
+    Invalid-Block-Configuration: '&cInvalid block configuration!'
+    Invalid-Boolean: '&cYour last argument must be either true or false!'
+    Teleport-Error: '&cLocation does not exist!'
+    Block-Not-In-Composition: '&cBlock is not in composition!'
+    Invalid-Region: '&cRegion is invalid!'
+    Material-In-Composition: '&cMaterial is already in composition!'
+    Chance-Over-100: '&cChance would be over 100%!'
+  GUI:
+    Mine-Deleted: '&cKicked out of mine menu!'
+    Block-Deleted: '&cKicked out of block menu!'
+    Loot-Table-Change: '&aLoot table changed!'
+    First-Page: '&cYou are already on the first page'
+    Last-Page: '&cYou are on the last page'
+    Mine-Doesnt-Exist: '&cThe mine you tried to open doesn''t exist anymore!'

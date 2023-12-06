@@ -1,0 +1,4 @@
+# Customize the prefix of the plugin
+prefix: '&6 Mines &8▸ '
+announceUpdate: false
+language: CUSTOM

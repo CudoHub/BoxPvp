@@ -1,0 +1,59 @@
+ConfigVersion: 1.2
+#############################################################################################################
+#                          _             _____    _          _                                              #
+#          /\             | |           |  __ \  (_)        | |                                             #
+#         /  \     _   _  | |_    ___   | |__) |  _    ___  | | __  _   _   _ __                            #
+#        / /\ \   | | | | | __|  / _ \  |  ___/  | |  / __| | |/ / | | | | | '_ \                           #
+#       / ____ \  | |_| | | |_  | (_) | | |      | | | (__  |   <  | |_| | | |_) |                          #
+#      /_/    \_\  \__,_|  \__|  \___/  |_|      |_|  \___| |_|\_\  \__,_| | .__/                           #
+#                                                                          | |                              #
+#                                                                          |_|                              #
+#############################################################################################################
+# By: BUTTERFIELD8 & The Zircon Network                                                                     #
+# Discord: https://discord.gg/ncHH4FP                                                                       #
+#############################################################################################################
+
+#Message Prefix
+msgPrefix: "&6 Auto Pickup &8▸"
+
+#Toggle Message - /auto
+msgAutoPickupEnable: "&aYou have enabled auto pickup!"
+msgAutoPickupDisable: "&cYou have disabled auto pickup!"
+
+#Toggle Message - /autosmelt
+msgAutoSmeltEnable: "&aYou have enabled auto smelt!"
+msgAutoSmeltDisable: "&cYou have disabled auto smelt!"
+
+#Toggle Message - /drops
+msgAutoMobDropsEnable: "&cYou have disabled auto drops!"
+msgAutoMobDropsDisable: "&cYou have disabled auto drops!"
+
+#Aditional toggling messages
+msgAutoEnable: "&aAuto pickup has been automatically enabled!"
+doAutoEnableMSG: true
+msgEnabledJoinMSG: "&aAuto pickup has been automatically enabled!"
+doEnabledOnJoinMSG: true
+
+#reload Config Message
+msgReload: "&aReloaded plugin configurations!"
+
+#Fully Inventory Message
+msgFullInv: "&cYour inventory is full!"
+doFullInvMSG: true
+titlebar:
+  doTitleBar: false
+  line1: "&c&lWARNING!"
+  line2: "&fInventory is full!"
+
+#This is most useful for prison servers! -- This setting is not normally recommended
+#This feature voids any extra blocks broken when /auto is enabled and the inventory is full!
+voidOnFullInv: false
+
+#Plase does not have permission
+msgNoperms: "&cYou don't have permission to use this command!"
+
+#Require Permissions | Do players require permission to run commands?
+requirePerms:
+  autopickup: true
+  auto-reload: true
+

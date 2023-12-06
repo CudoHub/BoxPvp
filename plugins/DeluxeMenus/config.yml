@@ -1,0 +1,62 @@
+# DeluxeMenus 1.13.6-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: true
+gui_menus:
+  main_settings:
+    file: main_settings.yml
+  main_protection:
+    file: main_protection.yml
+  main_events:
+    file: main_events.yml
+  main_rules:
+    file: main_rules.yml
+  main_vipinfo:
+    file: main_vipinfo.yml
+  main_vault:
+    file: main_vault.yml
+  main_warp:
+    file: main_warp.yml
+  npc_parkour:
+    file: npc_parkour.yml
+  npc_rank:
+    file: npc_rank.yml
+  luckyblock_content:
+    file: luckyblock_content.yml
+  kit_main:
+    file: kit_main.yml
+  kit_player:
+    file: kit_player.yml
+  kit_rank:
+    file: kit_rank.yml
+  kit_vip:
+    file: kit_vip.yml
+  kitpreview_rvip+:
+    file: kitpreview_rvip+.yml
+  kitpreview_rvip:
+    file: kitpreview_rvip.yml
+  kitpreview_mvip+:
+    file: kitpreview_mvip+.yml
+  kitpreview_mvip:
+    file: kitpreview_mvip.yml
+  kitpreview_vip+:
+    file: kitpreview_vip+.yml
+  kitpreview_vip:
+    file: kitpreview_vip.yml
+  kitpreview_netherite:
+    file: kitpreview_netherite.yml
+  kitpreview_emerald:
+    file: kitpreview_emerald.yml
+  kitpreview_diamond:
+    file: kitpreview_diamond.yml
+  kitpreview_gold:
+    file: kitpreview_gold.yml
+  kitpreview_iron:
+    file: kitpreview_iron.yml
+  kitpreview_player:
+    file: kitpreview_player.yml
+  kitpreview_food:
+    file: kitpreview_food.yml

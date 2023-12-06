@@ -1,0 +1,75 @@
+menu_title: '&fKits'
+open_command:
+- kit
+- kits
+- kithelp
+- kitinfo
+size: 27
+items:
+  player:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDgzMTgzMGE3YmQzYjFhYjA1YmViOThkYzJmOWZjNWVhNTUwYjNjZjY0OWZkOTRkNDgzZGE3Y2QzOWY3YzA2MyJ9fX0='
+    slot: 10
+    display_name: '&6Player Kits'
+    lore:
+    - ''
+    - '&7You can view the'
+    - '&7player kits here.'
+    - ''
+    - '&aClick and view!'
+    click_commands:
+    - '[openguimenu] kit_player'
+  rank:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJmYzdmYTRlNzRiNmU0MDFhZTA2NDE0OGFlNWU3NjhiODkzZjFkOTI5N2Y4NzQ3NTEwMWY3MjI1YTJhNWE2YSJ9fX0='
+    slot: 13
+    display_name: '&6Rank Kits'
+    lore:
+    - ''
+    - '&7You can view the'
+    - '&7rank kits here.'
+    - ''
+    - '&aClick and view!'
+    click_commands:
+    - '[openguimenu] kit_rank'
+  vip:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNkMGIzMjE4OTI0ZjAwNmJiZjY3ZmFiMDk0ZjAwZjU4ZTBkNmY5OWJiODA3YmU2NmM0MzU0MjI5ZmY1NmY4MyJ9fX0='
+    slot: 16
+    display_name: '&6VIP Kits'
+    lore:
+    - ''
+    - '&7You can view the'
+    - '&7vip kits here.'
+    - ''
+    - '&aClick and view!'
+    click_commands:
+    - '[openguimenu] kit_vip'
+  frame:
+    display_name: ' '
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 23
+    - 24
+    - 25
+    - 26
+  close:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0='
+    slot: 22
+    display_name: '&cClose Menu'
+    lore:
+    - '&7Click and close menu!'
+    click_commands:
+    - '[close]'

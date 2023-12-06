@@ -1,0 +1,97 @@
+right click with ender chest:
+  name of player's held item is "<##97fb7f>B<##a8f575>o<##b9ee6b>s<##cae861>s <##dbe157>B<##ecdb4d>o<##fdd443>x &8[<##7ec0fc>I<##5fb1fd>C<##40a2fd>E&8]":
+    cancel event
+    remove 1 of tool from player's held item
+    chance of 5%:
+      execute console command "cti luckyblock_prismarine %player% 6"
+    chance of 5%:
+      execute console command "cti shard_prismarine %player% 6"
+    chance of 5%:
+      execute console command "cti coin_ice %player% 1"
+    chance of 30%:
+      execute console command "cti coin_coin1 %player% 64"
+    chance of 10%:
+      execute console command "cti coin_item %player% 128"
+    chance of 10%:
+      execute console command "cti coin_luck %player% 32"
+    chance of 5%:
+      execute console command "give %player% golden_apple 3"
+    chance of 1%:
+      execute console command "give %player% enchanted_golden_apple 1"
+    chance of 5%:
+      execute console command "cti ticket_heal %player% 1"
+    chance of 5%:
+      execute console command "cti ticket_feed %player% 1"
+    chance of 1%:
+      execute console command "give %player% totem_of_undying 1"
+    chance of 25%:
+      execute console command "give %player% cobweb 128"
+    chance of 25%:
+      execute console command "give %player% arrow 128"
+    chance of 25%:
+      execute console command "give %player% firework_rocket 128"
+    send "&6 Boss Box &8▸ <##97fb7f>B<##a8f575>o<##b9ee6b>s<##cae861>s <##dbe157>B<##ecdb4d>o<##fdd443>x &8[<##7ec0fc>I<##5fb1fd>C<##40a2fd>E&8] &aopened!" to player
+  name of player's held item is "<##97fb7f>B<##a8f575>o<##b9ee6b>s<##cae861>s <##dbe157>B<##ecdb4d>o<##fdd443>x &8[<##fc6c6c>F<##fc5151>l<##fd3636>a<##fd1b1b>m<##fd0000>e&8]":
+    cancel event
+    remove 1 of tool from player's held item
+    chance of 5%:
+      execute console command "cti luckyblock_netherite %player% 6"
+    chance of 5%:
+      execute console command "cti shard_netherite %player% 6"
+    chance of 5%:
+      execute console command "cti coin_flame %player% 1"
+    chance of 30%:
+      execute console command "cti coin_coin1 %player% 96"
+    chance of 10%:
+      execute console command "cti coin_item %player% 192"
+    chance of 10%:
+      execute console command "cti coin_luck %player% 64"
+    chance of 5%:
+      execute console command "give %player% golden_apple 6"
+    chance of 1%:
+      execute console command "give %player% enchanted_golden_apple 2"
+    chance of 5%:
+      execute console command "cti ticket_heal %player% 1"
+    chance of 5%:
+      execute console command "cti ticket_feed %player% 1"
+    chance of 1%:
+      execute console command "give %player% totem_of_undying 1"
+    chance of 25%:
+      execute console command "give %player% cobweb 192"
+    chance of 25%:
+      execute console command "give %player% arrow 192"
+    chance of 25%:
+      execute console command "give %player% firework_rocket 192"
+    send "&6 Boss Box &8▸ <##97fb7f>B<##a8f575>o<##b9ee6b>s<##cae861>s <##dbe157>B<##ecdb4d>o<##fdd443>x &8[<##fc6c6c>F<##fc5151>l<##fd3636>a<##fd1b1b>m<##fd0000>e&8] &aopened!!" to player
+  name of player's held item is "<##97fb7f>B<##a8f575>o<##b9ee6b>s<##cae861>s <##dbe157>B<##ecdb4d>o<##fdd443>x &8[<##fa94fc>N<##fa87fc>i<##fa7afc>g<##fa6dfc>h<##fa60fd>t<##f953fd>m<##f946fd>a<##f939fd>r<##f92cfd>e&8]":
+    cancel event
+    remove 1 of tool from player's held item
+    chance of 5%:
+      execute console command "cti luckyblock_obsidian %player% 6"
+    chance of 5%:
+      execute console command "cti shard_obsidian %player% 6"
+    chance of 5%:
+      execute console command "cti coin_nightmare %player% 1"
+    chance of 30%:
+      execute console command "cti coin_coin1 %player% 128"
+    chance of 10%:
+      execute console command "cti coin_item %player% 256"
+    chance of 10%:
+      execute console command "cti coin_luck %player% 96"
+    chance of 5%:
+      execute console command "give %player% golden_apple 9"
+    chance of 1%:
+      execute console command "give %player% enchanted_golden_apple 3"
+    chance of 5%:
+      execute console command "cti ticket_heal %player% 2"
+    chance of 5%:
+      execute console command "cti ticket_feed %player% 2"
+    chance of 1%:
+      execute console command "give %player% totem_of_undying 2"
+    chance of 25%:
+      execute console command "give %player% cobweb 256"
+    chance of 25%:
+      execute console command "give %player% arrow 256"
+    chance of 25%:
+      execute console command "give %player% firework_rocket 256"
+    send "&6 Boss Box &8▸ <##97fb7f>B<##a8f575>o<##b9ee6b>s<##cae861>s <##dbe157>B<##ecdb4d>o<##fdd443>x &8[<##fa94fc>N<##fa87fc>i<##fa7afc>g<##fa6dfc>h<##fa60fd>t<##f953fd>m<##f946fd>a<##f939fd>r<##f92cfd>e&8] &aopened!!" to player

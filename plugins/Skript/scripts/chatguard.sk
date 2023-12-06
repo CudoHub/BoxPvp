@@ -1,0 +1,271 @@
+on chat:
+    if message contains "𮯡":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯢":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯣":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯤":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯥":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯦":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯧":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯨":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯩":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯪":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯫":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯬":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯭":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯮":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯯":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯰":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯱":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯲":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯳":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯴":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯵":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯶":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯷":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯸":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯹":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯺":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯻":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯼":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯽":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯾":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮯿":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰀":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰁":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰂":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰃":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰄":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰅":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰆":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰇":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰈":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰉":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰊":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰋":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰌":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰍":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰎":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰏":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰐":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰑":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰒":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰓":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰔":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰕":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰖":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰗":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰘":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰙":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰚":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰛":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰜":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰝":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰟":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰠":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰡":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰢":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰣":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰣":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰤":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰥":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰦":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰧":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰨":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰩":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰪":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰫":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰬":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰭":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰮":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰯":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰰":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰱":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰲":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰳":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰴":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰵":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰶":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰷":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰸":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰹":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player
+    if message contains "𮰺":
+        cancel event
+        send "&6 Guard &8▸ &cYou can not write this word!" to player

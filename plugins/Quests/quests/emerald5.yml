@@ -1,0 +1,28 @@
+tasks:
+  steps:
+    type: "walking"
+    distance: 3000
+display:
+  name: "&f𮯭 &aQuests &8▸ &7#5"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Take 3000x Steps."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{steps:progress}/3000x Steps"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &76x Golden Apple"
+  type: "NETHERITE_BOOTS"
+rewards:
+  - "give {player} golden_apple 6"
+options:
+  category: "emeraldquests"
+  requires:
+    - "emerald4"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 32

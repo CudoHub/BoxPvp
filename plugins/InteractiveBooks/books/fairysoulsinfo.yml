@@ -1,0 +1,16 @@
+name: Fairy Souls Info
+title: Fairy Souls Info
+author: RequaizeN
+generation: ORIGINAL
+lore:
+- Requlogia
+open_command: 'fairysoulsinfo'
+pages:
+  '1':
+  - '<click:run_command:/help>&4&l     ← &8&l[&4&lGo back&8&l]<reset>'
+  - ''
+  - '&9&lFAIRY SOULS INFORMATION'
+  - '<reset>'
+  - '&0By collecting fairy spirits in the spawn, you can give your character great bonuses.'
+  - '<reset>'
+  - '<click:run_command:/spawn>&6&lClick and Teleport!<reset>'

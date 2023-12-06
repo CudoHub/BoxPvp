@@ -1,0 +1,82 @@
+
+filler-glass:
+  id: BLACK_STAINED_GLASS_PANE
+  display: " "
+
+enable-item:
+  id: LIME_STAINED_GLASS_PANE
+  display: "&aEquipped"
+  lore:
+  - ""
+  - "&7From here, you can change the"
+  - "&7cosmetic appearance status."
+  - ""
+  - "&cClick and unequip!"
+  show-tool-tip: true
+
+disable-item:
+  id: RED_STAINED_GLASS_PANE
+  display: "&cUnequipped"
+  lore:
+  - ""
+  - "&7From here, you can change the"
+  - "&7cosmetic appearance status."
+  - ""
+  - "&aClick and equip!"
+  show-tool-tip: true
+
+previous-button:
+  id: STONE_BUTTON
+  display: "&eNext Page"
+  lore:
+  - ""
+  - "&7From here you can switch"
+  - "&7to the next page."
+  - ""
+  - "&aClick and go to the next page!"
+
+next-button:
+  id: STONE_BUTTON
+  display: "&ePrevius Page"
+  lore:
+  - ""
+  - "&7From here you can switch"
+  - "&7to the prev page."
+  - ""
+  - "&aClick and go to previous page!"
+
+back-button:
+  id: BARRIER
+  display: "&eBack"
+  lore:
+  - ""
+  - "&7You can go back from here."
+  - ""
+  - "&aClick and go back!"
+
+cosmetic-set-button:
+  id: YELLOW_STAINED_GLASS_PANE
+  display: "&eCosmetic Sets"
+  lore:
+  - ""
+  - "&7Here you can view and"
+  - "&7easily equip cosmetic sets."
+  - ""
+  - "&aClick and view!"
+    
+
+shop-button:
+  id: PAPER
+  display: "&6Shop"
+  lore:
+  - ""
+confirm-button:
+  id: GREEN_WOOL
+  lore:
+  - ""
+  - "&aClick and confirm!"
+cancel-button:
+  id: RED_WOOL
+  lore:
+  - ""
+  - "&cClick and cancel!"

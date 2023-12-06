@@ -1,0 +1,12 @@
+location: Requlogia:-10,500:31,000:-103,500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 0
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8(&#d0bcbcN&#c9b3b3E&#c3a9a9T&#bca0a0H&#b59797E&#ae8d8dR&#a88484I&#a17a7aT&#9a7171E&8)'
+  - content: '&a↓ &#DBF8FDPlace! &a↓'
+  actions: {}

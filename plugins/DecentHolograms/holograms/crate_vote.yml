@@ -1,0 +1,11 @@
+location: Requlogia:30,500:53,400:75,500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 0
+facing: 90.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ENTITY: BEE'
+  actions: {}

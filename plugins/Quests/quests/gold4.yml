@@ -1,0 +1,29 @@
+tasks:
+  bread:
+    type: "consume"
+    item: BREAD
+    amount: 16
+display:
+  name: "&f𮯯 &eQuests &8▸ &7#4"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Eat 16x Bread."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{bread:progress}/16x Bread"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &716x Beef"
+  type: "BREAD"
+rewards:
+  - "give {player} cooked_beef 16"
+options:
+  category: "goldquests"
+  requires:
+    - "gold3"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 13

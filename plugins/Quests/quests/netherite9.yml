@@ -1,0 +1,35 @@
+tasks:
+  netheriteblock:
+    type: "blockbreakcertain"
+    amount: 128
+    block: NETHERITE_BLOCK
+  ancientdebris:
+    type: "blockbreakcertain"
+    amount: 128
+    block: ANCIENT_DEBRIS
+display:
+  name: "&f𮯬 &7Quests &8▸ &7#9"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Break 128x Netherite Block,"
+    - "&6 ▪ &7Break 128x Ancient Debris."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{netheriteblock:progress}/128x Netherite Block"
+    - "&2 ▪ &7{ancientdebris:progress}/128x Ancient Debris"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &7Access to rank &f𮯬"
+  type: "NETHERITE_BLOCK"
+rewards:
+  - "lp user {player} permission set netheriterankquest"
+options:
+  category: "netheritequests"
+  requires:
+    - "netherite8"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 45

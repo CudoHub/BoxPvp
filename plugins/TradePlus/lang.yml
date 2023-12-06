@@ -1,0 +1,56 @@
+request:
+  sent: '&6 Trade &8▸ &fYou sent a trade request to &e%PLAYER%!'
+  received:
+    text: '&6 Trade &8▸ &eYou received a trade request from &f%PLAYER%'
+    hover: '&aCLICK AND ACCEPT!'
+enabled: '&6 Trade &8▸ &aYou enabled trade requests from other players!'
+disabled: '&6 Trade &8▸ &cYou disabled trade requests from other players!'
+errors:
+  creative: '&6 Trade &8▸ &cYou can''t trade in creative mode!'
+  creative-them: '&6 Trade &8▸ &cYou can''t trade in creative mode!'
+  within-range:
+    same-world: '&6 Trade &8▸ &fYou must be within &e%AMOUNT% &fblocks of a player
+      to trade with them'
+    cross-world: '&6 Trade &8▸ &fYou must be within &e%AMOUNT% &fblocks of a player
+      to trade with them'
+  no-cross-world: '&6 Trade &8▸ &fYou must be in the same world as a player to trade
+    with them!'
+  same-ip: '&6 Trade &8▸ &cPlayers aren''t allowed to trade on same IP!'
+  wait-for-expire: '&6 Trade &8▸ &cYou still have an active trade request!'
+  player-not-found: '&6 Trade &8▸ &cCould not find specified player!'
+  self-trade: '&6 Trade &8▸ &cYou cannot trade with yourself!'
+  blocked-world: '&6 Trade &8▸ &cYou can''t trade in this world!'
+  invalid-usage: '&6 Trade &8▸ &cInvalid arguments.'
+  trading-disabled: '&6 Trade &8▸ &chat player has trading toggled off!'
+  no-perms:
+    accept: '&6 Trade &8▸ &cYou do not have permission to trade!'
+    send: '&6 Trade &8▸ &cYou do not have permission to trade!'
+    receive: '&6 Trade &8▸ &cYou do not have permission to trade!'
+    admin: '&6 Trade &8▸ &cYou do not have permission to trade!'
+accept:
+  sender: '&6 Trade &8▸ &e%PLAYER% &aaccepted &fyour trade request!'
+  receiver: '&6 Trade &8▸ &fYou accepted &e%PLAYER%''s &ftrade request!'
+cancelled: '&6 Trade &8▸ &cTrade canceled!'
+expired: '&6 Trade &8▸ &cYour last trade request expired'
+trade-complete: '&6 Trade &8▸ &aThe trade was successful!!'
+forced-trade: '&6 Trade &8▸ &fYou''ve been forced into a trade with &f%PLAYER%!'
+denied:
+  them: '&6 Trade &8▸ &cYour trade request to &e%PLAYER% &cwas denied!'
+  you: '&6 Trade &8▸ &cAny recent incoming trade requests have been denied!'
+spectate:
+  text: '&6 Trade &8▸ &6 Trade &8▸ &e%PLAYER1% &fand &e%PLAYER2% &fhave started a
+    trade!'
+  hover: '&aView Trade'
+antiscam:
+  discrepancy: '&6 Trade &8▸ &cA discrepancy was detected in the traded items!'
+admin:
+  configs-reloaded: '&6 Trade &8▸ &fConfigs reloaded!'
+  invalid-players: '&6 Trade &8▸ &cInvalid players!'
+  forced-trade: '&6 Trade &8▸ &fYou forced a trade between &e%PLAYER1% &fand &e%PLAYER2%&f!'
+  players-only: '&6 Trade &8▸ &cThis command is for players only!'
+  no-trade: '&6 Trade &8▸ &cNo trade was found with those arguments!'
+hooks:
+  factions:
+    enemy-territory: '&6 Trade &8▸ &cYou can''t trade in enemy territory!'
+  worldguard:
+    trading-not-allowed: '&6 Trade &8▸ &cYou can''t trade in this area!'

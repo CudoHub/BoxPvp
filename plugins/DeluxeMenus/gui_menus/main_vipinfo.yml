@@ -1,0 +1,189 @@
+menu_title: '&fVIP Information'
+open_command:
+- vipinfo
+- vipinformation
+- viphelp
+- vip
+- vipprice
+size: 36
+items:
+  vip:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQzNmViZmU1MTQ2ZWY2YTIzMjVkYjZhNjJlNmI1NmVkM2E4OWE2MzBmYjIxOWQ3NDdjMTUyMzg4ZDdjYzgyOSJ9fX0='
+    slot: 10
+    display_name: '&f𮯫'
+    lore:
+    - ''
+    - '&7Following are the features provided'
+    - '&7to you when you purchase a VIP tag.'
+    - ''
+    - '&dFeatures &8▸'
+    - '&8 ▪ &fTeleport time reset,'
+    - '&8 ▪ &fAccess to 𮰝,𮰞,𮰟 badges,'
+    - '&8 ▪ &f𮯫 tag in chat and tab,'
+    - '&8 ▪ &fWhite text color in chat,'
+    - '&8 ▪ &e/kit vip &fcommand,'
+    - '&8 ▪ &e/cosmetic &fcommand,'
+    - '&8 ▪ &e/ec &fcommand,'
+    - '&8 ▪ &e/back &fcommand.'
+    - ''
+    - '&cPrice &8▸ &f000$'
+    - ''
+    - '&aYou can learn the details on our website.'
+  vipplus:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQzNmViZmU1MTQ2ZWY2YTIzMjVkYjZhNjJlNmI1NmVkM2E4OWE2MzBmYjIxOWQ3NDdjMTUyMzg4ZDdjYzgyOSJ9fX0='
+    slot: 11
+    display_name: '&f𮯪'
+    lore:
+    - ''
+    - '&7Following are the features provided'
+    - '&7to you when you purchase a VIP tag.'
+    - ''
+    - '&dFeatures &8▸'
+    - '&8 ▪ &fTeleport time reset,'
+    - '&8 ▪ &fAccess to 𮰝,𮰞,𮰟 badges,'
+    - '&8 ▪ &fAccess to 𮰠,𮰡,𮰢 badges,'
+    - '&8 ▪ &f𮯪 tag in chat and tab,'
+    - '&8 ▪ &fWhite text color in chat,'
+    - '&8 ▪ &e/kit vip+ &fcommand,'
+    - '&8 ▪ &e/cosmetic &fcommand,'
+    - '&8 ▪ &e/ec &fcommand,'
+    - '&8 ▪ &e/back &fcommand.'
+    - ''
+    - '&cPrice &8▸ &f000$'
+    - ''
+    - '&aYou can learn the details on our website.'
+  mvip:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZkNmQ0OWNiZWI2NDgyNzVlYjg1YmEyMjcxMTkzZTg1ZDMxY2IyMGQ0NDMzYjliYzNjM2ZjY2JiNDM2OTFlOCJ9fX0='
+    slot: 15
+    display_name: '&f𮯩'
+    lore:
+    - ''
+    - '&7Following are the features provided'
+    - '&7to you when you purchase a VIP tag.'
+    - ''
+    - '&dFeatures &8▸'
+    - '&8 ▪ &fTeleport time reset,'
+    - '&8 ▪ &fAccess to 𮰝,𮰞,𮰟 badges,'
+    - '&8 ▪ &fAccess to 𮰠,𮰡,𮰢 badges,'
+    - '&8 ▪ &fAccess to 𮰣,𮰤,𮰥 badges,'
+    - '&8 ▪ &f𮯩 tag in chat and tab,'
+    - '&8 ▪ &fWhite text color in chat,'
+    - '&8 ▪ &e/kit mvip &fcommand,'
+    - '&8 ▪ &e/cosmetic &fcommand,'
+    - '&8 ▪ &e/ec &fcommand,'
+    - '&8 ▪ &e/back &fcommand.'
+    - ''
+    - '&cPrice &8▸ &f000$'
+    - ''
+    - '&aYou can learn the details on our website.'
+  mvipplus:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZkNmQ0OWNiZWI2NDgyNzVlYjg1YmEyMjcxMTkzZTg1ZDMxY2IyMGQ0NDMzYjliYzNjM2ZjY2JiNDM2OTFlOCJ9fX0='
+    slot: 16
+    display_name: '&f𮯨'
+    lore:
+    - ''
+    - '&7Following are the features provided'
+    - '&7to you when you purchase a VIP tag.'
+    - ''
+    - '&dFeatures &8▸'
+    - '&8 ▪ &fTeleport time reset,'
+    - '&8 ▪ &fAccess to 𮰝,𮰞,𮰟 badges,'
+    - '&8 ▪ &fAccess to 𮰠,𮰡,𮰢 badges,'
+    - '&8 ▪ &fAccess to 𮰣,𮰤,𮰥 badges,'
+    - '&8 ▪ &fAccess to 𮰦,𮰧,𮰨 badges,'
+    - '&8 ▪ &f𮯨 tag in chat and tab,'
+    - '&8 ▪ &fWhite text color in chat,'
+    - '&8 ▪ &e/kit mvip+ &fcommand,'
+    - '&8 ▪ &e/cosmetic &fcommand,'
+    - '&8 ▪ &e/ec &fcommand,'
+    - '&8 ▪ &e/back &fcommand.'
+    - ''
+    - '&cPrice &8▸ &f000$'
+    - ''
+    - '&aYou can learn the details on our website.'
+  rvip:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUxMGIxNmY2ZDNhNzhiNDVjOWEwMDFkMzk3NmUzZTJlMGMwMTI3NjBlYmEzYTkzNDI1MTY0MjkwZWVjNzBlYiJ9fX0='
+    slot: 21
+    display_name: '&f𮯧'
+    lore:
+    - ''
+    - '&7Following are the features provided'
+    - '&7to you when you purchase a VIP tag.'
+    - ''
+    - '&dFeatures &8▸'
+    - '&8 ▪ &fTeleport time reset,'
+    - '&8 ▪ &fAccess to 𮰝,𮰞,𮰟 badges,'
+    - '&8 ▪ &fAccess to 𮰠,𮰡,𮰢 badges,'
+    - '&8 ▪ &fAccess to 𮰣,𮰤,𮰥 badges,'
+    - '&8 ▪ &fAccess to 𮰦,𮰧,𮰨 badges,'
+    - '&8 ▪ &fAccess to 𮰩,𮰪,𮰫 badges,'
+    - '&8 ▪ &f𮯧 tag in chat and tab,'
+    - '&8 ▪ &fWhite text color in chat,'
+    - '&8 ▪ &e/kit rvip &fcommand,'
+    - '&8 ▪ &e/cosmetic &fcommand,'
+    - '&8 ▪ &e/ec &fcommand,'
+    - '&8 ▪ &e/back &fcommand.'
+    - ''
+    - '&cPrice &8▸ &f000$'
+    - ''
+    - '&aYou can learn the details on our website.'
+  rvipplus:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUxMGIxNmY2ZDNhNzhiNDVjOWEwMDFkMzk3NmUzZTJlMGMwMTI3NjBlYmEzYTkzNDI1MTY0MjkwZWVjNzBlYiJ9fX0='
+    slot: 23
+    display_name: '&f𮯦'
+    lore:
+    - ''
+    - '&7Following are the features provided'
+    - '&7to you when you purchase a VIP tag.'
+    - ''
+    - '&dFeatures &8▸'
+    - '&8 ▪ &fTeleport time reset,'
+    - '&8 ▪ &fAccess to 𮰝,𮰞,𮰟 badges,'
+    - '&8 ▪ &fAccess to 𮰠,𮰡,𮰢 badges,'
+    - '&8 ▪ &fAccess to 𮰣,𮰤,𮰥 badges,'
+    - '&8 ▪ &fAccess to 𮰦,𮰧,𮰨 badges,'
+    - '&8 ▪ &fAccess to 𮰩,𮰪,𮰫 badges,'
+    - '&8 ▪ &fAccess to 𮰬,𮰭,𮰮,𮰯,𮰰,𮰱 badges,'
+    - '&8 ▪ &f𮯦 tag in chat and tab,'
+    - '&8 ▪ &fWhite text color in chat,'
+    - '&8 ▪ &e/kit rvip+ &fcommand,'
+    - '&8 ▪ &e/cosmetic &fcommand,'
+    - '&8 ▪ &e/ec &fcommand,'
+    - '&8 ▪ &e/back &fcommand.'
+    - ''
+    - '&cPrice &8▸ &f000$'
+    - ''
+    - '&aYou can learn the details on our website.'
+  frame:
+    display_name: ' '
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 32
+    - 33
+    - 34
+    - 35
+  close:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0='
+    slot: 31
+    display_name: '&cClose Menu'
+    lore:
+    - '&7Click and close menu!'
+    click_commands:
+    - '[close]'

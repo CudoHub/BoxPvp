@@ -1,0 +1,449 @@
+# DeluxeTags version: 1.8.2-Release Main Configuration
+# 
+# Create your tags using the following format:
+# 
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+# 
+# Placeholders for your chat plugin that supports PlaceholderAPI (Including DeluxeChat)
+# 
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+# 
+# Placeholders for your essentials/chat handling formats config:
+# 
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+force_tags: false
+check_updates: false
+legacy_hex: false
+papi_chat: true
+format_chat:
+  enabled: false
+  format: ' '
+load_tag_on_join: true
+gui:
+  name: '&fBadges'
+  tag_select_item:
+    material: NAME_TAG
+    data: 0
+    displayname: '&eBadge &8[&f%deluxetags_tag%&8]'
+    lore:
+    - ''
+    - '%deluxetags_description%'
+  divider_item:
+    material: GRAY_STAINED_GLASS_PANE
+    data: 0
+    displayname: ''
+    lore: []
+  has_tag_item:
+    material: PLAYER_HEAD
+    data: 0
+    displayname: '&6Current Badge'
+    lore:
+    - ''
+    - '&7You can view your'
+    - '&7current badge here.'
+    - ''
+    - ' &7Current Badge &8▸ %deluxetags_tag%'
+    - ''
+    - '&cClick and remove badge!'
+  no_tag_item:
+    material: PLAYER_HEAD
+    data: 0
+    displayname: '&6Current Badge'
+    lore:
+    - ''
+    - '&7You can view your'
+    - '&7current badge here.'
+    - ''
+    - ' &7Current Badge &8▸ &cNone!'
+    - ''
+  exit_item:
+    material: CRIMSON_ROOTS
+    data: 0
+    displayname: '&cClose'
+    lore:
+    - '&7Click and close menu!'
+  next_page:
+    material: ARROW
+    data: 0
+    displayname: '&eNext Page'
+    lore:
+    - ''
+    - '&aClick and next page!'
+  previous_page:
+    material: ARROW
+    data: 0
+    displayname: '&eÖnceki Sayfa'
+    lore:
+    - ''
+    - '&aClick and prev page!'
+deluxetags:
+  rutbe_iron1:
+    order: 1
+    tag: '&f𮰎'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯰 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.iron
+  rutbe_iron2:
+    order: 2
+    tag: '&f𮰏'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯰 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.iron
+  rutbe_iron3:
+    order: 3
+    tag: '&f𮰐'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯰 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.iron
+  rutbe_gold1:
+    order: 4
+    tag: '&f𮰑'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯯 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.gold
+  rutbe_gold2:
+    order: 5
+    tag: '&f𮰒'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯯 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.gold
+  rutbe_gold3:
+    order: 6
+    tag: '&f𮰓'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯯 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.gold
+  rutbe_diamond1:
+    order: 7
+    tag: '&f𮰔'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯮 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.diamond
+  rutbe_diamond2:
+    order: 8
+    tag: '&f𮰕'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯮 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.diamond
+  rutbe_diamond3:
+    order: 9
+    tag: '&f𮰖'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯮 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.diamond
+  rutbe_emerald1:
+    order: 10
+    tag: '&f𮰗'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯭 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.emerald
+  rutbe_emerald2:
+    order: 11
+    tag: '&f𮰘'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯭 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.emerald
+  rutbe_emerald3:
+    order: 12
+    tag: '&f𮰙'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯭 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.emerald
+  rutbe_netherite1:
+    order: 13
+    tag: '&f𮰚'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯬 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.netherite
+  rutbe_netherite2:
+    order: 14
+    tag: '&f𮰛'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯬 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.netherite
+  rutbe_netherite3:
+    order: 15
+    tag: '&f𮰜'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯬 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.netherite
+  vip_vip1:
+    order: 16
+    tag: '&f𮰝'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯫 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.vip
+  vip_vip2:
+    order: 17
+    tag: '&f𮰞'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯫 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.vip
+  vip_vip3:
+    order: 18
+    tag: '&f𮰟'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯫 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.vip
+  vip_vipplus1:
+    order: 19
+    tag: '&f𮰠'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯪 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.vipplus
+  vip_vipplus2:
+    order: 20
+    tag: '&f𮰡'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯪 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.vipplus
+  vip_vipplus3:
+    order: 21
+    tag: '&f𮰢'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯪 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.vipplus
+  vip_mvip1:
+    order: 22
+    tag: '&f𮰣'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯩 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.mvip
+  vip_mvip2:
+    order: 23
+    tag: '&f𮰤'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯩 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.mvip
+  vip_mvip3:
+    order: 24
+    tag: '&f𮰥'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯩 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.mvip
+  vip_mvipplus1:
+    order: 25
+    tag: '&f𮰦'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯨 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.mvipplus
+  vip_mvipplus2:
+    order: 26
+    tag: '&f𮰧'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯨 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.mvipplus
+  vip_mvipplus3:
+    order: 27
+    tag: '&f𮰨'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯨 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.mvipplus
+  vip_rvip1:
+    order: 28
+    tag: '&f𮰩'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯧 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.rvip
+  vip_rvip2:
+    order: 29
+    tag: '&f𮰪'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯧 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.rvip
+  vip_rvip3:
+    order: 30
+    tag: '&f𮰫'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯧 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.rvip
+  vip_rvipplus1:
+    order: 31
+    tag: '&f𮰬'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯦 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.rvipplus
+  vip_rvipplus2:
+    order: 32
+    tag: '&f𮰭'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯦 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.rvipplus
+  vip_rvipplus3:
+    order: 33
+    tag: '&f𮰮'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯦 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.rvipplus
+  vip_rvipplus4:
+    order: 34
+    tag: '&f𮰯'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯦 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.rvipplus
+  vip_rvipplus5:
+    order: 35
+    tag: '&f𮰰'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯦 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.rvipplus
+  vip_rvipplus6:
+    order: 36
+    tag: '&f𮰱'
+    description:
+    - '&7Players with the rank'
+    - '&7of &f𮯦 &7can'
+    - '&7use this badge.'
+    - ''
+    - '&aClick and use!'
+    permission: deluxetags.tag.rvipplus

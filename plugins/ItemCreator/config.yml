@@ -1,0 +1,5703 @@
+items:
+  coin_coin1:
+    name: "&#fbfbfbC&#e8fce8O&#d4fcd6I&#c1fdc3N &8[&#adfdb0I&8]"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6000
+  coin_coin2:
+    name: "&#fbfbfbC&#d9e9fbO&#b7d7fcI&#96c5fcN &8[&#74b3fdI&#52a1fdI&8]"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6004
+  coin_coin3:
+    name: "&#fbfbfbC&#f8d4fbO&#f5aefcI&#f387fcN &8[&#f060fcI&#ed3afdI&#ea13fdI&8]"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6005
+  coin_coin4:
+    name: "&#fbfbfbC&#fbead1O&#fcdaa7I&#fcc97eN &8[&#fdb954I&#fda82aV&8]"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6002
+  coin_coin5:
+    name: "&#fbfbfbC&#fcc8c8O&#fc9595I&#fd6262N &8[&#fd2f2fV&8]"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6003
+  coin_ice:
+    name: "&#fbfbfbC&#dcecfbO&#bdddfcI&#9ecffcN &8[&#7ec0fcI&#5fb1fdC&#40a2fdE&8]"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6022
+  coin_flame:
+    name: "&#fbfbfbC&#fbd7d7O&#fcb3b3I&#fc8f8fN &8[&#fc6c6cF&#fc5151L&#fd3636A&#fd1b1bM&#fd0000E&8]"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6023
+  coin_nightmare:
+    name: "&#fbfbfbC&#fbe1fbO&#fbc7fcI&#faadfcN &8[&#fa94fcN&#fa87fcI&#fa7afcG&#fa6dfcH&#fa60fdT&#f953fdM&#f946fdA&#f939fdR&#f92cfdE&8]"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6024
+  coin_food:
+    name: "&#fdff86C&#f3ff80O&#e8ff7aI&#deff74N &8[&#d4ff6eF&#c6ff66O&#b8ff5dO&#aaff55D&8]"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6016
+  coin_item:
+    name: "&#fdff86C&#fdfb7bO&#fef671I&#fef266N &8[&#feed5cI&#fee951T&#ffe447E&#ffe03cM&8]"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6021
+  coin_vault:
+    name: "&#d53dfbC&#cf3bfbO&#ca38fcI&#c436fcN &8[&#bf33fcV&#bb31fcA&#b730fdU&#b22efdL&#ae2cfdT&8]"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6012
+  coin_luck:
+    name: "&#fc6cffC&#fc7debO&#fd8dd8I&#fd9ec4N &8[&#feafb1L&#fec09dU&#ffd08aC&#ffe176K&8]"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6014
+  shard_cobblestone:
+    name: "&#fbfbfbS&#eeeeeet&#e1e1e1o&#d3d3d3n&#c6c6c6e &#b9b9b9S&#acacach&#9e9e9ea&#919191r&#848484d"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6025
+  shard_coal:
+    name: "&#b7b7b7C&#a7a7a7o&#979797a&#878787l &#777777S&#676767h&#575757a&#474747r&#373737d"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6026
+  shard_redstone:
+    name: "&#ff9d9dR&#ff9292e&#ff8787d&#ff7c7cs&#ff7171t&#ff6666o&#ff5b5bn&#ff4f4fe &#ff4444S&#ff3939h&#ff2e2ea&#ff2323r&#ff1818d"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6027
+  shard_lapis:
+    name: "&#92f2ffL&#8de1ffa&#88d0ffp&#84bfffi&#7faeffs &#7a9effS&#758dffh&#717cffa&#6c6bffr&#675affd"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6028
+  shard_iron:
+    name: "&#ffffffI&#f6f6f6r&#eeeeeeo&#e5e5e5n &#dcdcdcS&#d3d3d3h&#cbcbcba&#c2c2c2r&#b9b9b9d"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6029
+  shard_gold:
+    name: "&#ffcf53G&#f6c449o&#eeba3el&#e5af34d &#dca52aS&#d39a1fh&#cb8f15a&#c2850ar&#b97a00d"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6030
+  shard_diamond:
+    name: "&#67fff6D&#61f0f0i&#5ae2eba&#54d3e5m&#4ec4e0o&#48b6dan&#41a7d5d &#3b99cfS&#358acah&#2f7bc4a&#286dbfr&#225eb9d"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6031
+  shard_emerald:
+    name: "&#7aff6fE&#77f968m&#73f261e&#70ec5br&#6ce654a&#69df4dl&#65d946d &#62d23fS&#5ecc38h&#5bc632a&#57bf2br&#54b924d"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6032
+  shard_endstone:
+    name: "&#fbf79aE&#fbf695n&#fbf58fd &#fcf58aS&#fcf485t&#fcf37fo&#fcf27an&#fcf175e &#fcf06fS&#fdf06ah&#fdef65a&#fdee5fr&#fded5ad"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6033
+  shard_prismarine:
+    name: "&#27fbc8P&#2bfbc4r&#30fbc0i&#34fbbcs&#38fcb8m&#3dfcb4a&#41fcb0r&#46fcaci&#4afca7n&#4efca3e &#53fc9fS&#57fd9bh&#5bfd97a&#60fd93r&#64fd8fd"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6034
+  shard_magma:
+    name: "&#fb5151M&#fb5851a&#fb5e50g&#fc6550m&#fc6b4fa &#fc724fS&#fc784eh&#fd7f4ea&#fd854dr&#fd8c4dd"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6035
+  shard_quartz:
+    name: "&#fbcacaQ&#f5bcbcu&#efafafa&#e9a1a1r&#e39393t&#dd8686z &#d67878S&#d06a6ah&#ca5c5ca&#c44f4fr&#be4141d"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6036
+  shard_netherbrick:
+    name: "&#fb0000N&#f70707e&#f30e0et&#ef1414h&#eb1b1be&#e72222r &#e32929B&#df3030r&#da3636i&#d63d3dc&#d24444k &#ce4b4bS&#ca5252h&#c65858a&#c25f5fr&#be6666d"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6037
+  shard_netherite:
+    name: "&#d0bcbcN&#c9b2b2e&#c2a8a8t&#ba9e9eh&#b39494e&#ac8a8ar&#a58080i&#9d7575t&#966b6be &#8f6161S&#885757h&#804d4da&#794343r&#723939d"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6038
+  shard_blackstone:
+    name: "&#ffffffB&#f6f6f6l&#ecececa&#e3e3e3c&#dadadak&#d0d0d0s&#c7c7c7t&#bebebeo&#b4b4b4n&#abababe &#a1a1a1S&#989898h&#8f8f8fa&#858585r&#7c7c7cd"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6039
+  shard_purpur:
+    name: "&#903098P&#9b36a2u&#a63dadr&#b043b7p&#bb49c1u&#c650ccr &#d156d6S&#dc5ce0h&#e662eaa&#f169f5r&#fc6fffd"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6040
+  shard_obsidian:
+    name: "&#5d2e98O&#6432a1b&#6b36a9s&#723ab2i&#783ebad&#7f42c3i&#8647cca&#8d4bd4n &#944fddS&#9b53e5h&#a157eea&#a85bf6r&#af5fffd"
+    item: PAPER
+    lore:
+      - ""
+      - "&7With this item, you can"
+      - "&7craft items in the villager"
+      - "&7trade area."
+    custommodeldata: 6041
+  item_fishing-rod:
+    name: "&#bbff86Fishing Rod"
+    item: FISHING_ROD
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_flint-and-steel:
+    name: "&#bbff86Flint And Steel"
+    item: FLINT_AND_STEEL
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-player:
+    name: "&#bbff86Player Kit"
+    item: LEATHER_HELMET
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-leather2:
+    name: "&#ffd492Leather Helmet &8[&#ffd492II&8]"
+    item: LEATHER_HELMET
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-leather3:
+    name: "&#ffd492Leather Helmet &8[&#ffd492III&8]"
+    item: LEATHER_HELMET
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-leather4:
+    name: "&#ffd492Leather Helmet &8[&#ffd492IV&8]"
+    item: LEATHER_HELMET
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-leather5:
+    name: "&#ffd492Leather Helmet &8[&#ffd492V&8]"
+    item: LEATHER_HELMET
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-leather6:
+    name: "&#ffd492Leather Helmet &8[&#ffd492VI&8]"
+    item: LEATHER_HELMET
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-leather7:
+    name: "&#ffd492Leather Helmet &8[&#ffd492VII&8]"
+    item: LEATHER_HELMET
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-leather8:
+    name: "&#ffd492Leather Helmet &8[&#ffd492VIII&8]"
+    item: LEATHER_HELMET
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-leather9:
+    name: "&#ffd492Leather Helmet &8[&#ffd492IX&8]"
+    item: LEATHER_HELMET
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-leather10:
+    name: "&#ffd492Leather Helmet &8[&#ffd492X&8]"
+    item: LEATHER_HELMET
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-chainmail1:
+    name: "&#a2a2a2Chainmail Helmet &8[&#a2a2a2I&8]"
+    item: CHAINMAIL_HELMET
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-chainmail2:
+    name: "&#a2a2a2Chainmail Helmet &8[&#a2a2a2II&8]"
+    item: CHAINMAIL_HELMET
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-chainmail3:
+    name: "&#a2a2a2Chainmail Helmet &8[&#a2a2a2III&8]"
+    item: CHAINMAIL_HELMET
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-chainmail4:
+    name: "&#a2a2a2Chainmail Helmet &8[&#a2a2a2IV&8]"
+    item: CHAINMAIL_HELMET
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-chainmail5:
+    name: "&#a2a2a2Chainmail Helmet &8[&#a2a2a2V&8]"
+    item: CHAINMAIL_HELMET
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-chainmail6:
+    name: "&#a2a2a2Chainmail Helmet &8[&#a2a2a2VI&8]"
+    item: CHAINMAIL_HELMET
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-chainmail7:
+    name: "&#a2a2a2Chainmail Helmet &8[&#a2a2a2VII&8]"
+    item: CHAINMAIL_HELMET
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-chainmail8:
+    name: "&#a2a2a2Chainmail Helmet &8[&#a2a2a2VIII&8]"
+    item: CHAINMAIL_HELMET
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-chainmail9:
+    name: "&#a2a2a2Chainmail Helmet &8[&#a2a2a2IX&8]"
+    item: CHAINMAIL_HELMET
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-chainmail10:
+    name: "&#a2a2a2Chainmail Helmet &8[&#a2a2a2X&8]"
+    item: CHAINMAIL_HELMET
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-iron1:
+    name: "&#e4e4e4Iron Helmet &8[&#e4e4e4I&8]"
+    item: IRON_HELMET
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-iron2:
+    name: "&#e4e4e4Iron Helmet &8[&#e4e4e4II&8]"
+    item: IRON_HELMET
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-iron3:
+    name: "&#e4e4e4Iron Helmet &8[&#e4e4e4III&8]"
+    item: IRON_HELMET
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-iron4:
+    name: "&#e4e4e4Iron Helmet &8[&#e4e4e4IV&8]"
+    item: IRON_HELMET
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-iron5:
+    name: "&#e4e4e4Iron Helmet &8[&#e4e4e4V&8]"
+    item: IRON_HELMET
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-iron6:
+    name: "&#e4e4e4Iron Helmet &8[&#e4e4e4VI&8]"
+    item: IRON_HELMET
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-iron7:
+    name: "&#e4e4e4Iron Helmet &8[&#e4e4e4VII&8]"
+    item: IRON_HELMET
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-iron8:
+    name: "&#e4e4e4Iron Helmet &8[&#e4e4e4VIII&8]"
+    item: IRON_HELMET
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-iron9:
+    name: "&#e4e4e4Iron Helmet &8[&#e4e4e4IX&8]"
+    item: IRON_HELMET
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-iron10:
+    name: "&#e4e4e4Iron Helmet &8[&#e4e4e4X&8]"
+    item: IRON_HELMET
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-diamond1:
+    name: "&#31cfe4Diamond Helmet &8[&#31cfe4I&8]"
+    item: DIAMOND_HELMET
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-diamond2:
+    name: "&#31cfe4Diamond Helmet &8[&#31cfe4II&8]"
+    item: DIAMOND_HELMET
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-diamond3:
+    name: "&#31cfe4Diamond Helmet &8[&#31cfe4III&8]"
+    item: DIAMOND_HELMET
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-diamond4:
+    name: "&#31cfe4Diamond Helmet &8[&#31cfe4IV&8]"
+    item: DIAMOND_HELMET
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-diamond5:
+    name: "&#31cfe4Diamond Helmet &8[&#31cfe4V&8]"
+    item: DIAMOND_HELMET
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-diamond6:
+    name: "&#31cfe4Diamond Helmet &8[&#31cfe4VI&8]"
+    item: DIAMOND_HELMET
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-diamond7:
+    name: "&#31cfe4Diamond Helmet &8[&#31cfe4VII&8]"
+    item: DIAMOND_HELMET
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-diamond8:
+    name: "&#31cfe4Diamond Helmet &8[&#31cfe4VIII&8]"
+    item: DIAMOND_HELMET
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-diamond9:
+    name: "&#31cfe4Diamond Helmet &8[&#31cfe4IX&8]"
+    item: DIAMOND_HELMET
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-diamond10:
+    name: "&#31cfe4Diamond Helmet &8[&#31cfe4X&8]"
+    item: DIAMOND_HELMET
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-netherite5:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9H&#b3b3b3e&#bebebel&#c8c8c8m&#d3d3d3e&#ddddddt &8[&#D38BFFV&8]"
+    item: NETHERITE_HELMET
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-netherite6:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9H&#b3b3b3e&#bebebel&#c8c8c8m&#d3d3d3e&#ddddddt &8[&#D38BFFVI&8]"
+    item: NETHERITE_HELMET
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-netherite7:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9H&#b3b3b3e&#bebebel&#c8c8c8m&#d3d3d3e&#ddddddt &8[&#D38BFFVII&8]"
+    item: NETHERITE_HELMET
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-netherite8:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9H&#b3b3b3e&#bebebel&#c8c8c8m&#d3d3d3e&#ddddddt &8[&#D38BFFVIII&8]"
+    item: NETHERITE_HELMET
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-netherite9:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9H&#b3b3b3e&#bebebel&#c8c8c8m&#d3d3d3e&#ddddddt &8[&#D38BFFIX&8]"
+    item: NETHERITE_HELMET
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_helmet-netherite10:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9H&#b3b3b3e&#bebebel&#c8c8c8m&#d3d3d3e&#ddddddt &8[&#D38BFFX&8]"
+    item: NETHERITE_HELMET
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-player:
+    name: "&#bbff86Player Kit"
+    item: LEATHER_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-leather2:
+    name: "&#ffd492Leather Chestplate &8[&#ffd492II&8]"
+    item: LEATHER_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-leather3:
+    name: "&#ffd492Leather Chestplate &8[&#ffd492III&8]"
+    item: LEATHER_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-leather4:
+    name: "&#ffd492Leather Chestplate &8[&#ffd492IV&8]"
+    item: LEATHER_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-leather5:
+    name: "&#ffd492Leather Chestplate &8[&#ffd492V&8]"
+    item: LEATHER_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-leather6:
+    name: "&#ffd492Leather Chestplate &8[&#ffd492VI&8]"
+    item: LEATHER_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-leather7:
+    name: "&#ffd492Leather Chestplate &8[&#ffd492VII&8]"
+    item: LEATHER_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-leather8:
+    name: "&#ffd492Leather Chestplate &8[&#ffd492VIII&8]"
+    item: LEATHER_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-leather9:
+    name: "&#ffd492Leather Chestplate &8[&#ffd492IX&8]"
+    item: LEATHER_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-leather10:
+    name: "&#ffd492Leather Chestplate &8[&#ffd492X&8]"
+    item: LEATHER_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-chainmail1:
+    name: "&#a2a2a2Chainmail Chestplate &8[&#a2a2a2I&8]"
+    item: CHAINMAIL_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-chainmail2:
+    name: "&#a2a2a2Chainmail Chestplate &8[&#a2a2a2II&8]"
+    item: CHAINMAIL_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-chainmail3:
+    name: "&#a2a2a2Chainmail Chestplate &8[&#a2a2a2III&8]"
+    item: CHAINMAIL_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-chainmail4:
+    name: "&#a2a2a2Chainmail Chestplate &8[&#a2a2a2IV&8]"
+    item: CHAINMAIL_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-chainmail5:
+    name: "&#a2a2a2Chainmail Chestplate &8[&#a2a2a2V&8]"
+    item: CHAINMAIL_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-chainmail6:
+    name: "&#a2a2a2Chainmail Chestplate &8[&#a2a2a2VI&8]"
+    item: CHAINMAIL_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-chainmail7:
+    name: "&#a2a2a2Chainmail Chestplate &8[&#a2a2a2VII&8]"
+    item: CHAINMAIL_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-chainmail8:
+    name: "&#a2a2a2Chainmail Chestplate &8[&#a2a2a2VIII&8]"
+    item: CHAINMAIL_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-chainmail9:
+    name: "&#a2a2a2Chainmail Chestplate &8[&#a2a2a2IX&8]"
+    item: CHAINMAIL_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-chainmail10:
+    name: "&#a2a2a2Chainmail Chestplate &8[&#a2a2a2X&8]"
+    item: CHAINMAIL_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-iron1:
+    name: "&#e4e4e4Iron Chestplate &8[&#e4e4e4I&8]"
+    item: IRON_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-iron2:
+    name: "&#e4e4e4Iron Chestplate &8[&#e4e4e4II&8]"
+    item: IRON_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-iron3:
+    name: "&#e4e4e4Iron Chestplate &8[&#e4e4e4III&8]"
+    item: IRON_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-iron4:
+    name: "&#e4e4e4Iron Chestplate &8[&#e4e4e4IV&8]"
+    item: IRON_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-iron5:
+    name: "&#e4e4e4Iron Chestplate &8[&#e4e4e4V&8]"
+    item: IRON_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-iron6:
+    name: "&#e4e4e4Iron Chestplate &8[&#e4e4e4VI&8]"
+    item: IRON_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-iron7:
+    name: "&#e4e4e4Iron Chestplate &8[&#e4e4e4VII&8]"
+    item: IRON_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-iron8:
+    name: "&#e4e4e4Iron Chestplate &8[&#e4e4e4VIII&8]"
+    item: IRON_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-iron9:
+    name: "&#e4e4e4Iron Chestplate &8[&#e4e4e4IX&8]"
+    item: IRON_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-iron10:
+    name: "&#e4e4e4Iron Chestplate &8[&#e4e4e4X&8]"
+    item: IRON_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-diamond1:
+    name: "&#31cfe4Diamond Chestplate &8[&#31cfe4I&8]"
+    item: DIAMOND_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-diamond2:
+    name: "&#31cfe4Diamond Chestplate &8[&#31cfe4II&8]"
+    item: DIAMOND_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-diamond3:
+    name: "&#31cfe4Diamond Chestplate &8[&#31cfe4III&8]"
+    item: DIAMOND_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-diamond4:
+    name: "&#31cfe4Diamond Chestplate &8[&#31cfe4IV&8]"
+    item: DIAMOND_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-diamond5:
+    name: "&#31cfe4Diamond Chestplate &8[&#31cfe4V&8]"
+    item: DIAMOND_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-diamond6:
+    name: "&#31cfe4Diamond Chestplate &8[&#31cfe4VI&8]"
+    item: DIAMOND_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-diamond7:
+    name: "&#31cfe4Diamond Chestplate &8[&#31cfe4VII&8]"
+    item: DIAMOND_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-diamond8:
+    name: "&#31cfe4Diamond Chestplate &8[&#31cfe4VIII&8]"
+    item: DIAMOND_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-diamond9:
+    name: "&#31cfe4Diamond Chestplate &8[&#31cfe4IX&8]"
+    item: DIAMOND_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-diamond10:
+    name: "&#31cfe4Diamond Chestplate &8[&#31cfe4X&8]"
+    item: DIAMOND_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-netherite5:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9C&#afafafh&#b5b5b5e&#bababas&#c0c0c0t&#c6c6c6p&#ccccccl&#d1d1d1a&#d7d7d7t&#dddddde &8[&#D38BFFV&8]"
+    item: NETHERITE_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-netherite6:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9C&#afafafh&#b5b5b5e&#bababas&#c0c0c0t&#c6c6c6p&#ccccccl&#d1d1d1a&#d7d7d7t&#dddddde &8[&#D38BFFVI&8]"
+    item: NETHERITE_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-netherite7:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9C&#afafafh&#b5b5b5e&#bababas&#c0c0c0t&#c6c6c6p&#ccccccl&#d1d1d1a&#d7d7d7t&#dddddde &8[&#D38BFFVII&8]"
+    item: NETHERITE_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-netherite8:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9C&#afafafh&#b5b5b5e&#bababas&#c0c0c0t&#c6c6c6p&#ccccccl&#d1d1d1a&#d7d7d7t&#dddddde &8[&#D38BFFVIII&8]"
+    item: NETHERITE_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-netherite9:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9C&#afafafh&#b5b5b5e&#bababas&#c0c0c0t&#c6c6c6p&#ccccccl&#d1d1d1a&#d7d7d7t&#dddddde &8[&#D38BFFIX&8]"
+    item: NETHERITE_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_chestplate-netherite10:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9C&#afafafh&#b5b5b5e&#bababas&#c0c0c0t&#c6c6c6p&#ccccccl&#d1d1d1a&#d7d7d7t&#dddddde &8[&#D38BFFX&8]"
+    item: NETHERITE_CHESTPLATE
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-player:
+    name: "&#bbff86Player Kit"
+    item: LEATHER_LEGGINGS
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-leather2:
+    name: "&#ffd492Leather Leggings &8[&#ffd492II&8]"
+    item: LEATHER_LEGGINGS
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-leather3:
+    name: "&#ffd492Leather Leggings &8[&#ffd492III&8]"
+    item: LEATHER_LEGGINGS
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-leather4:
+    name: "&#ffd492Leather Leggings &8[&#ffd492IV&8]"
+    item: LEATHER_LEGGINGS
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-leather5:
+    name: "&#ffd492Leather Leggings &8[&#ffd492V&8]"
+    item: LEATHER_LEGGINGS
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-leather6:
+    name: "&#ffd492Leather Leggings &8[&#ffd492VI&8]"
+    item: LEATHER_LEGGINGS
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-leather7:
+    name: "&#ffd492Leather Leggings &8[&#ffd492VII&8]"
+    item: LEATHER_LEGGINGS
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-leather8:
+    name: "&#ffd492Leather Leggings &8[&#ffd492VIII&8]"
+    item: LEATHER_LEGGINGS
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-leather9:
+    name: "&#ffd492Leather Leggings &8[&#ffd492IX&8]"
+    item: LEATHER_LEGGINGS
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-leather10:
+    name: "&#ffd492Leather Leggings &8[&#ffd492X&8]"
+    item: LEATHER_LEGGINGS
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-chainmail1:
+    name: "&#a2a2a2Chainmail Leggings &8[&#a2a2a2I&8]"
+    item: CHAINMAIL_LEGGINGS
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-chainmail2:
+    name: "&#a2a2a2Chainmail Leggings &8[&#a2a2a2II&8]"
+    item: CHAINMAIL_LEGGINGS
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-chainmail3:
+    name: "&#a2a2a2Chainmail Leggings &8[&#a2a2a2III&8]"
+    item: CHAINMAIL_LEGGINGS
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-chainmail4:
+    name: "&#a2a2a2Chainmail Leggings &8[&#a2a2a2IV&8]"
+    item: CHAINMAIL_LEGGINGS
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-chainmail5:
+    name: "&#a2a2a2Chainmail Leggings &8[&#a2a2a2V&8]"
+    item: CHAINMAIL_LEGGINGS
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-chainmail6:
+    name: "&#a2a2a2Chainmail Leggings &8[&#a2a2a2VI&8]"
+    item: CHAINMAIL_LEGGINGS
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-chainmail7:
+    name: "&#a2a2a2Chainmail Leggings &8[&#a2a2a2VII&8]"
+    item: CHAINMAIL_LEGGINGS
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-chainmail8:
+    name: "&#a2a2a2Chainmail Leggings &8[&#a2a2a2VIII&8]"
+    item: CHAINMAIL_LEGGINGS
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-chainmail9:
+    name: "&#a2a2a2Chainmail Leggings &8[&#a2a2a2IX&8]"
+    item: CHAINMAIL_LEGGINGS
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-chainmail10:
+    name: "&#a2a2a2Chainmail Leggings &8[&#a2a2a2X&8]"
+    item: CHAINMAIL_LEGGINGS
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-iron1:
+    name: "&#e4e4e4Iron Leggings &8[&#e4e4e4I&8]"
+    item: IRON_LEGGINGS
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-iron2:
+    name: "&#e4e4e4Iron Leggings &8[&#e4e4e4II&8]"
+    item: IRON_LEGGINGS
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-iron3:
+    name: "&#e4e4e4Iron Leggings &8[&#e4e4e4III&8]"
+    item: IRON_LEGGINGS
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-iron4:
+    name: "&#e4e4e4Iron Leggings &8[&#e4e4e4IV&8]"
+    item: IRON_LEGGINGS
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-iron5:
+    name: "&#e4e4e4Iron Leggings &8[&#e4e4e4V&8]"
+    item: IRON_LEGGINGS
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-iron6:
+    name: "&#e4e4e4Iron Leggings &8[&#e4e4e4VI&8]"
+    item: IRON_LEGGINGS
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-iron7:
+    name: "&#e4e4e4Iron Leggings &8[&#e4e4e4VII&8]"
+    item: IRON_LEGGINGS
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-iron8:
+    name: "&#e4e4e4Iron Leggings &8[&#e4e4e4VIII&8]"
+    item: IRON_LEGGINGS
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-iron9:
+    name: "&#e4e4e4Iron Leggings &8[&#e4e4e4IX&8]"
+    item: IRON_LEGGINGS
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-iron10:
+    name: "&#e4e4e4Iron Leggings &8[&#e4e4e4X&8]"
+    item: IRON_LEGGINGS
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-diamond1:
+    name: "&#31cfe4Diamond Leggings &8[&#31cfe4I&8]"
+    item: DIAMOND_LEGGINGS
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-diamond2:
+    name: "&#31cfe4Diamond Leggings &8[&#31cfe4II&8]"
+    item: DIAMOND_LEGGINGS
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-diamond3:
+    name: "&#31cfe4Diamond Leggings &8[&#31cfe4III&8]"
+    item: DIAMOND_LEGGINGS
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-diamond4:
+    name: "&#31cfe4Diamond Leggings &8[&#31cfe4IV&8]"
+    item: DIAMOND_LEGGINGS
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-diamond5:
+    name: "&#31cfe4Diamond Leggings &8[&#31cfe4V&8]"
+    item: DIAMOND_LEGGINGS
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-diamond6:
+    name: "&#31cfe4Diamond Leggings &8[&#31cfe4VI&8]"
+    item: DIAMOND_LEGGINGS
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-diamond7:
+    name: "&#31cfe4Diamond Leggings &8[&#31cfe4VII&8]"
+    item: DIAMOND_LEGGINGS
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-diamond8:
+    name: "&#31cfe4Diamond Leggings &8[&#31cfe4VIII&8]"
+    item: DIAMOND_LEGGINGS
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-diamond9:
+    name: "&#31cfe4Diamond Leggings &8[&#31cfe4IX&8]"
+    item: DIAMOND_LEGGINGS
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-diamond10:
+    name: "&#31cfe4Diamond Leggings &8[&#31cfe4X&8]"
+    item: DIAMOND_LEGGINGS
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-netherite5:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9L&#b0b0b0e&#b8b8b8g&#bfbfbfg&#c7c7c7i&#cececen&#d6d6d6g&#dddddds &8[&#D38BFFV&8]"
+    item: NETHERITE_LEGGINGS
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-netherite6:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9L&#b0b0b0e&#b8b8b8g&#bfbfbfg&#c7c7c7i&#cececen&#d6d6d6g&#dddddds &8[&#D38BFFVI&8]"
+    item: NETHERITE_LEGGINGS
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-netherite7:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9L&#b0b0b0e&#b8b8b8g&#bfbfbfg&#c7c7c7i&#cececen&#d6d6d6g&#dddddds &8[&#D38BFFVII&8]"
+    item: NETHERITE_LEGGINGS
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-netherite8:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9L&#b0b0b0e&#b8b8b8g&#bfbfbfg&#c7c7c7i&#cececen&#d6d6d6g&#dddddds &8[&#D38BFFVIII&8]"
+    item: NETHERITE_LEGGINGS
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-netherite9:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9L&#b0b0b0e&#b8b8b8g&#bfbfbfg&#c7c7c7i&#cececen&#d6d6d6g&#dddddds &8[&#D38BFFIX&8]"
+    item: NETHERITE_LEGGINGS
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_leggings-netherite10:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9L&#b0b0b0e&#b8b8b8g&#bfbfbfg&#c7c7c7i&#cececen&#d6d6d6g&#dddddds &8[&#D38BFFX&8]"
+    item: NETHERITE_LEGGINGS
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-player:
+    name: "&#bbff86Player Kit"
+    item: LEATHER_BOOTS
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-leather2:
+    name: "&#ffd492Leather Boots &8[&#ffd492II&8]"
+    item: LEATHER_BOOTS
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-leather3:
+    name: "&#ffd492Leather Boots &8[&#ffd492III&8]"
+    item: LEATHER_BOOTS
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-leather4:
+    name: "&#ffd492Leather Boots &8[&#ffd492IV&8]"
+    item: LEATHER_BOOTS
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-leather5:
+    name: "&#ffd492Leather Boots &8[&#ffd492V&8]"
+    item: LEATHER_BOOTS
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-leather6:
+    name: "&#ffd492Leather Boots &8[&#ffd492VI&8]"
+    item: LEATHER_BOOTS
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-leather7:
+    name: "&#ffd492Leather Boots &8[&#ffd492VII&8]"
+    item: LEATHER_BOOTS
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-leather8:
+    name: "&#ffd492Leather Boots &8[&#ffd492VIII&8]"
+    item: LEATHER_BOOTS
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-leather9:
+    name: "&#ffd492Leather Boots &8[&#ffd492IX&8]"
+    item: LEATHER_BOOTS
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-leather10:
+    name: "&#ffd492Leather Boots &8[&#ffd492X&8]"
+    item: LEATHER_BOOTS
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-chainmail1:
+    name: "&#a2a2a2Chainmail Boots &8[&#a2a2a2I&8]"
+    item: CHAINMAIL_BOOTS
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-chainmail2:
+    name: "&#a2a2a2Chainmail Boots &8[&#a2a2a2II&8]"
+    item: CHAINMAIL_BOOTS
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-chainmail3:
+    name: "&#a2a2a2Chainmail Boots &8[&#a2a2a2III&8]"
+    item: CHAINMAIL_BOOTS
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-chainmail4:
+    name: "&#a2a2a2Chainmail Boots &8[&#a2a2a2IV&8]"
+    item: CHAINMAIL_BOOTS
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-chainmail5:
+    name: "&#a2a2a2Chainmail Boots &8[&#a2a2a2V&8]"
+    item: CHAINMAIL_BOOTS
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-chainmail6:
+    name: "&#a2a2a2Chainmail Boots &8[&#a2a2a2VI&8]"
+    item: CHAINMAIL_BOOTS
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-chainmail7:
+    name: "&#a2a2a2Chainmail Boots &8[&#a2a2a2VII&8]"
+    item: CHAINMAIL_BOOTS
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-chainmail8:
+    name: "&#a2a2a2Chainmail Boots &8[&#a2a2a2VIII&8]"
+    item: CHAINMAIL_BOOTS
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-chainmail9:
+    name: "&#a2a2a2Chainmail Boots &8[&#a2a2a2IX&8]"
+    item: CHAINMAIL_BOOTS
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-chainmail10:
+    name: "&#a2a2a2Chainmail Boots &8[&#a2a2a2X&8]"
+    item: CHAINMAIL_BOOTS
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-iron1:
+    name: "&#e4e4e4Iron Boots &8[&#e4e4e4I&8]"
+    item: IRON_BOOTS
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-iron2:
+    name: "&#e4e4e4Iron Boots &8[&#e4e4e4II&8]"
+    item: IRON_BOOTS
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-iron3:
+    name: "&#e4e4e4Iron Boots &8[&#e4e4e4III&8]"
+    item: IRON_BOOTS
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-iron4:
+    name: "&#e4e4e4Iron Boots &8[&#e4e4e4IV&8]"
+    item: IRON_BOOTS
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-iron5:
+    name: "&#e4e4e4Iron Boots &8[&#e4e4e4V&8]"
+    item: IRON_BOOTS
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-iron6:
+    name: "&#e4e4e4Iron Boots &8[&#e4e4e4VI&8]"
+    item: IRON_BOOTS
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-iron7:
+    name: "&#e4e4e4Iron Boots &8[&#e4e4e4VII&8]"
+    item: IRON_BOOTS
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-iron8:
+    name: "&#e4e4e4Iron Boots &8[&#e4e4e4VIII&8]"
+    item: IRON_BOOTS
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-iron9:
+    name: "&#e4e4e4Iron Boots &8[&#e4e4e4IX&8]"
+    item: IRON_BOOTS
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-iron10:
+    name: "&#e4e4e4Iron Boots &8[&#e4e4e4X&8]"
+    item: IRON_BOOTS
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-diamond1:
+    name: "&#31cfe4Diamond Boots &8[&#31cfe4I&8]"
+    item: DIAMOND_BOOTS
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-diamond2:
+    name: "&#31cfe4Diamond Boots &8[&#31cfe4II&8]"
+    item: DIAMOND_BOOTS
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-diamond3:
+    name: "&#31cfe4Diamond Boots &8[&#31cfe4III&8]"
+    item: DIAMOND_BOOTS
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-diamond4:
+    name: "&#31cfe4Diamond Boots &8[&#31cfe4IV&8]"
+    item: DIAMOND_BOOTS
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-diamond5:
+    name: "&#31cfe4Diamond Boots &8[&#31cfe4V&8]"
+    item: DIAMOND_BOOTS
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-diamond6:
+    name: "&#31cfe4Diamond Boots &8[&#31cfe4VI&8]"
+    item: DIAMOND_BOOTS
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-diamond7:
+    name: "&#31cfe4Diamond Boots &8[&#31cfe4VII&8]"
+    item: DIAMOND_BOOTS
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-diamond8:
+    name: "&#31cfe4Diamond Boots &8[&#31cfe4VIII&8]"
+    item: DIAMOND_BOOTS
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-diamond9:
+    name: "&#31cfe4Diamond Boots &8[&#31cfe4IX&8]"
+    item: DIAMOND_BOOTS
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-diamond10:
+    name: "&#31cfe4Diamond Boots &8[&#31cfe4X&8]"
+    item: DIAMOND_BOOTS
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-netherite5:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9B&#b6b6b6o&#c3c3c3o&#d0d0d0t&#dddddds &8[&#D38BFFV&8]"
+    item: NETHERITE_BOOTS
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-netherite6:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9B&#b6b6b6o&#c3c3c3o&#d0d0d0t&#dddddds &8[&#D38BFFVI&8]"
+    item: NETHERITE_BOOTS
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-netherite7:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9B&#b6b6b6o&#c3c3c3o&#d0d0d0t&#dddddds &8[&#D38BFFVII&8]"
+    item: NETHERITE_BOOTS
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-netherite8:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9B&#b6b6b6o&#c3c3c3o&#d0d0d0t&#dddddds &8[&#D38BFFVIII&8]"
+    item: NETHERITE_BOOTS
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-netherite9:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9B&#b6b6b6o&#c3c3c3o&#d0d0d0t&#dddddds &8[&#D38BFFIX&8]"
+    item: NETHERITE_BOOTS
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_boots-netherite10:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9B&#b6b6b6o&#c3c3c3o&#d0d0d0t&#dddddds &8[&#D38BFFX&8]"
+    item: NETHERITE_BOOTS
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-player:
+    name: "&#bbff86Player Kit"
+    item: WOODEN_SWORD
+    enchantments:
+      - "minecraft:sharpness:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-wooden2:
+    name: "&#ffd492Wooden Sword &8[&#ffd492II&8]"
+    item: WOODEN_SWORD
+    enchantments:
+      - "minecraft:sharpness:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-wooden3:
+    name: "&#ffd492Wooden Sword &8[&#ffd492III&8]"
+    item: WOODEN_SWORD
+    enchantments:
+      - "minecraft:sharpness:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-wooden4:
+    name: "&#ffd492Wooden Sword &8[&#ffd492IV&8]"
+    item: WOODEN_SWORD
+    enchantments:
+      - "minecraft:sharpness:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-wooden5:
+    name: "&#ffd492Wooden Sword &8[&#ffd492V&8]"
+    item: WOODEN_SWORD
+    enchantments:
+      - "minecraft:sharpness:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-wooden6:
+    name: "&#ffd492Wooden Sword &8[&#ffd492VI&8]"
+    item: WOODEN_SWORD
+    enchantments:
+      - "minecraft:sharpness:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-wooden7:
+    name: "&#ffd492Wooden Sword &8[&#ffd492VII&8]"
+    item: WOODEN_SWORD
+    enchantments:
+      - "minecraft:sharpness:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-wooden8:
+    name: "&#ffd492Wooden Sword &8[&#ffd492VIII&8]"
+    item: WOODEN_SWORD
+    enchantments:
+      - "minecraft:sharpness:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-wooden9:
+    name: "&#ffd492Wooden Sword &8[&#ffd492IX&8]"
+    item: WOODEN_SWORD
+    enchantments:
+      - "minecraft:sharpness:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-wooden10:
+    name: "&#ffd492Wooden Sword &8[&#ffd492X&8]"
+    item: WOODEN_SWORD
+    enchantments:
+      - "minecraft:sharpness:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-stone1:
+    name: "&#a2a2a2Stone Sword &8[&#a2a2a2I&8]"
+    item: STONE_SWORD
+    enchantments:
+      - "minecraft:sharpness:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-stone2:
+    name: "&#a2a2a2Stone Sword &8[&#a2a2a2II&8]"
+    item: STONE_SWORD
+    enchantments:
+      - "minecraft:sharpness:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-stone3:
+    name: "&#a2a2a2Stone Sword &8[&#a2a2a2III&8]"
+    item: STONE_SWORD
+    enchantments:
+      - "minecraft:sharpness:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-stone4:
+    name: "&#a2a2a2Stone Sword &8[&#a2a2a2IV&8]"
+    item: STONE_SWORD
+    enchantments:
+      - "minecraft:sharpness:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-stone5:
+    name: "&#a2a2a2Stone Sword &8[&#a2a2a2V&8]"
+    item: STONE_SWORD
+    enchantments:
+      - "minecraft:sharpness:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-stone6:
+    name: "&#a2a2a2Stone Sword &8[&#a2a2a2VI&8]"
+    item: STONE_SWORD
+    enchantments:
+      - "minecraft:sharpness:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-stone7:
+    name: "&#a2a2a2Stone Sword &8[&#a2a2a2VII&8]"
+    item: STONE_SWORD
+    enchantments:
+      - "minecraft:sharpness:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-stone8:
+    name: "&#a2a2a2Stone Sword &8[&#a2a2a2VIII&8]"
+    item: STONE_SWORD
+    enchantments:
+      - "minecraft:sharpness:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-stone9:
+    name: "&#a2a2a2Stone Sword &8[&#a2a2a2IX&8]"
+    item: STONE_SWORD
+    enchantments:
+      - "minecraft:sharpness:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-stone10:
+    name: "&#a2a2a2Stone Sword &8[&#a2a2a2X&8]"
+    item: STONE_SWORD
+    enchantments:
+      - "minecraft:sharpness:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-iron1:
+    name: "&#e4e4e4Iron Sword &8[&#e4e4e4I&8]"
+    item: IRON_SWORD
+    enchantments:
+      - "minecraft:sharpness:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-iron2:
+    name: "&#e4e4e4Iron Sword &8[&#e4e4e4II&8]"
+    item: IRON_SWORD
+    enchantments:
+      - "minecraft:sharpness:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-iron3:
+    name: "&#e4e4e4Iron Sword &8[&#e4e4e4III&8]"
+    item: IRON_SWORD
+    enchantments:
+      - "minecraft:sharpness:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-iron4:
+    name: "&#e4e4e4Iron Sword &8[&#e4e4e4IV&8]"
+    item: IRON_SWORD
+    enchantments:
+      - "minecraft:sharpness:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-iron5:
+    name: "&#e4e4e4Iron Sword &8[&#e4e4e4V&8]"
+    item: IRON_SWORD
+    enchantments:
+      - "minecraft:sharpness:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-iron6:
+    name: "&#e4e4e4Iron Sword &8[&#e4e4e4VI&8]"
+    item: IRON_SWORD
+    enchantments:
+      - "minecraft:sharpness:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-iron7:
+    name: "&#e4e4e4Iron Sword &8[&#e4e4e4VII&8]"
+    item: IRON_SWORD
+    enchantments:
+      - "minecraft:sharpness:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-iron8:
+    name: "&#e4e4e4Iron Sword &8[&#e4e4e4VIII&8]"
+    item: IRON_SWORD
+    enchantments:
+      - "minecraft:sharpness:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-iron9:
+    name: "&#e4e4e4Iron Sword &8[&#e4e4e4IX&8]"
+    item: IRON_SWORD
+    enchantments:
+      - "minecraft:sharpness:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-iron10:
+    name: "&#e4e4e4Iron Sword &8[&#e4e4e4X&8]"
+    item: IRON_SWORD
+    enchantments:
+      - "minecraft:sharpness:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-diamond1:
+    name: "&#31cfe4Diamond Sword &8[&#31cfe4I&8]"
+    item: DIAMOND_SWORD
+    enchantments:
+      - "minecraft:sharpness:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-diamond2:
+    name: "&#31cfe4Diamond Sword &8[&#31cfe4II&8]"
+    item: DIAMOND_SWORD
+    enchantments:
+      - "minecraft:sharpness:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-diamond3:
+    name: "&#31cfe4Diamond Sword &8[&#31cfe4III&8]"
+    item: DIAMOND_SWORD
+    enchantments:
+      - "minecraft:sharpness:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-diamond4:
+    name: "&#31cfe4Diamond Sword &8[&#31cfe4IV&8]"
+    item: DIAMOND_SWORD
+    enchantments:
+      - "minecraft:sharpness:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-diamond5:
+    name: "&#31cfe4Diamond Sword &8[&#31cfe4V&8]"
+    item: DIAMOND_SWORD
+    enchantments:
+      - "minecraft:sharpness:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-diamond6:
+    name: "&#31cfe4Diamond Sword &8[&#31cfe4VI&8]"
+    item: DIAMOND_SWORD
+    enchantments:
+      - "minecraft:sharpness:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-diamond7:
+    name: "&#31cfe4Diamond Sword &8[&#31cfe4VII&8]"
+    item: DIAMOND_SWORD
+    enchantments:
+      - "minecraft:sharpness:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-diamond8:
+    name: "&#31cfe4Diamond Sword &8[&#31cfe4VIII&8]"
+    item: DIAMOND_SWORD
+    enchantments:
+      - "minecraft:sharpness:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-diamond9:
+    name: "&#31cfe4Diamond Sword &8[&#31cfe4IX&8]"
+    item: DIAMOND_SWORD
+    enchantments:
+      - "minecraft:sharpness:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-diamond10:
+    name: "&#31cfe4Diamond Sword &8[&#31cfe4X&8]"
+    item: DIAMOND_SWORD
+    enchantments:
+      - "minecraft:sharpness:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-netherite5:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9S&#b6b6b6w&#c3c3c3o&#d0d0d0r&#ddddddd &8[&#D38BFFV&8]"
+    item: NETHERITE_SWORD
+    enchantments:
+      - "minecraft:sharpness:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-netherite6:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9S&#b6b6b6w&#c3c3c3o&#d0d0d0r&#ddddddd &8[&#D38BFFVI&8]"
+    item: NETHERITE_SWORD
+    enchantments:
+      - "minecraft:sharpness:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-netherite7:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9S&#b6b6b6w&#c3c3c3o&#d0d0d0r&#ddddddd &8[&#D38BFFVII&8]"
+    item: NETHERITE_SWORD
+    enchantments:
+      - "minecraft:sharpness:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-netherite8:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9S&#b6b6b6w&#c3c3c3o&#d0d0d0r&#ddddddd &8[&#D38BFFVIII&8]"
+    item: NETHERITE_SWORD
+    enchantments:
+      - "minecraft:sharpness:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-netherite9:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9S&#b6b6b6w&#c3c3c3o&#d0d0d0r&#ddddddd &8[&#D38BFFIX&8]"
+    item: NETHERITE_SWORD
+    enchantments:
+      - "minecraft:sharpness:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_sword-netherite10:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9S&#b6b6b6w&#c3c3c3o&#d0d0d0r&#ddddddd &8[&#D38BFFX&8]"
+    item: NETHERITE_SWORD
+    enchantments:
+      - "minecraft:sharpness:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-player:
+    name: "&#bbff86Player Kit"
+    item: WOODEN_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-wooden2:
+    name: "&#ffd492Wooden Pickaxe &8[&#ffd492II&8]"
+    item: WOODEN_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-wooden3:
+    name: "&#ffd492Wooden Pickaxe &8[&#ffd492III&8]"
+    item: WOODEN_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-wooden4:
+    name: "&#ffd492Wooden Pickaxe &8[&#ffd492IV&8]"
+    item: WOODEN_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-wooden5:
+    name: "&#ffd492Wooden Pickaxe &8[&#ffd492V&8]"
+    item: WOODEN_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-wooden6:
+    name: "&#ffd492Wooden Pickaxe &8[&#ffd492VI&8]"
+    item: WOODEN_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-wooden7:
+    name: "&#ffd492Wooden Pickaxe &8[&#ffd492VII&8]"
+    item: WOODEN_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-wooden8:
+    name: "&#ffd492Wooden Pickaxe &8[&#ffd492VIII&8]"
+    item: WOODEN_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-wooden9:
+    name: "&#ffd492Wooden Pickaxe &8[&#ffd492IX&8]"
+    item: WOODEN_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-wooden10:
+    name: "&#ffd492Wooden Pickaxe &8[&#ffd492X&8]"
+    item: WOODEN_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-stone1:
+    name: "&#a2a2a2Stone Pickaxe &8[&#a2a2a2I&8]"
+    item: STONE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-stone2:
+    name: "&#a2a2a2Stone Pickaxe &8[&#a2a2a2II&8]"
+    item: STONE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-stone3:
+    name: "&#a2a2a2Stone Pickaxe &8[&#a2a2a2III&8]"
+    item: STONE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-stone4:
+    name: "&#a2a2a2Stone Pickaxe &8[&#a2a2a2IV&8]"
+    item: STONE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-stone5:
+    name: "&#a2a2a2Stone Pickaxe &8[&#a2a2a2V&8]"
+    item: STONE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-stone6:
+    name: "&#a2a2a2Stone Pickaxe &8[&#a2a2a2VI&8]"
+    item: STONE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-stone7:
+    name: "&#a2a2a2Stone Pickaxe &8[&#a2a2a2VII&8]"
+    item: STONE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-stone8:
+    name: "&#a2a2a2Stone Pickaxe &8[&#a2a2a2VIII&8]"
+    item: STONE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-stone9:
+    name: "&#a2a2a2Stone Pickaxe &8[&#a2a2a2IX&8]"
+    item: STONE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-stone10:
+    name: "&#a2a2a2Stone Pickaxe &8[&#a2a2a2X&8]"
+    item: STONE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-iron1:
+    name: "&#e4e4e4Iron Pickaxe &8[&#e4e4e4I&8]"
+    item: IRON_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-iron2:
+    name: "&#e4e4e4Iron Pickaxe &8[&#e4e4e4II&8]"
+    item: IRON_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-iron3:
+    name: "&#e4e4e4Iron Pickaxe &8[&#e4e4e4III&8]"
+    item: IRON_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-iron4:
+    name: "&#e4e4e4Iron Pickaxe &8[&#e4e4e4IV&8]"
+    item: IRON_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-iron5:
+    name: "&#e4e4e4Iron Pickaxe &8[&#e4e4e4V&8]"
+    item: IRON_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-iron6:
+    name: "&#e4e4e4Iron Pickaxe &8[&#e4e4e4VI&8]"
+    item: IRON_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-iron7:
+    name: "&#e4e4e4Iron Pickaxe &8[&#e4e4e4VII&8]"
+    item: IRON_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-iron8:
+    name: "&#e4e4e4Iron Pickaxe &8[&#e4e4e4VIII&8]"
+    item: IRON_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-iron9:
+    name: "&#e4e4e4Iron Pickaxe &8[&#e4e4e4IX&8]"
+    item: IRON_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-iron10:
+    name: "&#e4e4e4Iron Pickaxe &8[&#e4e4e4X&8]"
+    item: IRON_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-diamond1:
+    name: "&#31cfe4Diamond Pickaxe &8[&#31cfe4I&8]"
+    item: DIAMOND_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-diamond2:
+    name: "&#31cfe4Diamond Pickaxe &8[&#31cfe4II&8]"
+    item: DIAMOND_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-diamond3:
+    name: "&#31cfe4Diamond Pickaxe &8[&#31cfe4III&8]"
+    item: DIAMOND_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-diamond4:
+    name: "&#31cfe4Diamond Pickaxe &8[&#31cfe4IV&8]"
+    item: DIAMOND_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-diamond5:
+    name: "&#31cfe4Diamond Pickaxe &8[&#31cfe4V&8]"
+    item: DIAMOND_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-diamond6:
+    name: "&#31cfe4Diamond Pickaxe &8[&#31cfe4VI&8]"
+    item: DIAMOND_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-diamond7:
+    name: "&#31cfe4Diamond Pickaxe &8[&#31cfe4VII&8]"
+    item: DIAMOND_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-diamond8:
+    name: "&#31cfe4Diamond Pickaxe &8[&#31cfe4VIII&8]"
+    item: DIAMOND_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-diamond9:
+    name: "&#31cfe4Diamond Pickaxe &8[&#31cfe4IX&8]"
+    item: DIAMOND_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-diamond10:
+    name: "&#31cfe4Diamond Pickaxe &8[&#31cfe4X&8]"
+    item: DIAMOND_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-netherite5:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9P&#b2b2b2i&#bababac&#c3c3c3k&#cccccca&#d4d4d4x&#dddddde &8[&#D38BFFV&8]"
+    item: NETHERITE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-netherite6:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9P&#b2b2b2i&#bababac&#c3c3c3k&#cccccca&#d4d4d4x&#dddddde &8[&#D38BFFVI&8]"
+    item: NETHERITE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-netherite7:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9P&#b2b2b2i&#bababac&#c3c3c3k&#cccccca&#d4d4d4x&#dddddde &8[&#D38BFFVII&8]"
+    item: NETHERITE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-netherite8:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9P&#b2b2b2i&#bababac&#c3c3c3k&#cccccca&#d4d4d4x&#dddddde &8[&#D38BFFVIII&8]"
+    item: NETHERITE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-netherite9:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9P&#b2b2b2i&#bababac&#c3c3c3k&#cccccca&#d4d4d4x&#dddddde &8[&#D38BFFIX&8]"
+    item: NETHERITE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_pickaxe-netherite10:
+    name: "&#d38bffN&#c88bede&#bc8adbt&#b18ac9h&#a58ab6e&#9a89a4r&#8f8992i&#8f8f8ft&#9c9c9ce &#a9a9a9P&#b2b2b2i&#bababac&#c3c3c3k&#cccccca&#d4d4d4x&#dddddde &8[&#D38BFFX&8]"
+    item: NETHERITE_PICKAXE
+    enchantments:
+      - "minecraft:efficiency:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_elytra-normal0:
+    name: "&#FBA7E8Elytra"
+    item: ELYTRA
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_elytra-normal1:
+    name: "&#FBA7E8Elytra &8[&#FBA7E8I&8]"
+    item: ELYTRA
+    enchantments:
+      - "minecraft:protection:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_elytra-normal2:
+    name: "&#FBA7E8Elytra &8[&#FBA7E8II&8]"
+    item: ELYTRA
+    enchantments:
+      - "minecraft:protection:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_elytra-normal3:
+    name: "&#FBA7E8Elytra &8[&#FBA7E8III&8]"
+    item: ELYTRA
+    enchantments:
+      - "minecraft:protection:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_elytra-normal4:
+    name: "&#FBA7E8Elytra &8[&#FBA7E8IV&8]"
+    item: ELYTRA
+    enchantments:
+      - "minecraft:protection:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_elytra-normal5:
+    name: "&#FBA7E8Elytra &8[&#FBA7E8V&8]"
+    item: ELYTRA
+    enchantments:
+      - "minecraft:protection:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_elytra-normal6:
+    name: "&#FBA7E8Elytra &8[&#FBA7E8VI&8]"
+    item: ELYTRA
+    enchantments:
+      - "minecraft:protection:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_elytra-normal7:
+    name: "&#FBA7E8Elytra &8[&#FBA7E8VII&8]"
+    item: ELYTRA
+    enchantments:
+      - "minecraft:protection:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_elytra-normal8:
+    name: "&#FBA7E8Elytra &8[&#FBA7E8VIII&8]"
+    item: ELYTRA
+    enchantments:
+      - "minecraft:protection:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_elytra-normal9:
+    name: "&#FBA7E8Elytra &8[&#FBA7E8IX&8]"
+    item: ELYTRA
+    enchantments:
+      - "minecraft:protection:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_elytra-normal10:
+    name: "&#FBA7E8Elytra &8[&#FBA7E8X&8]"
+    item: ELYTRA
+    enchantments:
+      - "minecraft:protection:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_bow-normal0:
+    name: "&#FBD07CBow"
+    item: BOW
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_bow-normal1:
+    name: "&#FBD07CBow &8[&#FBD07CI&8]"
+    item: BOW
+    enchantments:
+      - "minecraft:power:1"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_bow-normal2:
+    name: "&#FBD07CBow &8[&#FBD07CII&8]"
+    item: BOW
+    enchantments:
+      - "minecraft:power:2"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_bow-normal3:
+    name: "&#FBD07CBow &8[&#FBD07CIII&8]"
+    item: BOW
+    enchantments:
+      - "minecraft:power:3"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_bow-normal4:
+    name: "&#FBD07CBow &8[&#FBD07CIV&8]"
+    item: BOW
+    enchantments:
+      - "minecraft:power:4"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_bow-normal5:
+    name: "&#FBD07CBow &8[&#FBD07CV&8]"
+    item: BOW
+    enchantments:
+      - "minecraft:power:5"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_bow-normal6:
+    name: "&#FBD07CBow &8[&#FBD07CVI&8]"
+    item: BOW
+    enchantments:
+      - "minecraft:power:6"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_bow-normal7:
+    name: "&#FBD07CBow &8[&#FBD07CVII&8]"
+    item: BOW
+    enchantments:
+      - "minecraft:power:7"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_bow-normal8:
+    name: "&#FBD07CBow &8[&#FBD07CVIII&8]"
+    item: BOW
+    enchantments:
+      - "minecraft:power:8"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_bow-normal9:
+    name: "&#FBD07CBow &8[&#FBD07CIX&8]"
+    item: BOW
+    enchantments:
+      - "minecraft:power:9"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_bow-normal10:
+    name: "&#FBD07CBow &8[&#FBD07CX&8]"
+    item: BOW
+    enchantments:
+      - "minecraft:power:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  item_bow-normal10:
+    name: "&#FBD07CBow &8[&#FBD07CX&8]"
+    item: BOW
+    enchantments:
+      - "minecraft:power:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    unbreakable: true
+  bossbox_ice:
+    name: "&#97fb7fB&#a8f575o&#b9ee6bs&#cae861s &#dbe157B&#ecdb4do&#fdd443x &8[&#7ec0fcI&#5fb1fdC&#40a2fdE&8]"
+    lore:
+    - ""
+    - "&7You can earn nice items by"
+    - "&7right-click on the Boss Box."
+    - ""
+    - "&aClick and open!"
+    item: ENDER_CHEST
+  bossbox_flame:
+    name: "&#97fb7fB&#a8f575o&#b9ee6bs&#cae861s &#dbe157B&#ecdb4do&#fdd443x &8[&#fc6c6cF&#fc5151L&#fd3636A&#fd1b1bM&#fd0000E&8]"
+    lore:
+    - ""
+    - "&7You can earn nice items by"
+    - "&7right-click on the Boss Box."
+    - ""
+    - "&aClick and open!"
+    item: ENDER_CHEST
+  bossbox_nightmare:
+    name: "&#97fb7fB&#a8f575o&#b9ee6bs&#cae861s &#dbe157B&#ecdb4do&#fdd443x &8[&#fa94fcN&#fa87fcI&#fa7afcG&#fa6dfcH&#fa60fdT&#f953fdM&#f946fdA&#f939fdR&#f92cfdE&8]"
+    lore:
+    - ""
+    - "&7You can earn nice items by"
+    - "&7right-click on the Boss Box."
+    - ""
+    - "&aClick and open!"
+    item: ENDER_CHEST
+  luckyblock_coal:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#b1b1b1C&#a3a3a3O&#969696A&#888888L&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA8x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA2x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  luckyblock_lapis:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#67ffedL&#61f2efA&#5be6f1P&#55d9f2I&#4fccf4S&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA10x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA2x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA2x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  luckyblock_redstone:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#ff8181R&#ff7777E&#ff6d6dD&#ff6363S&#ff5a5aT&#ff5050O&#ff4646N&#ff3c3cE&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA10x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA2x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA2x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  luckyblock_iron:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#dff9ffI&#def5faR&#def1f5O&#ddedf0N&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA15x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA3x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA3x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  luckyblock_gold:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#f5ff83G&#f1f877O&#eef06bL&#eae95fD&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA15x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA3x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA3x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  luckyblock_diamond:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#dff9ffD&#d2f9ffI&#c4f8ffA&#b7f8ffM&#aaf7ffO&#9cf7ffN&#8ff6ffD&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA18x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA4x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA4x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1x Vault Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  luckyblock_emerald:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#7effa2E&#75ff9aM&#6bff92E&#62ff8aR&#58ff82A&#4fff7aL&#45ff72D&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA20x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA4x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA4x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1x Vault Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1x Luck Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  luckyblock_endstone:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#fbf79aE&#fbf695N&#fbf691D&#fbf58cS&#fcf488T&#fcf383O&#fcf37fN&#fcf27aE&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA26x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA5x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA5x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA2x Vault Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1x Luck Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  luckyblock_prismarine:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#27fbc8P&#2bfbc4R&#2ffbc1I&#33fbbdS&#37fbb9M&#3afcb6A&#3efcb2R&#42fcaeI&#46fcabN&#4afca7E&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA32x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA5x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA5x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA2x Vault Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1x Luck Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  luckyblock_magma:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#fb5151M&#fb5751A&#fc5d50G&#fc6350M&#fc694fA&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA40x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA6x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA6x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA2x Vault Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA2x Luck Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  luckyblock_quartz:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#fbcacaQ&#f5bebeU&#f0b1b1A&#eaa5a5R&#e59898T&#df8c8cZ&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA48x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA6x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA6x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA2x Vault Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA2x Luck Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  luckyblock_netherbrick:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#fb0000N&#f70707E&#f30e0eT&#ef1414H&#eb1b1bE&#e72222R &#e22929B&#de3030R&#da3636I&#d63d3dC&#d24444K&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA64x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA2x Coin II &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA8x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA8x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA3x Vault Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA3x Luck Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  luckyblock_netherite:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#d0bcbcN&#c9b3b3E&#c3a9a9T&#bca0a0H&#b59797E&#ae8d8dR&#a88484I&#a17a7aT&#9a7171E&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA64x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA3x Coin II &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA10x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA10x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA3x Vault Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA3x Luck Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  luckyblock_blackstone:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#ffffffB&#f8f8f8L&#f1f1f1A&#e9e9e9C&#e2e2e2K&#dbdbdbS&#d4d4d4T&#ccccccO&#c5c5c5N&#bebebeE&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA64x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA4x Coin II &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA10x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA10x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA4x Vault Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA4x Luck Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  luckyblock_purpur:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#903098P&#9a36a1U&#a43cabR&#ad41b4P&#b747beU&#c14dc7R&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA64x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA6x Coin II &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA10x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA10x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA5x Vault Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA5x Luck Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  luckyblock_obsidian:
+    name: "&#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#5d2e98O&#6332a0B&#6a35a8S&#7039b0I&#763db7D&#7c41bfI&#8344c7A&#8948cfN&8]"
+    lore:
+    - ""
+    - "&7You can get great items by"
+    - "&7placing them in the lucky block"
+    - "&7area and breaking them."
+    - "&cBe careful, the lucky block you"
+    - "&cplace can be broken by anyone!"
+    - ""
+    - ""
+    - "&#e27cfbL&#e079fbu&#dd76fbc&#db73fck&#d970fcy &#d76efcB&#d46bfcl&#d268fdo&#d065fdc&#cd62fdk &#cb5ffdC&#c95cfeo&#c659fen&#c457fet&#c254fee&#c051ffn&#bd4efft&#bb4bffs &8▸"
+    - ""
+    - "&8 ▪ &#FFCACA64x Coin I &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA8x Coin II &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1x Coin III &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA20x Item Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA16x Food Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA8x Vault Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA8x Luck Coin &8▸ &f100% Chance"
+    - "&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f1-5% Chance"
+    - ""
+    item: SPONGE
+  vault_shortcut:
+    name: "&#fbd46fV&#fbd674A&#fcd979U&#fcdb7eL&#fcdd83T &8[&#fce08aS&#fce290H&#fce595O&#fce79bR&#fdeaa1T&#fdeca7C&#fdefacU&#fdf1b2T&8]"
+    lore:
+    - ""
+    - "&7With this item, you can easily open"
+    - "&7your vault by clicking on the item"
+    - "&7without using any commands."
+    - ""
+    - "&cBeware, this item does not grant"
+    - "&cstorage levels. First you have to"
+    - "&cunlock the use of the vault and"
+    - "&clevel it up."
+    item: BOWL
+    custommodeldata: 6042
+  vault_upgrade_0-1:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fI&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &b0'
+    - '&8 ▪ &7Vault Amount &8▸ &b0'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &d0 &8→ &eI &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d0 &8→ &e1 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_1-2:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fII&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bI'
+    - '&8 ▪ &7Vault Amount &8▸ &b1'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dI &8→ &eII &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d1 &8→ &e2 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_2-3:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fIII&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bII'
+    - '&8 ▪ &7Vault Amount &8▸ &b2'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dII &8→ &eIII &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d2 &8→ &e3 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_3-4:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fIV&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bIII'
+    - '&8 ▪ &7Vault Amount &8▸ &b3'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dIII &8→ &eIV &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d3 &8→ &e4 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_4-5:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fV&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bIV'
+    - '&8 ▪ &7Vault Amount &8▸ &b4'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dIV &8→ &eV &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d4 &8→ &e5 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_5-6:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fVI&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bV'
+    - '&8 ▪ &7Vault Amount &8▸ &b5'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dV &8→ &eVI &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d5 &8→ &e6 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_6-7:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fVII&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bVI'
+    - '&8 ▪ &7Vault Amount &8▸ &b6'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dVI &8→ &eVII &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d6 &8→ &e7 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_7-8:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fVIII&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bVII'
+    - '&8 ▪ &7Vault Amount &8▸ &b7'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dVII &8→ &eVIII &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d7 &8→ &e8 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_8-9:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fIX&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bVIII'
+    - '&8 ▪ &7Vault Amount &8▸ &b8'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dVIII &8→ &eIX &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d8 &8→ &e9 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_9-10:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fX&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bIX'
+    - '&8 ▪ &7Vault Amount &8▸ &b9'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dIX &8→ &eX &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d9 &8→ &e10 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_10-11:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fXI&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bX'
+    - '&8 ▪ &7Vault Amount &8▸ &b10'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dX &8→ &eXI &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d10 &8→ &e11 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_11-12:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fXII&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bXI'
+    - '&8 ▪ &7Vault Amount &8▸ &b11'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dXI &8→ &eXII &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d11 &8→ &e12 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_12-13:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fXIII&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bXII'
+    - '&8 ▪ &7Vault Amount &8▸ &b12'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dXII &8→ &eXIII &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d12 &8→ &e13 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_13-14:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fXIV&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bXIII'
+    - '&8 ▪ &7Vault Amount &8▸ &b13'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dXIII &8→ &eXIV &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d13 &8→ &e14 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_14-15:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fXV&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bXIV'
+    - '&8 ▪ &7Vault Amount &8▸ &b14'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dXIV &8→ &eXV &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d14 &8→ &e15 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_15-16:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fXVI&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bXV'
+    - '&8 ▪ &7Vault Amount &8▸ &b15'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dXV &8→ &eXVI &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d15 &8→ &e16 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_16-17:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fXVII&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bXVI'
+    - '&8 ▪ &7Vault Amount &8▸ &b16'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dXVI &8→ &eXVII &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d16 &8→ &e17 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_17-18:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fXVIII&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bXVII'
+    - '&8 ▪ &7Vault Amount &8▸ &b17'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dXVII &8→ &eXVIII &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d17 &8→ &e18 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_18-19:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fXIX&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bXVIII'
+    - '&8 ▪ &7Vault Amount &8▸ &b18'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dXVIII &8→ &eXIX &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d18 &8→ &e19 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_19-20:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fXX&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bXIX'
+    - '&8 ▪ &7Vault Amount &8▸ &b19'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dXIX &8→ &eXX &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d19 &8→ &e20 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  vault_upgrade_20-21:
+    name: "&#fbd46fV&#fbce73A&#fbc976U&#fcc37aL&#fcbd7dT &#fcb881U&#fcb284P&#fcad88G&#fca78bR&#fda18fA&#fd9c92D&#fd9696E &8[&fXXI&8]"
+    lore:
+    - ""
+    - "&7This item allows you to"
+    - "&7increase your vault level."
+    - ""
+    - "&cNote: You cannot advance to the"
+    - "&cnext level without increasing your"
+    - "&cvault level to the previous level."
+    - ""
+    - '&bCurrent Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &bXX'
+    - '&8 ▪ &7Vault Amount &8▸ &b20'
+    - ''
+    - '&dNext Level &8▸'
+    - '&8 ▪ &7Vault Level &8▸ &dXX &8→ &eXXI &a↑'
+    - '&8 ▪ &7Vault Amount &8▸ &d20 &8→ &e21 &a↑'
+    - ""
+    - "&aClick and upgrade!"
+    item: PAPER
+    custommodeldata: 6043
+  item_pickaxe-ice:
+    item: NETHERITE_PICKAXE
+    name: "&#adf3fdI&#a5edfdc&#9ce7fde &#94e1fdP&#8bdbfdi&#83d4fdc&#7acefdk&#72c8fda&#69c2fdx&#61bcfde"
+    lore:
+    - "&#55ff55⛏ &#54ff65H&#53ff75a&#52ff85s&#51ff95t&#50ffa5y &#4fffb4M&#4effc4i&#4dffd4n&#4cffe4e&#4bfff4r &8[&fI&8]"
+    - "&#55ff55⛏ &#60ff53D&#6bff50o&#76ff4eu&#81ff4cb&#8cff49l&#97ff47e &#a1ff45E&#acff43a&#b7ff40r&#c2ff3en&#cdff3ci&#d8ff39n&#e3ff37g &8[&fI&8]"
+    custommodeldata: 1002
+    unbreakable: true
+    enchantments:
+      - "minecraft:efficiency:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+  item_pickaxe-flame:
+    item: NETHERITE_PICKAXE
+    name: "&#fda5b5F&#fd9dabl&#fd94a2a&#fd8c98m&#fd848ee &#fd7c84P&#fd737bi&#fd6b71c&#fd6367k&#fd5b5da&#fd5254x&#fd4a4ae"
+    lore:
+    - "&#55ff55⛏ &#54ff65H&#53ff75a&#52ff85s&#51ff95t&#50ffa5y &#4fffb4M&#4effc4i&#4dffd4n&#4cffe4e&#4bfff4r &8[&fII&8]"
+    - "&#55ff55⛏ &#60ff53D&#6bff50o&#76ff4eu&#81ff4cb&#8cff49l&#97ff47e &#a1ff45E&#acff43a&#b7ff40r&#c2ff3en&#cdff3ci&#d8ff39n&#e3ff37g &8[&fII&8]"
+    custommodeldata: 2002
+    unbreakable: true
+    enchantments:
+      - "minecraft:efficiency:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+  item_pickaxe-nightmare:
+    item: NETHERITE_PICKAXE
+    name: "&#e0a3fdN&#dd9bfdi&#db92fdg&#d88afdh&#d581fdt&#d379fdm&#d070fda&#cd68fdr&#cb5ffde &#c857fdP&#c54efdi&#c346fdc&#c03dfdk&#bd35fda&#bb2cfdx&#b824fde"
+    lore:
+    - "&#55ff55⛏ &#54ff65H&#53ff75a&#52ff85s&#51ff95t&#50ffa5y &#4fffb4M&#4effc4i&#4dffd4n&#4cffe4e&#4bfff4r &8[&fIII&8]"
+    - "&#55ff55⛏ &#60ff53D&#6bff50o&#76ff4eu&#81ff4cb&#8cff49l&#97ff47e &#a1ff45E&#acff43a&#b7ff40r&#c2ff3en&#cdff3ci&#d8ff39n&#e3ff37g &8[&fIII&8]"
+    custommodeldata: 3002
+    unbreakable: true
+    enchantments:
+      - "minecraft:efficiency:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+  item_sword-ice:
+    item: NETHERITE_SWORD
+    name: "&#adf3fdI&#a2ebfdc&#97e3fde &#8cdbfdS&#82d4fdw&#77ccfdo&#6cc4fdr&#61bcfdd"
+    lore:
+    - "&#fc54fc🗡 &#fa63edE&#f873dex&#f682cft&#f491c0r&#f2a0b1a &#efb0a2D&#edbf93a&#ebce84m&#e9dd75a&#e7ed66g&#e5fc57e &8[&fI&8]"
+    - "&#fc54fc🗡 &#f650fcD&#f14cfco&#eb48fcu&#e544fcb&#e040fcl&#da3cfde &#d438fdD&#cf34fda&#c930fdm&#c32cfda&#be28fdg&#b824fde &8[&fI&8]"
+    - "&#fc54fc💀 &#fc50e5L&#fc4ccfi&#fc48b8f&#fc44a2e &#fc418bS&#fc3d75t&#fc395ee&#fc3548a&#fc3131l &8[&fI&8]"
+    - "&#c3c3c3🔗 &#c0c0c8S&#bcbdcdl&#b9bad3o&#b5b7d8w&#b2b4ddn&#aeb0e2e&#abade7s&#a7aaecs &#a4a7f2H&#a0a4f7i&#9da1fct &8[&fI&8]"
+    custommodeldata: 1000
+    unbreakable: true
+    enchantments:
+      - "minecraft:sharpness:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+  item_sword-flame:
+    item: NETHERITE_SWORD
+    name: "&#fda5b5F&#fd9ba9l&#fd919da&#fd8791m&#fd7d85e &#fd727aS&#fd686ew&#fd5e62o&#fd5456r&#fd4a4ad"
+    lore:
+    - "&#fc54fc🗡 &#fa63edE&#f873dex&#f682cft&#f491c0r&#f2a0b1a &#efb0a2D&#edbf93a&#ebce84m&#e9dd75a&#e7ed66g&#e5fc57e &8[&fII&8]"
+    - "&#fc54fc🗡 &#f650fcD&#f14cfco&#eb48fcu&#e544fcb&#e040fcl&#da3cfde &#d438fdD&#cf34fda&#c930fdm&#c32cfda&#be28fdg&#b824fde &8[&fII&8]"
+    - "&#fc54fc💀 &#fc50e5L&#fc4ccfi&#fc48b8f&#fc44a2e &#fc418bS&#fc3d75t&#fc395ee&#fc3548a&#fc3131l &8[&fII&8]"
+    - "&#c3c3c3☠ &#bdc9c1N&#b7d0bea&#b1d6bcu&#abdcb9s&#a6e3b7e&#a0e9b4a &#9aefb2H&#94f6afi&#8efcadt &8[&fI&8]"
+    custommodeldata: 2000
+    unbreakable: true
+    enchantments:
+      - "minecraft:sharpness:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+  item_sword-nightmare:
+    item: NETHERITE_SWORD
+    name: "&#e0a3fdN&#dd99fdi&#da8ffdg&#d786fdh&#d47cfdt&#d172fdm&#ce68fda&#ca5ffdr&#c755fde &#c44bfdS&#c141fdw&#be38fdo&#bb2efdr&#b824fdd"
+    lore:
+    - "&#fc54fc🗡 &#fa63edE&#f873dex&#f682cft&#f491c0r&#f2a0b1a &#efb0a2D&#edbf93a&#ebce84m&#e9dd75a&#e7ed66g&#e5fc57e &8[&fIII&8]"
+    - "&#fc54fc🗡 &#f650fcD&#f14cfco&#eb48fcu&#e544fcb&#e040fcl&#da3cfde &#d438fdD&#cf34fda&#c930fdm&#c32cfda&#be28fdg&#b824fde &8[&fIII&8]"
+    - "&#fc54fc💀 &#fc50e5L&#fc4ccfi&#fc48b8f&#fc44a2e &#fc418bS&#fc3d75t&#fc395ee&#fc3548a&#fc3131l &8[&fIII&8]"
+    - "&#c3c3c3🔋 &#c7c1c1B&#cac0c0l&#cebebei&#d1bcbcn&#d5babad&#d9b9b9n&#dcb7b7e&#e0b5b5s&#e3b3b3s &#e7b2b2H&#eab0b0i&#eeaeaet &8[&fI&8]"
+    custommodeldata: 3000
+    unbreakable: true
+    enchantments:
+      - "minecraft:sharpness:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+  item_bow-ice:
+    item: BOW
+    name: "&#adf3fdI&#9ee8fdc&#8fddfde &#7fd2fdB&#70c7fdo&#61bcfdw"
+    lore:
+    - "&#fc54fc🗡 &#fa63edE&#f873dex&#f682cft&#f491c0r&#f2a0b1a &#efb0a2D&#edbf93a&#ebce84m&#e9dd75a&#e7ed66g&#e5fc57e &8[&fI&8]"
+    - "&#fc54fc🗡 &#f650fcD&#f14cfco&#eb48fcu&#e544fcb&#e040fcl&#da3cfde &#d438fdD&#cf34fda&#c930fdm&#c32cfda&#be28fdg&#b824fde &8[&fI&8]"
+    - "&#fc54fc💀 &#fc50e5L&#fc4ccfi&#fc48b8f&#fc44a2e &#fc418bS&#fc3d75t&#fc395ee&#fc3548a&#fc3131l &8[&fI&8]"
+    - "&#c3c3c3🔗 &#c0c0c8S&#bcbdcdl&#b9bad3o&#b5b7d8w&#b2b4ddn&#aeb0e2e&#abade7s&#a7aaecs &#a4a7f2H&#a0a4f7i&#9da1fct &8[&fI&8]"
+    custommodeldata: 1001
+    unbreakable: true
+    enchantments:
+      - "minecraft:power:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+  item_bow-flame:
+    item: BOW
+    name: "&#fda5b5F&#fd98a6l&#fd8b96a&#fd7e87m&#fd7178e &#fd6469B&#fd5759o&#fd4a4aw"
+    lore:
+    - "&#fc54fc🗡 &#fa63edE&#f873dex&#f682cft&#f491c0r&#f2a0b1a &#efb0a2D&#edbf93a&#ebce84m&#e9dd75a&#e7ed66g&#e5fc57e &8[&fII&8]"
+    - "&#fc54fc🗡 &#f650fcD&#f14cfco&#eb48fcu&#e544fcb&#e040fcl&#da3cfde &#d438fdD&#cf34fda&#c930fdm&#c32cfda&#be28fdg&#b824fde &8[&fII&8]"
+    - "&#fc54fc💀 &#fc50e5L&#fc4ccfi&#fc48b8f&#fc44a2e &#fc418bS&#fc3d75t&#fc395ee&#fc3548a&#fc3131l &8[&fII&8]"
+    - "&#c3c3c3☠ &#bdc9c1N&#b7d0bea&#b1d6bcu&#abdcb9s&#a6e3b7e&#a0e9b4a &#9aefb2H&#94f6afi&#8efcadt &8[&fI&8]"
+    custommodeldata: 2001
+    unbreakable: true
+    enchantments:
+      - "minecraft:power:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+  item_bow-nightmare:
+    item: BOW
+    name: "&#e0a3fdN&#dc97fdi&#d98cfdg&#d580fdh&#d175fdt&#ce69fdm&#ca5efda&#c752fdr&#c347fde &#bf3bfdB&#bc30fdo&#b824fdw"
+    lore:
+    - "&#fc54fc🗡 &#fa63edE&#f873dex&#f682cft&#f491c0r&#f2a0b1a &#efb0a2D&#edbf93a&#ebce84m&#e9dd75a&#e7ed66g&#e5fc57e &8[&fIII&8]"
+    - "&#fc54fc🗡 &#f650fcD&#f14cfco&#eb48fcu&#e544fcb&#e040fcl&#da3cfde &#d438fdD&#cf34fda&#c930fdm&#c32cfda&#be28fdg&#b824fde &8[&fIII&8]"
+    - "&#fc54fc💀 &#fc50e5L&#fc4ccfi&#fc48b8f&#fc44a2e &#fc418bS&#fc3d75t&#fc395ee&#fc3548a&#fc3131l &8[&fIII&8]"
+    - "&#c3c3c3🔋 &#c7c1c1B&#cac0c0l&#cebebei&#d1bcbcn&#d5babad&#d9b9b9n&#dcb7b7e&#e0b5b5s&#e3b3b3s &#e7b2b2H&#eab0b0i&#eeaeaet &8[&fI&8]"
+    custommodeldata: 3001
+    unbreakable: true
+    enchantments:
+      - "minecraft:power:10"
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+  item_helmet-ice:
+    item: NETHERITE_HELMET
+    name: "&#adf3fdI&#a4ecfdc&#9ae5fde &#91defdH&#87d8fde&#7ed1fdl&#74cafdm&#6bc3fde&#61bcfdt"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fI&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fI&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fI&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 1003
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12aab152-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12aab4ae-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12aab616-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: HEAD
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12aab74c-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 1.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12aabb84-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.005
+          equipmentslot: HEAD
+  item_chestplate-ice:
+    item: NETHERITE_CHESTPLATE
+    name: "&#adf3fdI&#a7eefdc&#a0eafde &#9ae5fdC&#94e1fdh&#8ddcfde&#87d8fds&#81d3fdt&#7acefdp&#74cafdl&#6ec5fda&#67c1fdt&#61bcfde"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fI&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fI&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fI&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 1004
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12aabd00-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 8.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12aabe36-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12aabf62-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: CHEST
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12aac084-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 1.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12aac19c-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.005
+          equipmentslot: CHEST
+  item_leggings-ice:
+    item: NETHERITE_LEGGINGS
+    name: "&#adf3fdI&#a5eefdc&#9ee8fde &#96e3fdL&#8fddfde&#87d8fdg&#7fd2fdg&#78cdfdi&#70c7fdn&#69c2fdg&#61bcfds"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fI&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fI&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fI&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 1005
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12aac2d2-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 6.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12aac3fe-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12aac7dc-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: LEGS
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12aac908-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 1.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12aaca34-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.005
+          equipmentslot: LEGS
+  item_boots-ice:
+    item: NETHERITE_BOOTS
+    name: "&#adf3fdI&#a2ebfdc&#97e3fde &#8cdbfdB&#82d4fdo&#77ccfdo&#6cc4fdt&#61bcfds"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fI&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fI&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fI&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 1006
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12aacb56-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: FEET
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12aacc82-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: FEET
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12aacd9a-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: FEET
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12aaceb2-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 1.0
+          equipmentslot: FEET
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12aacfde-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.005
+          equipmentslot: FEET
+  item_elytra-ice:
+    item: ELYTRA
+    name: "&#adf3fdI&#a4ecfdc&#9ae5fde &#91defdE&#87d8fdl&#7ed1fdy&#74cafdt&#6bc3fdr&#61bcfda"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fI&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fI&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fI&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 1007
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12aad420-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 8.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12aad592-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12aad6c8-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: CHEST
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12aad7ea-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 1.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12aad8f8-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.005
+          equipmentslot: CHEST
+  item_helmet-flame:
+    item: NETHERITE_HELMET
+    name: "&#fda5b5F&#fd9caal&#fd93a0a&#fd8a95m&#fd818ae &#fd7880H&#fd6e75e&#fd656al&#fd5c5fm&#fd5355e&#fd4a4at"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fII&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fII&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fII&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 2003
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12aada24-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12aadb64-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12aadca4-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: HEAD
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12aae1ae-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 2.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12aae2f8-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.0075
+          equipmentslot: HEAD
+  item_chestplate-flame:
+    item: NETHERITE_CHESTPLATE
+    name: "&#fda5b5F&#fd9fadl&#fd98a6a&#fd929em&#fd8b96e &#fd858fC&#fd7e87h&#fd7880e&#fd7178s&#fd6b70t&#fd6469p&#fd5e61l&#fd5759a&#fd5152t&#fd4a4ae"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fII&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fII&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fII&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 2004
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12aae488-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 8.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12aae622-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12aae74e-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: CHEST
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12aae884-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 2.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12aae9ba-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.0075
+          equipmentslot: CHEST
+  item_leggings-flame:
+    item: NETHERITE_LEGGINGS
+    name: "&#fda5b5F&#fd9dacl&#fd96a3a&#fd8e9am&#fd8791e &#fd7f88L&#fd7880e&#fd7077g&#fd686eg&#fd6165i&#fd595cn&#fd5253g&#fd4a4as"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fII&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fII&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fII&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 2005
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12aaeadc-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 6.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12aaf054-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12aaf1d0-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: LEGS
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12aaf2f2-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 2.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12aaf428-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.0075
+          equipmentslot: LEGS
+  item_boots-flame:
+    item: NETHERITE_BOOTS
+    name: "&#fda5b5F&#fd9ba9l&#fd919da&#fd8791m&#fd7d85e &#fd727aB&#fd686eo&#fd5e62o&#fd5456t&#fd4a4as"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fII&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fII&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fII&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 2006
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12aaf554-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: FEET
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12aaf900-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: FEET
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12aafa7c-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: FEET
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12aafbbc-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 2.0
+          equipmentslot: FEET
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab0058-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.0075
+          equipmentslot: FEET
+  item_elytra-flame:
+    item: ELYTRA
+    name: "&#fda5b5F&#fd9caal&#fd93a0a&#fd8a95m&#fd818ae &#fd7880E&#fd6e75l&#fd656ay&#fd5c5ft&#fd5355r&#fd4a4aa"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fII&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fII&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fII&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 2007
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab0238-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 8.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab0378-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab04b8-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: CHEST
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab05ee-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 2.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab0760-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.0075
+          equipmentslot: CHEST
+  item_helmet-nightmare:
+    item: NETHERITE_HELMET
+    name: "&#e0a3fdN&#dd9afdi&#da91fdg&#d788fdh&#d57ffdt&#d276fdm&#cf6dfda&#cc64fdr&#c95afde &#c651fdH&#c348fde&#c13ffdl&#be36fdm&#bb2dfde&#b824fdt"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fIII&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fIII&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fIII&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 3003
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab092c-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab0a76-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab0e7c-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: HEAD
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab0fb2-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab1124-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.01
+          equipmentslot: HEAD
+  item_chestplate-nightmare:
+    item: NETHERITE_CHESTPLATE
+    name: "&#e0a3fdN&#de9cfdi&#dc95fdg&#d98efdh&#d787fdt&#d580fdm&#d379fda&#d072fdr&#ce6bfde &#cc64fdC&#ca5cfdh&#c855fde&#c54efds&#c347fdt&#c140fdp&#bf39fdl&#bc32fda&#ba2bfdt&#b824fde"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fIII&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fIII&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fIII&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 3004
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab1250-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 8.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab135e-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab149e-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: CHEST
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab15ca-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab19d0-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.01
+          equipmentslot: CHEST
+  item_leggings-nightmare:
+    item: NETHERITE_LEGGINGS
+    name: "&#e0a3fdN&#de9bfdi&#db93fdg&#d98bfdh&#d683fdt&#d47bfdm&#d173fda&#cf6bfdr&#cc64fde &#ca5cfdL&#c754fde&#c54cfdg&#c244fdg&#c03cfdi&#bd34fdn&#bb2cfdg&#b824fds"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fIII&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fIII&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fIII&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 3005
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab1bc4-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 6.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab1cf0-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab1e12-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: LEGS
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab1fc0-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab215a-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.01
+          equipmentslot: LEGS
+  item_boots-nightmare:
+    item: NETHERITE_BOOTS
+    name: "&#e0a3fdN&#dd99fdi&#da8ffdg&#d786fdh&#d47cfdt&#d172fdm&#ce68fda&#ca5ffdr&#c755fde &#c44bfdB&#c141fdo&#be38fdo&#bb2efdt&#b824fds"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fIII&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fIII&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fIII&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 3006
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab2312-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: FEET
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab2466-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: FEET
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab28da-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: FEET
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab2aec-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: FEET
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab2ca4-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.01
+          equipmentslot: FEET
+  item_elytra-nightmare:
+    item: ELYTRA
+    name: "&#e0a3fdN&#dd9afdi&#da91fdg&#d788fdh&#d57ffdt&#d276fdm&#cf6dfda&#cc64fdr&#c95afde &#c651fdE&#c348fdl&#c13ffdy&#be36fdt&#bb2dfdr&#b824fda"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fIII&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fIII&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fIII&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 3007
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab2de4-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 8.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab2f06-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab3028-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: CHEST
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab3154-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab360e-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.01
+          equipmentslot: CHEST
+  item_helmet-angel:
+    item: NETHERITE_HELMET
+    name: "&#8ffdfdA&#95effdn&#9ae1fdg&#a0d3fde&#a6c5fdl &#acb7fdH&#b1a8fde&#b79afdl&#bd8cfdm&#c27efde&#c870fdt"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fIV&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fIV&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fIV&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 10000
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab379e-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab38ca-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab3a14-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: HEAD
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab3b86-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 4.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab3d3e-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.015
+          equipmentslot: HEAD
+  item_chestplate-angel:
+    item: NETHERITE_CHESTPLATE
+    name: "&#8ffdfdA&#93f3fdn&#97e9fdg&#9bdffde&#9fd5fdl &#a3cbfdC&#a7c1fdh&#acb7fde&#b0acfds&#b4a2fdt&#b898fdp&#bc8efdl&#c084fda&#c47afdt&#c870fde"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fIV&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fIV&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fIV&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 10001
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab3e92-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 8.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab4306-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab446e-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: CHEST
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab459a-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 4.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab46bc-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.015
+          equipmentslot: CHEST
+  item_leggings-angel:
+    item: NETHERITE_LEGGINGS
+    name: "&#8ffdfdA&#94f1fdn&#99e6fdg&#9ddafde&#a2cefdl &#a7c2fdL&#acb7fde&#b0abfdg&#b59ffdg&#ba93fdi&#bf88fdn&#c37cfdg&#c870fds"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fIV&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fIV&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fIV&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 10002
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab4806-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 6.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab49e6-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab4bc6-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: LEGS
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab4d24-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 4.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab51b6-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.015
+          equipmentslot: LEGS
+  item_boots-angel:
+    item: NETHERITE_BOOTS
+    name: "&#8ffdfdA&#95edfdn&#9cdefdg&#a2cefde&#a8befdl &#afaffdB&#b59ffdo&#bb8ffdo&#c280fdt&#c870fds"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fIV&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fIV&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fIV&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 10003
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab5382-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: FEET
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab5576-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: FEET
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab56de-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: FEET
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab5828-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 4.0
+          equipmentslot: FEET
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab59a4-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.015
+          equipmentslot: FEET
+  item_helmet-king:
+    item: NETHERITE_HELMET
+    name: "&#fbeeacK&#fbe9a0i&#fbe395n&#fcde89g &#fcd97dH&#fcd372e&#fcce66l&#fdc95am&#fdc34fe&#fdbe43t"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fV&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fV&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fV&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 10004
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab5b48-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab5ecc-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab605c-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: HEAD
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab619c-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 5.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab62be-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.02
+          equipmentslot: HEAD
+  item_chestplate-king:
+    item: NETHERITE_CHESTPLATE
+    name: "&#fbeeacK&#fbeaa4i&#fbe79cn&#fbe394g &#fcdf8cC&#fcdc84h&#fcd87ce&#fcd473s&#fcd06bt&#fccd63p&#fdc95bl&#fdc553a&#fdc24bt&#fdbe43e"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fV&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fV&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fV&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 10005
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab63fe-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 8.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab65a2-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab6750-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: CHEST
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab6c28-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 5.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab6dea-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.02
+          equipmentslot: CHEST
+  item_leggings-king:
+    item: NETHERITE_LEGGINGS
+    name: "&#fbeeacK&#fbeaa2i&#fbe599n&#fce18fg &#fcdd86L&#fcd87ce&#fcd473g&#fccf69g&#fccb60i&#fdc756n&#fdc24dg&#fdbe43s"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fV&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fV&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fV&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 10006
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab6f52-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 6.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab70e2-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab72a4-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: LEGS
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab7452-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 5.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab7600-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.02
+          equipmentslot: LEGS
+  item_boots-king:
+    item: NETHERITE_BOOTS
+    name: "&#fbeeacK&#fbe89fi&#fce292n&#fcdc85g &#fcd678B&#fcd06ao&#fdca5do&#fdc450t&#fdbe43s"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fV&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fV&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fV&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 10007
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab7bbe-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: FEET
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab7dda-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: FEET
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab7f1a-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: FEET
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab805a-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 5.0
+          equipmentslot: FEET
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab819a-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.02
+          equipmentslot: FEET
+  item_helmet-devil:
+    item: NETHERITE_HELMET
+    name: "&#fbb059D&#f99e50e&#f78d47v&#f57b3ei&#f36a35l &#f1582dH&#ef4624e&#ed351bl&#eb2312m&#e91209e&#e70000t"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fVI&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fVI&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fVI&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 10008
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab82b2-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab83d4-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab84f6-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: HEAD
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab8b18-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 6.0
+          equipmentslot: HEAD
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab8cd0-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.025
+          equipmentslot: HEAD
+  item_chestplate-devil:
+    item: NETHERITE_CHESTPLATE
+    name: "&#fbb059D&#faa353e&#f8974cv&#f78a46i&#f57e40l &#f47139C&#f26533h&#f1582de&#f04b26s&#ee3f20t&#ed3219p&#eb2613l&#ea190da&#e80d06t&#e70000e"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fVI&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fVI&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fVI&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 10009
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab8e10-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 8.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12ab8f32-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab90a4-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: CHEST
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab9464-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 6.0
+          equipmentslot: CHEST
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12ab9608-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.025
+          equipmentslot: CHEST
+  item_leggings-devil:
+    item: NETHERITE_LEGGINGS
+    name: "&#fbb059D&#f9a152e&#f8934av&#f68443i&#f4753bl &#f36734L&#f1582de&#ef4925g&#ee3b1eg&#ec2c16i&#ea1d0fn&#e90f07g&#e70000s"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fVI&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fVI&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fVI&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 10010
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12ab9748-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 6.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "2ab9b4e-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12ab9cb6-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: LEGS
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12ab9e82-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 6.0
+          equipmentslot: LEGS
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12aba076-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.025
+          equipmentslot: LEGS
+  item_boots-devil:
+    item: NETHERITE_BOOTS
+    name: "&#fbb059D&#f99c4fe&#f78945v&#f4753bi&#f26231l &#f04e28B&#ee3b1eo&#eb2714o&#e9140at&#e70000s"
+    lore:
+    - "&#54fcfc❤ &#61fcedE&#6efcdex&#7cfccft&#89fcc0r&#96fcb1a &#a3fca2H&#b0fc93e&#bdfc84a&#cbfc75l&#d8fc66t&#e5fc57h &8[&fVI&8]"
+    - "&#54fcfc⛨ &#5feefbD&#6adffba&#76d1fam&#81c2faa&#8cb4f9g&#97a6f8e &#a297f8R&#ae89f7e&#b97af7d&#c46cf6u&#cf5ef5c&#da4ff5t&#e641f4i&#f132f4o&#fc24f3n &8[&fVI&8]"
+    - "&#54fcfc👢 &#4cfce3F&#44fccaa&#3cfcb0s&#34fc97t &#2dfc7eW&#25fc65a&#1dfc4cl&#15fc32k&#0dfc19e&#05fc00r &8[&fVI&8]"
+    enchantments:
+      - "minecraft:protection:10"
+    custommodeldata: 10011
+    unbreakable: true
+    itemflags:
+     - "HIDE_ATTRIBUTES"
+     - "HIDE_UNBREAKABLE"
+    attributemodifiers:
+      - attribute: GENERIC_ARMOR
+        modifier:
+          uuid: "12aba224-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armor"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: FEET
+      - attribute: GENERIC_ARMOR_TOUGHNESS
+        modifier:
+          uuid: "12aba3b4-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.armorToughness"
+          operation: ADD_NUMBER
+          amount: 3.0
+          equipmentslot: FEET
+      - attribute: GENERIC_KNOCKBACK_RESISTANCE
+        modifier:
+          uuid: "12aba54e-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.knockbackResistance"
+          operation: ADD_NUMBER
+          amount: 0.1
+          equipmentslot: FEET
+      - attribute: GENERIC_MAX_HEALTH
+        modifier:
+          uuid: "12aba6fc-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.maxHealth"
+          operation: ADD_NUMBER
+          amount: 6.0
+          equipmentslot: FEET
+      - attribute: GENERIC_MOVEMENT_SPEED
+        modifier:
+          uuid: "12abab16-ccf1-11ed-afa1-0242ac120002"
+          name: "generic.movementSpeed"
+          operation: ADD_NUMBER
+          amount: 0.025
+          equipmentslot: FEET
+  ticket_feed:
+    name: "&#f9fb81F&#ecfa7ce&#e0f977e&#d3f872d &#c6f76dT&#baf569i&#adf464c&#a0f35fk&#94f25ae&#87f155t"
+    lore:
+    - ""
+    - "&7With this ticket, you can"
+    - "&7completely satisfy your"
+    - "&7hunger. It is used one time."
+    - ""
+    - "&aClick and use!"
+    item: PAPER
+    custommodeldata: 6044
+  ticket_heal:
+    name: "&#fbaa7cH&#faa476e&#f99f6fa&#f89969l &#f79362T&#f58e5ci&#f48855c&#f3824fk&#f27d48e&#f17742t"
+    lore:
+    - ""
+    - "&7With this ticket, you can"
+    - "&7completely regen your health."
+    - "&7It is used one time."
+    - ""
+    - "&aClick and use!"
+    item: PAPER
+    custommodeldata: 6045
+  ticket_event-envoy:
+    name: "&#fb8989E&#fa8782v&#f9857be&#f88474n&#f7826dt &#f68066T&#f57e5ei&#f47c57c&#f37b50k&#f27949e&#f17742t &8[&fEnvoy&8]"
+    lore:
+    - ""
+    - "&7You can start an"
+    - "&7event with this ticket."
+    - ""
+    - "&7Event &8▸"
+    - "&8 ▪ &dEnvoy"
+    - ""
+    - "&aClick and use!"
+    item: PAPER
+    custommodeldata: 6046
+  ticket_event-luckyblock:
+    name: "&#fb8989E&#fa8782v&#f9857be&#f88474n&#f7826dt &#f68066T&#f57e5ei&#f47c57c&#f37b50k&#f27949e&#f17742t &8[&fLucky Block&8]"
+    lore:
+    - ""
+    - "&7You can start an"
+    - "&7event with this ticket."
+    - ""
+    - "&7Event &8▸"
+    - "&8 ▪ &dLucky Block"
+    - ""
+    - "&aClick and use!"
+    item: PAPER
+    custommodeldata: 6046
+  ticket_event-iceboss:
+    name: "&#fb8989E&#fa8782v&#f9857be&#f88474n&#f7826dt &#f68066T&#f57e5ei&#f47c57c&#f37b50k&#f27949e&#f17742t &8[&fIce Boss&8]"
+    lore:
+    - ""
+    - "&7You can start an"
+    - "&7event with this ticket."
+    - ""
+    - "&7Event &8▸"
+    - "&8 ▪ &dIce Boss"
+    - ""
+    - "&aClick and use!"
+    item: PAPER
+    custommodeldata: 6046
+  ticket_event-flameboss:
+    name: "&#fb8989E&#fa8782v&#f9857be&#f88474n&#f7826dt &#f68066T&#f57e5ei&#f47c57c&#f37b50k&#f27949e&#f17742t &8[&fFlame Boss&8]"
+    lore:
+    - ""
+    - "&7You can start an"
+    - "&7event with this ticket."
+    - ""
+    - "&7Event &8▸"
+    - "&8 ▪ &dFlame Boss"
+    - ""
+    - "&aClick and use!"
+    item: PAPER
+    custommodeldata: 6046
+  ticket_event-nightmareboss:
+    name: "&#fb8989E&#fa8782v&#f9857be&#f88474n&#f7826dt &#f68066T&#f57e5ei&#f47c57c&#f37b50k&#f27949e&#f17742t &8[&fNightmare Boss&8]"
+    lore:
+    - ""
+    - "&7You can start an"
+    - "&7event with this ticket."
+    - ""
+    - "&7Event &8▸"
+    - "&8 ▪ &dNightmare Boss"
+    - ""
+    - "&aClick and use!"
+    item: PAPER
+    custommodeldata: 6046
+  cosmetic_aura-one:
+    name: "&#fb77aeOne Aura Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5000
+  cosmetic_aura-double:
+    name: "&#fb77aeDouble Aura Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5001
+  cosmetic_hat_red:
+    name: "&#fb77aeRed Hat Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5008
+  cosmetic_hat_blue:
+    name: "&#fb77aeBlue Hat Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5002
+  cosmetic_wing-blueleaf:
+    name: "&#fb77aeBlue Leaf Wing Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5025
+  cosmetic_wing-greenleaf:
+    name: "&#fb77aeGreen Leaf Wing Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5011
+  cosmetic_wing-rainbow:
+    name: "&#fb77aeRainbow Wing Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5024
+  cosmetic_wing-ice:
+    name: "&#fb77aeIce Wing Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5009
+  cosmetic_wing-basicice:
+    name: "&#fb77aeBasic Ice Wing Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5019
+  cosmetic_wing-nightmare:
+    name: "&#fb77aeNightmare Wing Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5017
+  cosmetic_wing-basicnightmare:
+    name: "&#fb77aeBasic Nightmare Wing Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5016
+  cosmetic_wing-angel:
+    name: "&#fb77aeAngel Wing Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5010
+  cosmetic_wing-basicangel:
+    name: "&#fb77aeBasic Angel Wing Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5032
+  cosmetic_wing-bone:
+    name: "&#fb77aeBone Wing Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5014
+  cosmetic_wing-emerald:
+    name: "&#fb77aeEmerald Wing Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5033
+  cosmetic_wing-lilac:
+    name: "&#fb77aeLilac Wing Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5020
+  cosmetic_wing-slime:
+    name: "&#fb77aeSlime Wing Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5029
+  cosmetic_wing-phantom:
+    name: "&#fb77aePhantom Wing Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5023
+  cosmetic_pet-allay:
+    name: "&#fb77aeAllay Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5034
+  cosmetic_pet-dolphin:
+    name: "&#fb77aeDolphin Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5048
+  cosmetic_pet-camel:
+    name: "&#fb77aeCamel Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5043
+  cosmetic_pet-coppergolem:
+    name: "&#fb77aeCopper Golem Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5046
+  cosmetic_pet-monkey:
+    name: "&#fb77aeMonkey Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5068
+  cosmetic_pet-rainbowsheep:
+    name: "&#fb77aeRainbow Sheep Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5089
+  cosmetic_pet-mushroomcow:
+    name: "&#fb77aeMushroom Cow Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5069
+  cosmetic_pet-pufferfish:
+    name: "&#fb77aPufferfish Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5081
+  cosmetic_pet-vex:
+    name: "&#fb77aeVex Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5100
+  cosmetic_pet-parrot:
+    name: "&#fb77aeParrot Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5073
+  cosmetic_pet-spider:
+    name: "&#fb77aeSpider Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5095
+  cosmetic_pet-floweringazalea:
+    name: "&#fb77aeFlowering Azalea Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5053
+  cosmetic_pet-panda:
+    name: "&#fb77aePanda Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5072
+  cosmetic_pet-wither:
+    name: "&#fb77aeWither Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5102
+  cosmetic_pet-zombiepigman:
+    name: "&#fb77aeZombie Pigman Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5105
+  cosmetic_pet-drowned:
+    name: "&#fb77aeDrowned Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5050
+  cosmetic_pet-zombivillager:
+    name: "&#fb77aeZombie Villager Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5104
+  cosmetic_pet-pig:
+    name: "&#fb77aePig Pet Cosmetic"
+    lore:
+    - ""
+    - "&7You can wear this cosmetic on your head."
+    - "&7If you have the enough permissions,"
+    - "&7you can use the &e/cosmetic command."
+    item: CARVED_PUMPKIN
+    custommodeldata: 5077
+options:
+  show-receive-message: true
+  drop-if-full-inventory: false
+
+messages:
+  full-inv: "&6 Custom Items &8▸ &e%player% &cdoesn't have enough space in their inventory!"
+  give-item: "&6 Custom Items &8▸ &fGiven &e%player% &d%amount%x %item%&f."
+  receive-item: "&6 Custom Items &8▸ &fYou have been given &d%amount%x %item%&f."
+  receive-item-inventory-full: "&6 Custom Items &8▸ &cYou have been given &d%given_amount%x %item%&c, but &e%dropped_amount% &cdropped at your feet because your inventory is full!"
+  cooldown: "&6 Custom Items &8▸ &cYou must wait &e%cooldown% &cseconds before using this item again!"
+  no-permission: "&6 Custom Items &8▸ &cYou cannot use this item!"
+  item-list: "&6 Items &8▸ &e%items%"
+  reload: "&6 Custom Items &8▸ &aPlugin has been reloaded!"
+  player-not-found: "&6 Custom Items &8▸ &cThe specified player could not be found!"
+  item-not-found: "&6 Custom Items &8▸ &cThe item &e%item% &ccould not be found!"
+  item-limits: "&6 Custom Items &8▸ &cPlease enter an amount between &e%min% &cand &e%max%&c!"

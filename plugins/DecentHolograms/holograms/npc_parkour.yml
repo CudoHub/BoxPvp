@@ -1,0 +1,13 @@
+location: Requlogia:-21.032:54.300:25.973
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 0
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: LADDER'
+  - content: '&#8918fb&lP&#9c30f9&lA&#b048f7&lR&#c360f5&lK&#d678f3&lO&#ea90f1&lU&#fda8ef&lR'
+  - content: '&#DBF8FDClick and view!'
+  actions: {}

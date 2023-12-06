@@ -1,0 +1,32 @@
+timeFormat:
+   hour: "h"
+   minute: "m"
+   second: "s"
+
+Gui:
+   name: "&fDaily Rewards"
+   rewardTooked: "&eClaimed reward."
+   rewardCannot: "&cReward locked."
+   rewardATM: "&aAvailable."
+   rewardHelp:
+      name: "&6Daily Rewards"
+      lore:
+      - ""
+      - "&7You can get daily reward"
+      - "&7from this menu. You can also"
+      - "&7track the reward status."
+      
+fillItem:
+   material: "GRAY_STAINED_GLASS_PANE"
+      
+Titles:
+   DailyReward: "&6Daily Rewards"
+   
+RewardMsg:
+   alreadyTook: "&cReward Locked."
+   takingSuccess: "&aYou can take it now."
+   loginMsg: "&6 DailyRewards &8▸ &fYou can get daily rewards! &e/dailyrewards"
+   
+Placeholder:
+   canTake: "&aYou can take it now."
+   

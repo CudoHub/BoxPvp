@@ -1,0 +1,12 @@
+location: Requlogia:-8.500:15.000:-932.500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 0
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#fb0000&lF&#fb180a&lL&#fc3114&lA&#fc491e&lM&#fc6128&lE &#fc7931&lL&#fd923b&lA&#fdaa45&lN&#fdc24f&lD'
+  - content: '&#DBF8FDWalk and teleport!'
+  actions: {}

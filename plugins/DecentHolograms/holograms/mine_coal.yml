@@ -1,0 +1,29 @@
+location: Requlogia:-41.500:31.200:-88.500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 1
+facing: -90.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#b1b1b1&lC&#a2a2a2&lO&#949494&lA&#858585&lL &#777777&lM&#686868&lI&#5a5a5a&lN&#4b4b4b&lE'
+  - content: ''
+  - content: '&#fb8989R&#fb9583e&#fba17ds&#fcad78e&#fcb972t &#fcc66cD&#fcd266e&#fdde61l&#fdea5ba&#fdf655y &8▸ &f1:30 Minutes'
+  - content: '&#eefb5eT&#eff65ai&#f1f057m&#f2eb53e &#f4e54fR&#f5e04be&#f7da48m&#f8d544a&#f9cf40i&#fbca3cn&#fcc439i&#febf35n&#ffb931g &8▸ &f%catamines_countdown_coalmine%'
+  - content: ''
+  - content: '&#e27cfbL&#e079fbu&#dd76fcc&#db73fck&#d870fcy &#d66dfcB&#d36afdl&#d167fdo&#cf64fdc&#cc60fdk &#ca5dfeC&#c75afeo&#c557fen&#c254fet&#c051ffe&#bd4effn&#bb4bfft &8▸'
+  - content: ''
+  - content: '&8 ▪ &#FFCACA8x Coin I &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA1x Item Coin &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA2x Food Coin &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA1-5x Lucky Block &8▸ &f%1-5 Chance'
+  - content: ''
+  - content: '&aClick and trade!'
+  - content: ''
+  - content: '#ENTITY: TRADER_LLAMA'
+  actions:
+    LEFT:
+    - CONSOLE:shopkeepers remote f7967971-74ae-4ca5-a434-0d00375c51a8 {player}
+    RIGHT:
+    - CONSOLE:shopkeepers remote f7967971-74ae-4ca5-a434-0d00375c51a8 {player}

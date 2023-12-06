@@ -1,0 +1,11 @@
+fly-location:
+  world: Requlogia
+  x: 0.5
+  y: 125.0
+  z: -140.5
+name: ice-spawn
+pos1X: -3.0
+pos1Z: -340.0
+pos2X: -7.0
+pos2Z: -341.0
+relative-position: 34.0

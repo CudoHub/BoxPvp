@@ -1,0 +1,56 @@
+categories:
+  ironquests:
+    display:
+      name: "&f𮯰 Quests"
+      lore:
+      - ""
+      - "&7You can earn great rewards and"
+      - "&7rank up by completing quests."
+      - ""
+      - "&aClick and view quests!"
+      type: "PLAYER_HEAD"
+      owner-base64: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg0YjE1Y2U2YmMwZmUyYmIxNTY0ZTM1MGVkMTczZjJlNDkwY2NkNWZkNGE2N2FhM2ViMjEyYTgzNThiNzgzNiJ9fX0="
+  goldquests:
+    display:
+      name: "&f𮯯 &eQuests"
+      lore:
+      - ""
+      - "&7You can earn great rewards and"
+      - "&7rank up by completing quests."
+      - ""
+      - "&aClick and view quests!"
+      type: "PLAYER_HEAD"
+      owner-base64: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdmNTdlN2FhOGRlODY1OTFiYjBiYzUyY2JhMzBhNDlkOTMxYmZhYmJkNDdiYmM4MGJkZDY2MjI1MTM5MjE2MSJ9fX0="
+  diamondquests:
+    display:
+      name: "&f𮯮 &bQuests"
+      lore:
+      - ""
+      - "&7You can earn great rewards and"
+      - "&7rank up by completing quests."
+      - ""
+      - "&aClick and view quests!"
+      type: "PLAYER_HEAD"
+      owner-base64: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJmZDJkZTUzZWIxYmZlOTJmNWNjMTc4MGEyNzI3MzBlYmU3NTk0NzNiYjI1YTUzNjQ3ZDM3MTJlZTVmNjA5NSJ9fX0="
+  emeraldquests:
+    display:
+      name: "&f𮯭 &aQuests"
+      lore:
+      - ""
+      - "&7You can earn great rewards and"
+      - "&7rank up by completing quests."
+      - ""
+      - "&aClick and view quests!"
+      type: "PLAYER_HEAD"
+      owner-base64: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjcyYzA1ZGQ3NjI4OGY0MzI4YTI0MzkxYmY0NzI1ZmQyMjYwNTkyZGIzY2Y5YjJiYzIwMzJkZDA1OTZjZjQ0MCJ9fX0="
+  netheritequests:
+    display:
+      name: "&f𮯬 &7Quests"
+      lore:
+      - ""
+      - "&7You can earn great rewards and"
+      - "&7rank up by completing quests."
+      - ""
+      - "&aClick and view quests!"
+      type: "PLAYER_HEAD"
+      owner-base64: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVjODAzMTM0MDRhYWE2MGNiYWMxMDk4ZTNlMDVmMTA3YjlmNjY1MzQxMDNlOWI1OTRlOTIzMGVhMjI2YjVjZSJ9fX0="

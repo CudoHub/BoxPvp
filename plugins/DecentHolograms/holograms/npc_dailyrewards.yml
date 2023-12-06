@@ -1,0 +1,13 @@
+location: Requlogia:13.974:54.300:10.003
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 0
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: CHEST_MINECART'
+  - content: '&#fba63b&lD&#fba83f&lA&#fba942&lI&#fcab46&lL&#fcad4a&lY &#fcaf4e&lR&#fcb051&lE&#fcb255&lW&#fcb459&lA&#fdb65d&lR&#fdb760&lD&#fdb964&lS'
+  - content: '&#DBF8FDClick and view!'
+  actions: {}

@@ -1,0 +1,154 @@
+menu_title: '&fPlayer Kits'
+size: 27
+items:
+  playeravaliable:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDgzMTgzMGE3YmQzYjFhYjA1YmViOThkYzJmOWZjNWVhNTUwYjNjZjY0OWZkOTRkNDgzZGE3Y2QzOWY3YzA2MyJ9fX0='
+    slot: 11
+    priority: 2
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_player%'
+          output: '&a✔'
+    display_name: '&#bbff86Player Kit'
+    lore:
+    - ''
+    - '&7This kit contains a few item'
+    - '&7that you will need before'
+    - '&7starting the game.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per 30 minutes'
+    - '&8 ▪ &7Status &8▸ &#5BFB92Avaliable'
+    - ''
+    - '&aLeft-Click and View!'
+    - '&aRight-Click and Get!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_player'
+    right_click_commands:
+    - '[player] kit player'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  playerclaimed:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 11
+    priority: 1
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_player%'
+          output: '&c✖'
+    display_name: '&cPlayer Kit'
+    lore:
+    - ''
+    - '&7This kit contains a few item'
+    - '&7that you will need before'
+    - '&7starting the game.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per 30 minutes'
+    - '&8 ▪ &7Status &8▸ &#E88772Pending'
+    - '&8 ▪ &7Time Remaining &8▸ &f%essentials_kit_time_until_available_player%'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_player'
+    right_click_commands:
+    - '[player] kit player'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  foodavaliable:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTllZDIyNTU1YzY1NDk0NWI4YmU1YTBjZDQzYzBiYmU0MTUwZDczNWVjNzE5YjQ1YzU4ZjlhZDFmMTllYTVlZiJ9fX0='
+    slot: 15
+    priority: 2
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_food%'
+          output: '&a✔'
+    display_name: '&#fb00b5Food Kits'
+    lore:
+    - ''
+    - '&7This kit contains a few foods'
+    - '&7to satisfy your hunger cravings'
+    - '&7as you continue your adventure.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per 30 minutes'
+    - '&8 ▪ &7Status &8▸ &#5BFB92Avaliable'
+    - ''
+    - '&aLeft-Click and View!'
+    - '&aRight-Click and Get!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_food'
+    right_click_commands:
+    - '[player] kit food'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  foodclaimed:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 15
+    priority: 1
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_food%'
+          output: '&c✖'
+    display_name: '&cFood Kits'
+    lore:
+    - ''
+    - '&7This kit contains a few foods'
+    - '&7to satisfy your hunger cravings'
+    - '&7as you continue your adventure.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per 30 minutes'
+    - '&8 ▪ &7Status &8▸ &#E88772Pending'
+    - '&8 ▪ &7Time Remaining &8▸ &f%essentials_kit_time_until_available_food%'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_food'
+    right_click_commands:
+    - '[player] kit food'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  frame:
+    display_name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 23
+    - 24
+    - 25
+    - 26
+  close:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0='
+    slot: 22
+    display_name: '&cGo back'
+    lore:
+    - '&7Click and go back!'
+    click_commands:
+    - '[openguimenu] kit_main'

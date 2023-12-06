@@ -1,0 +1,16 @@
+name: Boss Info
+title: Boss Info
+author: RequaizeN
+generation: ORIGINAL
+lore:
+- Requlogia
+open_command: 'bossinfo'
+pages:
+  '1':
+  - '<click:run_command:/info>&4&l     ← &8&l[&4&lGo back&8&l]<reset>'
+  - ''
+  - '&9&lBOSS INFORMATION'
+  - '<reset>'
+  - '&0You can get great items by join in boss events on some days of the week.'
+  - '<reset>'
+  - '<click:run_command:/events>&6&lClick and View!<reset>'

@@ -1,0 +1,229 @@
+scoreboard-teams:
+  enabled: true
+  invisible-nametags: false
+  anti-override: true
+  enable-collision: true
+  sorting-types:
+  - GROUPS:owner,admin,youtuber,helper,builder,rvip+,rvip,mvip+,mvip,vip+,vip,netherite,emerald,diamond,gold,iron,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  disable-in-worlds:
+  - disabledworld
+  unlimited-nametag-mode:
+    enabled: true
+    use-marker-tag-for-1-8-x-clients: false
+    disable-on-boats: true
+    space-between-lines: false
+    disable-in-worlds:
+    - disabledworld
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+    disable-in-servers: []
+tablist-name-formatting:
+  enabled: true
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+  anti-override: true
+  disable-in-worlds:
+  - disabledworld
+header-footer:
+  enabled: true
+  disable-in-worlds:
+  - disabledworld
+  header:
+  - ''
+  - ''
+  - ''
+  - '&f𮰹'
+  - ''
+  - '&7Thank you for playing on our server.'
+  - '&7You can get information using the &#FB6E08/help &7command.'
+  - ''
+  - ''
+  footer:
+  - ''
+  - ''
+  - '&#7CFB90&oFor updates, shop and more:'
+  - '%animation:tabdomain%     %animation:tabdiscord%'
+  - ''
+  per-world:
+    world2-world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+    world1:
+      footer:
+      - header/footer and prefix/suffix
+      header:
+      - an example of world with custom
+yellow-number-in-tablist:
+  enabled: false
+  value: ''
+  disable-in-worlds:
+  - disabledworld
+belowname-objective:
+  enabled: false
+  number: '%health%'
+  text: Can
+  disable-in-worlds:
+  - disabledworld
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: true
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  default-bars:
+  - ServerInfo
+  bars:
+    ServerInfo:
+      permission-required: false
+      style: 'PROGRESS'
+      color: PURPLE
+      progress: '100'
+      text: '%animation:bar%'
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+    DoNotDoThis:
+    - ThisIsASingleWorldSoThereIsNoPointInEvenCreatingGroupForIt
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  disable-in-worlds:
+  - disabledworld
+  respect-other-plugins: true
+  scoreboards:
+    default:
+      title: '𮰹'
+      lines:
+      - ''
+      - '&f𮰈 &fRegion: &#FB8E40%worldguard_region_name_1%'
+      - '&f𮰋 &fKill: &#FB8E40%statistic_player_kills%'
+      - '&f𮰊 &fDeath: &#FB8E40%statistic_deaths%'
+      - '&f𮰌 &fKD: &#FB8E40%javascript_requlogiakd%'
+      - ''
+      - '&f𮰇 &fReset: &#00CEFB%animation:minename%'
+      - '&f𮰆 &fTime: &#00CEFB%animation:minetime%'
+      - ''
+      - '&f𮰅 &fEvent: &#FB4747%tasktimer_event%'
+      - '&f𮰆 &fTime: &#FB4747%tasktimer_time%'
+      - ''
+      - '&7  &7%server_time_d% %server_time_MMMM% %server_time_yyyy% &7%server_time_HH%:&7%server_time_mm%'
+      - '&e    www.requlogia.com'
+ping-spoof:
+  enabled: false
+fix-pet-names:
+  enabled: false
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  register-tab-expansion: true
+placeholder-output-replacements:
+  '%worldguard_region_name_1%':
+    'global': 'Space'
+    'spawn': 'Spawn'
+    'spawn_pvp': 'Spawn (PvP)'
+    'spawn_pvp-mid': 'Spawn (PvP)'
+    'iceland': 'Ice Land'
+    'flameland': 'Flame Land'
+    'nightmareland': 'Nightmare Land'
+    'iceland_in': 'Ice Land'
+    'flameland_in': 'Flame Land'
+    'nightmareland_in': 'Nightmare Land'
+    'mine_cobblestone': 'Cobblestone Mine'
+    'mine_coal': 'Coal Mine'
+    'mine_lapis': 'Lapis Mine'
+    'mine_redstone': 'Redstone Mine'
+    'mine_iron': 'Iron Mine'
+    'mine_gold': 'Gold Mine'
+    'mine_diamond': 'Diamond Mine'
+    'mine_emerald': 'Emerald Mine'
+    'mine_prismarine': 'Prismarine Mine'
+    'mine_endstone': 'End Stone Mine'
+    'mine_quartz': 'Quartz Mine'
+    'mine_magma': 'Magma Mine'
+    'mine_netherite': 'Netherite Mine'
+    'mine_netherbrick': 'Nether Brick Mine'
+    'mine_blackstone': 'Blackstone Mine'
+    'mine_purpur': 'Purpur Mine'
+    'mine_obsidian': 'Obsidyen Mine'
+    'luckyblock_coal': 'LB. Coal'
+    'luckyblock_lapis': 'LB. Lapis'
+    'luckyblock_redstone': 'LB. Redstone'
+    'luckyblock_iron': 'LB. Iron'
+    'luckyblock_gold': 'LB. Gold'
+    'luckyblock_diamond': 'LB. Diamond'
+    'luckyblock_emerald': 'LB. Emerald'
+    'luckyblock_endstone': 'LB. End Stone'
+    'luckyblock_prismarine': 'LB. Prismarine'
+    'luckyblock_magma': 'LB. Magma'
+    'luckyblock_quartz': 'LB. Quartz'
+    'luckyblock_netherbrick': 'LB. Nether B.'
+    'luckyblock_netherite': 'LB. Netherite'
+    'luckyblock_blackstone': 'LB. Blackstone'
+    'luckyblock_purpur': 'LB. Purpur'
+    'luckyblock_obsidian': 'LB. Obsidian'
+    'luckyblock_event': 'LB. Event'
+    'teleport_spawn-ice': 'Spawn -> Ice'
+    'teleport_ice-spawn': 'Ice -> Spawn'
+    'teleport_ice-flame': 'Ice -> Flame'
+    'teleport_flame-ice': 'Flame -> Ice'
+    'teleport_flame-nightmare': 'Flame -> Nightmare'
+    'teleport_nightmare-flame': 'Nightmare -> Flam'
+    'boss_ice': 'Ice Boss'
+    'boss_flame': 'Flame Boss'
+    'boss_nightmare': 'Nightmare Boss'
+  '%kdratio_ratio%':
+    'NaN': '0'
+  '%afk%':
+    'true': '&8&o AFK'
+    'false': ''
+conditions: {}
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 100
+  server:
+    '%server_uptime%': 1000
+    '%server_tps_1_colored%': 1000
+  player:
+    '%vault_prefix%': 1000
+    '%player_health%': 200
+    '%player_ping%': 1000
+  relational:
+    '%rel_factionsuuid_relation_color%': 500
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Helper
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password

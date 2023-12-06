@@ -1,0 +1,14 @@
+11.06.2023 - 15:12:46 - [TAB v3.1.2] An error was thrown when executing task
+11.06.2023 - 15:12:46 - java.lang.NullPointerException: Cannot invoke "me.neznamy.tab.api.placeholder.PlaceholderManager.detectPlaceholders(String)" because the return value of "me.neznamy.tab.api.TabAPI.getPlaceholderManager()" is null
+11.06.2023 - 15:12:46 - 	at me.neznamy.tab.shared.placeholders.TabPlaceholder.getNestedPlaceholders(TabPlaceholder.java:95)
+11.06.2023 - 15:12:46 - 	at me.neznamy.tab.shared.placeholders.TabPlaceholder.setPlaceholders(TabPlaceholder.java:129)
+11.06.2023 - 15:12:46 - 	at me.neznamy.tab.shared.placeholders.PlayerPlaceholderImpl.update(PlayerPlaceholderImpl.java:55)
+11.06.2023 - 15:12:46 - 	at me.neznamy.tab.shared.features.PlaceholderManagerImpl.updatePlayerPlaceholder(PlaceholderManagerImpl.java:121)
+11.06.2023 - 15:12:46 - 	at me.neznamy.tab.shared.features.PlaceholderManagerImpl.refresh(PlaceholderManagerImpl.java:67)
+11.06.2023 - 15:12:46 - 	at me.neznamy.tab.shared.CpuManager.lambda$runMeasuredTask$8(CpuManager.java:351)
+11.06.2023 - 15:12:46 - 	at me.neznamy.tab.shared.CpuManager.lambda$submit$1(CpuManager.java:113)
+11.06.2023 - 15:12:46 - 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+11.06.2023 - 15:12:46 - 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+11.06.2023 - 15:12:46 - 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+11.06.2023 - 15:12:46 - 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+11.06.2023 - 15:12:46 - 	at java.base/java.lang.Thread.run(Thread.java:831)

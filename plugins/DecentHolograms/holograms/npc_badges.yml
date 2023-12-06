@@ -1,0 +1,13 @@
+location: Requlogia:22.007:54.300:25.985
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 0
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: NAME_TAG'
+  - content: '&#00f7fb&lB&#2cf8fb&lA&#58f9fc&lD&#85fafc&lG&#b1fbfd&lE&#ddfcfd&lS'
+  - content: '&#DBF8FDClick and view!'
+  actions: {}

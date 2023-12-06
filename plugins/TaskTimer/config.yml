@@ -1,0 +1,170 @@
+SchedulerTick: 2
+timeFormat: "h-m-s"
+noEventInQueued: "&cNo Events."
+
+Tasks:
+   luckyblock:
+      name: "LuckyBlock"
+      announce: true
+      time: "19:00:00"
+      day:
+      - "MON"
+      - "TUE"
+      - "WED"
+      - "THU"
+      webhooks:
+      - "event-1"
+      commands:
+      - "luckyblock start 8182ac24-4522-42ce-8140-b96d3ae13ef9"
+      - "broadcast &dLuckyBlock &aevent has begun!"
+      - "broadcast &fYou can join the event by going to the &dLuckyBlock &farea."
+      subtasks:
+         subtask-1:
+            time: "18:50:00"
+            webhooks:
+               - "event-2"
+            commands:
+               - "broadcast &d%event% &fevent will start after &e%remaining%&f!"
+         subtask-2:
+            time: "18:55:00"
+            webhooks:
+               - "event-2"
+            commands:
+               - "broadcast &d%event% &fevent will start after &e%remaining%&f!"
+         subtask-3:
+            time: "18:59:00"
+            webhooks:
+               - "event-2"
+            commands:
+               - "broadcast &d%event% &fevent will start after &e%remaining%&f!"
+   envoy:
+      name: "Envoy"
+      announce: true
+      time: "19:00:00"
+      day:
+      - "FRI"
+      - "SAT"
+      - "SUN"
+      webhooks:
+      - "event-1"
+      commands:
+      - "envoy start"
+      subtasks:
+         subtask-1:
+            time: "18:50:00"
+            webhooks:
+               - "event-2"
+            commands:
+               - "broadcast &d%event% &fevent will start after &e%remaining%&f!"
+         subtask-2:
+            time: "18:55:00"
+            webhooks:
+               - "event-2"
+            commands:
+               - "broadcast &d%event% &fevent will start after &e%remaining%&f!"
+         subtask-3:
+            time: "18:59:00"
+            webhooks:
+               - "event-2"
+            commands:
+               - "broadcast &d%event% &fevent will start after &e%remaining%&f!"
+   iceboss:
+      name: "Ice Boss"
+      announce: true
+      time: "21:00:00"
+      day:
+      - "FRI"
+      webhooks:
+      - "event-1"
+      commands:
+      - "mm m spawn IceBoss 1 Requlogia,-4,32,-364"
+      - "broadcast &dIce Boss &aevent has begun!"
+      - "broadcast &fYou can join the event by going to the &dIce Land &farea."
+      subtasks:
+         subtask-1:
+            time: "20:50:00"
+            webhooks:
+               - "event-2"
+            commands:
+               - "broadcast &d%event% &fevent will start after &e%remaining%&f!"
+         subtask-2:
+            time: "20:55:00"
+            webhooks:
+               - "event-2"
+            commands:
+               - "broadcast &d%event% &fevent will start after &e%remaining%&f!"
+         subtask-3:
+            time: "20:59:00"
+            webhooks:
+               - "event-2"
+            commands:
+               - "broadcast &d%event% &fevent will start after &e%remaining%&f!"
+   flameboss:
+      name: "Flame Boss"
+      announce: true
+      time: "21:00:00"
+      day:
+      - "SAT"
+      webhooks:
+      - "event-1"
+      commands:
+      - "mm m spawn FlameBoss 1 Requlogia,-3,10,-649"
+      - "broadcast &dFlame Boss &aevent has begun!"
+      - "broadcast &fYou can join the event by going to the &dFlame Land &farea."
+      subtasks:
+         subtask-1:
+            time: "20:50:00"
+            webhooks:
+               - "event-2"
+            commands:
+               - "broadcast &d%event% &fevent will start after &e%remaining%&f!"
+         subtask-2:
+            time: "20:55:00"
+            webhooks:
+               - "event-2"
+            commands:
+               - "broadcast &d%event% &fevent will start after &e%remaining%&f!"
+         subtask-3:
+            time: "20:59:00"
+            webhooks:
+               - "event-2"
+            commands:
+               - "broadcast &d%event% &fevent will start after &e%remaining%&f!"
+   nightmareboss:
+      name: "Nightmare Boss"
+      announce: true
+      time: "21:00:00"
+      day:
+      - "SUN"
+      webhooks:
+      - "event-1"
+      commands:
+      - "mm m spawn NightmareBoss 1 Requlogia,-9,10,-957"
+      - "broadcast &dNightmare Boss &aevent has begun!"
+      - "broadcast &fYou can join the event by going to the &dNightmare Land &farea."
+      subtasks:
+         subtask-1:
+            time: "20:50:00"
+            webhooks:
+               - "event-2"
+            commands:
+               - "broadcast &d%event% &fevent will start after &e%remaining%&f!"
+         subtask-2:
+            time: "20:55:00"
+            webhooks:
+               - "event-2"
+            commands:
+               - "broadcast &d%event% &fevent will start after &e%remaining%&f!"
+         subtask-3:
+            time: "20:59:00"
+            webhooks:
+               - "event-2"
+            commands:
+               - "broadcast &d%event% &fevent will start after &e%remaining%&f!"
+   autorestart:
+      name: "Auto Restart"
+      announce: false
+      time: "05:00:00"
+      commands:
+      - "save-all"
+      - "stop"

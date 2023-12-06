@@ -1,0 +1,210 @@
+gui:
+  back-button:
+    name: "&cReturn"
+    lore:
+    - "&7Return to the categories menu."
+    type: "ARROW"
+  page-prev:
+    name: "&7Previous Page"
+    lore:
+    - "&7Switch the page to page &e{prevpage}&7."
+    type: "FEATHER"
+  page-next:
+    name: "&7Next Page"
+    lore:
+    - "&7Switch the page to page &e{nextpage}&7."
+    type: "FEATHER"
+  page-desc:
+    name: "&7Page #{page}"
+    lore:
+    - "&7You are currently viewing page &e{page}&7."
+    type: "PAPER"
+  quest-locked-display:
+    name: "&cQuest Locked"
+    lore:
+    - "&7You must complete the previous"
+    - "&7quest to advance to this quest."
+    - ""
+    - "&7You can unlock it by completing"
+    - "&7the &f{requirements} &cquest."
+    type: "RED_STAINED_GLASS_PANE"
+  quest-permission-display:
+    name: "&6No Permission"
+    lore:
+    - "&7You do not have permission for this"
+    - "&7quest &8(&e{quest}&8)&7."
+    type: "BROWN_STAINED_GLASS_PANE"
+  quest-cooldown-display:
+    name: "&eQuest On Cooldown"
+    lore:
+    - "&7You have already completed"
+    - "&7this task. you have to wait"
+    - "&e{time} &7to complete it again."
+    type: "ORANGE_STAINED_GLASS_PANE"
+  quest-completed-display:
+    name: "&aQuest Complete"
+    lore:
+    - "&7You have completed this quest"
+    - "&8(&e{quest}&8) &7and cannot."
+    - "&7repeat it."
+    type: "LIME_STAINED_GLASS_PANE"
+  no-started-quests:
+    name: ""
+    lore:
+    - ""
+    type: "FEATHER"
+  quest-cancel-yes:
+    name: "&cConfirm Cancel"
+    lore:
+    - "&7Confirm you wish to cancel"
+    - "&7this quest and lose all"
+    - "&7progress."
+    type: "RED_STAINED_GLASS_PANE"
+  quest-cancel-no:
+    name: "&aAbort Cancel"
+    lore:
+    - "&7Return to the quest menu."
+    type: "LIME_STAINED_GLASS_PANE"
+  quest-cancel-background:
+    type: "GRAY_STAINED_GLASS_PANE"
+options:
+  categories-enabled: true
+  trim-gui-size: true
+  titles-enabled: true
+  quest-limit:
+    default: 1
+  allow-quest-cancel: true
+  allow-quest-track: true
+  task-type-exclusions: []
+  guinames:
+    quests-category: "&fQuests"
+    quests-menu: "&fQuests"
+    quests-started-menu: "&fStarted Quests"
+    daily-quests: "&fDaily Quests"
+    quest-cancel: "&fCancel Quest"
+  sounds:
+    quest-start: ""
+    quest-cancel: ""
+    quest-complete: ""
+    gui:
+      open: ""
+      interact: ""
+  gui-hide-locked: false
+  gui-confirm-cancel: true
+  gui-hide-quests-nopermission: false
+  gui-hide-categories-nopermission: false
+  gui-use-placeholderapi: false
+  gui-truncate-requirements: false
+  gui-actions:
+    start-quest: "LEFT"
+    track-quest: "MIDDLE"
+    cancel-quest: "RIGHT"
+  quest-autostart: false
+  quest-autotrack: true
+  verbose-logging-level: 2
+  quests-use-placeholderapi: false
+  verify-quest-exists-on-load: true
+  performance-tweaking:
+    quest-queue-executor-interval: 1
+    quest-autosave-interval: 12000
+  tab-completion:
+    enabled: true
+  error-checking:
+    override-errors: false
+  placeholder-cache-time: 10
+  global-task-configuration-override: false
+  global-quest-display-configuration-override: false
+  storage:
+    provider: "yaml"
+    synchronisation:
+      delay-loading: 0
+    database-settings:
+      network:
+        database: "minecraft"
+        username: "root"
+        password: ""
+        address: "localhost:3306"
+      connection-pool-settings:
+        maximum-pool-size: 8
+        minimum-idle: 8
+        maximum-lifetime: 1800000
+        connection-timeout: 5000
+      table-prefix: "quests_"
+quest-mode:
+  mode: "NORMAL"
+global-quest-display:
+  lore:
+    append-not-started:
+      - ""
+    append-started:
+      - ""
+    append-tracked:
+      - ""
+global-macros:
+  bar: ""
+titles:
+  quest-start:
+    title: "&6Quest Started!"
+    subtitle: "&7{quest}"
+  quest-complete:
+    title: "&aQuest Complete!"
+    subtitle: "&7{quest}"
+messages:
+  time-format: "{hours}h {minutes}m"
+  quest-start: "&6 Quests &8▸ &fQuest &e{quest} &fstarted!"
+  quest-complete: "&6 Quests &8▸&aQuest &e{quest} &acompleted!"
+  quest-cancel: "&6 Quests &8▸ &cQuest &e{quest} &ccancelled!"
+  quest-expire: "&6 Quests &8▸ &cQuest &e{quest} &chas expired."
+  quest-track: "&6 Quests &8▸ &fTracking quest &e{quest}&f."
+  quest-track-stop: "&6 Quests &8▸ &fNo longer tracking quest &e{quest}&f."
+  quest-random-none: "&6 Quests &8▸ &cYou have no quests which you can start."
+  quest-start-limit: "&6 Quests &8▸ &cPlayers are limited to &e{limit} &cstarted quests at a time."
+  quest-start-disabled: "&6 Quests &8▸ &cYou cannot repeat this quest."
+  quest-start-locked: "&6 Quests &8▸ &cYou have not unlocked this quest yet."
+  quest-start-cooldown: "&6 Quests &8▸ &cYou have recently completed this quest. You have to wait &e{time} &cuntil you are able to restart it."
+  quest-start-started: "&6 Quests &8▸ &fYou have already started this quest."
+  quest-start-permission: "&6 Quests &8▸ &cYou do not have permission to start this quest."
+  quest-category-permission: "&6 Quests &8▸ &cYou do not have permission to view this category."
+  quest-category-quest-permission: "&6 Quests &8▸ &cYou do not have permission to start this quest since it is in a category you do not have permission to view."
+  quest-cancel-notstarted: "&6 Quests &8▸ &cYou have not started this quest."
+  quest-cancel-notcancellable: "&6 Quests &8▸ &cYou cannot cancel this quest."
+  quest-updater: " "
+  command-data-not-loaded: "&6 Quests &8▸ &cYour quests progress file has not been loaded; you cannot use quests. If this issue persists, contact an admin."
+  command-sub-doesntexist: "&6 Quests &8▸ &cThe specified subcommand &e{sub} &cdoes not exist."
+  command-quest-cancel-specify: "&6 Quests &8▸ &cYou must specify a quest to cancel."
+  command-quest-start-doesntexist: "&6 Quests &8▸ &cThe specified quest &e{quest} &cdoes not exist."
+  command-quest-general-doesntexist: "&6 Quests &8▸ &cThe specified quest &e{quest} &cdoes not exist."
+  command-category-open-disabled: "&6 Quests &8▸ &cCategories are disabled."
+  command-category-open-doesntexist: "&6 Quests &8▸ &cThe specified category &e{category} &cdoes not exist."
+  command-quest-admin-playernotfound: "&6 Quests &8▸ &cPlayer &e{player} &ccould not be found."
+  command-quest-openquests-admin-success: "&6 Quests &8▸ &fOpened Quest GUI for player &e{player}&f."
+  command-quest-openstarted-admin-success: "&6 Quests &8▸ &fOpened started Quest GUI for player &e{player}&f."
+  command-quest-opencategory-admin-success: "&6 Quests &8▸ &fOpened category {category} for player &e{player}&f."
+  command-taskview-admin-fail: "&6 Quests &8▸ &cTask type &e{task} &cdoes not exist."
+  beta-reminder: " "
+  command-quest-admin-loaddata: "&6 Quests &8▸ &fQuest data for &e{player} &fis being loaded."
+  command-quest-admin-nodata: "&6 Quests &8▸ &cNo data could be found for player &e{player}&c."
+  command-quest-admin-fullreset: "&6 Quests &8▸ &fData for player &e{player} &chas been fully reset."
+  command-quest-admin-start-faillocked: "&6 Quests &8▸ &cQuest &e{quest} &ccould not be started for player &e{player}&c. They have not yet unlocked it."
+  command-quest-admin-start-failcooldown: "&6 Quests &8▸ &cQuest &e{quest} &ccould not be started for player &e{player}&c. It is still on cooldown for them."
+  command-quest-admin-start-failcomplete: "&6 Quests &8▸ &cQuest &e{quest} could not be started for player &e{player}&c. They have already completed it."
+  command-quest-admin-start-faillimit: "&6 Quests &8▸ &cQuest &e{quest} could not be started for player &e{player}&c. They have reached their quest start limit."
+  command-quest-admin-start-failstarted: "&6 Quests &8▸ &cQuest &e{quest} could not be started for player &e{player}&c. It is already started."
+  command-quest-admin-start-failpermission: "&6 Quests &8▸ &cQuest &e{quest} could not be started for player &e{player}&c. They do not have permission."
+  command-quest-admin-start-failcategorypermission: "&6 Quests &8▸ &cQuest &e{quest} could not be started for player &e{player}&c. They do not have permission for the category which the quest is in."
+  command-quest-admin-start-failother: "&6 Quests &8▸ &cQuest {quest} could not be started for player &e{player}&c."
+  command-quest-admin-start-success: "&6 Quests &8▸ &aQuest &e{quest} &astarted for player &e{player}&a."
+  command-quest-admin-category-permission: "&6 Quests &8▸ &cCategory &e{category} &ccould not be opened for player &e{player}&c. They do not have permission to view it."
+  command-quest-admin-complete-success: "&6 Quests &8▸ &aQuest &e{quest} &acompleted for player &e{player}&a."
+  command-quest-admin-reset-success: "&6 Quests &8▸ &aSuccessfully reset quest &e{quest} &afor player &e{player}&a."
+  command-quest-admin-random-none: "&6 Quests &8▸ &cPlayer &e{player} &chas no quests which they can start."
+  command-quest-admin-random-success: "&6 Quests &8▸ &fSuccessfully started random quest &e{quest} &ffor player &e{player}&f."
+  command-quest-admin-random-category-none: "&6 Quests &8▸ &cPlayer &e{player} &chas no quests in category &e{category} &cwhich they can start."
+  command-quest-admin-random-category-success: "&6 Quests &8▸ &aSuccessfully started random quest &e{quest} &afrom category &e{category} &afor player &e{player}&a."
+  ui-placeholder-completed-true: "true"
+  ui-placeholder-completed-false: "false"
+  ui-placeholder-truncated: " +{amount} more"
+  placeholderapi-true: "true"
+  placeholderapi-false: "false"
+  placeholderapi-no-tracked-quest: "No tracked quest"
+  placeholderapi-data-not-loaded: "Data not loaded"

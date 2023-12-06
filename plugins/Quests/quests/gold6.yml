@@ -1,0 +1,28 @@
+tasks:
+  steps:
+    type: "walking"
+    distance: 2000
+display:
+  name: "&f𮯯 &eQuests &8▸ &7#6"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Take 2000x Steps."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{steps:progress}/2000x Steps"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &71x Cosmetic Crate Key"
+  type: "NETHERITE_BOOTS"
+rewards:
+  - "cc give p cosmetic 1 {player}"
+options:
+  category: "goldquests"
+  requires:
+    - "gold5"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 15

@@ -1,0 +1,169 @@
+menu_title: '&fLucky Block Content'
+open_command:
+- luckyblockevent
+size: 54
+items:
+  item1:
+    material: NETHER_GOLD_ORE
+    slot: 10
+    display_name: '&8[&71x&8] &#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#7effa2E&#75ff9aM&#6bff92E&#62ff8aR&#58ff82A&#4fff7aL&#45ff72D&8]'
+  item2:
+    material: NETHER_GOLD_ORE
+    slot: 11
+    display_name: '&8[&71x&8] &#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#dff9ffD&#d2f9ffI&#c4f8ffA&#b7f8ffM&#aaf7ffO&#9cf7ffN&#8ff6ffD&8]'
+  item3:
+    material: NETHER_GOLD_ORE
+    slot: 12
+    display_name: '&8[&71x&8] &#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#f5ff83G&#f1f877O&#eef06bL&#eae95fD&8]'
+  item4:
+    material: NETHER_GOLD_ORE
+    slot: 13
+    display_name: '&8[&71x&8] &#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#dff9ffI&#def5faR&#def1f5O&#ddedf0N&8]'
+  item5:
+    material: NETHER_GOLD_ORE
+    slot: 14
+    display_name: '&8[&71x&8] &#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#ff8181R&#ff7777E&#ff6d6dD&#ff6363S&#ff5a5aT&#ff5050O&#ff4646N&#ff3c3cE&8]'
+  item6:
+    material: NETHER_GOLD_ORE
+    slot: 15
+    display_name: '&8[&71x&8] &#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#67ffedL&#61f2efA&#5be6f1P&#55d9f2I&#4fccf4S&8]'
+  item7:
+    material: NETHER_GOLD_ORE
+    slot: 16
+    display_name: '&8[&71x&8] &#fb8989L&#fb9384U&#fb9c80C&#fca67bK&#fcb076Y &#fcb972B&#fcc36dL&#fdcd68O&#fdd664C&#fde05fK &8[&#b1b1b1C&#a3a3a3O&#969696A&#888888L&8]'
+  item8:
+    material: PAPER
+    slot: 19
+    display_name: '&8[&71x&8] &#f9fb81F&#ecfa7ce&#e0f977e&#d3f872d &#c6f76dT&#baf569i&#adf464c&#a0f35fk&#94f25ae&#87f155t'
+    model_data: 6044
+  item9:
+    material: PAPER
+    slot: 20
+    display_name: '&8[&71x&8] &#fbaa7cH&#faa476e&#f99f6fa&#f89969l &#f79362T&#f58e5ci&#f48855c&#f3824fk&#f27d48e&#f17742t'
+    model_data: 6045
+  item10:
+    material: ENCHANTED_GOLDEN_APPLE
+    slot: 21
+    display_name: '&8[&71x&8] &6Enchanted Golden Apple'
+  item11:
+    material: GOLDEN_APPLE
+    slot: 22
+    display_name: '&8[&71x&8] &6Golden Apple'
+  item12:
+    material: PAPER
+    slot: 23
+    display_name: '&8[&73x&8] &#fc6cffC&#fc7debO&#fd8dd8I&#fd9ec4N &8[&#feafb1L&#fec09dU&#ffd08aC&#ffe176K&8]'
+    model_data: 6014
+  item13:
+    material: PAPER
+    slot: 24
+    display_name: '&#d53dfbC&#cf3bfbO&#ca38fcI&#c436fcN &8[&#bf33fcV&#bb31fcA&#b730fdU&#b22efdL&#ae2cfdT&8]'
+    model_data: 6012
+  item14:
+    material: PAPER
+    slot: 25
+    display_name: '&8[&73x&8] &#fdff86C&#fdfb7bO&#fef671I&#fef266N &8[&#feed5cI&#fee951T&#ffe447E&#ffe03cM&8]'
+    model_data: 6021
+  item15:
+    material: PAPER
+    slot: 28
+    display_name: '&8[&73x&8] &#fdff86C&#f3ff80O&#e8ff7aI&#deff74N &8[&#d4ff6eF&#c6ff66O&#b8ff5dO&#aaff55D&8]'
+    model_data: 6016
+  item16:
+    material: PAPER
+    slot: 29
+    display_name: '&8[&716x&8] &#fbfbfbC&#e8fce8O&#d4fcd6I&#c1fdc3N &8[&#adfdb0I&8]'
+    model_data: 6000
+  item17:
+    material: PAPER
+    slot: 30
+    display_name: '&8[&71x&8] &#7aff6fE&#77f968m&#73f261e&#70ec5br&#6ce654a&#69df4dl&#65d946d &#62d23fS&#5ecc38h&#5bc632a&#57bf2br&#54b924d'
+    model_data: 6032
+  item18:
+    material: PAPER
+    slot: 31
+    display_name: '&8[&71x&8] &#67fff6D&#61f0f0i&#5ae2eba&#54d3e5m&#4ec4e0o&#48b6dan&#41a7d5d &#3b99cfS&#358acah&#2f7bc4a&#286dbfr&#225eb9d'
+    model_data: 6031
+  item19:
+    material: PAPER
+    slot: 32
+    display_name: '&8[&71x&8] &#ffcf53G&#f6c449o&#eeba3el&#e5af34d &#dca52aS&#d39a1fh&#cb8f15a&#c2850ar&#b97a00d'
+    model_data: 6030
+  item20:
+    material: PAPER
+    slot: 33
+    display_name: '&8[&71x&8] &#ffffffI&#f6f6f6r&#eeeeeeo&#e5e5e5n &#dcdcdcS&#d3d3d3h&#cbcbcba&#c2c2c2r&#b9b9b9d'
+    model_data: 6029
+  item21:
+    material: PAPER
+    slot: 34
+    display_name: '&8[&71x&8] &#ff9d9dR&#ff9292e&#ff8787d&#ff7c7cs&#ff7171t&#ff6666o&#ff5b5bn&#ff4f4fe &#ff4444S&#ff3939h&#ff2e2ea&#ff2323r&#ff1818d'
+    model_data: 6027
+  item22:
+    material: PAPER
+    slot: 37
+    display_name: '&8[&71x&8] &#92f2ffL&#8de1ffa&#88d0ffp&#84bfffi&#7faeffs &#7a9effS&#758dffh&#717cffa&#6c6bffr&#675affd'
+    model_data: 6028
+  item23:
+    material: PAPER
+    slot: 38
+    display_name: '&8[&71x&8] &#b7b7b7C&#a7a7a7o&#979797a&#878787l &#777777S&#676767h&#575757a&#474747r&#373737d'
+    model_data: 6026
+  item24:
+    material: PAPER
+    slot: 39
+    display_name: '&8[&71x&8] &#fbfbfbS&#eeeeeet&#e1e1e1o&#d3d3d3n&#c6c6c6e &#b9b9b9S&#acacach&#9e9e9ea&#919191r&#848484d'
+    model_data: 6025
+  item25:
+    material: FIREWORK_ROCKET
+    slot: 40
+    display_name: '&8[&716x&8] &6Firework Rocket'
+  item26:
+    material: COBWEB
+    slot: 41
+    display_name: '&8[&716x&8] &6Cobweb'
+  item27:
+    material: ARROW
+    slot: 42
+    display_name: '&8[&716x&8] &6Arrow'
+  item28:
+    material: COOKED_BEEF
+    slot: 43
+    display_name: '&8[&716x&8] &6Beef'
+  frame:
+    display_name: ' '
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 35
+    - 36
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 51
+    - 52
+    - 53
+  close:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0='
+    slot: 49
+    display_name: '&cClose Menu'
+    lore:
+    - '&7Click and close menu!'
+    click_commands:
+    - '[close]'

@@ -1,0 +1,74 @@
+menu_title: '&fSettings'
+open_command:
+- settings
+- setting
+size: 27
+items:
+  autopickup:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MDRjMWI3M2E3Y2JmYzg2MDU3OGNlMDQ0ZTI3MWQxM2I3OTE2NmVhZDgwYjM2NDUxOGNmZjIzNGQ2MTIxMiJ9fX0='
+    slot: 12
+    display_name: '&6Auto Pickup'
+    lore:
+    - ''
+    - '&7It is the setting for the'
+    - '&7blocks you break to come to'
+    - '&7the inventory automatically.'
+    - ''
+    - '&aClick and change!'
+    click_commands:
+    - '[player] autopickup'
+  bossbar:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDljMzk0ZmQ2MjRlNDQ3ZDEyNWVmM2ZiNTRkODJhNmZhNGIwYzYxODhlMzA0ZDMzMzUyZDEzZmJkYjBjNzUxYiJ9fX0='
+    slot: 13
+    display_name: '&6Bossbar'
+    lore:
+    - ''
+    - '&7It is the setting to turn'
+    - '&7on/off the bossbar above.'
+    - ''
+    - '&aClick and change!'
+    click_commands:
+    - '[player] tab bossbar'
+  scoreboard:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYwMTViNDgwYWMyY2U0ODM0YzlkOGYyY2E1ZDE1YzZjYWMzOGE1MjE0NzA0MGExYzRjMDk1YTIzMTk4MTZmNSJ9fX0='
+    slot: 14
+    display_name: '&6Scoreboard'
+    lore:
+    - ''
+    - '&7It is the setting to turn on/off'
+    - '&7the scoreboard on the right.'
+    - ''
+    - '&aClick and change!'
+    click_commands:
+    - '[player] tab scoreboard'
+  frame:
+    display_name: ' '
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 23
+    - 24
+    - 25
+    - 26
+  close:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0='
+    slot: 22
+    display_name: '&cClose Menu'
+    lore:
+    - '&7Click and close menu!'
+    click_commands:
+    - '[close]'

@@ -1,0 +1,80 @@
+on place of cobweb:
+  if player's gamemode isn't creative:
+    wait 5 seconds
+    set event-block to air
+
+on break of cobweb:
+  if player's gamemode isn't creative:
+    cancel event
+    set event-block to air
+
+on damage:
+	victim is a player
+	victim's world = "Requlogia"
+	if y-coordinate of victim is below 0:
+		cancel event
+		teleport victim to {falllocation}
+		send "&6 Teleporter &8▸ &fYou teleported to the spawn because you fell down!" to victim
+		stop
+
+on damage:
+	victim is a player
+	attacker is a player
+	if victim has permission "pvpprotection":
+		cancel event
+		send "&6 Combat &8▸ &cYou cannot attack because the player is in protection time!" to attacker
+		stop
+	if attacker has permission "pvpprotection":
+		cancel event
+		send "&6 Combat &8▸ &cYou cannot attack because you are in protection time!" to attacker
+		stop
+
+on damage:
+    victim is item frame
+    cancel event
+
+on right click on item frame:
+    cancel event
+
+on first join:
+  execute console command "lp user %player% permission settemp pvpprotection true 30m"
+
+right click with paper:
+	name of player's held item is "<##f9fb81>F<##ecfa7c>e<##e0f977>e<##d3f872>d <##c6f76d>T<##baf569>i<##adf464>c<##a0f35f>k<##94f25a>e<##87f155>t":
+		cancel event
+		remove 1 of tool from player's held item
+		execute console command "feed %player%"
+	name of player's held item is "<##fbaa7c>H<##faa476>e<##f99f6f>a<##f89969>l <##f79362>T<##f58e5c>i<##f48855>c<##f3824f>k<##f27d48>e<##f17742>t":
+		cancel event
+		remove 1 of tool from player's held item
+		execute console command "heal %player%"
+	name of player's held item is "<##fb8989>E<##fa8782>v<##f9857b>e<##f88474>n<##f7826d>t <##f68066>T<##f57e5e>i<##f47c57>c<##f37b50>k<##f27949>e<##f17742>t &8[&fEnvoy&8]":
+		cancel event
+		remove 1 of tool from player's held item
+		execute console command "envoy start"
+	name of player's held item is "<##fb8989>E<##fa8782>v<##f9857b>e<##f88474>n<##f7826d>t <##f68066>T<##f57e5e>i<##f47c57>c<##f37b50>k<##f27949>e<##f17742>t &8[&fLucky Block&8]":
+		cancel event
+		remove 1 of tool from player's held item
+		execute console command "luckyblock start 8182ac24-4522-42ce-8140-b96d3ae13ef9"
+	name of player's held item is "<##fb8989>E<##fa8782>v<##f9857b>e<##f88474>n<##f7826d>t <##f68066>T<##f57e5e>i<##f47c57>c<##f37b50>k<##f27949>e<##f17742>t &8[&fIce Boss&8]":
+		cancel event
+		remove 1 of tool from player's held item
+		execute console command "mm m spawn IceBoss 1 Requlogia,-4,32,-364"
+	name of player's held item is "<##fb8989>E<##fa8782>v<##f9857b>e<##f88474>n<##f7826d>t <##f68066>T<##f57e5e>i<##f47c57>c<##f37b50>k<##f27949>e<##f17742>t &8[&fFlame Boss&8]":
+		cancel event
+		remove 1 of tool from player's held item
+		execute console command "mm m spawn FlameBoss 1 Requlogia,-3,10,-649"
+	name of player's held item is "<##fb8989>E<##fa8782>v<##f9857b>e<##f88474>n<##f7826d>t <##f68066>T<##f57e5e>i<##f47c57>c<##f37b50>k<##f27949>e<##f17742>t &8[&fNightmare Boss&8]":
+		cancel event
+		remove 1 of tool from player's held item
+		execute console command "mm m spawn NightmareBoss 1 Requlogia,-9,10,-957"
+
+on command:
+    if command sender is player:
+        command is "pvptoggle" or "togglepvp" or "pvp" or "combatlogx:pvp" or "combatlogx:pvptoggle" or "combatlogx:togglepvp":
+            cancel event
+            message "&6 Guard &8▸ &cYou do not have the permissions to do that!"
+
+on craft:
+    cancel event
+    send "&6 Guard &8▸ &cYou do not have the permission to craft items!"

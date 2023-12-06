@@ -1,0 +1,32 @@
+tasks:
+  cobblestone:
+    type: "inventory"
+    item: COBBLESTONE
+    amount: 256
+    remove-items-when-complete: true
+display:
+  name: "&f𮯰 Quests &8▸ &7#7"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Collect 265x Cobblestone."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{cobblestone:progress}/256x Cobblestone"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &71x Heal Ticket"
+    - "&5 ▪ &73x Feed Ticket"
+  type: "COBBLESTONE"
+rewards:
+  - "cti ticket_heal {player} 1"
+  - "cti ticket_feed {player} 3"
+options:
+  category: "ironquests"
+  requires:
+    - "iron6"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 7

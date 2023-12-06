@@ -1,0 +1,13 @@
+location: Requlogia:-13,500:54,000:91,500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 1200
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: IRON_INGOT'
+  - content: '&#feb900Fourth Player'
+  - content: '&#feb900%ajlb_lb_statistic_player_kills_4_alltime_name% &8▸ &#feb900%ajlb_lb_statistic_player_kills_4_alltime_value%'
+  actions: {}

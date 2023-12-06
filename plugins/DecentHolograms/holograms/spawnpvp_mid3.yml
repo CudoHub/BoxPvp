@@ -1,0 +1,17 @@
+location: Requlogia:-12.500:31.600:-112.500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 0
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#fb8989&lL&#fb8f86&lU&#fb9583&lC&#fb9a81&lK&#fca07e&lY &#fca67b&lB&#fcac78&lL&#fcb275&lO&#fcb773&lC&#fcbd70&lK &#fcc36d&lR&#fcc96a&lE&#fdcf67&lG&#fdd465&lI&#fdda62&lO&#fde05f&lN'
+  - content: ''
+  - content: '&fIn this region, you can get great items by placing'
+  - content: '&fand breaking the lucky blocks you from the mine!'
+  - content: ''
+  - content: '&cBe careful! The lucky blocks you have placed'
+  - content: '&cplaced can also be broken by other players.'
+  actions: {}

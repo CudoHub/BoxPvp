@@ -1,0 +1,28 @@
+tasks:
+  staygame:
+    type: "playtime"
+    minutes: 15
+display:
+  name: "&f𮯰 Quests &8▸ &7#8"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Stay in the game for 15 Minutes."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{staygame:progress}/15 Minutes"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &71x Diamond Lucky Block"
+  type: "CLOCK"
+rewards:
+  - "cti luckyblock_diamond {player} 1"
+options:
+  category: "ironquests"
+  requires:
+    - "iron7"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 8

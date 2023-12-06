@@ -1,0 +1,94 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+IceBoss-Particle:
+  Cooldown: 1
+  Skills:
+  - effect:particles{p=reddust;radius=5;points=10;repeat=5;repeatInterval=1;color=#084CFB;amount=20;hS=1;vS=1} @self
+  - effect:particles{p=reddust;radius=5;points=10;repeat=5;repeatInterval=1;color=#ADF3FD;amount=20;hS=1;vS=1} @self
+  - effect:particles{p=reddust;radius=5;points=10;repeat=5;repeatInterval=1;color=#FDFDFD;amount=20;hS=1;vS=1} @self
+IceBoss-DamageParticle:
+  Cooldown: 1
+  Skills:
+  - effect:particles{p=reddust;radius=1;points=5;repeat=5;repeatInterval=1;color=#FDFDFD;amount=10;hS=0.3;vS=0.3} @self
+  - effect:particles{p=reddust;radius=1;points=5;repeat=5;repeatInterval=1;color=#ACACAC;amount=10;hS=0.2;vS=0.2} @self
+IceBoss-HelperParticle:
+  Cooldown: 1
+  Skills:
+  - effect:particles{p=reddust;radius=2;points=5;repeat=5;repeatInterval=1;color=#FFFFFF;amount=20;hS=1;vS=1} @self
+  - effect:particles{p=reddust;radius=2;points=5;repeat=5;repeatInterval=1;color=#A7A7A7;amount=20;hS=1;vS=1} @self
+IceBoss-HelperSpawn:
+  Cooldown: 50
+  Skills:
+  - command{c="mm m spawn IceBoss-Helper 1 Requlogia,-4,32,-364"} @Self
+  - delay 50
+  - command{c="mm m spawn IceBoss-Helper 1 Requlogia,-4,32,-364"} @Self
+  - delay 50
+  - command{c="mm m spawn IceBoss-Helper 1 Requlogia,-4,32,-364"} @Self
+  - delay 50
+  - command{c="mm m spawn IceBoss-Helper 1 Requlogia,-4,32,-364"} @Self
+  - delay 50
+  - command{c="mm m spawn IceBoss-Helper 1 Requlogia,-4,32,-364"} @Self
+IceBoss-Prison:
+  Cooldown: 30
+  Skills:
+  - prison{material=BEDROCK;duration=50;breakable=true} @target
+IceBoss-ShulkerArrow:
+  Cooldown: 100
+  Skills:
+  - ShootShulkerBullet{oT=IceBoss-ShulkerArrow1;oH=IceBoss-ShulkerArrow2;oE=IceBoss-ShulkerArrow3;i=1} @target
+IceBoss-ShulkerArrow1:
+  Skills:
+  - particles{particle=reddust;color=#ffffff;size=0.66;a=2;hs=0;vs=0;s=0;y=0} @origin
+IceBoss-ShulkerArrow2:
+  Skills:
+  - damage{a=5}
+IceBoss-ShulkerArrow3:
+  Skills:
+  - particlesphere{particle=reddust;color=#ffffff;size=0.66;a=30;r=1;hs=0;vs=0;s=0;y=0} @origin
+FlameBoss-Particle:
+  Cooldown: 1
+  Skills:
+  - effect:particles{p=reddust;radius=5;points=10;repeat=5;repeatInterval=1;color=#FB0000;amount=20;hS=1;vS=1} @self
+  - effect:particles{p=reddust;radius=5;points=10;repeat=5;repeatInterval=1;color=#FDA8A8;amount=20;hS=1;vS=1} @self
+  - effect:particles{p=reddust;radius=5;points=10;repeat=5;repeatInterval=1;color=#FDFDFD;amount=20;hS=1;vS=1} @self
+FlameBoss-DamageParticle:
+  Cooldown: 1
+  Skills:
+  - effect:particles{p=reddust;radius=1;points=5;repeat=5;repeatInterval=1;color=#2D2D2D;amount=10;hS=0.3;vS=0.3} @self
+  - effect:particles{p=reddust;radius=1;points=5;repeat=5;repeatInterval=1;color=#ACACAC;amount=10;hS=0.2;vS=0.2} @self
+FlameBoss-HelperParticle:
+  Cooldown: 1
+  Skills:
+  - effect:particles{p=reddust;radius=2;points=5;repeat=5;repeatInterval=1;color=#FFA2A2;amount=20;hS=1;vS=1} @self
+  - effect:particles{p=reddust;radius=2;points=5;repeat=5;repeatInterval=1;color=#A70000;amount=20;hS=1;vS=1} @self
+FlameBoss-HelperSpawn:
+  Cooldown: 50
+  Skills:
+  - command{c="mm m spawn FlameBoss-Helper1 1 Requlogia,-3,10,-649"} @Self
+  - delay 50
+  - command{c="mm m spawn FlameBoss-Helper2 1 Requlogia,-3,10,-649"} @Self
+  - delay 50
+  - command{c="mm m spawn FlameBoss-Helper3 1 Requlogia,-3,10,-649"} @Self
+FlameBoss-LightAttack:
+  Cooldown: 20
+  Conditions:
+  - targetwithin 20
+  Skills:
+  - teleport @target
+  - delay 10
+  - damage{amount=5;ignorearmor=true} @PlayersInRadius{r=5}
+  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
+  - effect:particlering{particle=explosion;radius=1.6;points=7;amount=3;hS=0.3;vS=.4;s=0.25;repeat=3;repeatInterval=1} @Self
+  - effect:particlering{particle=lava;radius=1.6;points=7;amount=6;hS=0.3;vS=.4;s=0.25;repeat=3;repeatInterval=1} @Self
+NightmareBoss-Particle:
+  Cooldown: 1
+  Skills:
+  - effect:particles{p=reddust;radius=5;points=10;repeat=5;repeatInterval=1;color=#BA00FB;amount=30;hS=1;vS=1} @self
+  - effect:particles{p=reddust;radius=5;points=10;repeat=5;repeatInterval=1;color=#FD87F1;amount=30;hS=1;vS=1} @self
+  - effect:particles{p=reddust;radius=5;points=10;repeat=5;repeatInterval=1;color=#5D5D5D;amount=30;hS=1;vS=1} @self
+NightmareBoss-DamageParticle:
+  Cooldown: 1
+  Skills:
+  - effect:particles{p=reddust;radius=1;points=5;repeat=5;repeatInterval=1;color=#2D2D2D;amount=10;hS=0.3;vS=0.3} @self
+  - effect:particles{p=reddust;radius=1;points=5;repeat=5;repeatInterval=1;color=#ACACAC;amount=10;hS=0.2;vS=0.2} @self

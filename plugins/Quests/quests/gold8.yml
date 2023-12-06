@@ -1,0 +1,28 @@
+tasks:
+  player:
+    type: "playerkilling"
+    amount: 20
+display:
+  name: "&f𮯯 &eQuests &8▸ &7#8"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Kill 20x Player."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{player:progress}/20x Player"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &71x Emerald Lucky Block"
+  type: "NETHERITE_SWORD"
+rewards:
+  - "cti luckyblock_emerald {player} 1"
+options:
+  category: "goldquests"
+  requires:
+    - "gold7"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 17

@@ -1,0 +1,12 @@
+# This file is for storing sign location, npcs, and other things in the plugin that might display data
+signs:
+- Requlogia,-20.0,51.0,88.0,0.0,0.0,;statistic_player_kills;1;ALLTIME
+- Requlogia,-17.0,50.0,89.0,0.0,0.0,;statistic_player_kills;2;ALLTIME
+- Requlogia,-14.0,50.0,90.0,0.0,0.0,;statistic_player_kills;4;ALLTIME
+- Requlogia,-23.0,50.0,89.0,0.0,0.0,;statistic_player_kills;3;ALLTIME
+- Requlogia,-26.0,50.0,90.0,0.0,0.0,;statistic_player_kills;5;ALLTIME
+- Requlogia,-29.0,51.0,79.0,0.0,0.0,;statistic_mine_block;1;ALLTIME
+- Requlogia,-30.0,50.0,82.0,0.0,0.0,;statistic_mine_block;2;ALLTIME
+- Requlogia,-31.0,50.0,85.0,0.0,0.0,;statistic_mine_block;4;ALLTIME
+- Requlogia,-30.0,50.0,76.0,0.0,0.0,;statistic_mine_block;3;ALLTIME
+- Requlogia,-31.0,50.0,73.0,0.0,0.0,;statistic_mine_block;5;ALLTIME

@@ -1,0 +1,476 @@
+menu_title: '&fRank Kits'
+size: 36
+items:
+  ironavaliable:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU0MDE3NWNiNDYwZGJlY2UzYjc0NjkyMGY4YjhiMzI1NTYzNTIyOTMxZWQzMzQ1M2NlYWJkYzQ5YjhkYTg5YyJ9fX0='
+    slot: 11
+    priority: 3
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_iron%'
+          output: '&a✔'
+    display_name: '&f𮯰 Kits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that rank will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per days'
+    - '&8 ▪ &7Status &8▸ &#5BFB92Avaliable'
+    - ''
+    - '&aLeft-Click and View!'
+    - '&aRight-Click and Get!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_iron'
+    right_click_commands:
+    - '[player] kit iron'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  ironclaimed:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 11
+    priority: 2
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_iron%'
+          output: '&c✖'
+    display_name: '&f𮯰 &cKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that rank will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per days'
+    - '&8 ▪ &7Status &8▸ &#E88772Pending'
+    - '&8 ▪ &7Time Remaining &8▸ &f%essentials_kit_time_until_available_iron%'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_iron'
+    right_click_commands:
+    - '[player] kit iron'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  ironlocked:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0='
+    slot: 11
+    priority: 1
+    update: true
+    view_requirement:
+      requirements:
+        permission:
+          type: '!has permission'
+          permission: essentials.kits.iron
+    display_name: '&f𮯰 &4Kits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that rank will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per days'
+    - '&8 ▪ &7Status &8▸ &#650000Locked'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_iron'
+    right_click_commands:
+    - '[player] kit iron'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  goldavaliable:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU0MDE3NWNiNDYwZGJlY2UzYjc0NjkyMGY4YjhiMzI1NTYzNTIyOTMxZWQzMzQ1M2NlYWJkYzQ5YjhkYTg5YyJ9fX0='
+    slot: 12
+    priority: 3
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_gold%'
+          output: '&a✔'
+    display_name: '&f𮯯 &eKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that rank will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per days'
+    - '&8 ▪ &7Status &8▸ &#5BFB92Avaliable'
+    - ''
+    - '&aLeft-Click and View!'
+    - '&aRight-Click and Get!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_gold'
+    right_click_commands:
+    - '[player] kit gold'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  goldclaimed:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 12
+    priority: 2
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_gold%'
+          output: '&c✖'
+    display_name: '&f𮯯 &cKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that rank will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per days'
+    - '&8 ▪ &7Status &8▸ &#E88772Pending'
+    - '&8 ▪ &7Time Remaining &8▸ &f%essentials_kit_time_until_available_gold%'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_gold'
+    right_click_commands:
+    - '[player] kit gold'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  goldlocked:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0='
+    slot: 12
+    priority: 1
+    update: true
+    view_requirement:
+      requirements:
+        permission:
+          type: '!has permission'
+          permission: essentials.kits.gold
+    display_name: '&f𮯯 &4Kits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that rank will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per days'
+    - '&8 ▪ &7Status &8▸ &#650000Locked'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_gold'
+    right_click_commands:
+    - '[player] kit gold'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  diamondavaliable:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRjMTQ2OTZlMDE2NDgxMWRhODI2ZWM0MmMxMDEyM2IyNzEyYzc2NTMwMmFkNTg2NDEyZGNlMjZkYjYxNGU2ZiJ9fX0='
+    slot: 13
+    priority: 3
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_diamond%'
+          output: '&a✔'
+    display_name: '&f𮯮 &bKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that rank will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per days'
+    - '&8 ▪ &7Status &8▸ &#5BFB92Avaliable'
+    - ''
+    - '&aLeft-Click and View!'
+    - '&aRight-Click and Get!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_diamond'
+    right_click_commands:
+    - '[player] kit diamond'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  diamondclaimed:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 13
+    priority: 2
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_diamond%'
+          output: '&c✖'
+    display_name: '&f𮯮 &cKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that rank will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per days'
+    - '&8 ▪ &7Status &8▸ &#E88772Pending'
+    - '&8 ▪ &7Time Remaining &8▸ &f%essentials_kit_time_until_available_diamond%'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_diamond'
+    right_click_commands:
+    - '[player] kit diamond'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  diamondlocked:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0='
+    slot: 13
+    priority: 1
+    update: true
+    view_requirement:
+      requirements:
+        permission:
+          type: '!has permission'
+          permission: essentials.kits.diamond
+    display_name: '&f𮯮 &4Kits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that rank will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per days'
+    - '&8 ▪ &7Status &8▸ &#650000Locked'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_diamond'
+    right_click_commands:
+    - '[player] kit diamond'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  emeraldavaliable:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRjMTQ2OTZlMDE2NDgxMWRhODI2ZWM0MmMxMDEyM2IyNzEyYzc2NTMwMmFkNTg2NDEyZGNlMjZkYjYxNGU2ZiJ9fX0='
+    slot: 14
+    priority: 3
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_emerald%'
+          output: '&a✔'
+    display_name: '&f𮯭 &aKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that rank will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per days'
+    - '&8 ▪ &7Status &8▸ &#5BFB92Avaliable'
+    - ''
+    - '&aLeft-Click and View!'
+    - '&aRight-Click and Get!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_emerald'
+    right_click_commands:
+    - '[player] kit emerald'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  emeraldclaimed:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 14
+    priority: 2
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_emerald%'
+          output: '&c✖'
+    display_name: '&f𮯭 &cKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that rank will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per days'
+    - '&8 ▪ &7Status &8▸ &#E88772Pending'
+    - '&8 ▪ &7Time Remaining &8▸ &f%essentials_kit_time_until_available_emerald%'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_emerald'
+    right_click_commands:
+    - '[player] kit emerald'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  emeraldlocked:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0='
+    slot: 14
+    priority: 1
+    update: true
+    view_requirement:
+      requirements:
+        permission:
+          type: '!has permission'
+          permission: essentials.kits.emerald
+    display_name: '&f𮯭 &4Kits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that rank will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per days'
+    - '&8 ▪ &7Status &8▸ &#650000Locked'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_emerald'
+    right_click_commands:
+    - '[player] kit emerald'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  netheriteavaliable:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZmMjJiZjBlNDRlMmZlMjExYmRmYTJkNTA0YzAyNWI3ZGMyNzc0YmJmODI3MDM5MGZmZmM0MzBkZTBlM2IwMSJ9fX0='
+    slot: 15
+    priority: 3
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_netherite%'
+          output: '&a✔'
+    display_name: '&f𮯬 &7Kits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that rank will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per days'
+    - '&8 ▪ &7Status &8▸ &#5BFB92Avaliable'
+    - ''
+    - '&aLeft-Click and View!'
+    - '&aRight-Click and Get!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_netherite'
+    right_click_commands:
+    - '[player] kit netherite'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  netheriteclaimed:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 15
+    priority: 2
+    update: true
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%essentials_kit_is_available_netherite%'
+          output: '&c✖'
+    display_name: '&f𮯬 &cKits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that rank will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per days'
+    - '&8 ▪ &7Status &8▸ &#E88772Pending'
+    - '&8 ▪ &7Time Remaining &8▸ &f%essentials_kit_time_until_available_netherite%'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_netherite'
+    right_click_commands:
+    - '[player] kit netherite'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  netheritelocked:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0='
+    slot: 15
+    priority: 1
+    update: true
+    view_requirement:
+      requirements:
+        permission:
+          type: '!has permission'
+          permission: essentials.kits.netherite
+    display_name: '&f𮯬 &4Kits'
+    lore:
+    - ''
+    - '&7There are a few items in'
+    - '&7this kit that rank will'
+    - '&7give you an advantage.'
+    - ''
+    - '&eKit Details &8▸'
+    - '&8 ▪ &7Time &8▸ &f1 time per days'
+    - '&8 ▪ &7Status &8▸ &#650000Locked'
+    - ''
+    - '&aLeft-Click and View!'
+    left_click_commands:
+    - '[openguimenu] kitpreview_netherite'
+    right_click_commands:
+    - '[player] kit netherite'
+    - '[refresh]'
+    - '[refresh]<delay=100>'
+  frame:
+    display_name: ' '
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 32
+    - 33
+    - 34
+    - 35
+  close:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0='
+    slot: 31
+    display_name: '&cGo back'
+    lore:
+    - '&7Click and go back!'
+    click_commands:
+    - '[openguimenu] kit_main'

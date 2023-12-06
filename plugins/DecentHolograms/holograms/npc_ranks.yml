@@ -1,0 +1,13 @@
+location: Requlogia:-13.021:54.300:10.024
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 0
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: BEACON'
+  - content: '&#17fb13&lR&#41fc3a&lA&#6afc60&lN&#94fd87&lK&#bdfdad&lS'
+  - content: '&#DBF8FDClick and view!'
+  actions: {}

@@ -1,0 +1,28 @@
+tasks:
+  steps:
+    type: "walking"
+    distance: 5000
+display:
+  name: "&f𮯬 &7Quests &8▸ &7#4"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Take 5000x Steps."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{steps:progress}/5000x Steps"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &73x Cosmetic Crate Key"
+  type: "NETHERITE_BOOTS"
+rewards:
+  - "cc give p cosmetic 3 {player}"
+options:
+  category: "netheritequests"
+  requires:
+    - "netherite3"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 40

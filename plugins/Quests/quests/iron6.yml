@@ -1,0 +1,35 @@
+tasks:
+  lapis:
+    type: "blockbreakcertain"
+    amount: 128
+    block: LAPIS_ORE
+  lapisblock:
+    type: "blockbreakcertain"
+    amount: 128
+    block: LAPIS_BLOCK
+display:
+  name: "&f𮯰 Quests &8▸ &7#6"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Break 128x Lapis Ore,"
+    - "&6 ▪ &7Break 128x Lapis Block."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{lapis:progress}/128x Lapis Ore"
+    - "&2 ▪ &7{lapisblock:progress}/128x Lapis Block"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &76x Lapis Shard"
+  type: "LAPIS_ORE"
+rewards:
+  - "cti shard_lapis {player} 6"
+options:
+  category: "ironquests"
+  requires:
+    - "iron5"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 6

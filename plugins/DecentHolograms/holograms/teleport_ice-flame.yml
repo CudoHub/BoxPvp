@@ -1,0 +1,17 @@
+location: Requlogia:-4.500:37.000:-386.500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 0
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#fb0000&lF&#fb180a&lL&#fc3114&lA&#fc491e&lM&#fc6128&lE &#fc7931&lL&#fd923b&lA&#fdaa45&lN&#fdc24f&lD'
+  - content: ''
+  - content: '&fIn this region, you can get more items'
+  - content: '&fand join in the boss event in the region.'
+  - content: '&cIf you die in this region, your items will drop!'
+  - content: ''
+  - content: '&cRanks &f𮯭 &cand above can access this region!'
+  actions: {}

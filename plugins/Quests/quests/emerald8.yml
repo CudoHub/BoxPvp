@@ -1,0 +1,29 @@
+tasks:
+  buyulualtinelma:
+    type: "consume"
+    item: ENCHANTED_GOLDEN_APPLE
+    amount: 1
+display:
+  name: "&f𮯭 &aQuests &8▸ &7#8"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Eat 1x Enchanted Golden Apple."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{buyulualtinelma:progress}/1x Enchanted Golden Apple"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &71x Gold Crate Key"
+  type: "ENCHANTED_GOLDEN_APPLE"
+rewards:
+  - "cc give p gold 1 {player}"
+options:
+  category: "emeraldquests"
+  requires:
+    - "emerald7"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 35

@@ -1,0 +1,28 @@
+tasks:
+  player:
+    type: "playerkilling"
+    amount: 3
+display:
+  name: "&f𮯰 Quests &8▸ &7#4"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Kill 3x Player."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{player:progress}/3x Player"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &732x Cobweb"
+  type: "NETHERITE_SWORD"
+rewards:
+  - "give {player} cobweb 32"
+options:
+  category: "ironquests"
+  requires:
+    - "iron3"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 4

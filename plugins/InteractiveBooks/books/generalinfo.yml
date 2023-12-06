@@ -1,0 +1,22 @@
+name: General Info
+title: General Info
+author: RequaizeN
+generation: ORIGINAL
+lore:
+- Requlogia
+open_command: 'help'
+pages:
+  '1':
+  - '&9&l    INFORMATION<reset>'
+  - '&0You can access all the information about BoxPVP here.'
+  - '<reset>'
+  - '<click:run_command:/customenchantinfo> &0- &8[&4Custom Enchant&8]<reset>'
+  - '<click:run_command:/cosmeticinfo> &0- &8[&cCosmetics&8]<reset>'
+  - '<click:run_command:/envoyinfo> &0- &8[&4Envoy&8]<reset>'
+  - '<click:run_command:/luckyblockinfo> &0- &8[&cLucky Block&8]<reset>'
+  - '<click:run_command:/bossinfo> &0- &8[&4Boss&8]<reset>'
+  - '<click:run_command:/crateinfo> &0- &8[&cCrate&8]<reset>'
+  - '<click:run_command:/fairysoulinfo> &0- &8[&4Fairy Soul&8]<reset>'
+  '2':
+  - '<click:run_command:/rules> &0- &8[&cRules&8]<reset>'
+  - '<click:run_command:/vipinfo> &0- &8[&4VIP Info&8]<reset>'

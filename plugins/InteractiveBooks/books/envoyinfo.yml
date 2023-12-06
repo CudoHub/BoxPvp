@@ -1,0 +1,17 @@
+name: Envoy Bilgi
+title: Envoy Bilgi
+author: RequaizeN
+generation: ORIGINAL
+lore:
+- Requlogia
+open_command: 'envoyinfo'
+pages:
+  '1':
+  - '<click:run_command:/help>&4&l     ← &8&l[&4&lGo back&8&l]<reset>'
+  - ''
+  - '&9&lENVOY INFORMATION'
+  - '<reset>'
+  - '&0You can get great items by participating in envoy events held on certain days of the week.'
+  - '<reset>'
+  - '<click:run_command:/spawn>&6&lClick and Teleport!<reset>'
+  - '<click:run_command:/events>&6&lClick and View!<reset>'

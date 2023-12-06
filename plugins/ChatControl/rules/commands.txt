@@ -1,0 +1,4 @@
+match ^/requlogia\b
+ignore perm chatcontrol.bypass.rules
+id /requlogia
+then warn &6www.requlogia.com

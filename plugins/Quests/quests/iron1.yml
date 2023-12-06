@@ -1,0 +1,33 @@
+tasks:
+  cobblestone:
+    type: "blockbreakcertain"
+    amount: 64
+    block: COBBLESTONE
+  stone:
+    type: "blockbreakcertain"
+    amount: 64
+    block: STONE
+display:
+  name: "&f𮯰 Quests &8▸ &7#1"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Break 64x Cobblestone,"
+    - "&6 ▪ &7Break 64x Stone."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{cobblestone:progress}/64x Cobblestone"
+    - "&2 ▪ &7{stone:progress}/64x Stone"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &76x Cobblestone Shard"
+  type: "COBBLESTONE"
+rewards:
+  - "cti shard_cobblestone {player} 6"
+options:
+  category: "ironquests"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 1

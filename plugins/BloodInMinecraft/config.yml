@@ -1,0 +1,446 @@
+blood-disabled-worlds:
+  - requlogiatest
+special-particle-disabled-worlds:
+  - requlogiatest
+bleeding-disabled-worlds:
+  - requlogiatest
+
+no-blood-when-wearing-armor: false
+no-blood-when-wearing-helmet: true
+no-blood-when-wearing-chestplate: true
+no-blood-when-wearing-leggings: true
+no-blood-when-wearing-boots: true
+no-blood-when-blocking: true
+
+EnableBleeding: false
+EnableBleedingMessage: true
+Item-Bandage: PAPER
+chance: 0.25
+length: 13
+max-length: 180
+damage: 0.5
+Potions-length: 5
+potions:
+- 'slow:1'
+- 'blindness:2'
+
+EnableMaterialParticle: true
+EnableSpecialParticle: false
+
+Player:
+   BloodType: REDSTONE_BLOCK
+   AmountParticle: 10
+   MaterialParticleName: BLOCK_CRACK
+   SpecialParticleName: DAMAGE_INDICATOR
+   SpecialParticleAmountParticle: 10
+   
+Passive-Mobs:
+   Enabled: true
+
+Neutral-Mobs:
+   Enabled: true
+
+Hostile-Mobs:
+   Enabled: true
+
+FriendlyMobs:
+   Frog:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Tadpole:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Allay:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Axolotl:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Bat:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Cat:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Chicken:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Cod:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Cow:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Donkey:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Fox:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Horse:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Mule:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Ocelot:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Parrot:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Pig:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   PolarBear: 
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   PufferFish:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Rabbit:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Salmon:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Sheep:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Squid:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Strider:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   TropicalFish:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Turtle:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Villager:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   WanderingTrader:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+
+IdleMobs:
+   Bee:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Dolphin:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Enderman:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Goat:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Llama:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Panda:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   TraderLlama:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Wolf:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   PigZombie:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+
+EnemyMobs:
+   Warden:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Blaze:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Creeper:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Drowned:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   CaveSpider:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   ElderGaurdian:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Endermite:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Evoker:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Ghast:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Guardian:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Hoglin:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Husk:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   MagmaCube:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Phantom:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Piglin:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Pillager:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Ravager:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Shulker:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   SilverFish:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Skeleton:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Slime:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Stray:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Vex:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Vindicator:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Witch:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   WitherSkeleton:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Zombie:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   EnderDragon:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Wither:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10
+   Spider:
+      BloodType: SLIME_BLOCK
+      AmountParticle: 10
+      MaterialParticleName: BLOCK_CRACK
+      SpecialParticleName: DAMAGE_INDICATOR
+      SpecialParticleAmountParticle: 10

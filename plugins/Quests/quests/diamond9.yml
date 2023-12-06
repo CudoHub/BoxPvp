@@ -1,0 +1,29 @@
+tasks:
+  goldenapple:
+    type: "consume"
+    item: GOLDEN_APPLE
+    amount: 16
+display:
+  name: "&f𮯮 &bQuests &8▸ &7#9"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Eat 16x Golden Apple."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{goldenapple:progress}/16x Golden Apple"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &7Access to rank &f𮯮"
+  type: "GOLDEN_APPLE"
+rewards:
+  - "lp user {player} permission set diamondrankquest"
+options:
+  category: "diamondquests"
+  requires:
+    - "diamond8"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 27

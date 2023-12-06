@@ -1,0 +1,28 @@
+tasks:
+  steps:
+    type: "walking"
+    distance: 1000
+display:
+  name: "&f𮯰 Quests &8▸ &7#5"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Take 1000x Steps."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{steps:progress}/1000x Steps"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &764x Arrow"
+  type: "NETHERITE_BOOTS"
+rewards:
+  - "give {player} arrow 64"
+options:
+  category: "ironquests"
+  requires:
+    - "iron4"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 5

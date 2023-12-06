@@ -1,0 +1,97 @@
+antitab:
+# Set to true if you want to block tab for every command
+  everyTab: false
+# Announce in console when a player uses tab completion, if true
+  announceConsole: false
+# Add here every commands that might use tab completion
+  blockedcmdsInTab:
+  - /icanhasbukkit
+  - /pl
+  - /plugins
+  - /bukkit:?
+  - /bukkit:plugins
+  - /bukkit:pl
+  - /bukkit:help
+  - /bukkit
+  - /bukkit:version
+  - /bukkit:ver
+  - /minecraft
+  - /ver
+  - /version
+  - /about
+  - /?
+  - /yum
+  - /stop
+  - /help
+  - /pex
+  - /world
+  - /start
+  - /man
+  - /spigot
+  - /restart
+  - /op
+  - /deop
+  - /exploitfixer
+  - /ef
+  - /mv
+  - /mvm
+  - /mvh
+  - /multiverse-core
+  - /multiversecore:mvm
+  - /multiversecore:mvh
+  - /multiversecore:mv
+# Add here every command that you want the players not to use
+# RECOMANDATION: do not use commands that you want for different ranks
+  blockedcmdsInChat: 
+  - /icanhasbukkit
+  - /pl
+  - /plugins
+  - /bukkit:?
+  - /bukkit:plugins
+  - /bukkit:pl
+  - /bukkit:help
+  - /bukkit
+  - /bukkit:version
+  - /bukkit:ver
+  - /minecraft
+  - /ver
+  - /version
+  - /about
+  - /?
+  - /yum
+  - /stop
+  - /help
+  - /pex
+  - /world
+  - /start
+  - /man
+  - /spigot
+  - /restart
+  - /op
+  - /deop
+  - /exploitfixer
+  - /ef
+  - /mv
+  - /mvm
+  - /mvh
+  - /multiverse-core
+  - /multiversecore:mvm
+  - /multiversecore:mvh
+  - /multiversecore:mv
+  messages:
+# You can use %perm% for the respective permission
+    noPerm: "&6 Guard &8▸ &cYou don't have permission to do this!"
+    configReloaded: "&6 Guard &8▸ &aPlugin configuration reloaded successfully!"
+    successfullyTabAdd: "&6 Guard &8▸ &aCommand added!"
+    successfullyTabDelete: "&6 Guard &8▸ &cCommand removed!"
+    successfullyChatAdd: "&6 Guard &8▸ &aCommand added!"
+    successfullyChatDelete: "&6 Guard &8▸ &cCommand removed!"
+    invalidArgs: ""
+    listTabcmds: 
+      head: ""
+      item: ""
+      bottom: ""
+    listChatcmds:
+      head: ""
+      item: ""
+      bottom: ""

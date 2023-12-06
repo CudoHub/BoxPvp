@@ -1,0 +1,281 @@
+locations:
+  04b5e1b0-2fe0-4cd6-aaf9-45fba18605eb:
+    world: Requlogia
+    x: -31.0
+    y: 50.0
+    z: 93.0
+    pitch: 0.0
+    yaw: 0.0
+  71f6cc36-a69e-491c-bece-5dae0bb13918:
+    world: Requlogia
+    x: -45.0
+    y: 50.0
+    z: 81.0
+    pitch: 0.0
+    yaw: 0.0
+  bb792277-5f48-4fdc-9d4d-33cf7ab71ef0:
+    world: Requlogia
+    x: -52.0
+    y: 50.0
+    z: 63.0
+    pitch: 0.0
+    yaw: 0.0
+  def6b1cf-6812-4a1e-8ad7-54becf179564:
+    world: Requlogia
+    x: -59.0
+    y: 50.0
+    z: 19.0
+    pitch: 0.0
+    yaw: 0.0
+  cb615602-a414-42bc-8b5b-2b572d633cae:
+    world: Requlogia
+    x: -45.0
+    y: 50.0
+    z: -3.0
+    pitch: 0.0
+    yaw: 0.0
+  8b27e0ae-c69f-471c-bb4b-3093db82c102:
+    world: Requlogia
+    x: 44.0
+    y: 50.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  2ae31258-2887-4521-a7a9-1279a7890797:
+    world: Requlogia
+    x: 30.0
+    y: 50.0
+    z: 89.0
+    pitch: 0.0
+    yaw: 0.0
+  bf1a04b0-3a98-4954-85ba-804931be994c:
+    world: Requlogia
+    x: -24.0
+    y: 53.0
+    z: 59.0
+    pitch: 0.0
+    yaw: 0.0
+  bc5dcfd2-d894-4eeb-86ba-c1dedfbba928:
+    world: Requlogia
+    x: -18.0
+    y: 52.0
+    z: 37.0
+    pitch: 0.0
+    yaw: 0.0
+  cc03e325-4ae2-4552-bba7-0e01b6d39b56:
+    world: Requlogia
+    x: 2.0
+    y: 52.0
+    z: 51.0
+    pitch: 0.0
+    yaw: 0.0
+  0627ddfe-715e-460a-bb65-416ad259e101:
+    world: Requlogia
+    x: 30.0
+    y: 53.0
+    z: 43.0
+    pitch: 0.0
+    yaw: 0.0
+  8505dc26-8689-47e8-a979-42f4796585d5:
+    world: Requlogia
+    x: 12.0
+    y: 52.0
+    z: 29.0
+    pitch: 0.0
+    yaw: 0.0
+  0ba46d9e-08d0-4aff-9b64-d811416aa89e:
+    world: Requlogia
+    x: -13.0
+    y: 50.0
+    z: 71.0
+    pitch: 0.0
+    yaw: 0.0
+  00efb36a-404b-4e0a-ae8d-3a8ca5f94f45:
+    world: Requlogia
+    x: -21.0
+    y: 50.0
+    z: 57.0
+    pitch: 0.0
+    yaw: 0.0
+  479fae03-d70e-4505-b0ce-cae62fcca76f:
+    world: Requlogia
+    x: -49.0
+    y: 50.0
+    z: 9.0
+    pitch: 0.0
+    yaw: 0.0
+  afc9eaca-e1cd-4f71-9c96-ea898732e680:
+    world: Requlogia
+    x: 54.0
+    y: 27.0
+    z: -75.0
+    pitch: 0.0
+    yaw: 0.0
+  732cdc6d-eb13-43e5-bcbf-b30c8e575ab8:
+    world: Requlogia
+    x: 64.0
+    y: 26.0
+    z: -100.0
+    pitch: 0.0
+    yaw: 0.0
+  06b68406-8281-47f1-a522-1f487916dac8:
+    world: Requlogia
+    x: 26.0
+    y: 27.0
+    z: -115.0
+    pitch: 0.0
+    yaw: 0.0
+  f8d03dbb-e498-43bd-a351-fbcbcd098e05:
+    world: Requlogia
+    x: -18.0
+    y: 27.0
+    z: -138.0
+    pitch: 0.0
+    yaw: 0.0
+  30ad53ff-1443-4bcb-a3a1-e929911d1314:
+    world: Requlogia
+    x: -35.0
+    y: 27.0
+    z: -114.0
+    pitch: 0.0
+    yaw: 0.0
+  91703089-69ed-4e2d-8e25-0f124791d343:
+    world: Requlogia
+    x: -53.0
+    y: 26.0
+    z: -70.0
+    pitch: 0.0
+    yaw: 0.0
+  38488a80-f6e4-408f-8b98-60f73d131d41:
+    world: Requlogia
+    x: -57.0
+    y: 25.0
+    z: -121.0
+    pitch: 0.0
+    yaw: 0.0
+  9d22cd28-e995-4215-bc7f-3ad7b888b61c:
+    world: Requlogia
+    x: -35.0
+    y: 25.0
+    z: -154.0
+    pitch: 0.0
+    yaw: 0.0
+  e990076a-af5d-4e58-b91c-3d953014d2b6:
+    world: Requlogia
+    x: 5.0
+    y: 25.0
+    z: -156.0
+    pitch: 0.0
+    yaw: 0.0
+  b8b87f48-fc52-465c-91b9-7a299b4b39e1:
+    world: Requlogia
+    x: 33.0
+    y: 25.0
+    z: -146.0
+    pitch: 0.0
+    yaw: 0.0
+  93562659-f46b-43f2-8040-b51232ed761e:
+    world: Requlogia
+    x: -13.0
+    y: 32.0
+    z: -336.0
+    pitch: 0.0
+    yaw: 0.0
+  2303c778-d6e0-4c7a-bbe4-15bd0afc1194:
+    world: Requlogia
+    x: -33.0
+    y: 32.0
+    z: -362.0
+    pitch: 0.0
+    yaw: 0.0
+  cb2ff5c9-8fa4-4c51-8ac7-ebe139f72edf:
+    world: Requlogia
+    x: -4.0
+    y: 38.0
+    z: -391.0
+    pitch: 0.0
+    yaw: 0.0
+  2c2148bf-5251-40c7-a0b6-f9a47e094a3c:
+    world: Requlogia
+    x: -6.0
+    y: 38.0
+    z: -341.0
+    pitch: 0.0
+    yaw: 0.0
+  de7a29ed-429b-416a-8e3c-6469baf05df2:
+    world: Requlogia
+    x: 14.0
+    y: 32.0
+    z: -388.0
+    pitch: 0.0
+    yaw: 0.0
+  f10f2640-fe4c-47fa-add7-6f9426a3fae0:
+    world: Requlogia
+    x: -5.0
+    y: 16.0
+    z: -613.0
+    pitch: 0.0
+    yaw: 0.0
+  d673436b-b1d0-4910-b5e7-ee14fd74ef16:
+    world: Requlogia
+    x: -5.0
+    y: 16.0
+    z: -687.0
+    pitch: 0.0
+    yaw: 0.0
+  16a5dd53-b8db-4309-a500-6d09c06868d0:
+    world: Requlogia
+    x: -40.0
+    y: 10.0
+    z: -669.0
+    pitch: 0.0
+    yaw: 0.0
+  bf8074d1-9461-4a45-b1f7-6f5e8d1b5436:
+    world: Requlogia
+    x: -40.0
+    y: 10.0
+    z: -635.0
+    pitch: 0.0
+    yaw: 0.0
+  9e6c2224-5371-40ee-b493-9ed8a2a72e98:
+    world: Requlogia
+    x: -19.0
+    y: 10.0
+    z: -608.0
+    pitch: 0.0
+    yaw: 0.0
+  d4dad59f-cad0-4277-9645-551a5f842fb8:
+    world: Requlogia
+    x: -10.0
+    y: 16.0
+    z: -930.0
+    pitch: 0.0
+    yaw: 0.0
+  03af992f-6956-4c33-b12c-07a18078bbf5:
+    world: Requlogia
+    x: 13.0
+    y: 10.0
+    z: -932.0
+    pitch: 0.0
+    yaw: 0.0
+  eb9e2d21-1fd8-47ad-9a21-4563213dd668:
+    world: Requlogia
+    x: 24.0
+    y: 10.0
+    z: -955.0
+    pitch: 0.0
+    yaw: 0.0
+  2a4933f7-70fc-4e2f-bac8-13a5da715914:
+    world: Requlogia
+    x: -13.0
+    y: 10.0
+    z: -987.0
+    pitch: 0.0
+    yaw: 0.0
+  80528041-da31-4fcf-8d50-5cc3c80447a1:
+    world: Requlogia
+    x: -38.0
+    y: 10.0
+    z: -961.0
+    pitch: 0.0
+    yaw: 0.0

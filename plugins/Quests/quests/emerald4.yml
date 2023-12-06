@@ -1,0 +1,28 @@
+tasks:
+  block:
+    type: "blockbreak"
+    amount: 1024
+display:
+  name: "&f𮯭 &aQuests &8▸ &7#4"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Break 1024x Block."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{block:progress}/1024x Block"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &7128x Firework Rocket"
+  type: "NETHERITE_PICKAXE"
+rewards:
+  - "give {player} FIREWORK_ROCKET 128"
+options:
+  category: "emeraldquests"
+  requires:
+    - "emerald3"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 31

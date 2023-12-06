@@ -1,0 +1,29 @@
+tasks:
+  buyulualtinelma:
+    type: "consume"
+    item: ENCHANTED_GOLDEN_APPLE
+    amount: 3
+display:
+  name: "&f𮯬 &7Quests &8▸ &7#5"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Eat 3x Enchanted Golden Apple."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{buyulualtinelma:progress}/3x Enchanted Golden Apple"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &716x Quartz Shard"
+  type: "ENCHANTED_GOLDEN_APPLE"
+rewards:
+  - "cti shard_quartz {player} 16"
+options:
+  category: "netheritequests"
+  requires:
+    - "netherite4"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 41

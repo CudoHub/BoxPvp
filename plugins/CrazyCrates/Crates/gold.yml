@@ -1,0 +1,275 @@
+Crate:
+  CrateType: CSGO
+  CrateName: '&fGold Crate'
+  Preview-Name: '&fGold Crate'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 16
+  OpeningBroadCast: false
+  BroadCast: ''
+  Item: 'PLAYER_HEAD'
+  Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0NDk4YTBmZTI3ODk1NmUzZDA0MTM1ZWY0YjEzNDNkMDU0OGE3ZTIwOGM2MWIxZmI2ZjNiNGRiYzI0MGRhOCJ9fX0='
+  Glowing: false
+  Name: '&x&f&f&a&8&0&0G&x&f&f&b&0&0&0o&x&f&f&b&7&0&0l&x&f&f&b&f&0&0d &x&f&f&c&6&0&0C&x&f&f&c&e&0&0r&x&f&f&d&5&0&0a&x&f&f&d&d&0&0t&x&f&f&e&4&0&0e'
+  Lore:
+  - ''
+  - '&x&f&f&a&8&0&0Right-Click &8▸ &7View Crate'
+  - '&x&f&f&a&8&0&0Left-Click &8▸ &7Open Crate'
+  Preview:
+    Toggle: true
+    ChestLines: 6
+    Glass:
+      Toggle: true
+      Item: 'GRAY_STAINED_GLASS_PANE'
+  PhysicalKey:
+    Name: '&x&f&f&a&8&0&0G&x&f&f&a&d&0&0o&x&f&f&b&3&0&0l&x&f&f&b&8&0&0d &x&f&f&b&e&0&0C&x&f&f&c&3&0&0r&x&f&f&c&9&0&0a&x&f&f&c&e&0&0t&x&f&f&d&4&0&0e &x&f&f&d&9&0&0K&x&f&f&d&f&0&0e&x&f&f&e&4&0&0y'
+    Lore:
+    - ''
+    - '&7You can use this key in'
+    - '&7the crates in the spawn.'
+    Item: 'TRIPWIRE_HOOK#6052'
+    Glowing: true
+  Hologram:
+    Toggle: false
+    Height: 1.5
+    Message:
+    - ''
+  Prizes:
+    '0':
+      DisplayItem: NETHERITE_HELMET#10004
+      DisplayAmount: 1
+      DisplayName: '&8[&71x&8] &cKing Helmet'
+      Lore:
+      - ''
+      - '&b🛡 Protection &8[&fX&8]'
+      - '&x&5&4&f&c&f&c❤ &x&6&1&f&c&e&dE&x&6&e&f&c&d&ex&x&7&c&f&c&c&ft&x&8&9&f&c&c&0r&x&9&6&f&c&b&1a &x&a&3&f&c&a&2H&x&b&0&f&c&9&3e&x&b&d&f&c&8&4a&x&c&b&f&c&7&5l&x&d&8&f&c&6&6t&x&e&5&f&c&5&7h &8[&fV&8]'
+      - '&x&5&4&f&c&f&c⛨ &x&5&f&e&e&f&bD&x&6&a&d&f&f&ba&x&7&6&d&1&f&am&x&8&1&c&2&f&aa&x&8&c&b&4&f&9g&x&9&7&a&6&f&8e &x&a&2&9&7&f&8R&x&a&e&8&9&f&7e&x&b&9&7&a&f&7d&x&c&4&6&c&f&6u&x&c&f&5&e&f&5c&x&d&a&4&f&f&5t&x&e&6&4&1&f&4i&x&f&1&3&2&f&4o&x&f&c&2&4&f&3n &8[&fV&8]'
+      - '&x&5&4&f&c&f&c👢 &x&4&c&f&c&e&3F&x&4&4&f&c&c&aa&x&3&c&f&c&b&0s&x&3&4&f&c&9&7t &x&2&d&f&c&7&eW&x&2&5&f&c&6&5a&x&1&d&f&c&4&cl&x&1&5&f&c&3&2k&x&0&d&f&c&1&9e&x&0&5&f&c&0&0r &8[&fV&8]'
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      Glowing: true
+      HideItemFlags: true
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti item_helmet-king %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x King Helmet&a!'
+    '1':
+      DisplayItem: NETHERITE_CHESTPLATE#10005
+      DisplayAmount: 1
+      DisplayName: '&8[&71x&8] &cKing Chestplate'
+      Lore:
+      - ''
+      - '&b🛡 Protection &8[&fX&8]'
+      - '&x&5&4&f&c&f&c❤ &x&6&1&f&c&e&dE&x&6&e&f&c&d&ex&x&7&c&f&c&c&ft&x&8&9&f&c&c&0r&x&9&6&f&c&b&1a &x&a&3&f&c&a&2H&x&b&0&f&c&9&3e&x&b&d&f&c&8&4a&x&c&b&f&c&7&5l&x&d&8&f&c&6&6t&x&e&5&f&c&5&7h &8[&fV&8]'
+      - '&x&5&4&f&c&f&c⛨ &x&5&f&e&e&f&bD&x&6&a&d&f&f&ba&x&7&6&d&1&f&am&x&8&1&c&2&f&aa&x&8&c&b&4&f&9g&x&9&7&a&6&f&8e &x&a&2&9&7&f&8R&x&a&e&8&9&f&7e&x&b&9&7&a&f&7d&x&c&4&6&c&f&6u&x&c&f&5&e&f&5c&x&d&a&4&f&f&5t&x&e&6&4&1&f&4i&x&f&1&3&2&f&4o&x&f&c&2&4&f&3n &8[&fV&8]'
+      - '&x&5&4&f&c&f&c👢 &x&4&c&f&c&e&3F&x&4&4&f&c&c&aa&x&3&c&f&c&b&0s&x&3&4&f&c&9&7t &x&2&d&f&c&7&eW&x&2&5&f&c&6&5a&x&1&d&f&c&4&cl&x&1&5&f&c&3&2k&x&0&d&f&c&1&9e&x&0&5&f&c&0&0r &8[&fV&8]'
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      Glowing: true
+      HideItemFlags: true
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti item_chestplate-king %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x King Chestplate&a!'
+    '2':
+      DisplayItem: NETHERITE_LEGGINGS#10006
+      DisplayAmount: 1
+      DisplayName: '&8[&71x&8] &cKing Leggings'
+      Lore:
+      - ''
+      - '&b🛡 Protection &8[&fX&8]'
+      - '&x&5&4&f&c&f&c❤ &x&6&1&f&c&e&dE&x&6&e&f&c&d&ex&x&7&c&f&c&c&ft&x&8&9&f&c&c&0r&x&9&6&f&c&b&1a &x&a&3&f&c&a&2H&x&b&0&f&c&9&3e&x&b&d&f&c&8&4a&x&c&b&f&c&7&5l&x&d&8&f&c&6&6t&x&e&5&f&c&5&7h &8[&fV&8]'
+      - '&x&5&4&f&c&f&c⛨ &x&5&f&e&e&f&bD&x&6&a&d&f&f&ba&x&7&6&d&1&f&am&x&8&1&c&2&f&aa&x&8&c&b&4&f&9g&x&9&7&a&6&f&8e &x&a&2&9&7&f&8R&x&a&e&8&9&f&7e&x&b&9&7&a&f&7d&x&c&4&6&c&f&6u&x&c&f&5&e&f&5c&x&d&a&4&f&f&5t&x&e&6&4&1&f&4i&x&f&1&3&2&f&4o&x&f&c&2&4&f&3n &8[&fV&8]'
+      - '&x&5&4&f&c&f&c👢 &x&4&c&f&c&e&3F&x&4&4&f&c&c&aa&x&3&c&f&c&b&0s&x&3&4&f&c&9&7t &x&2&d&f&c&7&eW&x&2&5&f&c&6&5a&x&1&d&f&c&4&cl&x&1&5&f&c&3&2k&x&0&d&f&c&1&9e&x&0&5&f&c&0&0r &8[&fV&8]'
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      Glowing: true
+      HideItemFlags: true
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti item_leggings-king %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x King Leggings&a!'
+    '3':
+      DisplayItem: NETHERITE_BOOTS#10007
+      DisplayAmount: 1
+      DisplayName: '&8[&71x&8] &cKing Boots'
+      Lore:
+      - ''
+      - '&b🛡 Protection &8[&fX&8]'
+      - '&x&5&4&f&c&f&c❤ &x&6&1&f&c&e&dE&x&6&e&f&c&d&ex&x&7&c&f&c&c&ft&x&8&9&f&c&c&0r&x&9&6&f&c&b&1a &x&a&3&f&c&a&2H&x&b&0&f&c&9&3e&x&b&d&f&c&8&4a&x&c&b&f&c&7&5l&x&d&8&f&c&6&6t&x&e&5&f&c&5&7h &8[&fV&8]'
+      - '&x&5&4&f&c&f&c⛨ &x&5&f&e&e&f&bD&x&6&a&d&f&f&ba&x&7&6&d&1&f&am&x&8&1&c&2&f&aa&x&8&c&b&4&f&9g&x&9&7&a&6&f&8e &x&a&2&9&7&f&8R&x&a&e&8&9&f&7e&x&b&9&7&a&f&7d&x&c&4&6&c&f&6u&x&c&f&5&e&f&5c&x&d&a&4&f&f&5t&x&e&6&4&1&f&4i&x&f&1&3&2&f&4o&x&f&c&2&4&f&3n &8[&fV&8]'
+      - '&x&5&4&f&c&f&c👢 &x&4&c&f&c&e&3F&x&4&4&f&c&c&aa&x&3&c&f&c&b&0s&x&3&4&f&c&9&7t &x&2&d&f&c&7&eW&x&2&5&f&c&6&5a&x&1&d&f&c&4&cl&x&1&5&f&c&3&2k&x&0&d&f&c&1&9e&x&0&5&f&c&0&0r &8[&fV&8]'
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      Glowing: true
+      HideItemFlags: true
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cti item_boots-king %player% 1'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1x King Boots&a!'
+    '4':
+      DisplayName: '&8[&71 Week&8] &cMVIP+'
+      DisplayItem: TURTLE_EGG
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'lp user %player% permission settemp group.mvip+ true 7d'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1 Week MVIP+&a!'
+    '5':
+      DisplayName: '&8[&71 Week&8] &cMVIP'
+      DisplayItem: TURTLE_EGG
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰸'
+      MaxRange: 100
+      Chance: 3
+      Commands:
+      - 'lp user %player% permission settemp group.mvip true 7d'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e1 Week MVIP&a!'
+    '6':
+      DisplayName: '&8[&76x&8] &6Purpur Lucky Block'
+      DisplayItem: NETHER_GOLD_ORE
+      DisplayAmount: 6
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰷'
+      MaxRange: 100
+      Chance: 5
+      Commands:
+      - 'cti luckyblock_purpur %player% 6'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e6x Purpur Lucky Block&a!'
+    '7':
+      DisplayName: '&8[&716x&8] &6Flame Coin'
+      DisplayItem: PAPER#6023
+      DisplayAmount: 16
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰷'
+      MaxRange: 100
+      Chance: 10
+      Commands:
+      - 'cti coin_flame %player% 8'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e8x Flame Coin&a!'
+    '8':
+      DisplayName: '&8[&796x&8] &9Luck Coin'
+      DisplayItem: PAPER#6014
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 10
+      Commands:
+      - 'cti coin_luck %player% 96'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e96x Luck Coin&a!'
+    '9':
+      DisplayName: '&8[&72x&8] &9Totem of Undying'
+      DisplayItem: TOTEM_OF_UNDYING
+      DisplayAmount: 2
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 10
+      Commands:
+      - 'give %player% totem_of_undying 2'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e2x Totem of Undying&a!'
+    '10':
+      DisplayName: '&8[&74x&8] &9Enchanted Golden Apple'
+      DisplayItem: ENCHANTED_GOLDEN_APPLE
+      DisplayAmount: 4
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 10
+      Commands:
+      - 'give %player% enchanted_golden_apple 4'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e4x Enchanted Golden Apple&a!'
+    '11':
+      DisplayName: '&8[&712x&8] &9Golden Apple'
+      DisplayItem: GOLDEN_APPLE
+      DisplayAmount: 12
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰶'
+      MaxRange: 100
+      Chance: 15
+      Commands:
+      - 'give %player% golden_apple 12'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e12x Golden Apple&a!'
+    '12':
+      DisplayName: '&8[&74x&8] &aHeal Ticket'
+      DisplayItem: PAPER#6045
+      DisplayAmount: 4
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 15
+      Commands:
+      - 'cti ticket_heal %player% 4'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e4x Heal Ticket&a!'
+    '13':
+      DisplayName: '&8[&724x&8] &aFeed Ticket'
+      DisplayItem: PAPER#6044
+      DisplayAmount: 24
+      Lore:
+      - ''
+      - '&7You can win this prize'
+      - '&7by opening the crate!'
+      - '&f𮰵'
+      MaxRange: 100
+      Chance: 15
+      Commands:
+      - 'cti ticket_feed %player% 24'
+      Messages:
+      - '&6 Crates &8▸ &aYou won &e24x Feed Ticket&a!'

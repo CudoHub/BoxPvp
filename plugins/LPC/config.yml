@@ -1,0 +1,38 @@
+# LPC Configuration
+# Please read the https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta before you set up.
+#
+# Placeholders:
+# {message} - the chat message
+# {name} - the player"s name
+# {displayname} - the player"s display name / nickname
+# {world} - the world name of the player"s current world
+# {prefix} - the player"s highest priority prefix
+# {suffix} - the player"s highest priority suffix
+# {prefixes} - the player"s prefixes sorted by the highest priority
+# {suffixes} - the player"s suffixes sorted by the highest priority
+# {username-color} - the player"s or the group"s username color
+# {message-color} - the player"s or the group"s message color
+#
+# To reload the configuration, run "/lpc reload" command. Make sure you have the "lpc.reload" permission assigned.
+# More information can be found at https://www.spigotmc.org/resources/68965.
+chat-format: " &8[&#6AE8C2%javascript_requlogiakd%&8] &#e1dfff{name} &8▸ &7{message}"
+# Set the format per group.
+# Note: Option for more advanced users. Remove comments to run.
+group-formats:
+  default: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮰂𮯱 &#e1dfff{name} &8▸ &7{message}"
+  iron: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮰁𮯰 &#e1dfff{name} &8▸ &7{message}"
+  gold: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮰀𮯯 &#e1dfff{name} &8▸ &7{message}"
+  diamond: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮯿𮯮 &#e1dfff{name} &8▸ &7{message}"
+  emerald: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮯾𮯭 &#e1dfff{name} &8▸ &7{message}"
+  netherite: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮯽𮯬 &#e1dfff{name} &8▸ &7{message}"
+  vip: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮯼𮯫 &#fffd75{name} &8▸ &f{message}"
+  vip+: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮯻𮯪 &#fffd75{name} &8▸ &f{message}"
+  mvip: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮯺𮯩 &#00dcff{name} &8▸ &f{message}"
+  mvip+: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮯹𮯨 &#00dcff{name} &8▸ &f{message}"
+  rvip: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮯸𮯧 &#de00ff{name} &8▸ &f{message}"
+  rvip+: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮯷𮯦 &#de00ff{name} &8▸ &f{message}"
+  builder: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮯶𮯥 &#00a8a7{name} &8▸ &#b0ffe4{message}"
+  helper: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮯵𮯤 &#54fb54{name} &8▸ &#b0ffe4{message}"
+  youtuber: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮯴𮯣 &f{name} &8▸ &f{message}"
+  admin: " &8[&#6AE8C2%javascript_requlogiakd%&8] &f%deluxetags_tag% &f𮯳𮯢 &#ff4e4e{name} &8▸ &#ff7171{message}"
+  owner: " &f𮯲𮯡 &#ce0000{name} &8▸ &#ff0000{message}"

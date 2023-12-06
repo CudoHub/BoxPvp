@@ -1,0 +1,28 @@
+tasks:
+  player:
+    type: "playerkilling"
+    amount: 32
+display:
+  name: "&f𮯭 &aQuests &8▸ &7#2"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Kill 32x Player."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{player:progress}/32x Player"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &73x Iron Lucky Block"
+  type: "NETHERITE_SWORD"
+rewards:
+  - "cti luckyblock_iron {player} 3"
+options:
+  category: "emeraldquests"
+  requires:
+    - "emerald1"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 29

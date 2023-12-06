@@ -1,0 +1,30 @@
+tasks:
+  player:
+    type: "playerkilling"
+    amount: 24
+display:
+  name: "&f𮯮 &bQuests &8▸ &7#6"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Kill 24x Player."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{player:progress}/24x Player"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &73x Heal Ticket"
+    - "&5 ▪ &79x Feed Ticket"
+  type: "NETHERITE_SWORD"
+rewards:
+  - "cti ticket_heal {player} 3"
+  - "cti ticket_feed {player} 9"
+options:
+  category: "diamondquests"
+  requires:
+    - "diamond5"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 24

@@ -1,0 +1,12 @@
+location: Requlogia:55,500:53,000:48,500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 0
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#a6fb9f&lP&#99f691&lI&#8df182&lC&#80ec74&lK&#73e765&lA&#67e257&lX&#5adc48&lE &#4ed73a&lT&#41d22b&lR&#34cd1d&lA&#28c80e&lD&#1bc300&lE &8&l(&#e4e4e4Iron&8&l)'
+  - content: '&#DBF8FDClick and trade!'
+  actions: {}

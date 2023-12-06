@@ -1,0 +1,28 @@
+tasks:
+  steps:
+    type: "walking"
+    distance: 2500
+display:
+  name: "&f𮯮 &bQuests &8▸ &7#8"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Take 2500x Steps."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{steps:progress}/2500x Steps"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &71x Iron Crate Key"
+  type: "NETHERITE_BOOTS"
+rewards:
+  - "cc give p iron 1 {player}"
+options:
+  category: "diamondquests"
+  requires:
+    - "diamond7"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 26

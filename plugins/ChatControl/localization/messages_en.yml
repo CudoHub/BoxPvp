@@ -1,0 +1,70 @@
+# ---------------------------------------------------------
+# This file contains most of the messages
+# and provides simple way to translate the plugin.
+# 
+# If you want to customize the localization, simply
+# copy this file to plugin's folder localization and start editing.
+# Example: plugins/ChatControl/localization/messages_en.yml
+# It will still be updated with new values in future releases.
+#
+# To not display a message, set it to 'none'
+# Messages supports variables beginning with % and color codes with & character
+# ---------------------------------------------------------
+
+Cannot:
+  Broadcast_Empty_Message: '&6 Chat &8▸ &cMessage on &e{event} &cis empty. No broadcast.'
+  Chat_While_Muted: '&6 Chat &8▸ &cYou cannot chat while the chat is muted!'
+  Command_While_Muted: '&6 Chat &8▸ &cYou cannot use this command while the chat is muted!'
+  Chat_Until_Moved: '&6 Chat &8▸ &cYou cannot chat until you move!'
+
+Anti_Bot:
+  Rejoin_Message: '{prefix}\n\n&6Please wait to login again.'
+
+Anti_Spam:
+  Similar_Message: '&6 Chat &8▸ &cPlease do not repeat the same (or similar) message.'
+  Similar_Command: '&6 Chat &8▸ &cPlease do not repeat the same (or similar) command.'
+  Too_Much_Caps: '&6 Chat &8▸ &cYou can''t send messages with too many capital letters!'
+  Command_Wait_Message: '&6 Chat &8▸ &cPlease wait {time} {seconds} before your next command.'
+  Chat_Wait_Message: '&6 Chat &8▸ &cPlease wait {time} {seconds} before your next message.'
+
+Chat_Mute:
+  Mute: '&6 Chat &8▸ &fChat was successfully &cmuted&f.'
+  Unmute: '&6 Chat &8▸ &fSohbet &fChat is &ano longer muted&f.'
+  Mute_Broadcast: '&6 Chat &8▸ &e{player} &fhas muted the chat.'
+  Unmute_Broadcast: '&6 Chat &8▸ &e{player} &fhas unmuted the chat.'
+  Anonymous_Mute_Broadcast: '&6 Chat &8▸ &cInitiated global chat mute.'
+  Anonymous_Unmute_Broadcast: '&6 Chat &8▸ &aGlobal chat mute cancelled.'
+
+Chat_Clear:
+  Broadcast: '&6 Chat &8▸ &e{player} &fcleared the chat.'
+  Anonymous_Broadcast: '&6 Chat &8▸ &fThe game chat was &ccleared&f.'
+  Console_Player_Message: '&6 Chat &8▸ &fConsole was successfully &acleared&f.'
+  Console_Message: '&6 Chat &8▸ &fConsole was cleared by &e{player}&f.'
+  Chat_Staff_Message: '&6 Chat &8▸ &fChat was cleared by &e{player}&f.'
+
+Signs:
+  Duplicate_Text: '&6 Chat &8▸ &cYou cannot make multiple signs with the same text!'
+  Duplicate_Text_Staff: '&6 Chat &8▸ &f{player} &ccreated signs with same text: &f{message}'
+  Broke_When_Violated_A_Rule: '&cYour sign broke, there must be something wrong with it!'
+Usage:
+  Fake_Command: ''
+
+Update_Available: ''
+
+No_Permission: '&6 Chat &8▸ &cYou do not have the permissions to do that!'
+Reload_Complete: '&6 Chat &8▸ &aConfiguration reloaded successfuly!'
+Reload_Failed: '&6 Chat &8▸ &cReloading configuration failed, check console.'
+Wrong_Parameters: '&6 Chat &8▸ &cWrong parameters or missing permission!'
+Wrong_Arguments: '&6 Chat &8▸ &cWrong parameters or missing permission!'
+
+General:
+  Player_Join: player join
+  Player_Quit: player quit
+  Player_Kick: player kick
+  Prefix: ''
+  Server_Prefix: ''
+  Console: ''
+  Reason: ''
+  Sign: SIGN
+  Command: COMMAND
+  Seconds: second, seconds

@@ -1,0 +1,155 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+NightmareBoss:
+  Type: IRON_GOLEM
+  Display: '&5&lNIGHTMARE BOSS'
+  Health: 1000
+  Damage: 20
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 30
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Glowing: false
+    KnockbackResistance: 0.5
+  BossBar:
+    Enabled: true
+    Title: '&5Nightmare Boss'
+    Range: 20
+    Color: PINK
+    Style: SEGMENTED_20
+  Skills:
+  - skill{s=NightmareBoss-Particle} @self ~onSpawn
+  - skill{s=NightmareBoss-DamageParticle} @self ~onDamaged
+  - command{c="cti bossbox_nightmare <target.name> 1"} @ThreatTablePlayers ~onDeath
+FlameBoss:
+  Type: WITHER_SKELETON
+  Display: '&4&lFLAME BOSS'
+  Health: 500
+  Damage: 2
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 30
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Glowing: false
+    KnockbackResistance: 0.5
+  BossBar:
+    Enabled: true
+    Title: '&4Flame Boss'
+    Range: 20
+    Color: RED
+    Style: SEGMENTED_20
+  Skills:
+  - skill{s=FlameBoss-Particle} @self ~onSpawn
+  - skill{s=FlameBoss-DamageParticle} @self ~onDamaged
+  - skill{s=FlameBoss-HelperSpawn} @self 0.1
+  - skill{s=FlameBoss-LightAttack} @target 0.1
+  - command{c="cti bossbox_flame <target.name> 1"} @ThreatTablePlayers ~onDeath
+  Equipment:
+  - FlameBoss_Sword HAND
+  - FlameBoss_Sword OFFHAND
+  - FlameBoss_Helmet HEAD
+FlameBoss-Helper1:
+  Type: PIGLIN
+  Display: '&cFlame Boss Helper'
+  Health: 50
+  Damage: 10
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Glowing: false
+    KnockbackResistance: 0.5
+  Skills:
+  - skill{s=FlameBoss-HelperParticle} @self ~onSpawn
+  - skill{s=FlameBoss-DamageParticle} @self ~onDamaged
+FlameBoss-Helper2:
+  Type: PIGLIN_BRUTE
+  Display: '&cFlame Boss Helper'
+  Health: 50
+  Damage: 10
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Glowing: false
+    KnockbackResistance: 0.5
+  Skills:
+  - skill{s=FlameBoss-HelperParticle} @self ~onSpawn
+  - skill{s=FlameBoss-DamageParticle} @self ~onDamaged
+FlameBoss-Helper3:
+  Type: ZOGLIN
+  Display: '&cFlame Boss Helper'
+  Health: 50
+  Damage: 10
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Glowing: false
+    KnockbackResistance: 0.5
+  Skills:
+  - skill{s=FlameBoss-HelperParticle} @self ~onSpawn
+  - skill{s=FlameBoss-DamageParticle} @self ~onDamaged
+IceBoss:
+  Type: STRAY
+  Display: '&b&lICE BOSS'
+  Health: 500
+  Damage: 25
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 30
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Glowing: false
+    KnockbackResistance: 0.5
+  BossBar:
+    Enabled: true
+    Title: '&bICE Boss'
+    Range: 20
+    Color: BLUE
+    Style: SEGMENTED_20
+  Skills:
+  - skill{s=IceBoss-Particle} @self ~onSpawn
+  - skill{s=IceBoss-DamageParticle} @self ~onDamaged
+  - skill{s=IceBoss-HelperSpawn} @self 0.1
+  - skill{s=IceBoss-Prison} @target 0.1
+  - command{c="cti bossbox_ice <target.name> 1"} @ThreatTablePlayers ~onDeath
+  Equipment:
+  - IceBoss_Bow HAND
+  - IceBoss_Helmet HEAD
+IceBoss-Helper:
+  Type: SKELETON
+  Display: '&fIce Boss Helper'
+  Health: 50
+  Damage: 5
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Glowing: false
+    KnockbackResistance: 0.5
+  Skills:
+  - skill{s=IceBoss-HelperParticle} @self ~onSpawn
+  - skill{s=IceBoss-DamageParticle} @self ~onDamaged
+  - skill{s=IceBoss-ShulkerArrow} @target 0.1

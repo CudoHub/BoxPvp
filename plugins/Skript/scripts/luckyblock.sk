@@ -1,0 +1,430 @@
+on break of sponge:
+  cancel event
+  set event-block to air
+  if event-location is {luckyblock::coal}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 8"
+    chance of 100%:
+      execute console command "cti coin_item %player% 1"
+    chance of 100%:
+      execute console command "cti coin_food %player% 2"
+    chance of 5%:
+      execute console command "cti luckyblock_coal %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_coal %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_coal %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_coal %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_coal %player% 1"
+  if event-location is {luckyblock::lapis}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 10"
+    chance of 100%:
+      execute console command "cti coin_item %player% 2"
+    chance of 100%:
+      execute console command "cti coin_food %player% 2"
+    chance of 5%:
+      execute console command "cti luckyblock_lapis %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_lapis %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_lapis %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_lapis %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_lapis %player% 1"
+  if event-location is {luckyblock::redstone}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 10"
+    chance of 100%:
+      execute console command "cti coin_item %player% 2"
+    chance of 100%:
+      execute console command "cti coin_food %player% 2"
+    chance of 5%:
+      execute console command "cti luckyblock_redstone %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_redstone %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_redstone %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_redstone %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_redstone %player% 1"
+  if event-location is {luckyblock::iron}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 15"
+    chance of 100%:
+      execute console command "cti coin_item %player% 3"
+    chance of 100%:
+      execute console command "cti coin_food %player% 3"
+    chance of 5%:
+      execute console command "cti luckyblock_iron %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_iron %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_iron %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_iron %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_iron %player% 1"
+  if event-location is {luckyblock::gold}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 15"
+    chance of 100%:
+      execute console command "cti coin_item %player% 3"
+    chance of 100%:
+      execute console command "cti coin_food %player% 3"
+    chance of 5%:
+      execute console command "cti luckyblock_gold %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_gold %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_gold %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_gold %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_gold %player% 1"
+  if event-location is {luckyblock::diamond}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 18"
+    chance of 100%:
+      execute console command "cti coin_item %player% 4"
+    chance of 100%:
+      execute console command "cti coin_food %player% 4"
+    chance of 100%:
+      execute console command "cti coin_depo %player% 1"
+    chance of 5%:
+      execute console command "cti luckyblock_diamond %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_diamond %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_diamond %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_diamond %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_diamond %player% 1"
+  if event-location is {luckyblock::emerald}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 20"
+    chance of 100%:
+      execute console command "cti coin_item %player% 4"
+    chance of 100%:
+      execute console command "cti coin_food %player% 4"
+    chance of 100%:
+      execute console command "cti coin_vault %player% 1"
+    chance of 100%:
+      execute console command "cti coin_luck %player% 1"
+    chance of 5%:
+      execute console command "cti luckyblock_emerald %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_emerald %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_emerald %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_emerald %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_emerald %player% 1"
+  if event-location is {luckyblock::endstone}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 26"
+    chance of 100%:
+      execute console command "cti coin_item %player% 5"
+    chance of 100%:
+      execute console command "cti coin_food %player% 5"
+    chance of 100%:
+      execute console command "cti coin_vault %player% 2"
+    chance of 100%:
+      execute console command "cti coin_luck %player% 1"
+    chance of 5%:
+      execute console command "cti luckyblock_endstone %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_endstone %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_endstone %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_endstone %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_endstone %player% 1"
+  if event-location is {luckyblock::prismarine}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 32"
+    chance of 100%:
+      execute console command "cti coin_item %player% 5"
+    chance of 100%:
+      execute console command "cti coin_food %player% 5"
+    chance of 100%:
+      execute console command "cti coin_vault %player% 2"
+    chance of 100%:
+      execute console command "cti coin_luck %player% 1"
+    chance of 5%:
+      execute console command "cti luckyblock_prismarine %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_prismarine %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_prismarine %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_prismarine %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_prismarine %player% 1"
+  if event-location is {luckyblock::magma}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 40"
+    chance of 100%:
+      execute console command "cti coin_item %player% 6"
+    chance of 100%:
+      execute console command "cti coin_food %player% 6"
+    chance of 100%:
+      execute console command "cti coin_vault %player% 2"
+    chance of 100%:
+      execute console command "cti coin_luck %player% 2"
+    chance of 5%:
+      execute console command "cti luckyblock_magma %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_magma %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_magma %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_magma %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_magma %player% 1"
+  if event-location is {luckyblock::quartz}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 48"
+    chance of 100%:
+      execute console command "cti coin_item %player% 6"
+    chance of 100%:
+      execute console command "cti coin_food %player% 6"
+    chance of 100%:
+      execute console command "cti coin_vault %player% 2"
+    chance of 100%:
+      execute console command "cti coin_luck %player% 2"
+    chance of 5%:
+      execute console command "cti luckyblock_quartz %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_quartz %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_quartz %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_quartz %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_quartz %player% 1"
+  if event-location is {luckyblock::netherbrick}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 64"
+    chance of 100%:
+      execute console command "cti coin2 %player% 2"
+    chance of 100%:
+      execute console command "cti coin_item %player% 8"
+    chance of 100%:
+      execute console command "cti coin_food %player% 8"
+    chance of 100%:
+      execute console command "cti coin_vault %player% 3"
+    chance of 100%:
+      execute console command "cti coin_luck %player% 3"
+    chance of 5%:
+      execute console command "cti luckyblock_netherbrick %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_netherbrick %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_netherbrick %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_netherbrick %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_netherbrick %player% 1"
+  if event-location is {luckyblock::netherite}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 64"
+    chance of 100%:
+      execute console command "cti coin2 %player% 3"
+    chance of 100%:
+      execute console command "cti coin_item %player% 10"
+    chance of 100%:
+      execute console command "cti coin_food %player% 10"
+    chance of 100%:
+      execute console command "cti coin_vault %player% 3"
+    chance of 100%:
+      execute console command "cti coin_luck %player% 3"
+    chance of 5%:
+      execute console command "cti luckyblock_netherite %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_netherite %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_netherite %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_netherite %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_netherite %player% 1"
+  if event-location is {luckyblock::blackstone}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 64"
+    chance of 100%:
+      execute console command "cti coin2 %player% 4"
+    chance of 100%:
+      execute console command "cti coin_item %player% 10"
+    chance of 100%:
+      execute console command "cti coin_food %player% 10"
+    chance of 100%:
+      execute console command "cti coin_vault %player% 4"
+    chance of 100%:
+      execute console command "cti coin_luck %player% 4"
+    chance of 5%:
+      execute console command "cti luckyblock_blackstone %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_blackstone %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_blackstone %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_blackstone %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_blackstone %player% 1"
+  if event-location is {luckyblock::purpur}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 64"
+    chance of 100%:
+      execute console command "cti coin2 %player% 6"
+    chance of 100%:
+      execute console command "cti coin_item %player% 10"
+    chance of 100%:
+      execute console command "cti coin_food %player% 10"
+    chance of 100%:
+      execute console command "cti coin_vault %player% 5"
+    chance of 100%:
+      execute console command "cti coin_luck %player% 5"
+    chance of 5%:
+      execute console command "cti luckyblock_purpur %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_purpur %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_purpur %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_purpur %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_purpur %player% 1"
+  if event-location is {luckyblock::obsidian}:
+    chance of 100%:
+      execute console command "cti coin_coin1 %player% 64"
+    chance of 100%:
+      execute console command "cti coin2 %player% 8"
+    chance of 100%:
+      execute console command "cti coin3 %player% 1"
+    chance of 100%:
+      execute console command "cti coin_item %player% 20"
+    chance of 100%:
+      execute console command "cti coin_food %player% 16"
+    chance of 100%:
+      execute console command "cti coin_vault %player% 8"
+    chance of 100%:
+      execute console command "cti coin_luck %player% 8"
+    chance of 5%:
+      execute console command "cti luckyblock_obsidian %player% 1"
+    chance of 4%:
+      execute console command "cti luckyblock_obsidian %player% 1"
+    chance of 3%:
+      execute console command "cti luckyblock_obsidian %player% 1"
+    chance of 2%:
+      execute console command "cti luckyblock_obsidian %player% 1"
+    chance of 1%:
+      execute console command "cti luckyblock_obsidian %player% 1"
+
+on place of sponge:
+  if event-location is {luckyblock::coal}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##b1b1b1>C<##a3a3a3>O<##969696>A<##888888>L&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##b1b1b1>C<##a3a3a3>O<##969696>A<##888888>L&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##b1b1b1>C<##a3a3a3>O<##969696>A<##888888>L&8] &cin this area!" to player
+  else if event-location is {luckyblock::lapis}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##67ffed>L<##61f2ef>A<##5be6f1>P<##55d9f2>I<##4fccf4>S&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##67ffed>L<##61f2ef>A<##5be6f1>P<##55d9f2>I<##4fccf4>S&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##67ffed>L<##61f2ef>A<##5be6f1>P<##55d9f2>I<##4fccf4>S&8] &cin this area!" to player
+  else if event-location is {luckyblock::redstone}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##ff8181>R<##ff7777>E<##ff6d6d>D<##ff6363>S<##ff5a5a>T<##ff5050>O<##ff4646>N<##ff3c3c>E&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##ff8181>R<##ff7777>E<##ff6d6d>D<##ff6363>S<##ff5a5a>T<##ff5050>O<##ff4646>N<##ff3c3c>E&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##ff8181>R<##ff7777>E<##ff6d6d>D<##ff6363>S<##ff5a5a>T<##ff5050>O<##ff4646>N<##ff3c3c>E&8] &cin this area!" to player
+  else if event-location is {luckyblock::iron}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##dff9ff>I<##def5fa>R<##def1f5>O<##ddedf0>N&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##dff9ff>I<##def5fa>R<##def1f5>O<##ddedf0>N&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##dff9ff>I<##def5fa>R<##def1f5>O<##ddedf0>N&8] &cin this area!" to player
+  else if event-location is {luckyblock::gold}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##f5ff83>G<##f1f877>O<##eef06b>L<##eae95f>D&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##f5ff83>G<##f1f877>O<##eef06b>L<##eae95f>D&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##f5ff83>G<##f1f877>O<##eef06b>L<##eae95f>D&8] &cin this area!" to player
+  else if event-location is {luckyblock::diamond}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##dff9ff>D<##d2f9ff>I<##c4f8ff>A<##b7f8ff>M<##aaf7ff>O<##9cf7ff>N<##8ff6ff>D&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##dff9ff>D<##d2f9ff>I<##c4f8ff>A<##b7f8ff>M<##aaf7ff>O<##9cf7ff>N<##8ff6ff>D&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##dff9ff>D<##d2f9ff>I<##c4f8ff>A<##b7f8ff>M<##aaf7ff>O<##9cf7ff>N<##8ff6ff>D&8] &cin this area!" to player
+  else if event-location is {luckyblock::emerald}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##7effa2>E<##75ff9a>M<##6bff92>E<##62ff8a>R<##58ff82>A<##4fff7a>L<##45ff72>D&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##7effa2>E<##75ff9a>M<##6bff92>E<##62ff8a>R<##58ff82>A<##4fff7a>L<##45ff72>D&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##7effa2>E<##75ff9a>M<##6bff92>E<##62ff8a>R<##58ff82>A<##4fff7a>L<##45ff72>D&8] &cin this area!" to player
+  else if event-location is {luckyblock::endstone}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##fbf79a>E<##fbf695>N<##fbf691>D<##fbf58c>S<##fcf488>T<##fcf383>O<##fcf37f>N<##fcf27a>E&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##fbf79a>E<##fbf695>N<##fbf691>D<##fbf58c>S<##fcf488>T<##fcf383>O<##fcf37f>N<##fcf27a>E&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##fbf79a>E<##fbf695>N<##fbf691>D<##fbf58c>S<##fcf488>T<##fcf383>O<##fcf37f>N<##fcf27a>E&8] &cin this area!" to player
+  else if event-location is {luckyblock::prismarine}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##27fbc8>P<##2bfbc4>R<##2ffbc1>I<##33fbbd>S<##37fbb9>M<##3afcb6>A<##3efcb2>R<##42fcae>I<##46fcab>N<##4afca7>E&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##27fbc8>P<##2bfbc4>R<##2ffbc1>I<##33fbbd>S<##37fbb9>M<##3afcb6>A<##3efcb2>R<##42fcae>I<##46fcab>N<##4afca7>E&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##27fbc8>P<##2bfbc4>R<##2ffbc1>I<##33fbbd>S<##37fbb9>M<##3afcb6>A<##3efcb2>R<##42fcae>I<##46fcab>N<##4afca7>E&8] &cin this area!" to player
+  else if event-location is {luckyblock::magma}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##fb5151>M<##fb5751>A<##fc5d50>G<##fc6350>M<##fc694f>A&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##fb5151>M<##fb5751>A<##fc5d50>G<##fc6350>M<##fc694f>A&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##fb5151>M<##fb5751>A<##fc5d50>G<##fc6350>M<##fc694f>A&8] &cin this area!" to player
+  else if event-location is {luckyblock::quartz}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##fbcaca>Q<##f5bebe>U<##f0b1b1>A<##eaa5a5>R<##e59898>T<##df8c8c>Z&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##fbcaca>Q<##f5bebe>U<##f0b1b1>A<##eaa5a5>R<##e59898>T<##df8c8c>Z&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##fbcaca>Q<##f5bebe>U<##f0b1b1>A<##eaa5a5>R<##e59898>T<##df8c8c>Z&8] &cin this area!" to player
+  else if event-location is {luckyblock::netherbrick}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##fb0000>N<##f70707>E<##f30e0e>T<##ef1414>H<##eb1b1b>E<##e72222>R <##e22929>B<##de3030>R<##da3636>I<##d63d3d>C<##d24444>K&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##fb0000>N<##f70707>E<##f30e0e>T<##ef1414>H<##eb1b1b>E<##e72222>R <##e22929>B<##de3030>R<##da3636>I<##d63d3d>C<##d24444>K&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##fb0000>N<##f70707>E<##f30e0e>T<##ef1414>H<##eb1b1b>E<##e72222>R <##e22929>B<##de3030>R<##da3636>I<##d63d3d>C<##d24444>K&8] &cin this area!" to player
+  else if event-location is {luckyblock::netherite}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##d0bcbc>N<##c9b3b3>E<##c3a9a9>T<##bca0a0>H<##b59797>E<##ae8d8d>R<##a88484>I<##a17a7a>T<##9a7171>E&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##d0bcbc>N<##c9b3b3>E<##c3a9a9>T<##bca0a0>H<##b59797>E<##ae8d8d>R<##a88484>I<##a17a7a>T<##9a7171>E&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##d0bcbc>N<##c9b3b3>E<##c3a9a9>T<##bca0a0>H<##b59797>E<##ae8d8d>R<##a88484>I<##a17a7a>T<##9a7171>E&8] &cin this area!" to player
+  else if event-location is {luckyblock::blackstone}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##ffffff>B<##f8f8f8>L<##f1f1f1>A<##e9e9e9>C<##e2e2e2>K<##dbdbdb>S<##d4d4d4>T<##cccccc>O<##c5c5c5>N<##bebebe>E&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##ffffff>B<##f8f8f8>L<##f1f1f1>A<##e9e9e9>C<##e2e2e2>K<##dbdbdb>S<##d4d4d4>T<##cccccc>O<##c5c5c5>N<##bebebe>E&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##ffffff>B<##f8f8f8>L<##f1f1f1>A<##e9e9e9>C<##e2e2e2>K<##dbdbdb>S<##d4d4d4>T<##cccccc>O<##c5c5c5>N<##bebebe>E&8] &cin this area!" to player
+  else if event-location is {luckyblock::purpur}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##903098>P<##9a36a1>U<##a43cab>R<##ad41b4>P<##b747be>U<##c14dc7>R&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##903098>P<##9a36a1>U<##a43cab>R<##ad41b4>P<##b747be>U<##c14dc7>R&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##903098>P<##9a36a1>U<##a43cab>R<##ad41b4>P<##b747be>U<##c14dc7>R&8] &cin this area!" to player
+  else if event-location is {luckyblock::obsidian}:
+    if name of player's tool is "<##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##5d2e98>O<##6332a0>B<##6a35a8>S<##7039b0>I<##763db7>D<##7c41bf>I<##8344c7>A<##8948cf>N&8]":
+      send "&6 Lucky Block &8▸ <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##5d2e98>O<##6332a0>B<##6a35a8>S<##7039b0>I<##763db7>D<##7c41bf>I<##8344c7>A<##8948cf>N&8] &fplaced! &cBe careful, other players can also break the lucky block!" to player
+    else:
+      cancel event
+      send "&6 Lucky Block &8▸ &cYou can only place <##fb8989>L<##fb9384>U<##fb9c80>C<##fca67b>K<##fcb076>Y <##fcb972>B<##fcc36d>L<##fdcd68>O<##fdd664>C<##fde05f>K &8[<##5d2e98>O<##6332a0>B<##6a35a8>S<##7039b0>I<##763db7>D<##7c41bf>I<##8344c7>A<##8948cf>N&8] &cin this area!" to player
+  else:
+    cancel event
+    send "&6 Lucky Block &8▸ &cYou can only place the Luck Block in the lucky block area!" to player

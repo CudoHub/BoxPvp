@@ -1,0 +1,201 @@
+# "Streak" or "Casual" rewarding system
+Type: Streak
+debug: false
+forceOpen: false
+rewardSound: "ENTITY_PLAYER_LEVELUP"
+Rewards:
+   first:
+      material: CHEST_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&6First Reward"
+      lore:
+      - ""
+      - "&fDaily reward gives more"
+      - "&frewards every day. If you"
+      - "&fdon't get the reward, you're"
+      - "&fback to the beginning."
+      - ""
+      - "&7Rewards &8▸"
+      - "&8 ▪ &d3x Coin I"
+      - "&8 ▪ &d3x Bread"
+      - "&8 ▪ &d1x Daily Crate"
+      - ""
+      - "&7Status &8▸ {status}"
+      - ""
+      commands:
+      - "cti coin_coin1 %player% 3"
+      - "give %player% bread 3"
+      - "cc give p daily 1 %player%"
+   second:
+      material: CHEST_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&6Second Reward"
+      lore:
+      - ""
+      - "&fDaily reward gives more"
+      - "&frewards every day. If you"
+      - "&fdon't get the reward, you're"
+      - "&fback to the beginning."
+      - ""
+      - "&7Rewards &8▸"
+      - "&8 ▪ &d3x Coin I"
+      - "&8 ▪ &d6x Bread"
+      - "&8 ▪ &d1x Daily Crate"
+      - ""
+      - "&7Status &8▸ {status}"
+      - ""
+      commands:
+      - "cti coin_coin1 %player% 3"
+      - "give %player% bread 6"
+      - "cc give p daily 1 %player%"
+   third:
+      material: CHEST_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&6Third Reward"
+      lore:
+      - ""
+      - "&fDaily reward gives more"
+      - "&frewards every day. If you"
+      - "&fdon't get the reward, you're"
+      - "&fback to the beginning."
+      - ""
+      - "&7Rewards &8▸"
+      - "&8 ▪ &d6x Coin I"
+      - "&8 ▪ &d8x Bread"
+      - "&8 ▪ &d1x Daily Crate"
+      - ""
+      - "&7Status &8▸ {status}"
+      - ""
+      commands:
+      - "cti coin_coin1 %player% 6"
+      - "give %player% bread 8"
+      - "cc give p daily 1 %player%"
+   fourth:
+      material: CHEST_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&6Fourth Reward"
+      lore:
+      - ""
+      - "&fDaily reward gives more"
+      - "&frewards every day. If you"
+      - "&fdon't get the reward, you're"
+      - "&fback to the beginning."
+      - ""
+      - "&7Rewards &8▸"
+      - "&8 ▪ &d6x Coin I"
+      - "&8 ▪ &d12x Bread"
+      - "&8 ▪ &d1x Daily Crate"
+      - ""
+      - "&7Status &8▸ {status}"
+      - ""
+      commands:
+      - "cti coin_coin1 %player% 6"
+      - "give %player% bread 12"
+      - "cc give p daily 1 %player%"
+   fifth:
+      material: CHEST_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&6Fifth Reward"
+      lore:
+      - ""
+      - "&fDaily reward gives more"
+      - "&frewards every day. If you"
+      - "&fdon't get the reward, you're"
+      - "&fback to the beginning."
+      - ""
+      - "&7Rewards &8▸"
+      - "&8 ▪ &d12x Coin I"
+      - "&8 ▪ &d16x Bread"
+      - "&8 ▪ &d8x Cobweb"
+      - "&8 ▪ &d8x Arrow"
+      - "&8 ▪ &d1x Feed Ticket"
+      - "&8 ▪ &d1x Daily Crate"
+      - ""
+      - "&7Status &8▸ {status}"
+      - ""
+      commands:
+      - "cti coin_coin1 %player% 12"
+      - "give %player% bread 16"
+      - "give %player% cobweb 8"
+      - "give %player% arrow 8"
+      - "cti ticket_feed %player% 1"
+      - "cc give p daily 1 %player%"
+   sixth:
+      material: CHEST_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&6Sixth Reward"
+      lore:
+      - ""
+      - "&fDaily reward gives more"
+      - "&frewards every day. If you"
+      - "&fdon't get the reward, you're"
+      - "&fback to the beginning."
+      - ""
+      - "&7Rewards &8▸"
+      - "&8 ▪ &d12x Coin I"
+      - "&8 ▪ &d24x Bread"
+      - "&8 ▪ &d16x Cobweb"
+      - "&8 ▪ &d16x Arrow"
+      - "&8 ▪ &d2x Feed Ticket"
+      - "&8 ▪ &d2x Daily Crate"
+      - ""
+      - "&7Status &8▸ {status}"
+      - ""
+      commands:
+      - "cti coin_coin1 %player% 12"
+      - "give %player% bread 24"
+      - "give %player% cobweb 16"
+      - "give %player% arrow 16"
+      - "cti ticket_feed %player% 2"
+      - "cc give p daily 2 %player%"
+   seventh:
+      material: CHEST_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&6Seventh Reward"
+      lore:
+      - ""
+      - "&fDaily reward gives more"
+      - "&frewards every day. If you"
+      - "&fdon't get the reward, you're"
+      - "&fback to the beginning."
+      - ""
+      - "&7Rewards &8▸"
+      - "&8 ▪ &d16x Coin I"
+      - "&8 ▪ &d32x Bread"
+      - "&8 ▪ &d32x Cobweb"
+      - "&8 ▪ &d32x Arrow"
+      - "&8 ▪ &d1x Heal Ticket"
+      - "&8 ▪ &d3x Feed Ticket"
+      - "&8 ▪ &d3x Daily Crate"
+      - ""
+      - "&7Status &8▸ {status}"
+      - ""
+      commands:
+      - "cti coin_coin1 %player% 16"
+      - "give %player% bread 32"
+      - "give %player% cobweb 32"
+      - "give %player% arrow 32"
+      - "cti ticket_heal %player% 3"
+      - "cti ticket_feed %player% 3"
+      - "cc give p daily 3 %player%"

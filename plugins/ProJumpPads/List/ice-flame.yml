@@ -1,0 +1,14 @@
+fly-location:
+  world: Requlogia
+  x: -1.5
+  y: 125.0
+  z: -622.5
+name: ice-flame
+pos1X: -7.0
+pos1Z: -390.0
+pos2X: -3.0
+pos2Z: -389.0
+relative-position: 34.0
+permission-1: jump.ice-flame
+permission-message: §6 Geçit Kapısı §8▸ §cYou are not permission to teleport to this
+  area!

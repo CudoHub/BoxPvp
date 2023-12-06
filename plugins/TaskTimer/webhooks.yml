@@ -1,0 +1,23 @@
+event-1:
+  url: ""
+  username: "Event Notification"
+  image: "https://cdn.discordapp.com/attachments/845040263659520000/1016416382109368480/tasktimer.png"
+  thumbnail: "https://cdn.discordapp.com/attachments/845040263659520000/1016416382109368480/tasktimer.png"
+  title: "%event% Event!"
+  description: "Event %event% has begun!"
+  footer: "Requlogia - Copyright ©️ 2023 All Rights Reserved."
+  content: "@everyone"
+  color: "RED"
+  webUrl: "https://requlogia.com"
+  
+event-2:
+  url: ""
+  username: "Event Notification"
+  image: "https://cdn.discordapp.com/attachments/845040263659520000/1016416382109368480/tasktimer.png"
+  thumbnail: "https://cdn.discordapp.com/attachments/845040263659520000/1016416382109368480/tasktimer.png"
+  title: "%event% Event!"
+  description: "%event% Event will be start in %remaining%!"
+  footer: "Requlogia - Copyright ©️ 2023 All Rights Reserved."
+  content: "@everyone"
+  color: "CYAN"
+  webUrl: "https://requlogia.com"

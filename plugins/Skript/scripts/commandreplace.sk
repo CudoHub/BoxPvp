@@ -1,0 +1,15 @@
+command /badge:
+    trigger:
+        execute player command "tags"
+
+command /badges:
+    trigger:
+        execute player command "tags"
+
+command /fairysoul:
+    trigger:
+        execute player command "hb me"
+
+command /fairysouls:
+    trigger:
+        execute player command "hb me"

@@ -1,0 +1,28 @@
+location: Requlogia:-30.500:30.900:-63.500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 1
+facing: -90.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#fbfbfb&lC&#f1f1f1&lO&#e7e7e7&lB&#dddddd&lB&#d3d3d3&lL&#c9c9c9&lE&#bfbfbf&lS&#b5b5b5&lT&#ababab&lO&#a1a1a1&lN&#979797&lE &#8d8d8d&lM&#838383&lI&#797979&lN&#6f6f6f&lE'
+  - content: ''
+  - content: '&#fb8989R&#fb9583e&#fba17ds&#fcad78e&#fcb972t &#fcc66cD&#fcd266e&#fdde61l&#fdea5ba&#fdf655y &8▸ &f1 Minutes'
+  - content: '&#eefb5eT&#eff65ai&#f1f057m&#f2eb53e &#f4e54fR&#f5e04be&#f7da48m&#f8d544a&#f9cf40i&#fbca3cn&#fcc439i&#febf35n&#ffb931g &8▸ &f%catamines_countdown_cobblestonemine%'
+  - content: ''
+  - content: '&#e27cfbL&#e079fbu&#dd76fcc&#db73fck&#d870fcy &#d66dfcB&#d36afdl&#d167fdo&#cf64fdc&#cc60fdk &#ca5dfeC&#c75afeo&#c557fen&#c254fet&#c051ffe&#bd4effn&#bb4bfft &8▸'
+  - content: ''
+  - content: '&8 ▪ &#FFCACA8x Coin I &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA1x Item Coin &8▸ &f%100 Chance'
+  - content: '&8 ▪ &#FFCACA1x Food Coin &8▸ &f%100 Chance'
+  - content: ''
+  - content: '&aClick and trade!'
+  - content: ''
+  - content: '#ENTITY: TRADER_LLAMA'
+  actions:
+    LEFT:
+    - CONSOLE:shopkeepers remote 9e2497d9-6ba4-43ca-bf19-e453f42d4cd9 {player}
+    RIGHT:
+    - CONSOLE:shopkeepers remote 9e2497d9-6ba4-43ca-bf19-e453f42d4cd9 {player}

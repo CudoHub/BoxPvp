@@ -1,0 +1,453 @@
+menu_title: '&fRank Upgrades'
+open_command:
+- rank
+- ranks
+- rankup
+- rankinfo
+- rankupgrade
+size: 36
+items:
+  iron-1:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg0YjE1Y2U2YmMwZmUyYmIxNTY0ZTM1MGVkMTczZjJlNDkwY2NkNWZkNGE2N2FhM2ViMjEyYTgzNThiNzgzNiJ9fX0='
+    slot: 11
+    priority: 7
+    display_name: '&f𮯰 Rank'
+    lore:
+    - ''
+    - '&7When you reach this rank, you'
+    - '&7will have the following features!'
+    - ''
+    - '&dRank features &8▸'
+    - '&8 ▪ &fAccess to 𮰎,𮰏,𮰐 badges,'
+    - '&8 ▪ &f𮯰 tag in chat and tab,'
+    - '&8 ▪ &fAccess to Crate and Leaderboard warp,'
+    - '&8 ▪ &fAccess to Ice Portal warp,'
+    - '&8 ▪ &e/kit iron &fcommand.'
+    - ''
+    - '&cRequirements &8▸'
+    - '&8 ▪ &7Complete &f𮯰 &7quests'
+    - ''
+    - '&aClick and upgrade!'
+    click_requirement:
+      requirements:
+        rankquest:
+          type: has permission
+          permission: ironrankquest
+      deny_commands:
+      - '[message] &6 Rank &8▸ &cYou must complete the rank quest before you can reach the rank!'
+    click_commands:
+    - '[console] lp user %player_name% permission set group.iron'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"§6§lRANK"}'
+    - '[console] title %player_name% subtitle {"text":"§aUpgraded! §8(§f𮯱 §8→ §f𮯰§8)"}'
+    - '[message] &6 Rank &8▸ &aYour rank has been successfully upgraded! &8(&f𮯱 &8→ &f𮯰&8)'
+  iron-2:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5YTVjOTVlZTE3YWJmZWY0NWM4ZGMyMjQxODk5NjQ5NDRkNTYwZjE5YTQ0ZjE5ZjhhNDZhZWYzZmVlNDc1NiJ9fX0='
+    slot: 11
+    priority: 6
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: group.iron
+    display_name: '&f𮯰 &aRank Completed!'
+    lore:
+    - ''
+    - '&7You have completed these'
+    - '&7rank requirements and have'
+    - '&7been upgraded to rank!'
+  gold-1:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdmNTdlN2FhOGRlODY1OTFiYjBiYzUyY2JhMzBhNDlkOTMxYmZhYmJkNDdiYmM4MGJkZDY2MjI1MTM5MjE2MSJ9fX0='
+    slot: 12
+    priority: 7
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: group.iron
+    display_name: '&f𮯯 &eRank'
+    lore:
+    - ''
+    - '&7When you reach this rank, you'
+    - '&7will have the following features!'
+    - ''
+    - '&dRank features &8▸'
+    - '&8 ▪ &fAccess to 𮰎,𮰏,𮰐 badges,'
+    - '&8 ▪ &fAccess to 𮰑,𮰒,𮰓 badges,'
+    - '&8 ▪ &f𮯯 tag in chat and tab,'
+    - '&8 ▪ &#084cfbI&#2468fbc&#3f84fce &#5ba0fcL&#76bbfca&#92d7fdn&#adf3fdd access,'
+    - '&8 ▪ &fAccess to Crate and Leaderboard warp,'
+    - '&8 ▪ &fAccess to Ice Portal warp,'
+    - '&8 ▪ &fAccess to Flame Portal warp,'
+    - '&8 ▪ &e/kit gold &fcommand.'
+    - ''
+    - '&cRequirements &8▸'
+    - '&8 ▪ &7Complete &f𮯯 &7quests'
+    - ''
+    - '&aClick and upgrade!'
+    click_requirement:
+      requirements:
+        rankquest:
+          type: has permission
+          permission: goldrankquest
+      deny_commands:
+      - '[message] &6 Rank &8▸ &cYou must complete the rank quest before you can reach the rank!'
+    click_commands:
+    - '[console] lp user %player_name% permission set group.gold'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"§6§lRANK"}'
+    - '[console] title %player_name% subtitle {"text":"§aUpgraded! §8(§f𮯰 §8→ §f𮯯§8)"}'
+    - '[message] &6 Rank &8▸ &aYour rank has been successfully upgraded! &8(&f𮯰 &8→ &f𮯯&8)'
+  gold-2:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5YTVjOTVlZTE3YWJmZWY0NWM4ZGMyMjQxODk5NjQ5NDRkNTYwZjE5YTQ0ZjE5ZjhhNDZhZWYzZmVlNDc1NiJ9fX0='
+    slot: 12
+    priority: 6
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: group.gold
+    display_name: '&f𮯯 &aRank Completed!'
+    lore:
+    - ''
+    - '&7You have completed these'
+    - '&7rank requirements and have'
+    - '&7been upgraded to rank!'
+  gold-3:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 12
+    priority: 5
+    view_requirement:
+      requirements:
+        permission:
+          type: '!has permission'
+          permission: group.iron
+    display_name: '&f𮯯 &8[&cRank Locked!&8]'
+    lore:
+    - ''
+    - '&7You can unlock this rank by'
+    - '&7reaching the previous rank!'
+    - ''
+    - '&cRank features &8▸'
+    - '&8 ▪ &fAccess to 𮰎,𮰏,𮰐 badges,'
+    - '&8 ▪ &fAccess to 𮰑,𮰒,𮰓 badges,'
+    - '&8 ▪ &f𮯯 tag in chat and tab,'
+    - '&8 ▪ &#084cfbI&#2468fbc&#3f84fce &#5ba0fcL&#76bbfca&#92d7fdn&#adf3fdd access,'
+    - '&8 ▪ &fAccess to Crate and Leaderboard warp,'
+    - '&8 ▪ &fAccess to Ice Portal warp,'
+    - '&8 ▪ &fAccess to Flame Portal warp,'
+    - '&8 ▪ &e/kit gold &fcommand.'
+    - ''
+    - '&cRequirements &8▸'
+    - '&8 ▪ &7Complete &f𮯯 &7quests'
+  diamond-1:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJmZDJkZTUzZWIxYmZlOTJmNWNjMTc4MGEyNzI3MzBlYmU3NTk0NzNiYjI1YTUzNjQ3ZDM3MTJlZTVmNjA5NSJ9fX0='
+    slot: 13
+    priority: 7
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: group.gold
+    display_name: '&f𮯮 &bRank'
+    lore:
+    - ''
+    - '&7When you reach this rank, you'
+    - '&7will have the following features!'
+    - ''
+    - '&dRank features &8▸'
+    - '&8 ▪ &fAccess to 𮰎,𮰏,𮰐 badges,'
+    - '&8 ▪ &fAccess to 𮰑,𮰒,𮰓 badges,'
+    - '&8 ▪ &fAccess to 𮰔,𮰕,𮰖 badges,'
+    - '&8 ▪ &f𮯮 tag in chat and tab,'
+    - '&8 ▪ &#084cfbI&#2468fbc&#3f84fce &#5ba0fcL&#76bbfca&#92d7fdn&#adf3fdd access,'
+    - '&8 ▪ &fAccess to Crate and Leaderboard warp,'
+    - '&8 ▪ &fAccess to Ice Portal warp,'
+    - '&8 ▪ &fAccess to Flame Portal warp,'
+    - '&8 ▪ &e/kit diamond &fcommand.'
+    - ''
+    - '&cRequirements &8▸'
+    - '&8 ▪ &7Complete &f𮯮 &7quests'
+    - ''
+    - '&aClick and upgrade!'
+    click_requirement:
+      requirements:
+        rankquest:
+          type: has permission
+          permission: diamondrankquest
+      deny_commands:
+      - '[message] &6 Rank &8▸ &cYou must complete the rank quest before you can reach the rank!'
+    click_commands:
+    - '[console] lp user %player_name% permission set group.diamond'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"§6§lRANK"}'
+    - '[console] title %player_name% subtitle {"text":"§aUpgraded! §8(§f𮯯 §8→ §f𮯮§8)"}'
+    - '[message] &6 Rank &8▸ &aYour rank has been successfully upgraded! &8(&f𮯯 &8→ &f𮯮&8)'
+  diamond-2:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5YTVjOTVlZTE3YWJmZWY0NWM4ZGMyMjQxODk5NjQ5NDRkNTYwZjE5YTQ0ZjE5ZjhhNDZhZWYzZmVlNDc1NiJ9fX0='
+    slot: 13
+    priority: 6
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: group.diamond
+    display_name: '&f𮯮 &aRank Completed!'
+    lore:
+    - ''
+    - '&7You have completed these'
+    - '&7rank requirements and have'
+    - '&7been upgraded to rank!'
+  diamond-3:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 13
+    priority: 5
+    view_requirement:
+      requirements:
+        permission:
+          type: '!has permission'
+          permission: group.gold
+    display_name: '&f𮯮 &8[&cRank Locked!&8]'
+    lore:
+    - ''
+    - '&7You can unlock this rank by'
+    - '&7reaching the previous rank!'
+    - ''
+    - '&cRank features &8▸'
+    - '&8 ▪ &fAccess to 𮰎,𮰏,𮰐 badges,'
+    - '&8 ▪ &fAccess to 𮰑,𮰒,𮰓 badges,'
+    - '&8 ▪ &fAccess to 𮰔,𮰕,𮰖 badges,'
+    - '&8 ▪ &f𮯮 tag in chat and tab,'
+    - '&8 ▪ &#084cfbI&#2468fbc&#3f84fce &#5ba0fcL&#76bbfca&#92d7fdn&#adf3fdd access,'
+    - '&8 ▪ &fAccess to Crate and Leaderboard warp,'
+    - '&8 ▪ &fAccess to Ice Portal warp,'
+    - '&8 ▪ &fAccess to Flame Portal warp,'
+    - '&8 ▪ &e/kit diamond &fcommand.'
+    - ''
+    - '&cRequirements &8▸'
+    - '&8 ▪ &7Complete &f𮯮 &7quests'
+  emerald-1:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjcyYzA1ZGQ3NjI4OGY0MzI4YTI0MzkxYmY0NzI1ZmQyMjYwNTkyZGIzY2Y5YjJiYzIwMzJkZDA1OTZjZjQ0MCJ9fX0='
+    slot: 14
+    priority: 7
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: group.diamond
+    display_name: '&f𮯭 &aRank'
+    lore:
+    - ''
+    - '&7When you reach this rank, you'
+    - '&7will have the following features!'
+    - ''
+    - '&dRank features &8▸'
+    - '&8 ▪ &fAccess to 𮰎,𮰏,𮰐 badges,'
+    - '&8 ▪ &fAccess to 𮰑,𮰒,𮰓 badges,'
+    - '&8 ▪ &fAccess to 𮰔,𮰕,𮰖 badges,'
+    - '&8 ▪ &fAccess to 𮰗,𮰘,𮰙 badges,'
+    - '&8 ▪ &f𮯭 tag in chat and tab,'
+    - '&8 ▪ &#084cfbI&#2468fbc&#3f84fce &#5ba0fcL&#76bbfca&#92d7fdn&#adf3fdd access,'
+    - '&8 ▪ &#fb0000F&#fb180al&#fc3114a&#fc491em&#fc6128e &#fc7931L&#fd923ba&#fdaa45n&#fdc24fd access,'
+    - '&8 ▪ &fAccess to Crate and Leaderboard warp,'
+    - '&8 ▪ &fAccess to Ice Portal warp,'
+    - '&8 ▪ &fAccess to Flame Portal warp,'
+    - '&8 ▪ &fAccess to Nightmare Portal warp,'
+    - '&8 ▪ &e/kit emerald &fcommand,'
+    - '&8 ▪ &e/cosmetic &fcommand.'
+    - ''
+    - '&cRequirements &8▸'
+    - '&8 ▪ &7Complete &f𮯭 &7quests'
+    - ''
+    - '&aClick and upgrade!'
+    click_requirement:
+      requirements:
+        rankquest:
+          type: has permission
+          permission: emeraldrankquest
+      deny_commands:
+      - '[message] &6 Rank &8▸ &cYou must complete the rank quest before you can reach the rank!'
+    click_commands:
+    - '[console] lp user %player_name% permission set group.emerald'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"§6§lRANK"}'
+    - '[console] title %player_name% subtitle {"text":"§aUpgraded! §8(§f𮯮 §8→ §f𮯭§8)"}'
+    - '[message] &6 Rank &8▸ &aYour rank has been successfully upgraded! &8(&f𮯮 &8→ &f𮯭&8)'
+  emerald-2:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5YTVjOTVlZTE3YWJmZWY0NWM4ZGMyMjQxODk5NjQ5NDRkNTYwZjE5YTQ0ZjE5ZjhhNDZhZWYzZmVlNDc1NiJ9fX0='
+    slot: 14
+    priority: 6
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: group.emerald
+    display_name: '&f𮯭 &aRank Completed!'
+    lore:
+    - ''
+    - '&7You have completed these'
+    - '&7rank requirements and have'
+    - '&7been upgraded to rank!'
+  emerald-3:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 14
+    priority: 5
+    view_requirement:
+      requirements:
+        permission:
+          type: '!has permission'
+          permission: group.diamond
+    display_name: '&f𮯭 &8[&cRank Locked!&8]'
+    lore:
+    - ''
+    - '&7You can unlock this rank by'
+    - '&7reaching the previous rank!'
+    - ''
+    - '&cRank features &8▸'
+    - '&8 ▪ &fAccess to 𮰎,𮰏,𮰐 badges,'
+    - '&8 ▪ &fAccess to 𮰑,𮰒,𮰓 badges,'
+    - '&8 ▪ &fAccess to 𮰔,𮰕,𮰖 badges,'
+    - '&8 ▪ &fAccess to 𮰗,𮰘,𮰙 badges,'
+    - '&8 ▪ &f𮯭 tag in chat and tab,'
+    - '&8 ▪ &#084cfbI&#2468fbc&#3f84fce &#5ba0fcL&#76bbfca&#92d7fdn&#adf3fdd access,'
+    - '&8 ▪ &#fb0000F&#fb180al&#fc3114a&#fc491em&#fc6128e &#fc7931L&#fd923ba&#fdaa45n&#fdc24fd access,'
+    - '&8 ▪ &fAccess to Crate and Leaderboard warp,'
+    - '&8 ▪ &fAccess to Ice Portal warp,'
+    - '&8 ▪ &fAccess to Flame Portal warp,'
+    - '&8 ▪ &fAccess to Nightmare Portal warp,'
+    - '&8 ▪ &e/kit emerald &fcommand,'
+    - '&8 ▪ &e/cosmetic &fcommand.'
+    - ''
+    - '&cRequirements &8▸'
+    - '&8 ▪ &7Complete &f𮯭 &7quests'
+  netherite-1:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVjODAzMTM0MDRhYWE2MGNiYWMxMDk4ZTNlMDVmMTA3YjlmNjY1MzQxMDNlOWI1OTRlOTIzMGVhMjI2YjVjZSJ9fX0='
+    slot: 15
+    priority: 7
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: group.emerald
+    display_name: '&f𮯬 &7Rank'
+    lore:
+    - ''
+    - '&7When you reach this rank, you'
+    - '&7will have the following features!'
+    - ''
+    - '&dRank features &8▸'
+    - '&8 ▪ &fAccess to 𮰎,𮰏,𮰐 badges,'
+    - '&8 ▪ &fAccess to 𮰑,𮰒,𮰓 badges,'
+    - '&8 ▪ &fAccess to 𮰔,𮰕,𮰖 badges,'
+    - '&8 ▪ &fAccess to 𮰗,𮰘,𮰙 badges,'
+    - '&8 ▪ &fAccess to 𮰚,𮰛,𮰜 badges,'
+    - '&8 ▪ &f𮯬 tag in chat and tab,'
+    - '&8 ▪ &#084cfbI&#2468fbc&#3f84fce &#5ba0fcL&#76bbfca&#92d7fdn&#adf3fdd access,'
+    - '&8 ▪ &#fb0000F&#fb180al&#fc3114a&#fc491em&#fc6128e &#fc7931L&#fd923ba&#fdaa45n&#fdc24fd access,'
+    - '&8 ▪ &#d800fbN&#d909fbi&#db11fbg&#dc1afch&#dd22fct&#df2bfcm&#e033fca&#e13cfcr&#e344fce &#e44dfdL&#e555fda&#e75efdn&#e866fdd access,'
+    - '&8 ▪ &fAccess to Crate and Leaderboard warp,'
+    - '&8 ▪ &fAccess to Ice Portal warp,'
+    - '&8 ▪ &fAccess to Flame Portal warp,'
+    - '&8 ▪ &fAccess to Nightmare Portal warp,'
+    - '&8 ▪ &e/kit netherite &fcommand,'
+    - '&8 ▪ &e/cosmetic &fcommand.'
+    - ''
+    - '&cRequirements &8▸'
+    - '&8 ▪ &7Complete &f𮯬 &7quests'
+    - ''
+    - '&aClick and upgrade!'
+    click_requirement:
+      requirements:
+        rankquest:
+          type: has permission
+          permission: netheriterankquest
+      deny_commands:
+      - '[message] &6 Rank &8▸ &cYou must complete the rank quest before you can reach the rank!'
+    click_commands:
+    - '[console] lp user %player_name% permission set group.netherite'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"§6§lRANK"}'
+    - '[console] title %player_name% subtitle {"text":"§aUpgraded! §8(§f𮯭 §8→ §f𮯬§8)"}'
+    - '[message] &6 Rank &8▸ &aYour rank has been successfully upgraded! &8(&f𮯭 &8→ &f𮯬&8)'
+  netherite-2:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5YTVjOTVlZTE3YWJmZWY0NWM4ZGMyMjQxODk5NjQ5NDRkNTYwZjE5YTQ0ZjE5ZjhhNDZhZWYzZmVlNDc1NiJ9fX0='
+    slot: 15
+    priority: 6
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: group.netherite
+    display_name: '&f𮯬 &aRank Completed!'
+    lore:
+    - ''
+    - '&7You have completed these'
+    - '&7rank requirements and have'
+    - '&7been upgraded to rank!'
+  netherite-3:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0='
+    slot: 15
+    priority: 5
+    view_requirement:
+      requirements:
+        permission:
+          type: '!has permission'
+          permission: group.emerald
+    display_name: '&f𮯬 &8[&cRank Locked!&8]'
+    lore:
+    - ''
+    - '&7You can unlock this rank by'
+    - '&7reaching the previous rank!'
+    - ''
+    - '&cRank features &8▸'
+    - '&8 ▪ &fAccess to 𮰎,𮰏,𮰐 badges,'
+    - '&8 ▪ &fAccess to 𮰑,𮰒,𮰓 badges,'
+    - '&8 ▪ &fAccess to 𮰔,𮰕,𮰖 badges,'
+    - '&8 ▪ &fAccess to 𮰗,𮰘,𮰙 badges,'
+    - '&8 ▪ &fAccess to 𮰚,𮰛,𮰜 badges,'
+    - '&8 ▪ &f𮯬 tag in chat and tab,'
+    - '&8 ▪ &#084cfbI&#2468fbc&#3f84fce &#5ba0fcL&#76bbfca&#92d7fdn&#adf3fdd access,'
+    - '&8 ▪ &#fb0000F&#fb180al&#fc3114a&#fc491em&#fc6128e &#fc7931L&#fd923ba&#fdaa45n&#fdc24fd access,'
+    - '&8 ▪ &#d800fbN&#d909fbi&#db11fbg&#dc1afch&#dd22fct&#df2bfcm&#e033fca&#e13cfcr&#e344fce &#e44dfdL&#e555fda&#e75efdn&#e866fdd access,'
+    - '&8 ▪ &fAccess to Crate and Leaderboard warp,'
+    - '&8 ▪ &fAccess to Ice Portal warp,'
+    - '&8 ▪ &fAccess to Flame Portal warp,'
+    - '&8 ▪ &fAccess to Nightmare Portal warp,'
+    - '&8 ▪ &e/kit netherite &fcommand,'
+    - '&8 ▪ &e/cosmetic &fcommand.'
+    - ''
+    - '&cRequirements &8▸'
+    - '&8 ▪ &7Complete &f𮯬 &7quests'
+  frame:
+    display_name: ' '
+    material: 'GRAY_STAINED_GLASS_PANE'
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 32
+    - 33
+    - 34
+    - 35
+  close:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0='
+    slot: 31
+    display_name: '&cClose Menu'
+    lore:
+    - '&7Click and close menu!'
+    click_commands:
+    - '[close]'

@@ -1,0 +1,29 @@
+tasks:
+  luckyblock:
+    type: "blockbreakcertain"
+    amount: 32
+    block: NETHER_GOLD_ORE
+display:
+  name: "&f𮯮 &bQuests &8▸ &7#5"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Break 32x Lucky Block."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{luckyblock:progress}/32x Lucky Block"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &716x Coal Lucky Block"
+  type: "NETHER_GOLD_ORE"
+rewards:
+  - "cti luckyblock_coal {player} 16"
+options:
+  category: "diamondquests"
+  requires:
+    - "diamond4"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 23

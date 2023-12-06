@@ -1,0 +1,568 @@
+on damage:
+	attacker is player
+	if "%lore of attacker's tool%" contains "<##fc54fc>🗡 <##f650fc>D<##f14cfc>o<##eb48fc>u<##e544fc>b<##e040fc>l<##da3cfd>e <##d438fd>D<##cf34fd>a<##c930fd>m<##c32cfd>a<##be28fd>g<##b824fd>e &8[&fI&8]":
+		chance of 1%
+		set damage to (damage * 2.0)
+		send "&6 Skill &8▸ &aDouble damage done to the enemy!" to attacker
+		send "&6 Skill &8▸ &cThe enemy has done you double damage!" to victim
+	if "%lore of attacker's tool%" contains "<##fc54fc>🗡 <##f650fc>D<##f14cfc>o<##eb48fc>u<##e544fc>b<##e040fc>l<##da3cfd>e <##d438fd>D<##cf34fd>a<##c930fd>m<##c32cfd>a<##be28fd>g<##b824fd>e &8[&fII&8]":
+		chance of 2%
+		set damage to (damage * 2.0)
+		send "&6 Skill &8▸ &aDouble damage done to the enemy!" to attacker
+		send "&6 Skill &8▸ &cThe enemy has done you double damage!" to victim
+	if "%lore of attacker's tool%" contains "<##fc54fc>🗡 <##f650fc>D<##f14cfc>o<##eb48fc>u<##e544fc>b<##e040fc>l<##da3cfd>e <##d438fd>D<##cf34fd>a<##c930fd>m<##c32cfd>a<##be28fd>g<##b824fd>e &8[&fIII&8]":
+		chance of 3%
+		set damage to (damage * 2.0)
+		send "&6 Skill &8▸ &aDouble damage done to the enemy!" to attacker
+		send "&6 Skill &8▸ &cThe enemy has done you double damage!" to victim
+	if "%lore of attacker's tool%" contains "<##fc54fc>💀 <##fc50e5>L<##fc4ccf>i<##fc48b8>f<##fc44a2>e <##fc418b>S<##fc3d75>t<##fc395e>e<##fc3548>a<##fc3131>l &8[&fI&8]":
+		chance of 1%
+		add 1 to the health of the attacker
+		send "&6 Skill &8▸ &aLife stolen from the enemy!" to attacker
+		remove 1 from the health of the victim
+		send "&6 Skill &8▸ &cThe enemy stole from you!" to victim
+	if "%lore of attacker's tool%" contains "<##fc54fc>💀 <##fc50e5>L<##fc4ccf>i<##fc48b8>f<##fc44a2>e <##fc418b>S<##fc3d75>t<##fc395e>e<##fc3548>a<##fc3131>l &8[&fII&8]":
+		chance of 3%
+		add 2 to the health of the attacker
+		send "&6 Skill &8▸ &aLife stolen from the enemy!" to attacker
+		remove 2 from the health of the victim
+		send "&6 Skill &8▸ &cThe enemy stole from you!" to victim
+	if "%lore of attacker's tool%" contains "<##fc54fc>💀 <##fc50e5>L<##fc4ccf>i<##fc48b8>f<##fc44a2>e <##fc418b>S<##fc3d75>t<##fc395e>e<##fc3548>a<##fc3131>l &8[&fIII&8]":
+		chance of 5%
+		add 2 to the health of the attacker
+		send "&6 Skill &8▸ &aLife stolen from the enemy!" to attacker
+		remove 2 from the health of the victim
+		send "&6 Skill &8▸ &cThe enemy stole from you!" to victim
+	if "%lore of attacker's tool%" contains "<##fc54fc>🗡 <##fa63ed>E<##f873de>x<##f682cf>t<##f491c0>r<##f2a0b1>a <##efb0a2>D<##edbf93>a<##ebce84>m<##e9dd75>a<##e7ed66>g<##e5fc57>e &8[&fI&8]":
+		add 100 to {_percentage}
+		add 5 to {_newdamage}
+		set damage to (damage / 100 * ({_percentage} + {_newdamage}))
+	if "%lore of attacker's tool%" contains "<##fc54fc>🗡 <##fa63ed>E<##f873de>x<##f682cf>t<##f491c0>r<##f2a0b1>a <##efb0a2>D<##edbf93>a<##ebce84>m<##e9dd75>a<##e7ed66>g<##e5fc57>e &8[&fII&8]":
+		add 100 to {_percentage}
+		add 10 to {_newdamage}
+		set damage to (damage / 100 * ({_percentage} + {_newdamage}))
+	if "%lore of attacker's tool%" contains "<##fc54fc>🗡 <##fa63ed>E<##f873de>x<##f682cf>t<##f491c0>r<##f2a0b1>a <##efb0a2>D<##edbf93>a<##ebce84>m<##e9dd75>a<##e7ed66>g<##e5fc57>e &8[&fIII&8]":
+		add 100 to {_percentage}
+		add 20 to {_newdamage}
+		set damage to (damage / 100 * ({_percentage} + {_newdamage}))
+	if "%lore of attacker's tool%" contains "<##c3c3c3>🔗 <##c0c0c8>S<##bcbdcd>l<##b9bad3>o<##b5b7d8>w<##b2b4dd>n<##aeb0e2>e<##abade7>s<##a7aaec>s <##a4a7f2>H<##a0a4f7>i<##9da1fc>t &8[&fI&8]":
+		chance of 5%
+		apply slowness 5 to the victim for 5 seconds
+		send "&6 Skill &8▸ &aThe enemy has been slowed!" to attacker
+		send "&6 Skill &8▸ &cThe enemy gave you a slowness hit!" to victim
+	if "%lore of attacker's tool%" contains "<##c3c3c3>☠ <##bdc9c1>N<##b7d0be>a<##b1d6bc>u<##abdcb9>s<##a6e3b7>e<##a0e9b4>a <##9aefb2>H<##94f6af>i<##8efcad>t &8[&fI&8]":
+		chance of 5%
+		apply nausea to the victim for 10 seconds
+		send "&6 Skill &8▸ &aThe enemy has been nauseated!" to attacker
+		send "&6 Skill &8▸ &cThe enemy gave you a nausea hit!" to victim
+	if "%lore of attacker's tool%" contains "<##c3c3c3>🔋 <##c7c1c1>B<##cac0c0>l<##cebebe>i<##d1bcbc>n<##d5baba>d<##d9b9b9>n<##dcb7b7>e<##e0b5b5>s<##e3b3b3>s <##e7b2b2>H<##eab0b0>i<##eeaeae>t &8[&fI&8]":
+		chance of 5%
+		apply blindness to the victim for 5 seconds
+		send "&6 Skill &8▸ &aThe enemy has been blinded!" to attacker
+		send "&6 Skill &8▸ &cThe enemy gave you a blindness hit!" to victim
+
+on damage:
+	damage cause is attack
+	victim is player
+	if "%lore of victim's helmet%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fI&8]":
+		add 99 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's chestplate%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fI&8]":
+		add 99 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's leggings%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fI&8]":
+		add 99 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's boots%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fI&8]":
+		add 99 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's helmet%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fII&8]":
+		add 98 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's chestplate%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fII&8]":
+		add 98 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's leggings%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fII&8]":
+		add 98 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's boots%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fII&8]":
+		add 98 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's helmet%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fIII&8]":
+		add 97 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's chestplate%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fIII&8]":
+		add 97 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's leggings%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fIII&8]":
+		add 97 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's boots%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fIII&8]":
+		add 97 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's helmet%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fIV&8]":
+		add 96 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's chestplate%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fIV&8]":
+		add 96 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's leggings%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fIV&8]":
+		add 96 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's boots%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fIV&8]":
+		add 96 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's helmet%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fV&8]":
+		add 95 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's chestplate%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fV&8]":
+		add 95 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's leggings%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fV&8]":
+		add 95 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's boots%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fV&8]":
+		add 95 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's helmet%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fVI&8]":
+		add 94 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's chestplate%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fVI&8]":
+		add 94 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's leggings%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fVI&8]":
+		add 94 to {_decrease}
+		add 1 to {_item}
+	if "%lore of victim's boots%" contains "<##54fcfc>⛨ <##5feefb>D<##6adffb>a<##76d1fa>m<##81c2fa>a<##8cb4f9>g<##97a6f8>e <##a297f8>R<##ae89f7>e<##b97af7>d<##c46cf6>u<##cf5ef5>c<##da4ff5>t<##e641f4>i<##f132f4>o<##fc24f3>n &8[&fVI&8]":
+		add 94 to {_decrease}
+		add 1 to {_item}
+	if {_decrease} > 0:
+		set {_incomingdamage} to {_decrease} / {_item}
+		set {_multiplier} to 100 - {_incomingdamage}
+		set {_total} to {_multiplier} * {_item}
+		set damage to damage / 100 * (100 - {_total})
+
+on break:
+	if "%lore of player's tool%" contains "<##55ff55>⛏ <##54ff65>H<##53ff75>a<##52ff85>s<##51ff95>t<##50ffa5>y <##4fffb4>M<##4effc4>i<##4dffd4>n<##4cffe4>e<##4bfff4>r &8[&fI&8]":
+		chance of 1%
+		apply haste 2 to the player for 5 seconds
+		send "&6 Skill &8▸ &aYou've earned a 5 seconds Haste" to player
+	if "%lore of player's tool%" contains "<##55ff55>⛏ <##54ff65>H<##53ff75>a<##52ff85>s<##51ff95>t<##50ffa5>y <##4fffb4>M<##4effc4>i<##4dffd4>n<##4cffe4>e<##4bfff4>r &8[&fII&8]":
+		chance of 1%
+		apply haste 2 to the player for 10 seconds
+		send  "&6 Skill &8▸ &aYou've earned a 10 seconds Haste!" to player
+	if "%lore of player's tool%" contains "<##55ff55>⛏ <##54ff65>H<##53ff75>a<##52ff85>s<##51ff95>t<##50ffa5>y <##4fffb4>M<##4effc4>i<##4dffd4>n<##4cffe4>e<##4bfff4>r &8[&fIII&8]":
+		chance of 1%
+		apply haste 2 to the player for 15 seconds
+		send  "&6 Skill &8▸ &aYou've earned a 15 seconds Haste!" to player
+	if "%lore of player's tool%" contains "<##55ff55>⛏ <##60ff53>D<##6bff50>o<##76ff4e>u<##81ff4c>b<##8cff49>l<##97ff47>e <##a1ff45>E<##acff43>a<##b7ff40>r<##c2ff3e>n<##cdff3c>i<##d8ff39>n<##e3ff37>g &8[&fI&8]":
+		if event-block is cobblestone:
+			chance of 1%
+			execute console command "give %player% cobblestone 1"
+			send  "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is stone:
+			chance of 1%
+			execute console command "give %player% stone 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is coal ore:
+			chance of 1%
+			execute console command "give %player% coal_ore 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is coal block:
+			chance of 1%
+			execute console command "give %player% coal_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is lapis ore:
+			chance of 1%
+			execute console command "give %player% lapis 5"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is lapis block:
+			chance of 1%
+			execute console command "give %player% lapis_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is redstone ore:
+			chance of 1%
+			execute console command "give %player% redstone 5"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is redstone block:
+			chance of 1%
+			execute console command "give %player% redstone_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is iron ore:
+			chance of 1%
+			execute console command "give %player% iron_ore 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is iron block:
+			chance of 1%
+			execute console command "give %player% iron_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is gold ore:
+			chance of 1%
+			execute console command "give %player% gold_ore 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is gold block:
+			chance of 1%
+			execute console command "give %player% gold_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is diamond ore:
+			chance of 1%
+			execute console command "give %player% diamond 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is diamond block:
+			chance of 1%
+			execute console command "give %player% diamond_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is emerald ore:
+			chance of 1%
+			execute console command "give %player% emerald 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is emerald block:
+			chance of 1%
+			execute console command "give %player% emerald_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is end stone:
+			chance of 1%
+			execute console command "give %player% end_stone 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is end stone bricks:
+			chance of 1%
+			execute console command "give %player% end_stone_bricks 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is prismarine:
+			chance of 1%
+			execute console command "give %player% prismarine 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is prismarine bricks:
+			chance of 1%
+			execute console command "give %player% prismarine_bricks 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is netherrack:
+			chance of 1%
+			execute console command "give %player% netherrack 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is magma block:
+			chance of 1%
+			execute console command "give %player% magma_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is quartz ore:
+			chance of 1%
+			execute console command "give %player% quartz 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is quartz block:
+			chance of 1%
+			execute console command "give %player% quartz_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is nether bricks:
+			chance of 1%
+			execute console command "give %player% nether_bricks 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is red nether bricks:
+			chance of 1%
+			execute console command "give %player% red_nether_bricks 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is ancient debris:
+			chance of 1%
+			execute console command "give %player% ancient_debris 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is netherite block:
+			chance of 1%
+			execute console command "give %player% netherite_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is blackstone:
+			chance of 1%
+			execute console command "give %player% blackstone 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is gilded blackstone:
+			chance of 1%
+			execute console command "give %player% gilded_blackstone 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is purpur block:
+			chance of 1%
+			execute console command "give %player% purpur_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is purpur pillar:
+			chance of 1%
+			execute console command "give %player% purpur_pillar 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is obsidian:
+			chance of 1%
+			execute console command "give %player% obsidian 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is crying obsidian:
+			chance of 1%
+			execute console command "give %player% crying_obsidian 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+	if "%lore of player's tool%" contains "<##55ff55>⛏ <##60ff53>D<##6bff50>o<##76ff4e>u<##81ff4c>b<##8cff49>l<##97ff47>e <##a1ff45>E<##acff43>a<##b7ff40>r<##c2ff3e>n<##cdff3c>i<##d8ff39>n<##e3ff37>g &8[&fII&8]":
+		if event-block is cobblestone:
+			chance of 2%
+			execute console command "give %player% cobblestone 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is stone:
+			chance of 2%
+			execute console command "give %player% stone 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is coal ore:
+			chance of 2%
+			execute console command "give %player% coal_ore 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is coal block:
+			chance of 2%
+			execute console command "give %player% coal_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is lapis ore:
+			chance of 2%
+			execute console command "give %player% lapis 5"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is lapis block:
+			chance of 2%
+			execute console command "give %player% lapis_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is redstone ore:
+			chance of 2%
+			execute console command "give %player% redstone 5"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is redstone block:
+			chance of 2%
+			execute console command "give %player% redstone_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is iron ore:
+			chance of 2%
+			execute console command "give %player% iron_ore 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is iron block:
+			chance of 2%
+			execute console command "give %player% iron_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is gold ore:
+			chance of 2%
+			execute console command "give %player% gold_ore 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is gold block:
+			chance of 2%
+			execute console command "give %player% gold_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is diamond ore:
+			chance of 2%
+			execute console command "give %player% diamond 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is diamond block:
+			chance of 2%
+			execute console command "give %player% diamond_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is emerald ore:
+			chance of 2%
+			execute console command "give %player% emerald 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is emerald block:
+			chance of 2%
+			execute console command "give %player% emerald_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is end stone:
+			chance of 2%
+			execute console command "give %player% end_stone 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is end stone bricks:
+			chance of 2%
+			execute console command "give %player% end_stone_bricks 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is prismarine:
+			chance of 2%
+			execute console command "give %player% prismarine 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is prismarine bricks:
+			chance of 2%
+			execute console command "give %player% prismarine_bricks 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is netherrack:
+			chance of 2%
+			execute console command "give %player% netherrack 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is magma block:
+			chance of 2%
+			execute console command "give %player% magma_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is quartz ore:
+			chance of 2%
+			execute console command "give %player% quartz 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is quartz block:
+			chance of 2%
+			execute console command "give %player% quartz_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is nether bricks:
+			chance of 2%
+			execute console command "give %player% nether_bricks 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is red nether bricks:
+			chance of 2%
+			execute console command "give %player% red_nether_bricks 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is ancient debris:
+			chance of 2%
+			execute console command "give %player% ancient_debris 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is netherite block:
+			chance of 2%
+			execute console command "give %player% netherite_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is blackstone:
+			chance of 2%
+			execute console command "give %player% blackstone 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is gilded blackstone:
+			chance of 2%
+			execute console command "give %player% gilded_blackstone 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is purpur block:
+			chance of 2%
+			execute console command "give %player% purpur_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is purpur pillar:
+			chance of 2%
+			execute console command "give %player% purpur_pillar 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is obsidian:
+			chance of 2%
+			execute console command "give %player% obsidian 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is crying obsidian:
+			chance of 2%
+			execute console command "give %player% crying_obsidian 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+	if "%lore of player's tool%" contains "<##55ff55>⛏ <##60ff53>D<##6bff50>o<##76ff4e>u<##81ff4c>b<##8cff49>l<##97ff47>e <##a1ff45>E<##acff43>a<##b7ff40>r<##c2ff3e>n<##cdff3c>i<##d8ff39>n<##e3ff37>g &8[&fIII&8]":
+		if event-block is cobblestone:
+			chance of 3%
+			execute console command "give %player% cobblestone 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is stone:
+			chance of 3%
+			execute console command "give %player% stone 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is coal ore:
+			chance of 3%
+			execute console command "give %player% coal_ore 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is coal block:
+			chance of 3%
+			execute console command "give %player% coal_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is lapis ore:
+			chance of 3%
+			execute console command "give %player% lapis 5"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is lapis block:
+			chance of 3%
+			execute console command "give %player% lapis_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is redstone ore:
+			chance of 3%
+			execute console command "give %player% redstone 5"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is redstone block:
+			chance of 3%
+			execute console command "give %player% redstone_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is iron ore:
+			chance of 3%
+			execute console command "give %player% iron_ore 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is iron block:
+			chance of 3%
+			execute console command "give %player% iron_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is gold ore:
+			chance of 3%
+			execute console command "give %player% gold_ore 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is gold block:
+			chance of 3%
+			execute console command "give %player% gold_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is diamond ore:
+			chance of 3%
+			execute console command "give %player% diamond 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is diamond block:
+			chance of 3%
+			execute console command "give %player% diamond_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is emerald ore:
+			chance of 3%
+			execute console command "give %player% emerald 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is emerald block:
+			chance of 3%
+			execute console command "give %player% emerald_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is end stone:
+			chance of 3%
+			execute console command "give %player% end_stone 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is end stone bricks:
+			chance of 3%
+			execute console command "give %player% end_stone_bricks 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is prismarine:
+			chance of 3%
+			execute console command "give %player% prismarine 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is prismarine bricks:
+			chance of 3%
+			execute console command "give %player% prismarine_bricks 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is netherrack:
+			chance of 3%
+			execute console command "give %player% netherrack 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is magma block:
+			chance of 3%
+			execute console command "give %player% magma_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is quartz ore:
+			chance of 3%
+			execute console command "give %player% quartz 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is quartz block:
+			chance of 3%
+			execute console command "give %player% quartz_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is nether bricks:
+			chance of 3%
+			execute console command "give %player% nether_bricks 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is red nether bricks:
+			chance of 3%
+			execute console command "give %player% red_nether_bricks 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is ancient debris:
+			chance of 3%
+			execute console command "give %player% ancient_debris 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is netherite block:
+			chance of 3%
+			execute console command "give %player% netherite_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is blackstone:
+			chance of 3%
+			execute console command "give %player% blackstone 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is gilded blackstone:
+			chance of 3%
+			execute console command "give %player% gilded_blackstone 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is purpur block:
+			chance of 3%
+			execute console command "give %player% purpur_block 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is purpur pillar:
+			chance of 3%
+			execute console command "give %player% purpur_pillar 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is obsidian:
+			chance of 3%
+			execute console command "give %player% obsidian 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player
+		if event-block is crying obsidian:
+			chance of 3%
+			execute console command "give %player% crying_obsidian 1"
+			send "&6 Skill &8▸ &aYou made a double earn!" to player

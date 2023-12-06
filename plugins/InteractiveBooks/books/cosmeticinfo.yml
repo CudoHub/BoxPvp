@@ -1,0 +1,14 @@
+name: Cosmetic Info
+title: Cosmetic Info
+author: RequaizeN
+generation: ORIGINAL
+lore:
+- Requlogia
+open_command: 'cosmeticinfo'
+pages:
+  '1':
+  - '<click:run_command:/help>&4&l     ← &8&l[&4&lGo back&8&l]<reset>'
+  - ''
+  - '&9&lCOSMETICS INFORMATION'
+  - '<reset>'
+  - '&0Instead of equipping the cosmetics you have earned from the boxes directly, you can equip them in the extra inventory by using the &c/cosmetics &0command.'

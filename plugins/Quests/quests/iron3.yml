@@ -1,0 +1,29 @@
+tasks:
+  melon:
+    type: "consume"
+    item: MELON_SLICE
+    amount: 16
+display:
+  name: "&f𮯰 Quests &8▸ &7#3"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Eat 16x Melon."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{melon:progress}/16x Melon"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &732x Item Coin"
+  type: "MELON_SLICE"
+rewards:
+  - "cti coin_item {player} 32"
+options:
+  category: "ironquests"
+  requires:
+    - "iron2"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 3

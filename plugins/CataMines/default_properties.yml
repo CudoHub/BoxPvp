@@ -1,0 +1,20 @@
+# Here you can set some default properties of a mine
+# %cm% = prefix | %mine% = mine name | %seconds% = remaining seconds until reset
+# %formattedtime% = hours, hour, minutes, minute, seconds, second | %time% = seconds, second
+# %formattedseconds% = seconds translated to hh:mm:ss ex: 1:05:16
+
+Default-Warn-Message: '%cm% &e%mine% &fresets in &a%formattedseconds% &7%formattedtime%
+  &f!'
+Default-Reset-Message: '%cm% &e%mine% &ahas been reset!'
+Default-Hotbar-Message-TIME: '&6%mine% &8| &fIt will reset after &e%formattedseconds%
+  seconds &f!'
+Default-Hotbar-Message-PERCENTAGE: '&6%remainingblocksper% &8| &e%resetpercentage%'
+Default-Hotbar-Message-TIME_PERCENTAGE: '&e%remainingblocksper% &8| &a%formattedseconds%
+  &8| &c%resetpercentage%'
+Tool-Too-Weak: '&cYour tool is too weak!'
+Default-Warn-Seconds:
+- 600
+- 300
+- 60
+- 20
+- 5

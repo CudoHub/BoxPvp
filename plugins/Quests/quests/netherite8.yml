@@ -1,0 +1,30 @@
+tasks:
+  netherbrick:
+    type: "inventory"
+    item: NETHER_BRICKS
+    amount: 512
+    remove-items-when-complete: true
+display:
+  name: "&f𮯬 &7Quests &8▸ &7#8"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Collect 512x Nether Brick."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{netherbrick:progress}/512x Nether Brick"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &71x Diamond Crate Key"
+  type: "NETHER_BRICKS"
+rewards:
+  - "cc give p diamond 1 {player}"
+options:
+  category: "netheritequests"
+  requires:
+    - "netherite7"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 44

@@ -1,0 +1,22 @@
+location: Requlogia:0,500:55,500:5,500
+enabled: true
+display-range: 32
+update-range: 32
+update-interval: 0
+facing: 180.0
+down-origin: false
+pages:
+- lines:
+  - content: '&f𮰹'
+  - content: ''
+  - content: '&#fbeb56&lW&#f1ec5c&lA&#e7ed61&lN&#dced67&lT &#d2ee6d&lT&#c8ef73&lO &#bef078&lK&#b4f07e&lN&#a9f184&lO&#9ff289&lW &#95f38f&lA&#8bf395&lB&#81f49b&lO&#76f5a0&lU&#6cf6a6&lT &#62f6ac&lT&#58f7b1&lH&#4df8b7&lE &#43f9bd&lB&#39f9c2&lO&#2ffac8&lX&#25fbce&lP&#1afcd4&lV&#10fcd9&lP&#06fddf&l?'
+  - content: ''
+  - content: '&fYou can upgrade by trading the items you get by breaking'
+  - content: '&fthe resets mines with the villagers in the spawn.'
+  - content: ''
+  - content: '&#DBF8FDUse the &#FB6B3D/help &#DBF8FDcommand to get detailed information about the server!'
+  actions:
+    LEFT:
+    - COMMAND:/help
+    RIGHT:
+    - COMMAND:/help

@@ -1,0 +1,35 @@
+tasks:
+  endstone:
+    type: "blockbreakcertain"
+    amount: 256
+    block: END_STONE
+  endstonebrick:
+    type: "blockbreakcertain"
+    amount: 256
+    block: END_STONE_BRICKS
+display:
+  name: "&f𮯮 &bQuests &8▸ &7#3"
+  lore-normal:
+    - ""
+    - "&eDetails &8▸"
+    - "&6 ▪ &7Break 256x End Stone,"
+    - "&6 ▪ &7Break 256x End Stone Brick."
+    - ""
+    - "&aProgress &8▸"
+    - "&2 ▪ &7{endstone:progress}/256x End Stone"
+    - "&2 ▪ &7{endstonebrick:progress}/256x End Stone Brick"
+    - ""
+    - "&dRewards &8▸"
+    - "&5 ▪ &78x Vote Crate Key"
+  type: "END_STONE"
+rewards:
+  - "cc give p vote 8 {player}"
+options:
+  category: "diamondquests"
+  requires:
+    - "diamond2"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 21
